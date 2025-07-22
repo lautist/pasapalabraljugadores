@@ -1,0 +1,132 @@
+{
+  "A": [
+    { "nombre": "Agüero", "pista": "Delantero argentino retirado, ex Manchester City" },
+    { "nombre": "Alaba", "pista": "Defensor austríaco del Real Madrid" },
+    { "nombre": "Aimar", "pista": "Ex volante argentino, ídolo de River" }
+  ],
+  "B": [
+    { "nombre": "Benzema", "pista": "Delantero francés, Balón de Oro 2022" },
+    { "nombre": "Buffon", "pista": "Legendario arquero italiano" },
+    { "nombre": "Bale", "pista": "Extremo galés, ex Real Madrid y Tottenham" }
+  ],
+  "C": [
+    { "nombre": "Cristiano Ronaldo", "pista": "Máximo goleador histórico del Real Madrid" },
+    { "nombre": "Cannavaro", "pista": "Defensor italiano, Balón de Oro 2006" },
+    { "nombre": "Carlos Tévez", "pista": "Delantero argentino, jugó en Boca, Juventus y el City" }
+  ],
+  "D": [
+    { "nombre": "Dybala", "pista": "Delantero argentino, campeón del mundo en 2022" },
+    { "nombre": "Dani Alves", "pista": "Brasileño con más títulos en la historia del fútbol" },
+    { "nombre": "Didier Drogba", "pista": "Delantero marfileño, ídolo del Chelsea" }
+  ],
+  "E": [
+    { "nombre": "Eto'o", "pista": "Delantero camerunés, jugó en Barça e Inter" },
+    { "nombre": "Enzo Pérez", "pista": "Mediocampista argentino, figura en River" },
+    { "nombre": "Eriksen", "pista": "Mediocampista danés que volvió tras paro cardíaco" }
+  ],
+  "F": [
+    { "nombre": "Figo", "pista": "Portugués que pasó del Barcelona al Real Madrid" },
+    { "nombre": "Fernando Torres", "pista": "Delantero español, ídolo del Atlético de Madrid" },
+    { "nombre": "Falcao", "pista": "Delantero colombiano, pasó por River y Mónaco" }
+  ],
+  "G": [
+    { "nombre": "Garrincha", "pista": "Extremo brasileño, leyenda del Mundial '58 y '62" },
+    { "nombre": "Gavi", "pista": "Joven promesa del Barcelona y la selección española" },
+    { "nombre": "Gonzalo Higuaín", "pista": "Delantero argentino que jugó en Napoli y Juventus" }
+  ],
+  "H": [
+    { "nombre": "Haaland", "pista": "Delantero noruego, estrella del Manchester City" },
+    { "nombre": "Hazard", "pista": "Belga, ex Chelsea y Real Madrid" },
+    { "nombre": "Héctor Herrera", "pista": "Mediocampista mexicano con paso por el Atlético" }
+  ],
+  "I": [
+    { "nombre": "Ibrahimovic", "pista": "Sueco, jugó en Barça, PSG y Milan" },
+    { "nombre": "Insigne", "pista": "Italiano, ídolo del Napoli" },
+    { "nombre": "Iniesta", "pista": "Español, autor del gol del Mundial 2010" }
+  ],
+  "J": [
+    { "nombre": "James Rodríguez", "pista": "Colombiano, goleador del Mundial 2014" },
+    { "nombre": "João Félix", "pista": "Portugués, ex Benfica y Atlético de Madrid" },
+    { "nombre": "Julian Álvarez", "pista": "Campeón del mundo con Argentina en 2022" }
+  ],
+  "K": [
+    { "nombre": "Kanté", "pista": "Francés, campeón del mundo en 2018" },
+    { "nombre": "Kaká", "pista": "Brasileño, Balón de Oro 2007" },
+    { "nombre": "Klose", "pista": "Alemán, máximo goleador histórico de los Mundiales" }
+  ],
+  "L": [
+    { "nombre": "Lionel Messi", "pista": "Máximo goleador histórico del Barcelona" },
+    { "nombre": "Lewandowski", "pista": "Polaco, goleador del Bayern y Barcelona" },
+    { "nombre": "Lautaro Martínez", "pista": "Delantero argentino, campeón del mundo 2022" }
+  ],
+  "M": [
+    { "nombre": "Modric", "pista": "Croata, Balón de Oro 2018" },
+    { "nombre": "Maradona", "pista": "Ídolo argentino, campeón del mundo en 1986" },
+    { "nombre": "Mbappé", "pista": "Francés, campeón del mundo 2018" }
+  ],
+  "N": [
+    { "nombre": "Neymar", "pista": "Brasileño, ex Barcelona y PSG" },
+    { "nombre": "Nacho Fernández", "pista": "Defensor del Real Madrid" },
+    { "nombre": "Navas", "pista": "Arquero costarricense, campeón de Champions con el Madrid" }
+  ],
+  "O": [
+    { "nombre": "Ozil", "pista": "Alemán, campeón del mundo 2014" },
+    { "nombre": "Otamendi", "pista": "Defensor argentino, campeón del mundo 2022" },
+    { "nombre": "Ocampos", "pista": "Extremo argentino, juega en Sevilla" }
+  ],
+  "P": [
+    { "nombre": "Piqué", "pista": "Defensor español, leyenda del Barcelona" },
+    { "nombre": "Pavard", "pista": "Francés, autor de un golazo en el Mundial 2018" },
+    { "nombre": "Paolo Maldini", "pista": "Defensor histórico del Milan" }
+  ],
+  "Q": [
+    { "nombre": "Quaresma", "pista": "Portugués famoso por sus trivelas" },
+    { "nombre": "Quintero", "pista": "Colombiano, autor de un gol clave en la final de Madrid" },
+    { "nombre": "Quilón", "pista": "Ex arquero español, actual representante de futbolistas" }
+  ],
+  "R": [
+    { "nombre": "Ronaldo", "pista": "Delantero brasileño, campeón mundial 2002" },
+    { "nombre": "Ronaldinho", "pista": "Brasileño, ídolo del Barcelona" },
+    { "nombre": "Riquelme", "pista": "Enganche argentino, ídolo de Boca Juniors" }
+  ],
+  "S": [
+    { "nombre": "Suárez", "pista": "Delantero uruguayo, goleador del Barcelona" },
+    { "nombre": "Salah", "pista": "Egipcio, figura del Liverpool" },
+    { "nombre": "Sergio Ramos", "pista": "Defensor español, leyenda del Real Madrid" }
+  ],
+  "T": [
+    { "nombre": "Totti", "pista": "Delantero italiano, ídolo de la Roma" },
+    { "nombre": "Thiago Silva", "pista": "Defensor brasileño, ex PSG y Chelsea" },
+    { "nombre": "Tagliafico", "pista": "Lateral argentino, campeón del mundo 2022" }
+  ],
+  "U": [
+    { "nombre": "Umtiti", "pista": "Francés, campeón del mundo 2018" },
+    { "nombre": "Ugarte", "pista": "Volante uruguayo, juega en PSG" },
+    { "nombre": "Ulloa", "pista": "Delantero argentino, campeón con Leicester" }
+  ],
+  "V": [
+    { "nombre": "Van Dijk", "pista": "Defensor neerlandés, figura del Liverpool" },
+    { "nombre": "Valverde", "pista": "Uruguayo, mediocampista del Real Madrid" },
+    { "nombre": "Vieri", "pista": "Delantero italiano de los 90 y 2000" }
+  ],
+  "W": [
+    { "nombre": "Weah", "pista": "Delantero liberiano, Balón de Oro 1995" },
+    { "nombre": "Walker", "pista": "Defensor inglés, juega en el Manchester City" },
+    { "nombre": "Wijnaldum", "pista": "Mediocampista neerlandés" }
+  ],
+  "X": [
+    { "nombre": "Xavi Hernández", "pista": "Volante español, símbolo del Barcelona" },
+    { "nombre": "Xhaka", "pista": "Volante suizo, ex Arsenal" },
+    { "nombre": "Xisco", "pista": "Futbolista español con paso por el Newcastle" }
+  ],
+  "Y": [
+    { "nombre": "Yerry Mina", "pista": "Defensor colombiano, ex Barcelona" },
+    { "nombre": "Yazici", "pista": "Turco, mediocampista del Lille" },
+    { "nombre": "Yaya Touré", "pista": "Mediocampista marfileño, ídolo del City" }
+  ],
+  "Z": [
+    { "nombre": "Zidane", "pista": "Francés, campeón del mundo 1998" },
+    { "nombre": "Zapata", "pista": "Delantero colombiano, ex Atalanta" },
+    { "nombre": "Zárate", "pista": "Delantero argentino, ex Vélez y Boca" }
+  ]
+}
