@@ -1,13 +1,43 @@
 .App {
   text-align: center;
-  padding: 20px;
+  padding: 10px; /* Reducir padding general para pantallas pequeñas */
+  min-height: 100vh; /* Asegura que ocupe al menos toda la altura de la vista */
+  display: flex;
+  flex-direction: column; /* Organizar el contenido en columna por defecto */
+  align-items: center; /* Centrar horizontalmente */
+  justify-content: flex-start; /* Alinear arriba */
 }
+
 body {
   background-color: #b9b5b5;
   margin: 0;
   padding: 0;
+  font-family: Arial, sans-serif; /* Asegurar una fuente común */
 }
 
+h1 {
+  font-size: 2em; /* Tamaño de fuente relativo */
+  margin-bottom: 20px;
+}
+
+/* Media query para pantallas más pequeñas (móviles) */
+@media (max-width: 768px) {
+  .App {
+    padding: 5px; /* Menos padding en móviles */
+  }
+
+  h1 {
+    font-size: 1.5em; /* Reducir tamaño de título en móviles */
+    margin-bottom: 15px;
+  }
+}
+
+/* Puedes añadir más media queries si lo necesitas, por ejemplo, para tablets */
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* Estilos específicos para tablets */
+}
+
+/* Estilos existentes que puedes mantener si los necesitas */
 .App-logo {
   height: 40vmin;
   pointer-events: none;

@@ -1,9 +1,7 @@
-import React, { useState, useEffect, useRef, useCallback, useMemo } from 'react'; // ¡Asegúrate de importar useMemo!
+import React, { useState, useEffect, useRef, useCallback, useMemo } from 'react';
 import Rosco from './Rosco';
 
 function JugadoresEleccion({ jugadores }) {
-  // **CORRECCIÓN CLAVE:** Usar useMemo para asegurar que 'letras' sea una referencia estable.
-  // 'letras' solo se recalculará si la prop 'jugadores' cambia.
   const letras = useMemo(() => {
     return Object.keys(jugadores).sort();
   }, [jugadores]);
@@ -18,7 +16,6 @@ function JugadoresEleccion({ jugadores }) {
   const [sugerencias, setSugerencias] = useState([]);
   const [sugerenciaResaltada, setSugerenciaResaltada] = useState(-1);
 
-  // Estados para el temporizador y el inicio del juego
   const [tiempoRestante, setTiempoRestante] = useState(0);
   const [juegoActivo, setJuegoActivo] = useState(false);
   const [juegoIniciado, setJuegoIniciado] = useState(false);
@@ -26,7 +23,6 @@ function JugadoresEleccion({ jugadores }) {
 
   const inputRef = useRef(null);
 
-  // **Importante:** Envolver asignarJugadoresRandomInterna con useCallback para hacerla estable.
   const asignarJugadoresRandomInterna = useCallback(() => {
     const asignados = {};
     letras.forEach((letra) => {
@@ -35,15 +31,12 @@ function JugadoresEleccion({ jugadores }) {
       asignados[letra] = lista[indexRandom];
     });
     setJugadoresRandom(asignados);
-  }, [jugadores, letras]); // Dependencias de useCallback: ahora 'letras' es estable gracias a useMemo.
+  }, [jugadores, letras]);
 
-  // **Importante:** Este useEffect ahora usa la función estable.
-  // Se ejecuta una vez al montar, o si la función (que es estable) cambia debido a sus propias dependencias.
   useEffect(() => {
     asignarJugadoresRandomInterna();
-  }, [asignarJugadoresRandomInterna]); // Dependencia del useEffect
+  }, [asignarJugadoresRandomInterna]);
 
-  // Timer useEffect
   useEffect(() => {
     let timer;
     if (juegoActivo && tiempoRestante > 0) {
@@ -64,7 +57,6 @@ function JugadoresEleccion({ jugadores }) {
     return () => clearInterval(timer);
   }, [juegoActivo, tiempoRestante]);
 
-  // Restablecer sugerenciaResaltada cuando las sugerencias cambian o se ocultan
   useEffect(() => {
     if (sugerencias.length === 0) {
       setSugerenciaResaltada(-1);
@@ -172,7 +164,7 @@ function JugadoresEleccion({ jugadores }) {
       return;
     }
     setTiempoRestante(tiempoEnSegundos);
-    asignarJugadoresRandomInterna(); // Se llama aquí también para cada inicio de juego
+    asignarJugadoresRandomInterna();
     setLetraActual(letras[0]);
     setRespuesta('');
     setAciertos([]);
@@ -199,7 +191,7 @@ function JugadoresEleccion({ jugadores }) {
     setPasadas([]);
     setSugerencias([]);
     setSugerenciaResaltada(-1);
-    asignarJugadoresRandomInterna(); // Se llama aquí también para cada reinicio
+    asignarJugadoresRandomInterna();
   };
 
   const juegoTerminado = !juegoActivo && juegoIniciado;
@@ -244,7 +236,7 @@ function JugadoresEleccion({ jugadores }) {
     );
 
     return (
-      <div style={{ textAlign: 'center' }}>
+      <div style={{ textAlign: 'center', padding: '10px' }}> {/* Reducir padding aquí también */}
         <h2>¡Juego terminado!</h2>
         <p>✅ Aciertos: {aciertos.length}</p>
         <p>❌ Errores: {errores.length}</p>
@@ -252,7 +244,7 @@ function JugadoresEleccion({ jugadores }) {
         {errores.length > 0 && (
           <>
             <h3>Respuestas correctas que erraste:</h3>
-            <ul style={{ maxWidth: 400, margin: '0 auto', listStyle: 'none', padding: 0 }}>
+            <ul style={{ maxWidth: '90%', margin: '0 auto', listStyle: 'none', padding: 0 }}> {/* Max width relativo */}
               {errores.map((letra) => (
                 <li
                   key={letra}
@@ -275,7 +267,7 @@ function JugadoresEleccion({ jugadores }) {
         {noRespondidas.length > 0 && (
           <>
             <h3>Respuestas correctas que no llegaste a responder:</h3>
-            <ul style={{ maxWidth: 400, margin: '0 auto', listStyle: 'none', padding: 0 }}>
+            <ul style={{ maxWidth: '90%', margin: '0 auto', listStyle: 'none', padding: 0 }}> {/* Max width relativo */}
               {noRespondidas.map((letra) => (
                 <li
                   key={letra}
@@ -307,7 +299,7 @@ function JugadoresEleccion({ jugadores }) {
 
   if (!juegoIniciado) {
     return (
-      <div style={{ textAlign: 'center', fontFamily: 'Arial', marginTop: 50 }}>
+      <div style={{ textAlign: 'center', fontFamily: 'Arial', marginTop: 50, padding: '10px' }}> {/* Padding para móviles */}
         <h2>Configurar Juego</h2>
         <div style={{ marginBottom: 20 }}>
           <label htmlFor="tiempoConfig">Tiempo en minutos:</label>
@@ -336,114 +328,133 @@ function JugadoresEleccion({ jugadores }) {
     <div
       style={{
         display: 'flex',
+        flexDirection: 'column', /* Por defecto en columna para móviles */
         justifyContent: 'center',
         alignItems: 'flex-start',
         fontFamily: 'Arial',
-        padding: '20px',
-        gap: '40px'
+        padding: '10px', /* Padding general para el contenedor principal */
+        gap: '20px', /* Reducir el espacio entre elementos */
       }}
     >
-      {/* Contenedor del Rosco (izquierda) */}
-      <div style={{ flexShrink: 0 }}>
-        <Rosco
-          letras={letras}
-          letraActual={letraActual}
-          aciertos={aciertos}
-          errores={errores}
-          pasadas={pasadas}
-        />
-      </div>
-
-      {/* Contenedor de la Información del Juego (derecha) */}
-      <div style={{ flexGrow: 1, textAlign: 'left', maxWidth: '400px' }}>
-        <div style={{ fontSize: 24, fontWeight: 'bold', marginBottom: 10, color: tiempoRestante <= 10 ? 'red' : 'inherit' }}>
-          Tiempo: {tiempoFormateado}
+      {/* Media query para pantallas más grandes (escritorio/tablet) */}
+      <style jsx>{`
+        @media (min-width: 768px) {
+          .flex-container {
+            flex-direction: row; /* En fila para pantallas más grandes */
+            align-items: flex-start;
+            gap: 40px; /* Restaurar gap original */
+          }
+        }
+      `}</style>
+      <div className="flex-container" style={{
+        display: 'flex',
+        flexDirection: 'column', /* Default for mobile */
+        justifyContent: 'center',
+        alignItems: 'flex-start',
+        width: '100%', /* Ensure it takes full width */
+      }}>
+        {/* Contenedor del Rosco (izquierda/arriba en móvil) */}
+        <div style={{ flexShrink: 0, width: '100%', display: 'flex', justifyContent: 'center' }}> {/* Centrar Rosco en móvil */}
+          <Rosco
+            letras={letras}
+            letraActual={letraActual}
+            aciertos={aciertos}
+            errores={errores}
+            pasadas={pasadas}
+          />
         </div>
 
-        <h2>Letra: {letraActual.toUpperCase()}</h2>
-        <p>
-          <strong>Pista:</strong> {jugadorActual?.pista || 'Sin pista'}
-        </p>
+        {/* Contenedor de la Información del Juego (derecha/abajo en móvil) */}
+        <div style={{ flexGrow: 1, textAlign: 'left', maxWidth: '100%', padding: '0 10px', boxSizing: 'border-box' }}> {/* Ancho completo y padding para móviles */}
+          <div style={{ fontSize: 24, fontWeight: 'bold', marginBottom: 10, color: tiempoRestante <= 10 ? 'red' : 'inherit' }}>
+            Tiempo: {tiempoFormateado}
+          </div>
 
-        <input
-          ref={inputRef}
-          type="text"
-          value={respuesta}
-          onChange={manejarCambio}
-          onKeyDown={manejarKeyDown}
-          placeholder="Escribí el jugador"
-          autoComplete="off"
-          style={{ padding: 10, fontSize: 16, marginTop: 10, width: 'calc(100% - 20px)' }}
-          disabled={!juegoActivo}
-        />
+          <h2>Letra: {letraActual.toUpperCase()}</h2>
+          <p>
+            <strong>Pista:</strong> {jugadorActual?.pista || 'Sin pista'}
+          </p>
 
-        {sugerencias.length > 0 && juegoActivo && (
-          <ul
-            style={{
-              listStyle: 'none',
-              padding: 0,
-              maxWidth: 300,
-              marginTop: '5px',
-              cursor: 'pointer',
-              border: '1px solid #ccc',
-              borderRadius: '4px',
-              maxHeight: '150px',
-              overflowY: 'auto',
-              boxShadow: '0 2px 5px rgba(0,0,0,0.1)',
-              zIndex: 10,
-              backgroundColor: 'white'
-            }}
-          >
-            {sugerencias.map((j, i) => (
-              <li
-                key={i}
-                onClick={() => {
-                  setRespuesta(j.nombre);
-                  setSugerencias([]);
-                  setSugerenciaResaltada(-1);
-                  verificarRespuesta(j.nombre);
-                }}
-                style={{
-                  background: i === sugerenciaResaltada ? '#e0e0e0' : '#f9f9f9',
-                  margin: '2px 0',
-                  padding: '8px',
-                  borderBottom: '1px solid #eee'
-                }}
-              >
-                {j.nombre}
-              </li>
-            ))}
-          </ul>
-        )}
-
-        <div style={{ marginTop: '15px' }}>
-          <button
-            onClick={verificar}
-            style={{ margin: '5px', padding: '10px', minWidth: '100px' }}
+          <input
+            ref={inputRef}
+            type="text"
+            value={respuesta}
+            onChange={manejarCambio}
+            onKeyDown={manejarKeyDown}
+            placeholder="Escribí el jugador"
+            autoComplete="off"
+            style={{ padding: 10, fontSize: 16, marginTop: 10, width: 'calc(100% - 20px)' }} /* Ancho del 100% menos el padding */
             disabled={!juegoActivo}
-          >
-            Responder
-          </button>
-          <button
-            onClick={pasar}
-            style={{ margin: '5px', padding: '10px', minWidth: '100px' }}
-            disabled={!juegoActivo}
-          >
-            Pasar
-          </button>
-          <button
-            onClick={reiniciar}
-            style={{ margin: '5px', padding: '10px', backgroundColor: '#264653', color: '#fff', minWidth: '100px' }}
-          >
-            Reiniciar
-          </button>
-        </div>
+          />
 
-        <div style={{ marginTop: 20 }}>
-          <p>✅ Aciertos: {aciertos.length}</p>
-          <p>❌ Errores: {errores.length}</p>
-          <p>🟡 Pasadas: {pasadas.length}</p>
-          <p>🔄 Letras totales: {letras.length}</p>
+          {sugerencias.length > 0 && juegoActivo && (
+            <ul
+              style={{
+                listStyle: 'none',
+                padding: 0,
+                maxWidth: '100%', /* Ancho completo */
+                marginTop: '5px',
+                cursor: 'pointer',
+                border: '1px solid #ccc',
+                borderRadius: '4px',
+                maxHeight: '150px',
+                overflowY: 'auto',
+                boxShadow: '0 2px 5px rgba(0,0,0,0.1)',
+                zIndex: 10,
+                backgroundColor: 'white'
+              }}
+            >
+              {sugerencias.map((j, i) => (
+                <li
+                  key={i}
+                  onClick={() => {
+                    setRespuesta(j.nombre);
+                    setSugerencias([]);
+                    setSugerenciaResaltada(-1);
+                    verificarRespuesta(j.nombre);
+                  }}
+                  style={{
+                    background: i === sugerenciaResaltada ? '#e0e0e0' : '#f9f9f9',
+                    margin: '2px 0',
+                    padding: '8px',
+                    borderBottom: '1px solid #eee'
+                  }}
+                >
+                  {j.nombre}
+                </li>
+              ))}
+            </ul>
+          )}
+
+          <div style={{ marginTop: '15px', display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '10px' }}> {/* Botones flexibles y espaciados */}
+            <button
+              onClick={verificar}
+              style={{ padding: '10px', minWidth: '100px', flexGrow: 1 }} /* Botones crecen para ocupar espacio */
+              disabled={!juegoActivo}
+            >
+              Responder
+            </button>
+            <button
+              onClick={pasar}
+              style={{ padding: '10px', minWidth: '100px', flexGrow: 1 }}
+              disabled={!juegoActivo}
+            >
+              Pasar
+            </button>
+            <button
+              onClick={reiniciar}
+              style={{ padding: '10px', backgroundColor: '#264653', color: '#fff', minWidth: '100px', flexGrow: 1 }}
+            >
+              Reiniciar
+            </button>
+          </div>
+
+          <div style={{ marginTop: 20, textAlign: 'center' }}> {/* Centrar el resumen de aciertos/errores */}
+            <p>✅ Aciertos: {aciertos.length}</p>
+            <p>❌ Errores: {errores.length}</p>
+            <p>🟡 Pasadas: {pasadas.length}</p>
+            <p>🔄 Letras totales: {letras.length}</p>
+          </div>
         </div>
       </div>
     </div>
