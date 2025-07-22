@@ -15,16 +15,17 @@ function JugadoresEleccion({ jugadores }) {
   const [sugerenciaResaltada, setSugerenciaResaltada] = useState(-1);
 
   // Estados para el temporizador y el inicio del juego
-  const [TIEMPO_TOTAL, setTIEMPO_TOTAL] = useState(0);
+  // const [TIEMPO_TOTAL, setTIEMPO_TOTAL] = useState(0); // ELIMINADO: No es necesario un estado para esto
   const [tiempoRestante, setTiempoRestante] = useState(0);
   const [juegoActivo, setJuegoActivo] = useState(false);
   const [juegoIniciado, setJuegoIniciado] = useState(false);
   const [tiempoInput, setTiempoInput] = useState('3');
 
-  const inputRef = useRef(null); // Ref para el input, para enfocarlo
+  const inputRef = useRef(null);
 
   // Asignar jugador random por letra
-  const asignarJugadoresRandom = () => {
+  // Esta función ahora se moverá su llamada dentro del useEffect inicial
+  const asignarJugadoresRandomInterna = () => { // Renombrada para evitar confusión, aunque es local
     const asignados = {};
     letras.forEach((letra) => {
       const lista = jugadores[letra];
@@ -34,9 +35,18 @@ function JugadoresEleccion({ jugadores }) {
     setJugadoresRandom(asignados);
   };
 
+  // Corrección 1: Dependencia de useEffect
+  // La función asignarJugadoresRandomInterna se llamará aquí directamente.
   useEffect(() => {
-    asignarJugadoresRandom();
-  }, []);
+    asignarJugadoresRandomInterna(); // Llamada directa
+    // Las demás inicializaciones de estado ya se manejan en iniciarJuego o reiniciar
+    // setLetraActual(letras[0]); // Esto se maneja mejor en iniciarJuego o reiniciar
+    // setRespuesta('');
+    // setAciertos([]);
+    // setErrores([]);
+    // setPasadas([]);
+    // setSugerencias([]);
+  }, []); // Dependencias vacías, solo se ejecuta una vez al montar
 
   // Timer useEffect
   useEffect(() => {
@@ -57,7 +67,7 @@ function JugadoresEleccion({ jugadores }) {
     }
 
     return () => clearInterval(timer);
-  }, [juegoActivo, tiempoRestante]);
+  }, [juegoActivo, tiempoRestante]); // Dependencias correctas
 
   // Restablecer sugerenciaResaltada cuando las sugerencias cambian o se ocultan
   useEffect(() => {
@@ -83,7 +93,7 @@ function JugadoresEleccion({ jugadores }) {
         normalizar(j.nombre).startsWith(normalizar(valor))
       );
       setSugerencias(posibles);
-      setSugerenciaResaltada(-1); // Reiniciar al escribir
+      setSugerenciaResaltada(-1);
     } else {
       setSugerencias([]);
       setSugerenciaResaltada(-1);
@@ -113,7 +123,7 @@ function JugadoresEleccion({ jugadores }) {
     setLetraActual(letras[siguienteIndice]);
     setRespuesta('');
     setSugerencias([]);
-    setSugerenciaResaltada(-1); // Resetear al avanzar letra
+    setSugerenciaResaltada(-1);
   };
 
   const verificarRespuesta = (valorRespuesta) => {
@@ -138,7 +148,7 @@ function JugadoresEleccion({ jugadores }) {
 
     setRespuesta('');
     setSugerencias([]);
-    setSugerenciaResaltada(-1); // Resetear al verificar
+    setSugerenciaResaltada(-1);
     avanzarLetra();
   };
 
@@ -166,9 +176,9 @@ function JugadoresEleccion({ jugadores }) {
       alert("Por favor, introduce un tiempo válido en minutos.");
       return;
     }
-    setTIEMPO_TOTAL(tiempoEnSegundos);
+    // Corrección 2: Eliminado setTIEMPO_TOTAL, usamos tiempoEnSegundos directamente
     setTiempoRestante(tiempoEnSegundos);
-    asignarJugadoresRandom();
+    asignarJugadoresRandomInterna(); // Se llama aquí también para cada inicio de juego
     setLetraActual(letras[0]);
     setRespuesta('');
     setAciertos([]);
@@ -187,7 +197,7 @@ function JugadoresEleccion({ jugadores }) {
     setJuegoActivo(false);
     setJuegoIniciado(false);
     setTiempoRestante(0);
-    setTIEMPO_TOTAL(0);
+    // setTIEMPO_TOTAL(0); // ELIMINADO
     setTiempoInput('3');
     setLetraActual(letras[0]);
     setRespuesta('');
@@ -196,12 +206,11 @@ function JugadoresEleccion({ jugadores }) {
     setPasadas([]);
     setSugerencias([]);
     setSugerenciaResaltada(-1);
-    asignarJugadoresRandom();
+    asignarJugadoresRandomInterna(); // Se llama aquí también para cada reinicio
   };
 
   const juegoTerminado = !juegoActivo && juegoIniciado;
 
-  // Manejar tecla Enter, flechas arriba/abajo en el input
   const manejarKeyDown = (e) => {
     if (!juegoActivo) return;
 
@@ -365,7 +374,7 @@ function JugadoresEleccion({ jugadores }) {
 
         {/* Input y luego las sugerencias */}
         <input
-          ref={inputRef} // Asociar la ref al input
+          ref={inputRef}
           type="text"
           value={respuesta}
           onChange={manejarCambio}
