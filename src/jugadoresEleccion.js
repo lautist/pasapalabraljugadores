@@ -1,8 +1,12 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef, useCallback, useMemo } from 'react'; // ¡Asegúrate de importar useMemo!
 import Rosco from './Rosco';
 
 function JugadoresEleccion({ jugadores }) {
-  const letras = Object.keys(jugadores).sort();
+  // **CORRECCIÓN CLAVE:** Usar useMemo para asegurar que 'letras' sea una referencia estable.
+  // 'letras' solo se recalculará si la prop 'jugadores' cambia.
+  const letras = useMemo(() => {
+    return Object.keys(jugadores).sort();
+  }, [jugadores]);
 
   const [jugadoresRandom, setJugadoresRandom] = useState({});
 
@@ -15,7 +19,6 @@ function JugadoresEleccion({ jugadores }) {
   const [sugerenciaResaltada, setSugerenciaResaltada] = useState(-1);
 
   // Estados para el temporizador y el inicio del juego
-  // const [TIEMPO_TOTAL, setTIEMPO_TOTAL] = useState(0); // ELIMINADO: No es necesario un estado para esto
   const [tiempoRestante, setTiempoRestante] = useState(0);
   const [juegoActivo, setJuegoActivo] = useState(false);
   const [juegoIniciado, setJuegoIniciado] = useState(false);
@@ -23,9 +26,8 @@ function JugadoresEleccion({ jugadores }) {
 
   const inputRef = useRef(null);
 
-  // Asignar jugador random por letra
-  // Esta función ahora se moverá su llamada dentro del useEffect inicial
-  const asignarJugadoresRandomInterna = () => { // Renombrada para evitar confusión, aunque es local
+  // **Importante:** Envolver asignarJugadoresRandomInterna con useCallback para hacerla estable.
+  const asignarJugadoresRandomInterna = useCallback(() => {
     const asignados = {};
     letras.forEach((letra) => {
       const lista = jugadores[letra];
@@ -33,20 +35,13 @@ function JugadoresEleccion({ jugadores }) {
       asignados[letra] = lista[indexRandom];
     });
     setJugadoresRandom(asignados);
-  };
+  }, [jugadores, letras]); // Dependencias de useCallback: ahora 'letras' es estable gracias a useMemo.
 
-  // Corrección 1: Dependencia de useEffect
-  // La función asignarJugadoresRandomInterna se llamará aquí directamente.
+  // **Importante:** Este useEffect ahora usa la función estable.
+  // Se ejecuta una vez al montar, o si la función (que es estable) cambia debido a sus propias dependencias.
   useEffect(() => {
-    asignarJugadoresRandomInterna(); // Llamada directa
-    // Las demás inicializaciones de estado ya se manejan en iniciarJuego o reiniciar
-    // setLetraActual(letras[0]); // Esto se maneja mejor en iniciarJuego o reiniciar
-    // setRespuesta('');
-    // setAciertos([]);
-    // setErrores([]);
-    // setPasadas([]);
-    // setSugerencias([]);
-  }, []); // Dependencias vacías, solo se ejecuta una vez al montar
+    asignarJugadoresRandomInterna();
+  }, [asignarJugadoresRandomInterna]); // Dependencia del useEffect
 
   // Timer useEffect
   useEffect(() => {
@@ -67,7 +62,7 @@ function JugadoresEleccion({ jugadores }) {
     }
 
     return () => clearInterval(timer);
-  }, [juegoActivo, tiempoRestante]); // Dependencias correctas
+  }, [juegoActivo, tiempoRestante]);
 
   // Restablecer sugerenciaResaltada cuando las sugerencias cambian o se ocultan
   useEffect(() => {
@@ -176,7 +171,6 @@ function JugadoresEleccion({ jugadores }) {
       alert("Por favor, introduce un tiempo válido en minutos.");
       return;
     }
-    // Corrección 2: Eliminado setTIEMPO_TOTAL, usamos tiempoEnSegundos directamente
     setTiempoRestante(tiempoEnSegundos);
     asignarJugadoresRandomInterna(); // Se llama aquí también para cada inicio de juego
     setLetraActual(letras[0]);
@@ -197,7 +191,6 @@ function JugadoresEleccion({ jugadores }) {
     setJuegoActivo(false);
     setJuegoIniciado(false);
     setTiempoRestante(0);
-    // setTIEMPO_TOTAL(0); // ELIMINADO
     setTiempoInput('3');
     setLetraActual(letras[0]);
     setRespuesta('');
@@ -372,7 +365,6 @@ function JugadoresEleccion({ jugadores }) {
           <strong>Pista:</strong> {jugadorActual?.pista || 'Sin pista'}
         </p>
 
-        {/* Input y luego las sugerencias */}
         <input
           ref={inputRef}
           type="text"
