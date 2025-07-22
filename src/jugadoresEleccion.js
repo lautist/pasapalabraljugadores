@@ -453,7 +453,6 @@ function JugadoresEleccion({ jugadores }) {
             <p>✅ Aciertos: {aciertos.length}</p>
             <p>❌ Errores: {errores.length}</p>
             <p>🟡 Pasadas: {pasadas.length}</p>
-            <p>🔄 Letras totales: {letras.length}</p>
           </div>
         </div>
       </div>
