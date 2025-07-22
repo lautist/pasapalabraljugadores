@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Rosco({ letras, letraActual, aciertos, errores, pasadas, onClickLetra }) {
+function Rosco({ letras, letraActual, aciertos, errores, pasadas }) {
   const total = letras.length;
   const radio = 120;
   const center = radio + 20;
@@ -23,6 +23,7 @@ function Rosco({ letras, letraActual, aciertos, errores, pasadas, onClickLetra }
         const angulo = (2 * Math.PI * i) / total - Math.PI / 2;
         const x = center + radio * Math.cos(angulo);
         const y = center + radio * Math.sin(angulo);
+   
         const esActual = letra === letraActual;
 
         return (
@@ -32,9 +33,8 @@ function Rosco({ letras, letraActual, aciertos, errores, pasadas, onClickLetra }
             y={y}
             textAnchor="middle"
             dominantBaseline="middle"
-            onClick={() => onClickLetra(letra)}
             style={{
-              cursor: 'pointer',
+              cursor: 'default', // Cambiado a 'default' para no indicar interactividad
               userSelect: 'none',
               fontSize: esActual ? 26 : 18,
               fontWeight: esActual ? 'bold' : 'normal',
@@ -42,7 +42,7 @@ function Rosco({ letras, letraActual, aciertos, errores, pasadas, onClickLetra }
               stroke: esActual ? '#264653' : 'none',
               strokeWidth: esActual ? 1.5 : 0,
               transition: 'all 0.3s ease',
-              pointerEvents: 'auto',
+              pointerEvents: 'none', // ¡Importante! Deshabilita clics en las letras
             }}
           >
             {letra.toUpperCase()}
