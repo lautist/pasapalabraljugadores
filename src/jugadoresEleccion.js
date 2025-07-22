@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import Rosco from './Rosco';
 
 function JugadoresEleccion({ jugadores }) {
@@ -12,13 +12,16 @@ function JugadoresEleccion({ jugadores }) {
   const [errores, setErrores] = useState([]);
   const [pasadas, setPasadas] = useState([]);
   const [sugerencias, setSugerencias] = useState([]);
+  const [sugerenciaResaltada, setSugerenciaResaltada] = useState(-1);
 
   // Estados para el temporizador y el inicio del juego
-  const [TIEMPO_TOTAL, setTIEMPO_TOTAL] = useState(0); // Se inicializará con el input del usuario
+  const [TIEMPO_TOTAL, setTIEMPO_TOTAL] = useState(0);
   const [tiempoRestante, setTiempoRestante] = useState(0);
-  const [juegoActivo, setJuegoActivo] = useState(false); // Controla si el juego está en curso
-  const [juegoIniciado, setJuegoIniciado] = useState(false); // Controla si el juego ha comenzado la primera vez
-  const [tiempoInput, setTiempoInput] = useState('3'); // Valor por defecto para el input de tiempo en minutos
+  const [juegoActivo, setJuegoActivo] = useState(false);
+  const [juegoIniciado, setJuegoIniciado] = useState(false);
+  const [tiempoInput, setTiempoInput] = useState('3');
+
+  const inputRef = useRef(null); // Ref para el input, para enfocarlo
 
   // Asignar jugador random por letra
   const asignarJugadoresRandom = () => {
@@ -32,7 +35,7 @@ function JugadoresEleccion({ jugadores }) {
   };
 
   useEffect(() => {
-    asignarJugadoresRandom(); // Asigna jugadores al cargar el componente
+    asignarJugadoresRandom();
   }, []);
 
   // Timer useEffect
@@ -43,18 +46,26 @@ function JugadoresEleccion({ jugadores }) {
         setTiempoRestante((prevTiempo) => {
           if (prevTiempo <= 1) {
             clearInterval(timer);
-            setJuegoActivo(false); // Termina el juego cuando el temporizador llega a 0
+            setJuegoActivo(false);
             return 0;
           }
           return prevTiempo - 1;
         });
       }, 1000);
     } else if (tiempoRestante === 0 && juegoActivo) {
-        setJuegoActivo(false); // Asegurarse de que el juego se desactive si el tiempo llega a 0
+        setJuegoActivo(false);
     }
 
     return () => clearInterval(timer);
   }, [juegoActivo, tiempoRestante]);
+
+  // Restablecer sugerenciaResaltada cuando las sugerencias cambian o se ocultan
+  useEffect(() => {
+    if (sugerencias.length === 0) {
+      setSugerenciaResaltada(-1);
+    }
+  }, [sugerencias]);
+
 
   function normalizar(texto) {
     return texto
@@ -72,8 +83,10 @@ function JugadoresEleccion({ jugadores }) {
         normalizar(j.nombre).startsWith(normalizar(valor))
       );
       setSugerencias(posibles);
+      setSugerenciaResaltada(-1); // Reiniciar al escribir
     } else {
       setSugerencias([]);
+      setSugerenciaResaltada(-1);
     }
   };
 
@@ -93,16 +106,17 @@ function JugadoresEleccion({ jugadores }) {
 
     if (intentos === letras.length) {
       setLetraActual(null);
-      setJuegoActivo(false); // Terminar juego si no hay más letras por responder
+      setJuegoActivo(false);
       return;
     }
 
     setLetraActual(letras[siguienteIndice]);
     setRespuesta('');
     setSugerencias([]);
+    setSugerenciaResaltada(-1); // Resetear al avanzar letra
   };
 
-  const verificarRespuesta = (valorRespuesta) => { // Función unificada para verificación
+  const verificarRespuesta = (valorRespuesta) => {
     if (!letraActual || !juegoActivo) return;
 
     const jugadorCorrecto = jugadoresRandom[letraActual];
@@ -112,24 +126,23 @@ function JugadoresEleccion({ jugadores }) {
 
     if (esCorrecto) {
       if (!aciertos.includes(letraActual)) setAciertos([...aciertos, letraActual]);
-      // Si la letra estaba en errores o pasadas, se remueve
       if (pasadas.includes(letraActual))
         setPasadas(pasadas.filter((l) => l !== letraActual));
       if (errores.includes(letraActual))
         setErrores(errores.filter((l) => l !== letraActual));
     } else {
       if (!errores.includes(letraActual)) setErrores([...errores, letraActual]);
-      // Si se equivoca, y estaba en pasadas, se remueve de pasadas
       if (pasadas.includes(letraActual))
           setPasadas(pasadas.filter((l) => l !== letraActual));
     }
 
-    setRespuesta(''); // Limpiar el input
-    setSugerencias([]); // Limpiar sugerencias
-    avanzarLetra(); // Mover a la siguiente letra
+    setRespuesta('');
+    setSugerencias([]);
+    setSugerenciaResaltada(-1); // Resetear al verificar
+    avanzarLetra();
   };
 
-  const verificar = () => { // Usado para el botón 'Responder' y Enter
+  const verificar = () => {
     verificarRespuesta(respuesta);
   };
 
@@ -162,8 +175,12 @@ function JugadoresEleccion({ jugadores }) {
     setErrores([]);
     setPasadas([]);
     setSugerencias([]);
+    setSugerenciaResaltada(-1);
     setJuegoActivo(true);
     setJuegoIniciado(true);
+    if (inputRef.current) {
+      inputRef.current.focus();
+    }
   };
 
   const reiniciar = () => {
@@ -178,31 +195,48 @@ function JugadoresEleccion({ jugadores }) {
     setErrores([]);
     setPasadas([]);
     setSugerencias([]);
+    setSugerenciaResaltada(-1);
     asignarJugadoresRandom();
   };
 
-  const juegoCompletadoPorRespuestas = letras.every(
-    (l) => aciertos.includes(l) || errores.includes(l)
-  );
+  const juegoTerminado = !juegoActivo && juegoIniciado;
 
-  const juegoTerminado = !juegoActivo && juegoIniciado; // El juego termina si no está activo y ya se inició
-
-  // Manejar tecla Enter en el input para enviar respuesta
+  // Manejar tecla Enter, flechas arriba/abajo en el input
   const manejarKeyDown = (e) => {
-    if (e.key === 'Enter' && juegoActivo) {
+    if (!juegoActivo) return;
+
+    if (sugerencias.length > 0) {
+      if (e.key === 'ArrowDown') {
+        e.preventDefault();
+        setSugerenciaResaltada((prevIndex) =>
+          (prevIndex + 1) % sugerencias.length
+        );
+      } else if (e.key === 'ArrowUp') {
+        e.preventDefault();
+        setSugerenciaResaltada((prevIndex) =>
+          (prevIndex - 1 + sugerencias.length) % sugerencias.length
+        );
+      } else if (e.key === 'Enter') {
+        e.preventDefault();
+        if (sugerenciaResaltada !== -1) {
+          verificarRespuesta(sugerencias[sugerenciaResaltada].nombre);
+        } else {
+          verificar();
+        }
+      }
+    } else if (e.key === 'Enter') {
       e.preventDefault();
       verificar();
     }
   };
 
-  // Formatear tiempo para mostrar
+
   const minutos = Math.floor(tiempoRestante / 60);
   const segundos = tiempoRestante % 60;
   const tiempoFormateado = `${minutos.toString().padStart(2, '0')}:${segundos.toString().padStart(2, '0')}`;
 
 
   if (juegoTerminado) {
-    // Las letras no respondidas son las que no están en aciertos ni en errores
     const noRespondidas = letras.filter(
       (l) => !aciertos.includes(l) && !errores.includes(l)
     );
@@ -244,7 +278,7 @@ function JugadoresEleccion({ jugadores }) {
                 <li
                   key={letra}
                   style={{
-                    backgroundColor: '#f4a261', // Color para no respondidas
+                    backgroundColor: '#f4a261',
                     color: 'white',
                     margin: '5px 0',
                     padding: '8px',
@@ -269,7 +303,6 @@ function JugadoresEleccion({ jugadores }) {
     );
   }
 
-  // Si el juego no ha iniciado, muestra la configuración inicial
   if (!juegoIniciado) {
     return (
       <div style={{ textAlign: 'center', fontFamily: 'Arial', marginTop: 50 }}>
@@ -298,95 +331,119 @@ function JugadoresEleccion({ jugadores }) {
   const jugadorActual = jugadoresRandom[letraActual];
 
   return (
-    <div style={{ textAlign: 'center', fontFamily: 'Arial' }}>
-      <Rosco
-        letras={letras}
-        letraActual={letraActual}
-        aciertos={aciertos}
-        errores={errores}
-        pasadas={pasadas}
-        // onClickLetra ya no se pasa
-      />
-
-      <div style={{ fontSize: 24, fontWeight: 'bold', marginBottom: 10, color: tiempoRestante <= 10 ? 'red' : 'inherit' }}>
-        Tiempo: {tiempoFormateado}
+    <div
+      style={{
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'flex-start',
+        fontFamily: 'Arial',
+        padding: '20px',
+        gap: '40px'
+      }}
+    >
+      {/* Contenedor del Rosco (izquierda) */}
+      <div style={{ flexShrink: 0 }}>
+        <Rosco
+          letras={letras}
+          letraActual={letraActual}
+          aciertos={aciertos}
+          errores={errores}
+          pasadas={pasadas}
+        />
       </div>
 
-      <h2>Letra: {letraActual.toUpperCase()}</h2>
-      <p>
-        <strong>Pista:</strong> {jugadorActual?.pista || 'Sin pista'}
-      </p>
+      {/* Contenedor de la Información del Juego (derecha) */}
+      <div style={{ flexGrow: 1, textAlign: 'left', maxWidth: '400px' }}>
+        <div style={{ fontSize: 24, fontWeight: 'bold', marginBottom: 10, color: tiempoRestante <= 10 ? 'red' : 'inherit' }}>
+          Tiempo: {tiempoFormateado}
+        </div>
 
-      <input
-        type="text"
-        value={respuesta}
-        onChange={manejarCambio}
-        onKeyDown={manejarKeyDown}
-        placeholder="Escribí el jugador"
-        autoComplete="off"
-        style={{ padding: 10, fontSize: 16, marginTop: 10 }}
-        disabled={!juegoActivo}
-      />
+        <h2>Letra: {letraActual.toUpperCase()}</h2>
+        <p>
+          <strong>Pista:</strong> {jugadorActual?.pista || 'Sin pista'}
+        </p>
 
-      <div>
-        <button
-          onClick={verificar}
-          style={{ margin: 5, padding: 10 }}
+        {/* Input y luego las sugerencias */}
+        <input
+          ref={inputRef} // Asociar la ref al input
+          type="text"
+          value={respuesta}
+          onChange={manejarCambio}
+          onKeyDown={manejarKeyDown}
+          placeholder="Escribí el jugador"
+          autoComplete="off"
+          style={{ padding: 10, fontSize: 16, marginTop: 10, width: 'calc(100% - 20px)' }}
           disabled={!juegoActivo}
-        >
-          Responder
-        </button>
-        <button
-          onClick={pasar}
-          style={{ margin: 5, padding: 10 }}
-          disabled={!juegoActivo}
-        >
-          Pasar
-        </button>
-        <button
-          onClick={reiniciar}
-          style={{ margin: 5, padding: 10, backgroundColor: '#264653', color: '#fff' }}
-        >
-          Reiniciar
-        </button>
-      </div>
+        />
 
-      {sugerencias.length > 0 && juegoActivo && (
-        <ul
-          style={{
-            listStyle: 'none',
-            padding: 0,
-            maxWidth: 300,
-            margin: '10px auto',
-            cursor: 'pointer',
-            border: '1px solid #ccc',
-            borderRadius: '4px',
-            maxHeight: '150px',
-            overflowY: 'auto',
-            boxShadow: '0 2px 5px rgba(0,0,0,0.1)'
-          }}
-        >
-          {sugerencias.map((j, i) => (
-            <li
-              key={i}
-              onClick={() => {
-                setRespuesta(j.nombre); // Pone el nombre en el input
-                setSugerencias([]); // Limpia las sugerencias
-                verificarRespuesta(j.nombre); // Llama a verificar con el nombre sugerido
-              }}
-              style={{ background: '#f9f9f9', margin: '2px 0', padding: '8px', borderBottom: '1px solid #eee' }}
-            >
-              {j.nombre}
-            </li>
-          ))}
-        </ul>
-      )}
+        {sugerencias.length > 0 && juegoActivo && (
+          <ul
+            style={{
+              listStyle: 'none',
+              padding: 0,
+              maxWidth: 300,
+              marginTop: '5px',
+              cursor: 'pointer',
+              border: '1px solid #ccc',
+              borderRadius: '4px',
+              maxHeight: '150px',
+              overflowY: 'auto',
+              boxShadow: '0 2px 5px rgba(0,0,0,0.1)',
+              zIndex: 10,
+              backgroundColor: 'white'
+            }}
+          >
+            {sugerencias.map((j, i) => (
+              <li
+                key={i}
+                onClick={() => {
+                  setRespuesta(j.nombre);
+                  setSugerencias([]);
+                  setSugerenciaResaltada(-1);
+                  verificarRespuesta(j.nombre);
+                }}
+                style={{
+                  background: i === sugerenciaResaltada ? '#e0e0e0' : '#f9f9f9',
+                  margin: '2px 0',
+                  padding: '8px',
+                  borderBottom: '1px solid #eee'
+                }}
+              >
+                {j.nombre}
+              </li>
+            ))}
+          </ul>
+        )}
 
-      <div style={{ marginTop: 20 }}>
-        <p>✅ Aciertos: {aciertos.length}</p>
-        <p>❌ Errores: {errores.length}</p>
-        <p>🟡 Pasadas: {pasadas.length}</p>
-        <p>🔄 Letras totales: {letras.length}</p>
+        <div style={{ marginTop: '15px' }}>
+          <button
+            onClick={verificar}
+            style={{ margin: '5px', padding: '10px', minWidth: '100px' }}
+            disabled={!juegoActivo}
+          >
+            Responder
+          </button>
+          <button
+            onClick={pasar}
+            style={{ margin: '5px', padding: '10px', minWidth: '100px' }}
+            disabled={!juegoActivo}
+          >
+            Pasar
+          </button>
+          <button
+            onClick={reiniciar}
+            style={{ margin: '5px', padding: '10px', backgroundColor: '#264653', color: '#fff', minWidth: '100px' }}
+          >
+            Reiniciar
+          </button>
+        </div>
+
+        <div style={{ marginTop: 20 }}>
+          <p>✅ Aciertos: {aciertos.length}</p>
+          <p>❌ Errores: {errores.length}</p>
+          <p>🟡 Pasadas: {pasadas.length}</p>
+          <p>🔄 Letras totales: {letras.length}</p>
+        </div>
       </div>
     </div>
   );
