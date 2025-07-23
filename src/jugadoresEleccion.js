@@ -196,7 +196,7 @@ function JugadoresEleccion({ jugadores }) {
     const valor = e.target.value;
     setRespuesta(valor);
 
-    if (valor.length >= 0 && letraActual) { // Volvemos a 2 para empezar a sugerir
+    if (valor.length >= 3 && letraActual) { // Volvemos a 2 para empezar a sugerir
       const listaCompletaDeLetra = jugadores[letraActual] || [];
       // Asegúrate de filtrar por la dificultad seleccionada al buscar sugerencias
       const sugerenciasFiltradas = listaCompletaDeLetra.filter(j =>
