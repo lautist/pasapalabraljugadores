@@ -21,7 +21,10 @@ function JugadoresEleccion({ jugadores }) {
   const [juegoIniciado, setJuegoIniciado] = useState(false);
   const [tiempoInput, setTiempoInput] = useState('3'); // Tiempo en minutos configurado por el usuario
 
-  // NUEVOS ESTADOS PARA CONTROLAR EL FLUJO DE FIN DE JUEGO
+  // NUEVO ESTADO PARA LA DIFICULTAD
+  const [dificultadSeleccionada, setDificultadSeleccionada] = useState('medio'); // Por defecto: 'medio'
+
+  // ESTADOS PARA CONTROLAR EL FLUJO DE FIN DE JUEGO
   const [mostrarPantallaFinalizada, setMostrarPantallaFinalizada] = useState(false); // Para la pantalla "Fin del Rosco"
   const [mostrarResultadosFinales, setMostrarResultadosFinales] = useState(false); // Para la pantalla detallada de resultados
 
@@ -37,18 +40,25 @@ function JugadoresEleccion({ jugadores }) {
       .trim(); // Elimina espacios al inicio y final
   }, []);
 
-  // Asignar jugador random por letra al inicio del juego
+  // Asignar jugador random por letra según la dificultad seleccionada
   const asignarJugadoresRandomInterna = useCallback(() => {
     const asignados = {};
     letras.forEach((letra) => {
-      const lista = jugadores[letra];
-      if (lista && lista.length > 0) {
-        const indexRandom = Math.floor(Math.random() * lista.length);
-        asignados[letra] = lista[indexRandom];
+      const listaCompleta = jugadores[letra];
+      // Filtrar jugadores por la dificultad seleccionada
+      const listaFiltradaPorDificultad = listaCompleta.filter(j => j.dificultad === dificultadSeleccionada);
+
+      if (listaFiltradaPorDificultad.length > 0) {
+        const indexRandom = Math.floor(Math.random() * listaFiltradaPorDificultad.length);
+        asignados[letra] = listaFiltradaPorDificultad[indexRandom];
+      } else {
+        // Si no hay jugadores para la dificultad seleccionada en esta letra,
+        // no se asignará ningún jugador para esa letra.
+        // La interfaz ya maneja esto con 'Sin pista'.
       }
     });
     setJugadoresRandom(asignados);
-  }, [letras, jugadores]);
+  }, [letras, jugadores, dificultadSeleccionada]); // Ahora depende de dificultadSeleccionada
 
   // Se ejecuta una vez al montar el componente para asignar jugadores
   useEffect(() => {
@@ -78,22 +88,23 @@ function JugadoresEleccion({ jugadores }) {
     return () => clearInterval(timer);
   }, [juegoActivo, tiempoRestante]);
 
-  // Nuevo useEffect para detectar el final del juego por letras agotadas
+  // Efecto para detectar el final del juego por letras agotadas (Pasapalabra style)
   useEffect(() => {
     // Solo se ejecuta si el juego está iniciado y activo, y no estamos ya en una pantalla final
     if (!juegoIniciado || !juegoActivo || mostrarPantallaFinalizada || mostrarResultadosFinales) {
       return;
     }
 
-     const letrasCompletadasDefinitivamente = aciertos.length + errores.length;
+    // El juego termina por letras agotadas SÓLO si todas las letras
+    // están en aciertos O errores (es decir, no quedan letras 'pasadas' pendientes).
+    const letrasCompletadasDefinitivamente = aciertos.length + errores.length;
 
-    // Si todas las letras han sido respondidas o pasadas
     if (letrasCompletadasDefinitivamente === letras.length && letras.length > 0) {
       setJuegoActivo(false); // Desactiva el juego
       setLetraActual(null); // Asegura que no haya letra actual
       setMostrarPantallaFinalizada(true); // Activa la pantalla intermedia
     }
-  }, [aciertos, errores, pasadas, letras.length, juegoIniciado, juegoActivo, mostrarPantallaFinalizada, mostrarResultadosFinales]);
+  }, [aciertos, errores, letras.length, juegoIniciado, juegoActivo, mostrarPantallaFinalizada, mostrarResultadosFinales]);
 
   // Efecto para reiniciar el resaltado de sugerencias cuando no hay sugerencias
   useEffect(() => {
@@ -191,16 +202,18 @@ function JugadoresEleccion({ jugadores }) {
     const valor = e.target.value;
     setRespuesta(valor);
 
-    if (valor.length >= 2) { // Generalmente 2 o 3 caracteres para empezar a sugerir
-      const sugerenciasFiltradas = jugadores[letraActual]?.filter((j) =>
-        normalizar(j.nombre).startsWith(normalizar(valor))
+    if (valor.length >= 3 && letraActual) { // Generalmente 2 o 3 caracteres para empezar a sugerir
+      const listaCompletaDeLetra = jugadores[letraActual] || [];
+      // Asegúrate de filtrar por la dificultad seleccionada al buscar sugerencias
+      const sugerenciasFiltradas = listaCompletaDeLetra.filter(j =>
+        j.dificultad === dificultadSeleccionada && normalizar(j.nombre).startsWith(normalizar(valor))
       );
       setSugerencias(sugerenciasFiltradas || []);
     } else {
       setSugerencias([]);
     }
     setSugerenciaResaltada(-1); // Reinicia el resaltado al escribir
-  }, [jugadores, letraActual, normalizar]);
+  }, [jugadores, letraActual, normalizar, dificultadSeleccionada]); 
 
 
   const manejarKeyDown = useCallback((e) => { // Usar useCallback
@@ -221,6 +234,7 @@ function JugadoresEleccion({ jugadores }) {
           setRespuesta(sugerencias[sugerenciaResaltada].nombre);
           setSugerencias([]);
           setSugerenciaResaltada(-1);
+          if (inputRef.current) inputRef.current.focus();
           // Verificar la respuesta después de seleccionar una sugerencia
           verificarRespuesta(sugerencias[sugerenciaResaltada].nombre);
         } else {
@@ -273,14 +287,15 @@ function JugadoresEleccion({ jugadores }) {
     setPasadas([]);
     setSugerencias([]);
     setSugerenciaResaltada(-1);
+    setDificultadSeleccionada('medio'); // Reinicia la dificultad a 'medio'
     asignarJugadoresRandomInterna(); // Reasigna jugadores para un nuevo juego
     setMostrarPantallaFinalizada(false); // Oculta la pantalla intermedia
     setMostrarResultadosFinales(false); // Oculta los resultados finales
   }, [letras, asignarJugadoresRandomInterna]);
 
 
-  // NUEVA FUNCIÓN PARA PASAR DE LA PANTALLA "FIN DEL ROSCO" A LOS RESULTADOS
-  const verResultados = useCallback(() => { // Corregida a 'verResultados'
+  // Función para pasar de la pantalla "FIN DEL ROSCO" a los resultados
+  const verResultados = useCallback(() => {
     setMostrarPantallaFinalizada(false); // Oculta la pantalla "Fin del Rosco"
     setMostrarResultadosFinales(true);   // Muestra la pantalla de resultados detallados
   }, []);
@@ -295,7 +310,7 @@ function JugadoresEleccion({ jugadores }) {
   // -----------------------------------------------------------
 
   // 1. Mostrar la pantalla de RESULTADOS FINALES DETALLADOS
-  if (mostrarResultadosFinales) { // <<-- ¡CORREGIDO! 'R' en 'Resultados' es mayúscula
+  if (mostrarResultadosFinales) {
     const noRespondidas = letras.filter(
       (l) => !aciertos.includes(l) && !errores.includes(l)
     );
@@ -370,7 +385,7 @@ function JugadoresEleccion({ jugadores }) {
         <p>El tiempo ha terminado o todas las letras han sido completadas.</p>
         <div style={{ marginTop: 20 }}>
           <button
-            onClick={verResultados} // <<-- ¡CORREGIDO! 'R' en 'Resultados' es mayúscula
+            onClick={verResultados}
             style={{ padding: '15px 30px', fontSize: 20, cursor: 'pointer', backgroundColor: '#28a745', color: 'white', border: 'none', borderRadius: 5, marginRight: '10px' }}
           >
             Ver Resultados
@@ -402,6 +417,31 @@ function JugadoresEleccion({ jugadores }) {
             style={{ marginLeft: 10, padding: 8, fontSize: 16, width: 60, textAlign: 'center' }}
           />
         </div>
+        {/* NUEVA SECCIÓN DE DIFICULTAD */}
+        <div style={{ marginBottom: 20, marginTop: 15 }}>
+          <label>Dificultad:</label>
+          <label style={{ marginLeft: 15 }}>
+            <input
+              type="radio"
+              name="dificultad"
+              value="medio"
+              checked={dificultadSeleccionada === 'medio'}
+              onChange={(e) => setDificultadSeleccionada(e.target.value)}
+              style={{ marginRight: 5 }}
+            /> Medio
+          </label>
+          <label style={{ marginLeft: 15 }}>
+            <input
+              type="radio"
+              name="dificultad"
+              value="dificil"
+              checked={dificultadSeleccionada === 'dificil'}
+              onChange={(e) => setDificultadSeleccionada(e.target.value)}
+              style={{ marginRight: 5 }}
+            /> Difícil
+          </label>
+        </div>
+        {/* FIN NUEVA SECCIÓN DE DIFICULTAD */}
         <button
           onClick={iniciarJuego}
           style={{ padding: '15px 30px', fontSize: 20, cursor: 'pointer', backgroundColor: '#28a745', color: 'white', border: 'none', borderRadius: 5 }}
@@ -446,6 +486,7 @@ function JugadoresEleccion({ jugadores }) {
               <p style={{ fontSize: '1.1em', fontStyle: 'italic', margin: '0 0 15px 0' }}>Pista: "{jugadorActual.pista}"</p>
             </>
           )}
+          {/* Si no hay jugador asignado para la letra con la dificultad seleccionada, se mostrará "Sin pista" */}
 
           <input
             ref={inputRef}
