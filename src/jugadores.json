@@ -3,7 +3,8 @@
     {
       "nombre": "Aaron Ramsey",
       "pista": "Mediocampista galés, ex Arsenal,Juventus y Cardiff. Actualmente en Pumas UNAM",
-      "dificultad": "dificil"
+      "dificultad": "dificil",
+      "nombreSecundario": ["Aaron", "Ramsey"]
     },
     {
     "nombre": "Adriano",
@@ -33,12 +34,14 @@
     {
       "nombre": "Alessandro Del Piero",
       "pista": "Legendario delantero italiano de la Juventus, campeón del mundo en 2006 y gran especialista en tiros libres",
-      "dificultad": "medio"
+      "dificultad": "medio",
+      "nombreSecundario": ["Alessandro", "Del Piero"]
     },
     {
       "nombre": "Alexis Sanchez",
       "pista": "Delantero chileno, figura en Arsenal, Barcelona e Inter de Milán, campeón de América con Chile",
-      "dificultad": "medio"
+      "dificultad": "medio",
+      "nombreSecundario": ["Alexis", "Sanchez"]
     },
     {
       "nombre": "Alisson",
@@ -48,17 +51,20 @@
     {
       "nombre": "Alphonso Davies",
       "pista": "Lateral canadiense del Bayern de Múnich, conocido por su velocidad y despliegue físico",
-      "dificultad": "medio"
+      "dificultad": "medio",
+      "nombreSecundario": ["Alphonso", "Davies"]
     },
     {
       "nombre": "Andre Silva",
       "pista": "Delantero portugués surgido del Porto, con paso por el Milan, Sevilla y la Bundesliga",
-      "dificultad": "dificil"
+      "dificultad": "dificil",
+      "nombreSecundario": ["Andre", "Silva"]
     },
     {
       "nombre": "Andrea Pirlo",
       "pista": "Ex mediocampista italiano, campeón del mundo 2006, célebre por su visión y precisión en los pases",
-      "dificultad": "medio"
+      "dificultad": "medio",
+      "nombreSecundario": ["Andrea", "Pirlo"]
     },
     {
       "nombre": "Anelka",
@@ -68,12 +74,14 @@
     {
       "nombre": "Angel Di Maria",
       "pista": "Extremo argentino, campeón del mundo en 2022, recordado por sus goles en finales con la selección",
-      "dificultad": "medio"
+      "dificultad": "medio",
+      "nombreSecundario": ["Angel", "Di Maria"]
     },
     {
       "nombre": "Antonio Conte",
       "pista": "Ex mediocampista italiano y exitoso entrenador en Juventus, Chelsea, Inter y Tottenham",
-      "dificultad": "medio"
+      "dificultad": "medio",
+      "nombreSecundario": ["Antonio", "Conte"]
     },
     {
       "nombre": "Araujo",
@@ -83,7 +91,8 @@
     {
       "nombre": "Arjen Robben",
       "pista": "Extremo neerlandés con regate letal, figura en el Bayern de Múnich y ex jugador del Real Madrid",
-      "dificultad": "medio"
+      "dificultad": "medio",
+      "nombreSecundario": ["Arjen", "Robben"]
     },
     {
       "nombre": "Arnautovic",
@@ -98,12 +107,14 @@
     {
       "nombre": "Arturo Vidal",
       "pista": "Mediocampista chileno combativo, campeón en múltiples ligas y pieza clave de la selección chilena",
-      "dificultad": "medio"
+      "dificultad": "medio",
+      "nombreSecundario": ["Arturo", "Vidal"]
     },
     {
       "nombre": "Ashley Cole",
       "pista": "Ex lateral izquierdo inglés, leyenda del Chelsea y Arsenal, considerado uno de los mejores en su posición",
-      "dificultad": "medio"
+      "dificultad": "medio",
+      "nombreSecundario": ["Ashley", "Cole"]
     },
     {
       "nombre": "Aspas",

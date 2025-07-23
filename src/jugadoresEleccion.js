@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef, useCallback, useMemo } from 'react';
-import Rosco from './Rosco'; // Asegúrate de que Rosco.js esté en la misma carpeta o la ruta correcta
+import Rosco from './Rosco';
 
 function JugadoresEleccion({ jugadores }) {
   const letras = useMemo(() => {
@@ -20,51 +20,42 @@ function JugadoresEleccion({ jugadores }) {
   const [juegoIniciado, setJuegoIniciado] = useState(false);
   const [tiempoInput, setTiempoInput] = useState('3'); // Tiempo en minutos configurado por el usuario
 
-  // ESTADO PARA LA DIFICULTAD
-  const [dificultadSeleccionada, setDificultadSeleccionada] = useState('medio'); // Por defecto: 'medio'
+  const [dificultadSeleccionada, setDificultadSeleccionada] = useState('medio');
 
-  // ESTADOS PARA CONTROLAR EL FLUJO DE FIN DE JUEGO
-  const [mostrarPantallaFinalizada, setMostrarPantallaFinalizada] = useState(false); // Para la pantalla "Fin del Rosco"
-  const [mostrarResultadosFinales, setMostrarResultadosFinales] = useState(false); // Para la pantalla detallada de resultados
+  const [mostrarPantallaFinalizada, setMostrarPantallaFinalizada] = useState(false);
+  const [mostrarResultadosFinales, setMostrarResultadosFinales] = useState(false);
 
   const inputRef = useRef(null);
 
-  // Función para normalizar texto (sin tildes, minúsculas, sin espacios extra)
   const normalizar = useCallback((texto) => {
-    if (typeof texto !== 'string') return ''; // Asegura que es un string
+    if (typeof texto !== 'string') return '';
     return texto
       .normalize('NFD')
       .replace(/[\u0300-\u036f]/g, '')
       .toLowerCase()
-      .trim(); // Elimina espacios al inicio y final
+      .trim();
   }, []);
 
-  // Asignar jugador random por letra según la dificultad seleccionada
+  // ELIMINAMOS nombresAlternativosAceptados ya que ahora estará en el JSON
+
   const asignarJugadoresRandomInterna = useCallback(() => {
     const asignados = {};
     letras.forEach((letra) => {
       const listaCompleta = jugadores[letra];
-      // Filtrar jugadores por la dificultad seleccionada
       const listaFiltradaPorDificultad = listaCompleta.filter(j => j.dificultad === dificultadSeleccionada);
 
       if (listaFiltradaPorDificultad.length > 0) {
         const indexRandom = Math.floor(Math.random() * listaFiltradaPorDificultad.length);
         asignados[letra] = listaFiltradaPorDificultad[indexRandom];
-      } else {
-        // Si no hay jugadores para la dificultad seleccionada en esta letra,
-        // no se asignará ningún jugador para esa letra.
-        // La interfaz ya maneja esto con 'Sin pista'.
       }
     });
     setJugadoresRandom(asignados);
-  }, [letras, jugadores, dificultadSeleccionada]); // Ahora depende de dificultadSeleccionada
+  }, [letras, jugadores, dificultadSeleccionada]);
 
-  // Se ejecuta una vez al montar el componente para asignar jugadores
   useEffect(() => {
     asignarJugadoresRandomInterna();
-  }, [asignarJugadoresRandomInterna]); // Depende de la función memoizada
+  }, [asignarJugadoresRandomInterna]);
 
-  // Efecto para el temporizador
   useEffect(() => {
     let timer;
     if (juegoActivo && tiempoRestante > 0) {
@@ -73,39 +64,34 @@ function JugadoresEleccion({ jugadores }) {
           if (prevTiempo <= 1) {
             clearInterval(timer);
             setJuegoActivo(false);
-            setMostrarPantallaFinalizada(true); // Activa la pantalla intermedia al finalizar el tiempo
+            setMostrarPantallaFinalizada(true);
             return 0;
           }
           return prevTiempo - 1;
         });
       }, 1000);
-    } else if (tiempoRestante === 0 && juegoActivo) { // Asegura que el juego se desactive si el tiempo llega a 0 y aún estaba activo
+    } else if (tiempoRestante === 0 && juegoActivo) {
         setJuegoActivo(false);
-        setMostrarPantallaFinalizada(true); // Activa la pantalla intermedia
+        setMostrarPantallaFinalizada(true);
     }
 
     return () => clearInterval(timer);
   }, [juegoActivo, tiempoRestante]);
 
-  // Efecto para detectar el final del juego por letras agotadas (Pasapalabra style)
   useEffect(() => {
-    // Solo se ejecuta si el juego está iniciado y activo, y no estamos ya en una pantalla final
     if (!juegoIniciado || !juegoActivo || mostrarPantallaFinalizada || mostrarResultadosFinales) {
       return;
     }
 
-    // El juego termina por letras agotadas SÓLO si todas las letras
-    // están en aciertos O errores (es decir, no quedan letras 'pasadas' pendientes).
     const letrasCompletadasDefinitivamente = aciertos.length + errores.length;
 
     if (letrasCompletadasDefinitivamente === letras.length && letras.length > 0) {
-      setJuegoActivo(false); // Desactiva el juego
-      setLetraActual(null); // Asegura que no haya letra actual
-      setMostrarPantallaFinalizada(true); // Activa la pantalla intermedia
+      setJuegoActivo(false);
+      setLetraActual(null);
+      setMostrarPantallaFinalizada(true);
     }
   }, [aciertos, errores, letras.length, juegoIniciado, juegoActivo, mostrarPantallaFinalizada, mostrarResultadosFinales]);
 
-  // Efecto para reiniciar el resaltado de sugerencias cuando no hay sugerencias
   useEffect(() => {
     if (sugerencias.length === 0) {
       setSugerenciaResaltada(-1);
@@ -117,7 +103,6 @@ function JugadoresEleccion({ jugadores }) {
     let siguienteIndice = (indiceActual + 1) % letras.length;
 
     let intentos = 0;
-    // Busca la siguiente letra que no haya sido acertada ni errada
     while (
       (aciertos.includes(letras[siguienteIndice]) ||
         errores.includes(letras[siguienteIndice])) &&
@@ -127,11 +112,9 @@ function JugadoresEleccion({ jugadores }) {
       intentos++;
     }
 
-    // Si después de intentar todas las letras, no se encuentra una disponible,
-    // significa que todas las letras han sido procesadas.
     if (intentos === letras.length) {
-      setLetraActual(null); // No hay letra actual
-      return; // Detiene la ejecución de avanzarLetra
+      setLetraActual(null);
+      return;
     }
 
     setLetraActual(letras[siguienteIndice]);
@@ -139,7 +122,7 @@ function JugadoresEleccion({ jugadores }) {
     setSugerencias([]);
     setSugerenciaResaltada(-1);
     if (inputRef.current) {
-      inputRef.current.focus(); // Enfoca el input después de avanzar la letra
+      inputRef.current.focus();
     }
   }, [letraActual, letras, aciertos, errores]);
 
@@ -147,32 +130,38 @@ function JugadoresEleccion({ jugadores }) {
     if (!letraActual || !juegoActivo) return;
 
     if (normalizar(valorRespuesta) === '') {
-        return; // No hacer nada si la respuesta está vacía o solo con espacios
+        return;
     }
 
     const jugadorCorrecto = jugadoresRandom[letraActual];
-    if (!jugadorCorrecto) return; // Si no hay jugador asignado, salir
+    if (!jugadorCorrecto) return;
 
-    const esCorrecto = normalizar(valorRespuesta) === normalizar(jugadorCorrecto.nombre);
+    const respuestaNormalizada = normalizar(valorRespuesta);
+    const nombreCorrectoNormalizado = normalizar(jugadorCorrecto.nombre);
+
+    let esCorrecto = respuestaNormalizada === nombreCorrectoNormalizado;
+
+    // NUEVA LÓGICA: Verificar si la respuesta normalizada coincide con algún nombreSecundario
+    if (!esCorrecto && jugadorCorrecto.nombreSecundario && Array.isArray(jugadorCorrecto.nombreSecundario)) {
+        if (jugadorCorrecto.nombreSecundario.some(alias => normalizar(alias) === respuestaNormalizada)) {
+            esCorrecto = true;
+        }
+    }
+    // Fin de la lógica de verificación mejorada
 
     if (esCorrecto) {
-      // Solo añadir si no está ya en aciertos
       if (!aciertos.includes(letraActual)) setAciertos((prev) => [...prev, letraActual]);
-      // Quitar de pasadas si estaba allí
       if (pasadas.includes(letraActual)) setPasadas((prev) => prev.filter((l) => l !== letraActual));
-      // Quitar de errores si estaba allí
       if (errores.includes(letraActual)) setErrores((prev) => prev.filter((l) => l !== letraActual));
     } else {
-      // Solo añadir si no está ya en errores
       if (!errores.includes(letraActual)) setErrores((prev) => [...prev, letraActual]);
-      // Quitar de pasadas si estaba allí
       if (pasadas.includes(letraActual)) setPasadas((prev) => prev.filter((l) => l !== letraActual));
     }
     setRespuesta('');
     setSugerencias([]);
     setSugerenciaResaltada(-1);
     avanzarLetra();
-  }, [letraActual, juegoActivo, jugadoresRandom, normalizar, aciertos, errores, pasadas, avanzarLetra]);
+  }, [letraActual, juegoActivo, jugadoresRandom, normalizar, aciertos, errores, pasadas, avanzarLetra]); // Quita nombresAlternativosAceptados de las dependencias
 
   const verificar = useCallback(() => {
     verificarRespuesta(respuesta);
@@ -181,7 +170,6 @@ function JugadoresEleccion({ jugadores }) {
   const pasar = useCallback(() => {
     if (!letraActual || !juegoActivo) return;
 
-    // Solo añadir a pasadas si no ha sido ya acertada, errada o pasada
     if (
       !pasadas.includes(letraActual) &&
       !aciertos.includes(letraActual) &&
@@ -192,26 +180,23 @@ function JugadoresEleccion({ jugadores }) {
     avanzarLetra();
   }, [letraActual, juegoActivo, pasadas, aciertos, errores, avanzarLetra]);
 
-  const manejarCambio = useCallback((e) => { // Usar useCallback
+  const manejarCambio = useCallback((e) => {
     const valor = e.target.value;
     setRespuesta(valor);
 
-    if (valor.length >= 3 && letraActual) { // Volvemos a 2 para empezar a sugerir
+    if (valor.length >= 1 && letraActual) {
       const listaCompletaDeLetra = jugadores[letraActual] || [];
-      // Asegúrate de filtrar por la dificultad seleccionada al buscar sugerencias
       const sugerenciasFiltradas = listaCompletaDeLetra.filter(j =>
-        // Aquí puedes ajustar la lógica si 'dificultadSeleccionada' puede ser 'todas' o algo similar
-        // Por ahora, asumo que j.dificultad siempre estará presente para los jugadores relevantes.
-        j.dificultad === dificultadSeleccionada && normalizar(j.nombre).startsWith(normalizar(valor))
+        j.dificultad === dificultadSeleccionada && normalizar(j.nombre).includes(normalizar(valor))
       );
       setSugerencias(sugerenciasFiltradas || []);
     } else {
       setSugerencias([]);
     }
-    setSugerenciaResaltada(-1); // Reinicia el resaltado al escribir
+    setSugerenciaResaltada(-1);
   }, [jugadores, letraActual, normalizar, dificultadSeleccionada]);
 
-  const manejarKeyDown = useCallback((e) => { // Usar useCallback
+  const manejarKeyDown = useCallback((e) => {
     if (!juegoActivo) return;
 
     if (sugerencias.length > 0) {
@@ -230,25 +215,23 @@ function JugadoresEleccion({ jugadores }) {
           setSugerencias([]);
           setSugerenciaResaltada(-1);
           if (inputRef.current) inputRef.current.focus();
-          // Verificar la respuesta después de seleccionar una sugerencia
           verificarRespuesta(sugerencias[sugerenciaResaltada].nombre);
         } else {
-          verificar(); // Si no hay sugerencia resaltada, verifica la respuesta actual
+          verificar();
         }
       }
     } else if (e.key === 'Enter') {
-      e.preventDefault(); // Evita el envío del formulario si está dentro de uno
-      verificar(); // Si no hay sugerencias, solo verifica la respuesta
+      e.preventDefault();
+      verificar();
     }
   }, [sugerencias, sugerenciaResaltada, verificar, verificarRespuesta, juegoActivo]);
 
-  const iniciarJuego = useCallback(() => { // Usar useCallback
+  const iniciarJuego = useCallback(() => {
     const tiempoEnSegundos = parseInt(tiempoInput) * 60;
     if (isNaN(tiempoEnSegundos) || tiempoEnSegundos <= 0) {
       alert("Por favor, introduce un tiempo válido en minutos.");
       return;
     }
-    // Reiniciar todos los estados para un juego nuevo
     setTiempoRestante(tiempoEnSegundos);
     setJuegoActivo(true);
     setJuegoIniciado(true);
@@ -259,46 +242,40 @@ function JugadoresEleccion({ jugadores }) {
     setPasadas([]);
     setSugerencias([]);
     setSugerenciaResaltada(-1);
-    asignarJugadoresRandomInterna(); // Asignar nuevos jugadores para el nuevo juego
-    setMostrarPantallaFinalizada(false); // Asegura que las pantallas finales estén ocultas
-    setMostrarResultadosFinales(false); // Asegura que las pantallas finales estén ocultas
+    asignarJugadoresRandomInterna();
+    setMostrarPantallaFinalizada(false);
+    setMostrarResultadosFinales(false);
 
     if (inputRef.current) {
       inputRef.current.focus();
     }
   }, [tiempoInput, letras, asignarJugadoresRandomInterna]);
 
-  const reiniciar = useCallback(() => { // Usar useCallback
+  const reiniciar = useCallback(() => {
     setJuegoActivo(false);
     setJuegoIniciado(false);
-    setTiempoRestante(0); // Reinicia el tiempo
-    setTiempoInput('3'); // Vuelve al valor por defecto
-    setLetraActual(letras[0]); // Vuelve a la primera letra
+    setTiempoRestante(0);
+    setTiempoInput('3');
+    setLetraActual(letras[0]);
     setRespuesta('');
     setAciertos([]);
     setErrores([]);
     setPasadas([]);
     setSugerencias([]);
     setSugerenciaResaltada(-1);
-    setDificultadSeleccionada('medio'); // Reinicia la dificultad a 'medio'
-    asignarJugadoresRandomInterna(); // Reasigna jugadores para un nuevo juego
-    setMostrarPantallaFinalizada(false); // Oculta la pantalla intermedia
-    setMostrarResultadosFinales(false); // Oculta los resultados finales
+    setDificultadSeleccionada('medio');
+    asignarJugadoresRandomInterna();
+    setMostrarPantallaFinalizada(false);
+    setMostrarResultadosFinales(false);
   }, [letras, asignarJugadoresRandomInterna]);
 
-  // Función para pasar de la pantalla "FIN DEL ROSCO" a los resultados
   const verResultados = useCallback(() => {
-    setMostrarPantallaFinalizada(false); // Oculta la pantalla "Fin del Rosco"
-    setMostrarResultadosFinales(true);   // Muestra la pantalla de resultados detallados
+    setMostrarPantallaFinalizada(false);
+    setMostrarResultadosFinales(true);
   }, []);
 
   const tiempoFormateado = `${Math.floor(tiempoRestante / 60).toString().padStart(2, '0')}:${(tiempoRestante % 60).toString().padStart(2, '0')}`;
 
-  // Lógica de renderizado condicional
-  // El orden de los 'if' es crucial para qué pantalla se muestra
-  // -----------------------------------------------------------
-
-  // 1. Mostrar la pantalla de RESULTADOS FINALES DETALLADOS
   if (mostrarResultadosFinales) {
     const noRespondidas = letras.filter(
       (l) => !aciertos.includes(l) && !errores.includes(l)
@@ -344,7 +321,6 @@ function JugadoresEleccion({ jugadores }) {
     );
   }
 
-  // 2. Mostrar la pantalla INTERMEDIA "FIN DEL ROSCO"
   if (mostrarPantallaFinalizada) {
     return (
       <div className="final-screen-container">
@@ -362,7 +338,6 @@ function JugadoresEleccion({ jugadores }) {
     );
   }
 
-  // 3. Mostrar la pantalla de INICIO/CONFIGURACIÓN (si el juego no ha iniciado)
   if (!juegoIniciado) {
     return (
       <div className="final-screen-container">
@@ -381,7 +356,6 @@ function JugadoresEleccion({ jugadores }) {
         
         <div className="game-controls">
           <label>Dificultad:</label>
-          {/* Aquí va el código de los radio buttons si ya lo aplicaste */}
           <select value={dificultadSeleccionada} onChange={(e) => setDificultadSeleccionada(e.target.value)}>
             <option value="medio">Medio</option>
             <option value="dificil">Difícil</option>
@@ -395,11 +369,9 @@ function JugadoresEleccion({ jugadores }) {
     );
   }
 
-  // 4. Si ninguna de las condiciones anteriores es verdadera, significa que el JUEGO ESTÁ ACTIVO
   const jugadorActual = jugadoresRandom[letraActual];
   return (
-    <div className="App"> {/* Usa la clase .App para el contenedor principal */}
-      {/* Información del juego: Tiempo, Aciertos, Errores, Pasadas */}
+    <div className="App">
       <div className="game-controls" style={{ justifyContent: 'space-around', marginBottom: '10px' }}>
         <p className="summary-text" style={{ color: tiempoRestante <= 20 && juegoActivo ? 'red' : '#ffffffff' }}>Tiempo: {tiempoFormateado}</p>
         <p className="summary-text">✅ Aciertos: {aciertos.length}</p>
@@ -407,8 +379,7 @@ function JugadoresEleccion({ jugadores }) {
         <p className="summary-text">🟡 Pasadas: {pasadas.length}</p>
       </div>
 
-      {/* Rosco y Controles del Juego */}
-      <div className="Rosco-container"> {/* Contenedor para el Rosco */}
+      <div className="Rosco-container">
         <Rosco
           letras={letras}
           letraActual={letraActual}
@@ -418,7 +389,6 @@ function JugadoresEleccion({ jugadores }) {
         />
       </div>
 
-      {/* Contenedor de la Información y Controles */}
       <div className="game-info-controls">
         {jugadorActual && (
           <>
@@ -426,7 +396,6 @@ function JugadoresEleccion({ jugadores }) {
             <p style={{ color: '#fffcd8ff', fontStyle: 'italic', margin: '0 0 15px 0', fontSize: '1.5em' }}>Pista: "{jugadorActual.pista}"</p>
           </>
         )}
-        {/* Si no hay jugador asignado para la letra con la dificultad seleccionada, se mostrará "Sin pista" */}
 
         <input
           ref={inputRef}
@@ -450,7 +419,7 @@ function JugadoresEleccion({ jugadores }) {
                   setSugerencias([]);
                   setSugerenciaResaltada(-1);
                   if (inputRef.current) inputRef.current.focus();
-                  verificarRespuesta(j.nombre); // Verificar al seleccionar una sugerencia
+                  verificarRespuesta(j.nombre);
                 }}
               >
                 {j.nombre}
