@@ -368,6 +368,7 @@ function JugadoresEleccion({ jugadores }) {
         <div className="game-controls">
           <label htmlFor="tiempoConfig">Tiempo en minutos:</label>
           <input
+            className="timepo-style"
             id="tiempoConfig"
             type="number"
             value={tiempoInput}
@@ -379,7 +380,6 @@ function JugadoresEleccion({ jugadores }) {
         <div className="game-controls">
           <label>Dificultad:</label>
           <select value={dificultadSeleccionada} onChange={(e) => setDificultadSeleccionada(e.target.value)}>
-            <option value="facil">Fácil</option>
             <option value="medio">Medio</option>
             <option value="dificil">Difícil</option>
           </select>
