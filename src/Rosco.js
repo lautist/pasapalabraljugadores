@@ -12,7 +12,7 @@ function Rosco({ letras, letraActual, aciertos, errores, pasadas, onClickLetra }
     if (aciertos.includes(letra)) return '#0bff2cff'; // verde
     if (errores.includes(letra)) return '#ff0000ff'; // rojo
     if (pasadas.includes(letra)) return '#e9ec4aff'; // amarillo
-    return '#0d2c57ff'; // color default (azul oscuro)
+    return '#ffffffff'; // color default (azul oscuro)
   };
 
   return (
@@ -42,7 +42,7 @@ function Rosco({ letras, letraActual, aciertos, errores, pasadas, onClickLetra }
               fontSize: esActual ? '3em' : '1.5em', /* Tamaños de fuente relativos */
               fontWeight: esActual ? 'bold' : 'normal',
               fill: colorLetra(letra),
-              stroke: esActual ? '#76bad4ff' : 'none',
+              stroke: esActual ? '#4e4a4aff' : 'none',
               strokeWidth: esActual ? 1.5 : 0,
               transition: 'all 0.3s ease',
               pointerEvents: 'auto',

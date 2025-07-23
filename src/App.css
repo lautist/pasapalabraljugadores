@@ -1,43 +1,24 @@
-.App {
-  text-align: center;
-  padding: 10px; /* Reducir padding general para pantallas pequeñas */
-  min-height: 100vh; /* Asegura que ocupe al menos toda la altura de la vista */
-  display: flex;
-  flex-direction: column; /* Organizar el contenido en columna por defecto */
-  align-items: center; /* Centrar horizontalmente */
-  justify-content: flex-start; /* Alinear arriba */
-}
+/* App.css */
 
 body {
-  background-color: #b9b5b5;
+  background-color: #1C2025; /* Un tono casi negro, muy oscuro, como base */
   margin: 0;
   padding: 0;
-  font-family: Arial, sans-serif; /* Asegurar una fuente común */
+  font-family: 'Georgia', serif; /* Manteniendo la fuente serif para el toque vintage */
+  color: #E0E6E9; /* Un gris muy claro y suave para el texto principal, de alto contraste */
 }
 
-h1 {
-  font-size: 2em; /* Tamaño de fuente relativo */
-  margin-bottom: 20px;
+.App {
+  text-align: center;
+  padding: 15px;
+  max-width: 800px;
+  margin: 40px auto;
+  background-color: #2F3D4A; /* Un azul grisáceo oscuro y profundo para el contenedor principal, añade dimensión */
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(104, 103, 103, 0.4); /* Sombra más pronunciada para el efecto "dark" */
 }
 
-/* Media query para pantallas más pequeñas (móviles) */
-@media (max-width: 768px) {
-  .App {
-    padding: 5px; /* Menos padding en móviles */
-  }
-
-  h1 {
-    font-size: 1.5em; /* Reducir tamaño de título en móviles */
-    margin-bottom: 15px;
-  }
-}
-
-/* Puedes añadir más media queries si lo necesitas, por ejemplo, para tablets */
-@media (min-width: 769px) and (max-width: 1024px) {
-  /* Estilos específicos para tablets */
-}
-
-/* Estilos existentes que puedes mantener si los necesitas */
+/* Mantener el App-logo si es necesario, o eliminar si no se usa */
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -50,25 +31,236 @@ h1 {
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #1C2025; /* Fondo oscuro para el encabezado */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #E0E6E9; /* Texto claro para el encabezado oscuro */
 }
 
-.App-link {
-  color: #61dafb;
+/* --- Estilos para Rosco (No se modifican sus colores base) --- */
+/* Los colores de las letras del Rosco se definen en Rosco.js y se mantienen */
+.Rosco-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* Estilos de botones generales */
+button {
+  background-color: #A37E56; /* Un marrón/dorado apagado y cálido para los botones, con toque vintage */
+  color: #1C2025; /* Texto oscuro para contraste sobre el botón */
+  border: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  font-family: 'Georgia', serif;
+  font-weight: bold; /* Hacer el texto del botón más fuerte */
+}
+
+button:hover {
+  background-color: #B5916A; /* Un poco más claro y brillante al pasar el ratón */
+  box-shadow: #B5916A  1px 3px 10px -1px; 
+}
+
+button:disabled {
+  background-color: #4A5763; /* Un gris azulado oscuro para botones deshabilitados */
+  color: #A37E56; /* Texto con el color del botón principal */
+  cursor: not-allowed;
+  transform: none;
+}
+
+/* Estilos de input generales */
+input[type="text"],
+input[type="number"],
+select {
+  padding: 10px 15px;
+  border: 2px solid #cecece; /* Borde con el color del acento */
+  border-radius: 5px;
+  font-size: 18px;
+  width: 100%;
+  max-width: 300px;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+  font-family: 'Georgia', serif;
+  color: #E0E6E9; /* Texto claro en el input */
+  background-color: #2F3D4A; /* Fondo oscuro para el input */
+}
+
+input[type="text"]::placeholder {
+  color: #E0E6E9;
+  opacity: 0.6; /* Un poco más transparente el placeholder */
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+select:focus {
+  outline: none;
+  border-color: #B5916A; /* Borde más brillante al enfocar */
+  box-shadow: 0 0 8px rgba(181, 145, 106, 0.6); /* Sombra luminosa al enfocar */
+}
+
+/* Estilos para las sugerencias */
+.sugerencias-lista {
+  background-color: #2F3D4A; /* Fondo de las sugerencias */
+  border: 1px solid #A37E56;
+  border-radius: 5px;
+  list-style: none;
+  padding: 0;
+  margin: 0 auto 15px auto;
+  max-width: 300px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+.sugerencias-lista li {
+  padding: 8px 15px;
+  cursor: pointer;
+  text-align: left;
+  color: #E0E6E9; /* Texto claro */
+  transition: background-color 0.2s ease;
+}
+
+.sugerencias-lista li:hover,
+.sugerencias-lista li.resaltada {
+  background-color: #4A5763; /* Un gris azulado oscuro para resaltar */
+  color: #E0E6E9; /* Texto claro para contraste */
+}
+
+/* Estilos para los textos de Aciertos, Errores, Pasadas */
+.summary-text {
+  font-size: 1.1em;
+  margin-bottom: 8px;
+  color: #E0E6E9; /* Texto claro */
+}
+
+/* Contenedor de botones flexible */
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+/* Estilos para el contenedor de tiempo y dificultad */
+.game-controls {
+  display: flex;
+  flex-direction: row; /* Cambiar a columna para que los elementos se apilen */
+  justify-content: center;
+  align-items: center; /* Centrar horizontalmente los elementos apilados */
+  gap: 10px; /* Ajustar el espacio entre los elementos */
+  margin-bottom: 10px;
+  /* flex-wrap: wrap;  Ya no es tan necesario si son columna, pero lo dejo por si acaso */
+}
+
+.game-controls label {
+  color: #E0E6E9; /* Texto claro */
+  font-size: 1em;
+}
+
+/* Estilos para el botón de iniciar juego */
+.start-button {
+  background-color: #B5916A; /* Color de acento más brillante para el botón de inicio */
+  color: #1C2025;
+  padding: 15px 30px;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.start-button:hover {
+  background-color: #A37E56;
+}
+
+/* Estilos para las pantallas de finalización */
+.final-screen-container {
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+  background-color: #2F3D4A; /* El mismo fondo que .App para coherencia */
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+}
+
+.final-screen-container h2 {
+  color: #E0E6E9; /* Texto claro */
+  margin-bottom: 15px;
+}
+
+.final-screen-container p {
+  color: #E0E6E9; /* Texto claro */
+  margin-bottom: 10px;
+}
+
+.final-screen-buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.results-list {
+  list-style: none;
+  padding: 0;
+  margin: 15px auto;
+  max-width: 400px;
+}
+
+.results-list li {
+  padding: 10px;
+  margin-bottom: 8px;
+  border-radius: 5px;
+  color: #1C2025; /* Texto oscuro para contraste sobre los resultados */
+  font-weight: bold;
+}
+
+.results-list li.error-item {
+  background-color: #C25B5B; /* Un rojo oscuro para errores */
+  color: #E0E6E9;
+}
+
+.results-list li.unanswered-item {
+  background-color: #D4A35C; /* Un dorado/naranja tostado para no respondidas */
+  color: #1C2025;
+}
+
+
+/* Media queries para responsividad */
+@media (max-width: 768px) {
+  .App {
+    padding: 10px;
+    margin: 20px auto;
   }
-  to {
-    transform: rotate(360deg);
+
+  h1 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+  }
+
+  .game-controls {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  button, input[type="text"], input[type="number"], select {
+    font-size: 1em;
+    padding: 10px 15px;
+  }
+
+  .start-button {
+    font-size: 1.1em;
+    padding: 12px 25px;
+  }
+
+  .final-screen-buttons {
+    flex-direction: column;
+    gap: 10px;
   }
 }

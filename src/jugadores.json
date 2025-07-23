@@ -1,538 +1,2359 @@
 {
   "A": [
-    { "nombre": "Agüero", "pista": "Delantero argentino retirado, ex Manchester City", "dificultad": "medio" },
-    { "nombre": "Alaba", "pista": "Defensor austríaco del Real Madrid", "dificultad": "medio" },
-    { "nombre": "Aimar", "pista": "Ex volante argentino, ídolo de River", "dificultad": "medio" },
-    { "nombre": "Aubameyang", "pista": "Delantero gabonés, ex Arsenal y Barcelona", "dificultad": "medio" },
-    { "nombre": "Alisson", "pista": "Arquero brasileño del Liverpool", "dificultad": "medio" },
-    { "nombre": "Alonso, Xabi", "pista": "Ex mediocampista español, jugó en Liverpool y Real Madrid", "dificultad": "medio" },
-    { "nombre": "Arteta", "pista": "Actual entrenador del Arsenal, ex mediocampista español", "dificultad": "medio" },
-    { "nombre": "Anelka", "pista": "Ex delantero francés, jugó en varios grandes de Europa", "dificultad": "medio" },
-    { "nombre": "Alexis Sánchez", "pista": "Delantero chileno, ex Arsenal y Barcelona", "dificultad": "medio" },
-    { "nombre": "Alcácer", "pista": "Delantero español, ex Valencia y Borussia Dortmund", "dificultad": "dificil" },
-    { "nombre": "Adriano", "pista": "Ex delantero brasileño, conocido como 'El Emperador'", "dificultad": "medio" },
-    { "nombre": "Aspas", "pista": "Delantero español, ídolo del Celta de Vigo", "dificultad": "dificil" },
-    { "nombre": "Arnautovic", "pista": "Delantero austríaco, ex West Ham y Stoke City", "dificultad": "dificil" },
-    { "nombre": "Azpilicueta", "pista": "Defensor español, capitán histórico del Chelsea", "dificultad": "medio" },
-    { "nombre": "Araujo", "pista": "Defensor uruguayo del Barcelona", "dificultad": "medio" },
-    { "nombre": "Andre Silva", "pista": "Delantero portugués, ex Porto y Sevilla", "dificultad": "dificil" },
-    { "nombre": "Aaron Ramsey", "pista": "Mediocampista galés, ex Arsenal y Juventus", "dificultad": "dificil" },
-    { "nombre": "Alphonso Davies", "pista": "Lateral canadiense del Bayern de Múnich", "dificultad": "medio" },
-    { "nombre": "Angel Di María", "pista": "Extremo argentino, campeón del mundo 2022", "dificultad": "medio" },
-    { "nombre": "Ashley Cole", "pista": "Ex lateral inglés, leyenda del Chelsea y Arsenal", "dificultad": "medio" },
-    { "nombre": "Arjen Robben", "pista": "Extremo neerlandés, ex Bayern de Múnich y Real Madrid", "dificultad": "medio" },
-    { "nombre": "Alessandro Del Piero", "pista": "Legendario delantero italiano de la Juventus", "dificultad": "medio" },
-    { "nombre": "Andrea Pirlo", "pista": "Ex mediocampista italiano, maestro del pase", "dificultad": "medio" },
-    { "nombre": "Antonio Conte", "pista": "Ex mediocampista italiano y exitoso entrenador", "dificultad": "medio" }
+    {
+      "nombre": "Aaron Ramsey",
+      "pista": "Mediocampista galés, ex Arsenal y Juventus",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Adriano",
+      "pista": "Ex delantero brasileño, conocido como 'El Emperador'",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Aguero",
+      "pista": "Delantero argentino retirado, ex Manchester City",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Aimar",
+      "pista": "Ex volante argentino, ídolo de River",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Alaba",
+      "pista": "Defensor austríaco del Real Madrid",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Alcacer",
+      "pista": "Delantero español, ex Valencia y Borussia Dortmund",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Alessandro Del Piero",
+      "pista": "Legendario delantero italiano de la Juventus",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Alexis Sanchez",
+      "pista": "Delantero chileno, ex Arsenal y Barcelona",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Alisson",
+      "pista": "Arquero brasileño del Liverpool",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Alphonso Davies",
+      "pista": "Lateral canadiense del Bayern de Múnich",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Andre Silva",
+      "pista": "Delantero portugués, ex Porto y Sevilla",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Andrea Pirlo",
+      "pista": "Ex mediocampista italiano, maestro del pase",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Anelka",
+      "pista": "Ex delantero francés, jugó en varios grandes de Europa",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Angel Di Maria",
+      "pista": "Extremo argentino, campeón del mundo 2022",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Antonio Conte",
+      "pista": "Ex mediocampista italiano y exitoso entrenador",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Araujo",
+      "pista": "Defensor uruguayo del Barcelona",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Arjen Robben",
+      "pista": "Extremo neerlandés, ex Bayern de Múnich y Real Madrid",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Arnautovic",
+      "pista": "Delantero austríaco, ex West Ham y Stoke City",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Arteta",
+      "pista": "Actual entrenador del Arsenal, ex mediocampista español",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Arturo Vidal",
+      "pista": "Mediocampista chileno, ex Bayern y Juventus",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Ashley Cole",
+      "pista": "Ex lateral inglés, leyenda del Chelsea y Arsenal",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Aspas",
+      "pista": "Delantero español, ídolo del Celta de Vigo",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Aubameyang",
+      "pista": "Delantero gabonés, ex Arsenal y Barcelona",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Azpilicueta",
+      "pista": "Defensor español, capitán histórico del Chelsea",
+      "dificultad": "medio"
+    }
   ],
   "B": [
-    { "nombre": "Benzema", "pista": "Delantero francés, Balón de Oro 2022", "dificultad": "medio" },
-    { "nombre": "Buffon", "pista": "Legendario arquero italiano", "dificultad": "medio" },
-    { "nombre": "Bale", "pista": "Extremo galés, ex Real Madrid y Tottenham", "dificultad": "medio" },
-    { "nombre": "Busquets", "pista": "Mediocampista español, leyenda del Barcelona", "dificultad": "medio" },
-    { "nombre": "Bonucci", "pista": "Defensor italiano de la Juventus", "dificultad": "medio" },
-    { "nombre": "Bruno Fernandes", "pista": "Mediocampista portugués del Manchester United", "dificultad": "medio" },
-    { "nombre": "Bernardo Silva", "pista": "Mediocampista portugués del Manchester City", "dificultad": "medio" },
-    { "nombre": "Blanc", "pista": "Ex defensor francés y entrenador", "dificultad": "dificil" },
-    { "nombre": "Batistuta", "pista": "Legendario delantero argentino, goleador histórico", "dificultad": "medio" },
-    { "nombre": "Beckham", "pista": "Ex mediocampista inglés, famoso por sus tiros libres", "dificultad": "medio" },
-    { "nombre": "Baresi", "pista": "Legendario defensor italiano del AC Milan", "dificultad": "medio" },
-    { "nombre": "Baggio, Roberto", "pista": "Ex delantero italiano, 'La Divina Cola'", "dificultad": "medio" },
-    { "nombre": "Ballack", "pista": "Ex mediocampista alemán, jugó en Bayern y Chelsea", "dificultad": "dificil" },
-    { "nombre": "Bastoni", "pista": "Defensor italiano del Inter de Milán", "dificultad": "medio" },
-    { "nombre": "Borja Mayoral", "pista": "Delantero español, ex Real Madrid", "dificultad": "dificil" },
-    { "nombre": "Boateng, Kevin-Prince", "pista": "Ex mediocampista ghanés, jugó en Barcelona", "dificultad": "medio" },
-    { "nombre": "Ben Yedder", "pista": "Delantero francés del Mónaco", "dificultad": "medio" },
-    { "nombre": "Ben Chilwell", "pista": "Lateral inglés del Chelsea", "dificultad": "medio" },
-    { "nombre": "Ben White", "pista": "Defensor inglés del Arsenal", "dificultad": "dificil" },
-    { "nombre": "Bukayo Saka", "pista": "Extremo inglés del Arsenal", "dificultad": "medio" },
-    { "nombre": "Bartra, Marc", "pista": "Defensor español, ex Barcelona y Betis", "dificultad": "dificil" },
-    { "nombre": "Borussia Dortmund", "pista": "Equipo alemán conocido por su estadio y afición", "dificultad": "medio" },
-    { "nombre": "Bryan Gil", "pista": "Extremo español del Tottenham", "dificultad": "dificil" }
+    {
+      "nombre": "Bale",
+      "pista": "Extremo galés, ex Real Madrid y Tottenham",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Ballack",
+      "pista": "Ex mediocampista alemán, jugó en Bayern y Chelsea",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Baresi",
+      "pista": "Legendario defensor italiano del AC Milan",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Bastoni",
+      "pista": "Defensor italiano del Inter de Milán",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Batistuta",
+      "pista": "Legendario delantero argentino, goleador histórico",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Beckham",
+      "pista": "Ex mediocampista inglés, famoso por sus tiros libres",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Ben Chilwell",
+      "pista": "Lateral inglés del Chelsea",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Ben White",
+      "pista": "Defensor inglés del Arsenal",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Ben Yedder",
+      "pista": "Delantero francés del Mónaco",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Benzema",
+      "pista": "Delantero francés, Balón de Oro 2022",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Bernardo Silva",
+      "pista": "Mediocampista portugués del Manchester City",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Blanc",
+      "pista": "Ex defensor francés y entrenador",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Bonucci",
+      "pista": "Defensor italiano de la Juventus",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Borja Mayoral",
+      "pista": "Delantero español, ex Real Madrid",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Borussia Dortmund",
+      "pista": "Equipo alemán conocido por su estadio y afición",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Bruno Fernandes",
+      "pista": "Mediocampista portugués del Manchester United",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Bryan Gil",
+      "pista": "Extremo español del Tottenham",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Buffon",
+      "pista": "Legendario arquero italiano",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Bukayo Saka",
+      "pista": "Extremo inglés del Arsenal",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Busquets",
+      "pista": "Mediocampista español, leyenda del Barcelona",
+      "dificultad": "medio"
+    }
   ],
   "C": [
-    { "nombre": "Cristiano Ronaldo", "pista": "Máximo goleador histórico del Real Madrid", "dificultad": "medio" },
-    { "nombre": "Cannavaro", "pista": "Defensor italiano, Balón de Oro 2006", "dificultad": "medio" },
-    { "nombre": "Carlos Tévez", "pista": "Delantero argentino, jugó en Boca, Juventus y el City", "dificultad": "medio" },
-    { "nombre": "Casemiro", "pista": "Mediocampista brasileño del Manchester United", "dificultad": "medio" },
-    { "nombre": "Courtois", "pista": "Arquero belga del Real Madrid", "dificultad": "medio" },
-    { "nombre": "Chiellini", "pista": "Defensor italiano de la Juventus", "dificultad": "medio" },
-    { "nombre": "Cancelo", "pista": "Lateral portugués, ex Manchester City y Bayern", "dificultad": "medio" },
-    { "nombre": "Cavani", "pista": "Delantero uruguayo, ex PSG y Manchester United", "dificultad": "medio" },
-    { "nombre": "Cruyff", "pista": "Legendario futbolista y entrenador neerlandés", "dificultad": "medio" },
-    { "nombre": "Cafú", "pista": "Ex lateral derecho brasileño, campeón mundial", "dificultad": "medio" },
-    { "nombre": "Cech", "pista": "Ex arquero checo de Chelsea y Arsenal", "dificultad": "medio" },
-    { "nombre": "Coutinho", "pista": "Mediocampista brasileño, ex Barcelona y Liverpool", "dificultad": "medio" },
-    { "nombre": "Cuadrado", "pista": "Lateral/extremo colombiano de la Juventus", "dificultad": "medio" },
-    { "nombre": "Coman", "pista": "Extremo francés del Bayern de Múnich", "dificultad": "medio" },
-    { "nombre": "Chicharito", "pista": "Delantero mexicano, ex Manchester United y Real Madrid", "dificultad": "medio" },
-    { "nombre": "Calhanoglu", "pista": "Mediocampista turco del Inter de Milán", "dificultad": "medio" },
-    { "nombre": "Caicedo, Moisés", "pista": "Mediocampista ecuatoriano del Chelsea", "dificultad": "medio" },
-    { "nombre": "Christian Eriksen", "pista": "Mediocampista danés, juega en Manchester United", "dificultad": "medio" },
-    { "nombre": "Claudio Bravo", "pista": "Arquero chileno, ex Barcelona y Manchester City", "dificultad": "dificil" },
-    { "nombre": "Ciro Immobile", "pista": "Delantero italiano, goleador de la Lazio", "dificultad": "medio" },
-    { "nombre": "Cesc Fàbregas", "pista": "Ex mediocampista español, jugó en Arsenal y Barcelona", "dificultad": "medio" },
-    { "nombre": "Cesar Azpilicueta", "pista": "Defensor español, capitán histórico del Chelsea", "dificultad": "medio" },
-    { "nombre": "Clement Lenglet", "pista": "Defensor francés, ex Barcelona", "dificultad": "dificil" }
+    {
+      "nombre": "Cafu",
+      "pista": "Ex lateral derecho brasileño, campeón mundial",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Calhanoglu",
+      "pista": "Mediocampista turco del Inter de Milán",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Cancelo",
+      "pista": "Lateral portugués, ex Manchester City y Bayern",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Cannavaro",
+      "pista": "Defensor italiano, Balón de Oro 2006",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Carlos Tevez",
+      "pista": "Delantero argentino, jugó en Boca, Juventus y el City",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Carlos Vela",
+      "pista": "Delantero mexicano, ex Arsenal y Real Sociedad",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Casemiro",
+      "pista": "Mediocampista brasileño del Manchester United",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Cavani",
+      "pista": "Delantero uruguayo, ex PSG y Manchester United",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Cech",
+      "pista": "Ex arquero checo de Chelsea y Arsenal",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Cesar Azpilicueta",
+      "pista": "Defensor español, capitán histórico del Chelsea",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Cesc Fabregas",
+      "pista": "Ex mediocampista español, jugó en Arsenal y Barcelona",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Chicharito",
+      "pista": "Delantero mexicano, ex Manchester United y Real Madrid",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Chiellini",
+      "pista": "Defensor italiano de la Juventus",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Christian Eriksen",
+      "pista": "Mediocampista danés, juega en Manchester United",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Ciro Immobile",
+      "pista": "Delantero italiano, goleador de la Lazio",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Claudio Bravo",
+      "pista": "Arquero chileno, ex Barcelona y Manchester City",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Clement Lenglet",
+      "pista": "Defensor francés, ex Barcelona",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Coman",
+      "pista": "Extremo francés del Bayern de Múnich",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Courtois",
+      "pista": "Arquero belga del Real Madrid",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Coutinho",
+      "pista": "Mediocampista brasileño, ex Barcelona y Liverpool",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Cristiano Ronaldo",
+      "pista": "Máximo goleador histórico del Real Madrid",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Cruyff",
+      "pista": "Legendario futbolista y entrenador neerlandés",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Cuadrado",
+      "pista": "Lateral/extremo colombiano de la Juventus",
+      "dificultad": "medio"
+    }
   ],
   "D": [
-    { "nombre": "Dybala", "pista": "Delantero argentino, campeón del mundo en 2022", "dificultad": "medio" },
-    { "nombre": "Dani Alves", "pista": "Brasileño con más títulos en la historia del fútbol", "dificultad": "medio" },
-    { "nombre": "Drogba", "pista": "Delantero marfileño, ídolo del Chelsea", "dificultad": "medio" },
-    { "nombre": "De Bruyne", "pista": "Mediocampista belga del Manchester City", "dificultad": "medio" },
-    { "nombre": "Donnarumma", "pista": "Arquero italiano del PSG", "dificultad": "medio" },
-    { "nombre": "De Jong, Frenkie", "pista": "Mediocampista neerlandés del Barcelona", "dificultad": "medio" },
-    { "nombre": "Di María", "pista": "Extremo argentino, campeón del mundo 2022", "dificultad": "medio" },
-    { "nombre": "Del Piero", "pista": "Legendario delantero italiano de la Juventus", "dificultad": "medio" },
-    { "nombre": "Dida", "pista": "Ex arquero brasileño del AC Milan", "dificultad": "medio" },
-    { "nombre": "Deschamps", "pista": "Ex mediocampista francés y actual seleccionador", "dificultad": "medio" },
-    { "nombre": "Davies, Alphonso", "pista": "Lateral canadiense del Bayern de Múnich", "dificultad": "medio" },
-    { "nombre": "Dzeko", "pista": "Delantero bosnio del Inter de Milán", "dificultad": "medio" },
-    { "nombre": "Depay", "pista": "Delantero neerlandés, ex Barcelona y Lyon", "dificultad": "medio" },
-    { "nombre": "Diego Costa", "pista": "Delantero hispano-brasileño, ex Atlético y Chelsea", "dificultad": "medio" },
-    { "nombre": "David Silva", "pista": "Ex mediocampista español, leyenda del Manchester City", "dificultad": "medio" },
-    { "nombre": "Di Natale", "pista": "Ex delantero italiano, ídolo del Udinese", "dificultad": "dificil" },
-    { "nombre": "De Rossi", "pista": "Ex mediocampista italiano, ídolo de la Roma", "dificultad": "medio" },
-    { "nombre": "Declan Rice", "pista": "Mediocampista inglés del Arsenal", "dificultad": "medio" },
-    { "nombre": "Daniele De Rossi", "pista": "Ex mediocampista italiano, ídolo de la Roma", "dificultad": "medio" },
-    { "nombre": "David de Gea", "pista": "Arquero español, ex Manchester United", "dificultad": "medio" },
-    { "nombre": "Daley Blind", "pista": "Defensor/mediocampista neerlandés", "dificultad": "dificil" },
-    { "nombre": "Darwin Núñez", "pista": "Delantero uruguayo del Liverpool", "dificultad": "medio" },
-    { "nombre": "Dušan Vlahović", "pista": "Delantero serbio de la Juventus", "dificultad": "medio" }
+    {
+      "nombre": "Daley Blind",
+      "pista": "Defensor/mediocampista neerlandés",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Dani Alves",
+      "pista": "Brasileño con más títulos en la historia del fútbol",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Daniele De Rossi",
+      "pista": "Ex mediocampista italiano, ídolo de la Roma",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Darwin Nunez",
+      "pista": "Delantero uruguayo del Liverpool",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "David Silva",
+      "pista": "Ex mediocampista español, leyenda del Manchester City",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "David Trezeguet",
+      "pista": "Ex delantero francés, campeón mundial",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "David de Gea",
+      "pista": "Arquero español, ex Manchester United",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "De Rossi",
+      "pista": "Ex mediocampista italiano, ídolo de la Roma",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Declan Rice",
+      "pista": "Mediocampista inglés del Arsenal",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Del Piero",
+      "pista": "Legendario delantero italiano de la Juventus",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Depay",
+      "pista": "Delantero neerlandés, ex Barcelona y Lyon",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Deschamps",
+      "pista": "Ex mediocampista francés y actual seleccionador",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Di Maria",
+      "pista": "Extremo argentino, campeón del mundo 2022",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Di Natale",
+      "pista": "Ex delantero italiano, ídolo del Udinese",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Dida",
+      "pista": "Ex arquero brasileño del AC Milan",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Diego Costa",
+      "pista": "Delantero hispano-brasileño, ex Atlético y Chelsea",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Donnarumma",
+      "pista": "Arquero italiano del PSG",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Drogba",
+      "pista": "Delantero marfileño, ídolo del Chelsea",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Dusan Vlahovic",
+      "pista": "Delantero serbio de la Juventus",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Dybala",
+      "pista": "Delantero argentino, campeón del mundo en 2022",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Dzeko",
+      "pista": "Delantero bosnio del Inter de Milán",
+      "dificultad": "medio"
+    }
   ],
   "E": [
-    { "nombre": "Eto'o", "pista": "Delantero camerunés, jugó en Barça e Inter", "dificultad": "medio" },
-    { "nombre": "Enzo Pérez", "pista": "Mediocampista argentino, figura en River", "dificultad": "medio" },
-    { "nombre": "Eriksen", "pista": "Mediocampista danés que volvió tras paro cardíaco", "dificultad": "medio" },
-    { "nombre": "Ederson", "pista": "Arquero brasileño del Manchester City", "dificultad": "medio" },
-    { "nombre": "Emiliano Martínez", "pista": "Arquero argentino, campeón del mundo 2022", "dificultad": "medio" },
-    { "nombre": "Endrick", "pista": "Joven promesa brasileña del Real Madrid", "dificultad": "medio" },
-    { "nombre": "Éder Militão", "pista": "Defensor brasileño del Real Madrid", "dificultad": "medio" },
-    { "nombre": "Embolo", "pista": "Delantero suizo, juega en el Mónaco", "dificultad": "dificil" },
-    { "nombre": "Ezequiel Lavezzi", "pista": "Ex delantero argentino, jugó en PSG y Napoli", "dificultad": "medio" },
-    { "nombre": "Eden Dzeko", "pista": "Delantero bosnio del Fenerbahçe", "dificultad": "medio" },
-    { "nombre": "Éder", "pista": "Delantero portugués, autor del gol en la Euro 2016", "dificultad": "dificil" },
-    { "nombre": "Evra", "pista": "Ex lateral izquierdo francés, jugó en Manchester United", "dificultad": "medio" },
-    { "nombre": "El Shaarawy", "pista": "Delantero italiano de la Roma", "dificultad": "dificil" },
-    { "nombre": "Esteban Cambiasso", "pista": "Ex mediocampista argentino del Inter de Milán", "dificultad": "medio" },
-    { "nombre": "El Kun Agüero", "pista": "Delantero argentino, leyenda del Manchester City", "dificultad": "medio" },
-    { "nombre": "Eric Dier", "pista": "Defensor/mediocampista inglés, ex Tottenham", "dificultad": "dificil" },
-    { "nombre": "Edwin van der Sar", "pista": "Ex arquero neerlandés de Manchester United", "dificultad": "medio" },
-    { "nombre": "Enner Valencia", "pista": "Delantero ecuatoriano, goleador en Sudamérica", "dificultad": "dificil" },
-    { "nombre": "Emre Can", "pista": "Mediocampista alemán del Borussia Dortmund", "dificultad": "dificil" },
-    { "nombre": "Edgar Davids", "pista": "Ex mediocampista neerlandés, famoso por sus gafas", "dificultad": "medio" },
-    { "nombre": "Éver Banega", "pista": "Mediocampista argentino, ex Sevilla y Valencia", "dificultad": "dificil" },
-    { "nombre": "Emmanuel Adebayor", "pista": "Ex delantero togolés, jugó en Arsenal y Man City", "dificultad": "dificil" }
+    {
+      "nombre": "Eden Dzeko",
+      "pista": "Delantero bosnio del Fenerbahçe",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Ederson",
+      "pista": "Arquero brasileño del Manchester City",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Edgar Davids",
+      "pista": "Ex mediocampista neerlandés, famoso por sus gafas",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Edwin Van der Sar",
+      "pista": "Ex arquero neerlandés de Manchester United",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "El Shaarawy",
+      "pista": "Delantero italiano de la Roma",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Embolo",
+      "pista": "Delantero suizo, juega en el Mónaco",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Emiliano Martinez",
+      "pista": "Arquero argentino, campeón del mundo 2022",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Emmanuel Adebayor",
+      "pista": "Ex delantero togolés, jugó en Arsenal y Man City",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Emre Can",
+      "pista": "Mediocampista alemán del Borussia Dortmund",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Endrick",
+      "pista": "Joven promesa brasileña del Real Madrid",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Enner Valencia",
+      "pista": "Delantero ecuatoriano, goleador en Sudamérica",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Enzo Perez",
+      "pista": "Mediocampista argentino, figura en River",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Eric Dier",
+      "pista": "Defensor/mediocampista inglés, ex Tottenham",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Eriksen",
+      "pista": "Mediocampista danés que volvió tras paro cardíaco",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Esteban Cambiasso",
+      "pista": "Ex mediocampista argentino del Inter de Milán",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Eto'o",
+      "pista": "Delantero camerunés, jugó en Barça e Inter",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Evra",
+      "pista": "Ex lateral izquierdo francés, jugó en Manchester United",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Ezequiel Lavezzi",
+      "pista": "Ex delantero argentino, jugó en PSG y Napoli",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Eder",
+      "pista": "Delantero portugués, autor del gol en la Euro 2016",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Eder Militao",
+      "pista": "Defensor brasileño del Real Madrid",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Ever Banega",
+      "pista": "Mediocampista argentino, ex Sevilla y Valencia",
+      "dificultad": "dificil"
+    }
   ],
   "F": [
-    { "nombre": "Figo", "pista": "Portugués que pasó del Barcelona al Real Madrid", "dificultad": "medio" },
-    { "nombre": "Fernando Torres", "pista": "Delantero español, ídolo del Atlético de Madrid", "dificultad": "medio" },
-    { "nombre": "Falcao", "pista": "Delantero colombiano, pasó por River y Mónaco", "dificultad": "medio" },
-    { "nombre": "Foden", "pista": "Mediocampista inglés del Manchester City", "dificultad": "medio" },
-    { "nombre": "Fabinho", "pista": "Mediocampista brasileño, ex Liverpool", "dificultad": "medio" },
-    { "nombre": "Ferdinand, Rio", "pista": "Ex defensor inglés del Manchester United", "dificultad": "medio" },
-    { "nombre": "Forlán", "pista": "Ex delantero uruguayo, jugó en Atlético y Villarreal", "dificultad": "medio" },
-    { "nombre": "Franck Ribéry", "pista": "Ex extremo francés del Bayern de Múnich", "dificultad": "medio" },
-    { "nombre": "Fàbregas", "pista": "Ex mediocampista español, jugó en Arsenal y Barcelona", "dificultad": "medio" },
-    { "nombre": "Fekir", "pista": "Mediocampista francés del Real Betis", "dificultad": "dificil" },
-    { "nombre": "Fagioli", "pista": "Mediocampista italiano de la Juventus", "dificultad": "dificil" },
-    { "nombre": "Federico Chiesa", "pista": "Extremo italiano de la Juventus", "dificultad": "medio" },
-    { "nombre": "Frederico Valverde", "pista": "Mediocampista uruguayo del Real Madrid", "dificultad": "medio" },
-    { "nombre": "Frank Lampard", "pista": "Ex mediocampista inglés, ídolo del Chelsea", "dificultad": "medio" },
-    { "nombre": "Frank Rijkaard", "pista": "Ex mediocampista neerlandés y entrenador", "dificultad": "medio" },
-    { "nombre": "Felipe Anderson", "pista": "Extremo brasileño de la Lazio", "dificultad": "dificil" },
-    { "nombre": "Ferran Torres", "pista": "Delantero español del Barcelona", "dificultad": "medio" },
-    { "nombre": "Fabio Cannavaro", "pista": "Defensor italiano, Balón de Oro 2006", "dificultad": "medio" },
-    { "nombre": "Ferland Mendy", "pista": "Lateral francés del Real Madrid", "dificultad": "dificil" },
-    { "nombre": "Firmino", "pista": "Delantero brasileño, ex Liverpool", "dificultad": "medio" },
-    { "nombre": "Florian Wirtz", "pista": "Joven mediocampista alemán del Bayer Leverkusen", "dificultad": "medio" },
-    { "nombre": "Frenkie de Jong", "pista": "Mediocampista neerlandés del Barcelona", "dificultad": "medio" }
+    {
+      "nombre": "Fabinho",
+      "pista": "Mediocampista brasileño, ex Liverpool",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Fabio Cannavaro",
+      "pista": "Defensor italiano, Balón de Oro 2006",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Fagioli",
+      "pista": "Mediocampista italiano de la Juventus",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Falcao",
+      "pista": "Delantero colombiano, pasó por River y Mónaco",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Federico Chiesa",
+      "pista": "Extremo italiano de la Juventus",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Federico Valverde",
+      "pista": "Mediocampista uruguayo del Real Madrid",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Fekir",
+      "pista": "Mediocampista francés del Real Betis",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Felipe Anderson",
+      "pista": "Extremo brasileño de la Lazio",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Ferland Mendy",
+      "pista": "Lateral francés del Real Madrid",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Fernando Torres",
+      "pista": "Delantero español, ídolo del Atlético de Madrid",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Figo",
+      "pista": "Portugués que pasó del Barcelona al Real Madrid",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Firmino",
+      "pista": "Delantero brasileño, ex Liverpool",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Florian Wirtz",
+      "pista": "Joven mediocampista alemán del Bayer Leverkusen",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Foden",
+      "pista": "Mediocampista inglés del Manchester City",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Forlan",
+      "pista": "Ex delantero uruguayo, jugó en Atlético y Villarreal",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Francesco Totti",
+      "pista": "Leyenda italiana, ídolo de la Roma",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Franck Ribery",
+      "pista": "Ex extremo francés del Bayern de Múnich",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Frank Lampard",
+      "pista": "Ex mediocampista inglés, ídolo del Chelsea",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Frank Rijkaard",
+      "pista": "Ex mediocampista neerlandés y entrenador",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Frenkie De Jong",
+      "pista": "Mediocampista neerlandés del Barcelona",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Fabregas",
+      "pista": "Ex mediocampista español, jugó en Arsenal y Barcelona",
+      "dificultad": "medio"
+    }
   ],
   "G": [
-    { "nombre": "Garrincha", "pista": "Extremo brasileño, leyenda del Mundial '58 y '62", "dificultad": "medio" },
-    { "nombre": "Gavi", "pista": "Joven promesa del Barcelona y la selección española", "dificultad": "medio" },
-    { "nombre": "Gonzalo Higuaín", "pista": "Delantero argentino que jugó en Napoli y Juventus", "dificultad": "medio" },
-    { "nombre": "Griezmann", "pista": "Delantero francés del Atlético de Madrid", "dificultad": "medio" },
-    { "nombre": "Gabriel Jesus", "pista": "Delantero brasileño del Arsenal", "dificultad": "medio" },
-    { "nombre": "Gareth Bale", "pista": "Extremo galés, ex Real Madrid", "dificultad": "medio" },
-    { "nombre": "Gattuso", "pista": "Ex mediocampista italiano, aguerrido", "dificultad": "dificil" },
-    { "nombre": "Gerd Müller", "pista": "Legendario delantero alemán, 'Torpedo'", "dificultad": "medio" },
-    { "nombre": "Gianluigi Donnarumma", "pista": "Arquero italiano del PSG", "dificultad": "medio" },
-    { "nombre": "Guardiola", "pista": "Ex mediocampista español y exitoso entrenador", "dificultad": "medio" },
-    { "nombre": "Grealish", "pista": "Extremo inglés del Manchester City", "dificultad": "medio" },
-    { "nombre": "Godín", "pista": "Defensor uruguayo, leyenda del Atlético de Madrid", "dificultad": "medio" },
-    { "nombre": "Gundogan", "pista": "Mediocampista alemán, ex Manchester City y Barcelona", "dificultad": "medio" },
-    { "nombre": "Gabriel Martinelli", "pista": "Extremo brasileño del Arsenal", "dificultad": "medio" },
-    { "nombre": "Gakpo", "pista": "Delantero neerlandés del Liverpool", "dificultad": "medio" },
-    { "nombre": "Giovanni Simeone", "pista": "Delantero argentino, juega en Napoli", "dificultad": "dificil" },
-    { "nombre": "Georginio Wijnaldum", "pista": "Mediocampista neerlandés, ex Liverpool", "dificultad": "medio" },
-    { "nombre": "Gerard Moreno", "pista": "Delantero español del Villarreal", "dificultad": "dificil" },
-    { "nombre": "Gabriel Barbosa", "pista": "Delantero brasileño, conocido como Gabigol", "dificultad": "dificil" },
-    { "nombre": "Gylfi Sigurdsson", "pista": "Mediocampista islandés, ex Everton", "dificultad": "dificil" },
-    { "nombre": "Gianfranco Zola", "pista": "Ex delantero italiano, ídolo del Chelsea", "dificultad": "medio" },
-    { "nombre": "Gareth Southgate", "pista": "Ex defensor inglés y actual seleccionador", "dificultad": "dificil" }
+    {
+      "nombre": "Gabriel Barbosa",
+      "pista": "Delantero brasileño, conocido como Gabigol",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Gabriel Jesus",
+      "pista": "Delantero brasileño del Arsenal",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Gabriel Martinelli",
+      "pista": "Extremo brasileño del Arsenal",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Gakpo",
+      "pista": "Delantero neerlandés del Liverpool",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Gareth Bale",
+      "pista": "Extremo galés, ex Real Madrid",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Gareth Southgate",
+      "pista": "Ex defensor inglés y actual seleccionador",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Garrincha",
+      "pista": "Extremo brasileño, leyenda del Mundial '58 y '62",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Gattuso",
+      "pista": "Ex mediocampista italiano, aguerrido",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Gavi",
+      "pista": "Joven promesa del Barcelona y la selección española",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Georginio Wijnaldum",
+      "pista": "Mediocampista neerlandés, ex Liverpool",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Gerard Moreno",
+      "pista": "Delantero español del Villarreal",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Gerd Muller",
+      "pista": "Legendario delantero alemán, 'Torpedo'",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Gianfranco Zola",
+      "pista": "Ex delantero italiano, ídolo del Chelsea",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Gianluigi Donnarumma",
+      "pista": "Arquero italiano del PSG",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Giovanni Simeone",
+      "pista": "Delantero argentino, juega en Napoli",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Godin",
+      "pista": "Defensor uruguayo, leyenda del Atlético de Madrid",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Gonzalo Higuain",
+      "pista": "Delantero argentino que jugó en Napoli y Juventus",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Grealish",
+      "pista": "Extremo inglés del Manchester City",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Griezmann",
+      "pista": "Delantero francés del Atlético de Madrid",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Guardiola",
+      "pista": "Ex mediocampista español y exitoso entrenador",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Gundogan",
+      "pista": "Mediocampista alemán, ex Manchester City y Barcelona",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Gylfi Sigurdsson",
+      "pista": "Mediocampista islandés, ex Everton",
+      "dificultad": "dificil"
+    }
   ],
   "H": [
-    { "nombre": "Haaland", "pista": "Delantero noruego, estrella del Manchester City", "dificultad": "medio" },
-    { "nombre": "Hazard", "pista": "Belga, ex Chelsea y Real Madrid", "dificultad": "medio" },
-    { "nombre": "Héctor Herrera", "pista": "Mediocampista mexicano con paso por el Atlético", "dificultad": "dificil" },
-    { "nombre": "Harry Kane", "pista": "Delantero inglés, goleador del Tottenham", "dificultad": "medio" },
-    { "nombre": "Handanovic", "pista": "Arquero esloveno, leyenda del Inter de Milán", "dificultad": "medio" },
-    { "nombre": "Henderson", "pista": "Mediocampista inglés, ex capitán del Liverpool", "dificultad": "medio" },
-    { "nombre": "Hummels", "pista": "Defensor alemán del Borussia Dortmund", "dificultad": "medio" },
-    { "nombre": "Hojlund", "pista": "Delantero danés del Manchester United", "dificultad": "medio" },
-    { "nombre": "Hakan Calhanoglu", "pista": "Mediocampista turco del Inter de Milán", "dificultad": "medio" },
-    { "nombre": "Henrikh Mkhitaryan", "pista": "Mediocampista armenio, juega en el Inter", "dificultad": "medio" },
-    { "nombre": "Hugo Lloris", "pista": "Arquero francés, ex capitán del Tottenham", "dificultad": "medio" },
-    { "nombre": "Hristo Stoichkov", "pista": "Ex delantero búlgaro del Barcelona", "dificultad": "medio" },
-    { "nombre": "Hernán Crespo", "pista": "Ex delantero argentino, goleador", "dificultad": "medio" },
-    { "nombre": "Hamed Traoré", "pista": "Mediocampista marfileño, juega en el Bournemouth", "dificultad": "dificil" },
-    { "nombre": "Harvey Elliott", "pista": "Joven mediocampista inglés del Liverpool", "dificultad": "dificil" },
-    { "nombre": "Hudson-Odoi", "pista": "Extremo inglés, ex Chelsea", "dificultad": "dificil" },
-    { "nombre": "Harry Maguire", "pista": "Defensor inglés del Manchester United", "dificultad": "medio" },
-    { "nombre": "Heung-Min Son", "pista": "Delantero surcoreano, estrella del Tottenham", "dificultad": "medio" },
-    { "nombre": "Harry Redknapp", "pista": "Ex entrenador inglés", "dificultad": "dificil" },
-    { "nombre": "Hiroki Sakai", "pista": "Lateral japonés, ex Marsella", "dificultad": "dificil" },
-    { "nombre": "Hervé Renard", "pista": "Entrenador francés", "dificultad": "dificil" },
-    { "nombre": "Hugo Sánchez", "pista": "Ex delantero mexicano, leyenda del Real Madrid", "dificultad": "medio" }
+    {
+      "nombre": "Haaland",
+      "pista": "Delantero noruego, estrella del Manchester City",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Hakan Calhanoglu",
+      "pista": "Mediocampista turco del Inter de Milán",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Hamed Traore",
+      "pista": "Mediocampista marfileño, juega en el Bournemouth",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Handanovic",
+      "pista": "Arquero esloveno, leyenda del Inter de Milán",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Harry Kane",
+      "pista": "Delantero inglés, goleador del Tottenham",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Harry Maguire",
+      "pista": "Defensor inglés del Manchester United",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Harry Redknapp",
+      "pista": "Ex entrenador inglés",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Harvey Elliott",
+      "pista": "Joven mediocampista inglés del Liverpool",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Hazard",
+      "pista": "Belga, ex Chelsea y Real Madrid",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Henderson",
+      "pista": "Mediocampista inglés, ex capitán del Liverpool",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Henrikh Mkhitaryan",
+      "pista": "Mediocampista armenio, juega en el Inter",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Hernan Crespo",
+      "pista": "Ex delantero argentino, goleador",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Herve Renard",
+      "pista": "Entrenador francés",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Heung-Min Son",
+      "pista": "Delantero surcoreano, estrella del Tottenham",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Hiroki Sakai",
+      "pista": "Lateral japonés, ex Marsella",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Hojlund",
+      "pista": "Delantero danés del Manchester United",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Hristo Stoichkov",
+      "pista": "Ex delantero búlgaro del Barcelona",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Hudson-Odoi",
+      "pista": "Extremo inglés, ex Chelsea",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Hugo Lloris",
+      "pista": "Arquero francés, ex capitán del Tottenham",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Hugo Sanchez",
+      "pista": "Ex delantero mexicano, leyenda del Real Madrid",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Hummels",
+      "pista": "Defensor alemán del Borussia Dortmund",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Hector Herrera",
+      "pista": "Mediocampista mexicano con paso por el Atlético",
+      "dificultad": "dificil"
+    }
   ],
   "I": [
-    { "nombre": "Ibrahimovic", "pista": "Sueco, jugó en Barça, PSG y Milan", "dificultad": "medio" },
-    { "nombre": "Insigne", "pista": "Italiano, ídolo del Napoli", "dificultad": "medio" },
-    { "nombre": "Iniesta", "pista": "Español, autor del gol del Mundial 2010", "dificultad": "medio" },
-    { "nombre": "Immobile", "pista": "Delantero italiano, goleador de la Lazio", "dificultad": "medio" },
-    { "nombre": "Icardi", "pista": "Delantero argentino, ex Inter de Milán", "dificultad": "medio" },
-    { "nombre": "Isco", "pista": "Mediocampista español, ex Real Madrid", "dificultad": "medio" },
-    { "nombre": "Ivan Perisic", "pista": "Extremo croata, juega en Tottenham", "dificultad": "medio" },
-    { "nombre": "Iago Aspas", "pista": "Delantero español, ídolo del Celta de Vigo", "dificultad": "dificil" },
-    { "nombre": "Julián Álvarez", "pista": "Delantero argentino, campeón del mundo 2022", "dificultad": "medio" },
-    { "nombre": "Independiente", "pista": "Club argentino con 7 Libertadores", "dificultad": "medio" },
-    { "nombre": "Isak", "pista": "Delantero sueco del Newcastle", "dificultad": "medio" },
-    { "nombre": "Ibrahim Sangaré", "pista": "Mediocampista marfileño del Nottingham Forest", "dificultad": "dificil" },
-    { "nombre": "Ignacio Fernández", "pista": "Mediocampista argentino, figura en River", "dificultad": "medio" },
-    { "nombre": "Ilias Akhomach", "pista": "Joven extremo español del Villarreal", "dificultad": "dificil" },
-    { "nombre": "Ismaïla Sarr", "pista": "Extremo senegalés del Olympique de Marsella", "dificultad": "dificil" },
-    { "nombre": "Iñaki Williams", "pista": "Delantero español del Athletic Club", "dificultad": "medio" },
-    { "nombre": "Ivan Rakitic", "pista": "Mediocampista croata del Sevilla", "dificultad": "medio" },
-    { "nombre": "Illarramendi", "pista": "Mediocampista español, ex Real Madrid y Real Sociedad", "dificultad": "dificil" },
-    { "nombre": "Ivan Cordoba", "pista": "Ex defensor colombiano, leyenda del Inter", "dificultad": "dificil" },
-    { "nombre": "Ignazio Abate", "pista": "Ex lateral italiano del AC Milan", "dificultad": "dificil" },
-    { "nombre": "Islam Slimani", "pista": "Delantero argelino", "dificultad": "dificil" },
-    { "nombre": "Iago Falqué", "pista": "Extremo español, ex Roma y Torino", "dificultad": "dificil" }
+    {
+      "nombre": "Iago Aspas",
+      "pista": "Delantero español, ídolo del Celta de Vigo",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Iago Falque",
+      "pista": "Extremo español, ex Roma y Torino",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Ibrahim Sangare",
+      "pista": "Mediocampista marfileño del Nottingham Forest",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Ibrahimovic",
+      "pista": "Sueco, jugó en Barça, PSG y Milan",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Icardi",
+      "pista": "Delantero argentino, ex Inter de Milán",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Ignacio Fernandez",
+      "pista": "Mediocampista argentino, figura en River",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Ignazio Abate",
+      "pista": "Ex lateral italiano del AC Milan",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Ilias Akhomach",
+      "pista": "Joven extremo español del Villarreal",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Illarramendi",
+      "pista": "Mediocampista español, ex Real Madrid y Real Sociedad",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Immobile",
+      "pista": "Delantero italiano, goleador de la Lazio",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Independiente",
+      "pista": "Club argentino con 7 Libertadores",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Iniesta",
+      "pista": "Español, autor del gol del Mundial 2010",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Insigne",
+      "pista": "Italiano, ídolo del Napoli",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Isak",
+      "pista": "Delantero sueco del Newcastle",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Isco",
+      "pista": "Mediocampista español, ex Real Madrid",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Islam Slimani",
+      "pista": "Delantero argelino",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Ismaila Sarr",
+      "pista": "Extremo senegalés del Olympique de Marsella",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Ivan Cordoba",
+      "pista": "Ex defensor colombiano, leyenda del Inter",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Ivan Perisic",
+      "pista": "Extremo croata, juega en Tottenham",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Ivan Rakitic",
+      "pista": "Mediocampista croata del Sevilla",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Inaki Williams",
+      "pista": "Delantero español del Athletic Club",
+      "dificultad": "medio"
+    }
   ],
   "J": [
-    { "nombre": "James Rodríguez", "pista": "Colombiano, goleador del Mundial 2014", "dificultad": "medio" },
-    { "nombre": "João Félix", "pista": "Portugués, ex Benfica y Atlético de Madrid", "dificultad": "medio" },
-    { "nombre": "Julian Álvarez", "pista": "Campeón del mundo con Argentina en 2022", "dificultad": "medio" },
-    { "nombre": "Jude Bellingham", "pista": "Mediocampista inglés del Real Madrid", "dificultad": "medio" },
-    { "nombre": "Jorginho", "pista": "Mediocampista italiano del Arsenal", "dificultad": "medio" },
-    { "nombre": "Jesus Navas", "pista": "Lateral español, capitán del Sevilla", "dificultad": "medio" },
-    { "nombre": "Jack Grealish", "pista": "Extremo inglés del Manchester City", "dificultad": "medio" },
-    { "nombre": "Jamie Vardy", "pista": "Delantero inglés del Leicester City", "dificultad": "medio" },
-    { "nombre": "Juan Román Riquelme", "pista": "Ex enganche argentino, ídolo de Boca", "dificultad": "medio" },
-    { "nombre": "Javier Zanetti", "pista": "Ex lateral argentino, leyenda del Inter", "dificultad": "medio" },
-    { "nombre": "Jadon Sancho", "pista": "Extremo inglés del Manchester United", "dificultad": "medio" },
-    { "nombre": "Jota", "pista": "Delantero portugués del Liverpool", "dificultad": "medio" },
-    { "nombre": "Joel Matip", "pista": "Defensor camerunés del Liverpool", "dificultad": "medio" },
-    { "nombre": "Joaquín Sánchez", "pista": "Extremo español, leyenda del Real Betis", "dificultad": "medio" },
-    { "nombre": "Jean-Pierre Papin", "pista": "Ex delantero francés, Balón de Oro 1991", "dificultad": "dificil" },
-    { "nombre": "Juan Mata", "pista": "Mediocampista español, ex Manchester United", "dificultad": "medio" },
-    { "nombre": "Julio César", "pista": "Ex arquero brasileño del Inter de Milán", "dificultad": "medio" },
-    { "nombre": "Juan Cuadrado", "pista": "Lateral/extremo colombiano de la Juventus", "dificultad": "medio" },
-    { "nombre": "Javier Mascherano", "pista": "Ex mediocampista argentino, jugó en Barcelona y Liverpool", "dificultad": "medio" },
-    { "nombre": "Jerome Boateng", "pista": "Ex defensor alemán del Bayern de Múnich", "dificultad": "medio" },
-    { "nombre": "Joelinton", "pista": "Mediocampista brasileño del Newcastle", "dificultad": "dificil" },
-    { "nombre": "Julian Brandt", "pista": "Mediocampista alemán del Borussia Dortmund", "dificultad": "dificil" }
+    {
+      "nombre": "Jack Grealish",
+      "pista": "Extremo inglés del Manchester City",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Jadon Sancho",
+      "pista": "Extremo inglés del Manchester United",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "James Rodriguez",
+      "pista": "Colombiano, goleador del Mundial 2014",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Jamie Vardy",
+      "pista": "Delantero inglés del Leicester City",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Jamie Vardy",
+      "pista": "Delantero inglés del Leicester City",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Javier Mascherano",
+      "pista": "Ex mediocampista argentino, jugó en Barcelona y Liverpool",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Javier Zanetti",
+      "pista": "Ex lateral argentino, leyenda del Inter",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Jean-Pierre Papin",
+      "pista": "Ex delantero francés, Balón de Oro 1991",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Jerome Boateng",
+      "pista": "Ex defensor alemán del Bayern de Múnich",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Jesus Navas",
+      "pista": "Lateral español, capitán del Sevilla",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Joaquin Sanchez",
+      "pista": "Extremo español, leyenda del Real Betis",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Joel Matip",
+      "pista": "Defensor camerunés del Liverpool",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Joelinton",
+      "pista": "Mediocampista brasileño del Newcastle",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Jorginho",
+      "pista": "Mediocampista italiano del Arsenal",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Jota",
+      "pista": "Ex Delantero portugués del Liverpool",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Joao Felix",
+      "pista": "Portugués, ex Benfica y Atlético de Madrid",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Juan Cuadrado",
+      "pista": "Lateral/extremo colombiano de la Juventus",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Juan Mata",
+      "pista": "Mediocampista español, ex Manchester United",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Juan Roman Riquelme",
+      "pista": "Ex enganche argentino, ídolo de Boca",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Jude Bellingham",
+      "pista": "Mediocampista inglés del Real Madrid",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Julian Brandt",
+      "pista": "Mediocampista alemán del Borussia Dortmund",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Julian Alvarez",
+      "pista": "Campeón del mundo con Argentina en 2022",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Julio Cesar",
+      "pista": "Ex arquero brasileño del Inter de Milán",
+      "dificultad": "medio"
+    }
   ],
   "K": [
-    { "nombre": "Kanté", "pista": "Francés, campeón del mundo en 2018", "dificultad": "medio" },
-    { "nombre": "Kaká", "pista": "Brasileño, Balón de Oro 2007", "dificultad": "medio" },
-    { "nombre": "Klose", "pista": "Alemán, máximo goleador histórico de los Mundiales", "dificultad": "medio" },
-    { "nombre": "Kylian Mbappé", "pista": "Delantero francés, campeón del mundo 2018", "dificultad": "medio" },
-    { "nombre": "Kevin De Bruyne", "pista": "Mediocampista belga del Manchester City", "dificultad": "medio" },
-    { "nombre": "Kalidou Koulibaly", "pista": "Defensor senegalés, ex Napoli y Chelsea", "dificultad": "medio" },
-    { "nombre": "Kroos", "pista": "Mediocampista alemán del Real Madrid", "dificultad": "medio" },
-    { "nombre": "Kim Min-jae", "pista": "Defensor surcoreano del Bayern de Múnich", "dificultad": "medio" },
-    { "nombre": "Kolo Muani", "pista": "Delantero francés del PSG", "dificultad": "medio" },
-    { "nombre": "Keylor Navas", "pista": "Arquero costarricense, ex Real Madrid", "dificultad": "medio" },
-    { "nombre": "Keane, Roy", "pista": "Ex mediocampista irlandés, capitán del Man Utd", "dificultad": "medio" },
-    { "nombre": "Kewell", "pista": "Ex delantero australiano, jugó en Liverpool", "dificultad": "dificil" },
-    { "nombre": "Koke", "pista": "Mediocampista español, capitán del Atlético de Madrid", "dificultad": "medio" },
-    { "nombre": "Kai Havertz", "pista": "Mediocampista alemán del Arsenal", "dificultad": "medio" },
-    { "nombre": "Konaté", "pista": "Defensor francés del Liverpool", "dificultad": "medio" },
-    { "nombre": "Kostas Manolas", "pista": "Defensor griego, ex Roma y Napoli", "dificultad": "dificil" },
-    { "nombre": "Kingsley Coman", "pista": "Extremo francés del Bayern de Múnich", "dificultad": "medio" },
-    { "nombre": "Kepa Arrizabalaga", "pista": "Arquero español, ex Chelsea", "dificultad": "dificil" },
-    { "nombre": "Kieran Trippier", "pista": "Lateral inglés del Newcastle", "dificultad": "medio" },
-    { "nombre": "Kalvin Phillips", "pista": "Mediocampista inglés del Manchester City", "dificultad": "dificil" },
-    { "nombre": "Kevin-Prince Boateng", "pista": "Ex mediocampista ghanés, jugó en Barcelona", "dificultad": "medio" },
-    { "nombre": "Karim Adeyemi", "pista": "Delantero alemán del Borussia Dortmund", "dificultad": "dificil" }
+    {
+      "nombre": "Kai Havertz",
+      "pista": "Mediocampista alemán del Arsenal",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Kaka",
+      "pista": "Brasileño, Balón de Oro 2007",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Kalidou Koulibaly",
+      "pista": "Defensor senegalés, ex Napoli y Chelsea",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Kalvin Phillips",
+      "pista": "Mediocampista inglés del Manchester City",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Kante",
+      "pista": "Francés, campeón del mundo en 2018",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Karim Adeyemi",
+      "pista": "Delantero alemán del Borussia Dortmund",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Kepa Arrizabalaga",
+      "pista": "Arquero español, ex Chelsea",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Kevin De Bruyne",
+      "pista": "Mediocampista belga del Manchester City",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Kevin-Prince Boateng",
+      "pista": "Ex mediocampista ghanés, jugó en Barcelona",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Kewell",
+      "pista": "Ex delantero australiano, jugó en Liverpool",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Keylor Navas",
+      "pista": "Arquero costarricense, ex Real Madrid",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Kieran Trippier",
+      "pista": "Lateral inglés del Newcastle",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Kim Min-jae",
+      "pista": "Defensor surcoreano del Bayern de Múnich",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Kingsley Coman",
+      "pista": "Extremo francés del Bayern de Múnich",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Klose",
+      "pista": "Alemán, máximo goleador histórico de los Mundiales",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Koke",
+      "pista": "Mediocampista español, capitán del Atlético de Madrid",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Kolo Muani",
+      "pista": "Delantero francés del PSG",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Konate",
+      "pista": "Defensor francés del Liverpool",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Kostas Manolas",
+      "pista": "Defensor griego, ex Roma y Napoli",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Kroos",
+      "pista": "Mediocampista alemán del Real Madrid",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Kurt Zouma",
+      "pista": "Defensor francés del West Ham",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Kylian Mbappe",
+      "pista": "Delantero francés, campeón del mundo 2018",
+      "dificultad": "medio"
+    }
   ],
   "L": [
-    { "nombre": "Lionel Messi", "pista": "Máximo goleador histórico del Barcelona", "dificultad": "medio" },
-    { "nombre": "Lewandowski", "pista": "Polaco, goleador del Bayern y Barcelona", "dificultad": "medio" },
-    { "nombre": "Lautaro Martínez", "pista": "Delantero argentino, campeón del mundo 2022", "dificultad": "medio" },
-    { "nombre": "Luis Suárez", "pista": "Delantero uruguayo, ex Barcelona y Liverpool", "dificultad": "medio" },
-    { "nombre": "Luka Modric", "pista": "Croata, Balón de Oro 2018", "dificultad": "medio" },
-    { "nombre": "Leroy Sané", "pista": "Extremo alemán del Bayern de Múnich", "dificultad": "medio" },
-    { "nombre": "Lukaku", "pista": "Delantero belga, ex Inter y Chelsea", "dificultad": "medio" },
-    { "nombre": "Lloris", "pista": "Arquero francés, ex Tottenham", "dificultad": "medio" },
-    { "nombre": "Lahm", "pista": "Ex lateral alemán, capitán del Bayern y Alemania", "dificultad": "medio" },
-    { "nombre": "Lineker", "pista": "Ex delantero inglés, goleador", "dificultad": "medio" },
-    { "nombre": "Lampard", "pista": "Ex mediocampista inglés, leyenda del Chelsea", "dificultad": "medio" },
-    { "nombre": "Locatelli", "pista": "Mediocampista italiano de la Juventus", "dificultad": "dificil" },
-    { "nombre": "Leao", "pista": "Extremo portugués del AC Milan", "dificultad": "medio" },
-    { "nombre": "Leonardo Bonucci", "pista": "Defensor italiano de la Juventus", "dificultad": "medio" },
-    { "nombre": "Lucas Hernández", "pista": "Defensor francés del PSG", "dificultad": "medio" },
-    { "nombre": "Lamine Yamal", "pista": "Joven promesa española del Barcelona", "dificultad": "medio" },
-    { "nombre": "Luis Díaz", "pista": "Extremo colombiano del Liverpool", "dificultad": "medio" },
-    { "nombre": "Lisandro Martínez", "pista": "Defensor argentino, campeón del mundo 2022", "dificultad": "medio" },
-    { "nombre": "Lucas Paquetá", "pista": "Mediocampista brasileño del West Ham", "dificultad": "dificil" },
-    { "nombre": "Lassana Diarra", "pista": "Ex mediocampista francés, jugó en Real Madrid y Chelsea", "dificultad": "dificil" },
-    { "nombre": "Laurent Blanc", "pista": "Ex defensor francés y entrenador", "dificultad": "dificil" },
-    { "nombre": "Lothar Matthäus", "pista": "Ex mediocampista alemán, Balón de Oro 1990", "dificultad": "medio" }
+    {
+      "nombre": "Lahm",
+      "pista": "Ex lateral alemán, capitán del Bayern y Alemania",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Lamine Yamal",
+      "pista": "Joven promesa española del Barcelona",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Lampard",
+      "pista": "Ex mediocampista inglés, leyenda del Chelsea",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Lassana Diarra",
+      "pista": "Ex mediocampista francés, jugó en Real Madrid y Chelsea",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Laurent Blanc",
+      "pista": "Ex defensor francés y entrenador",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Lautaro Martinez",
+      "pista": "Delantero argentino, campeón del mundo 2022",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Leao",
+      "pista": "Extremo portugués del AC Milan",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Leonardo Bonucci",
+      "pista": "Defensor italiano de la Juventus",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Leroy Sane",
+      "pista": "Extremo alemán del Bayern de Múnich",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Lewandowski",
+      "pista": "Polaco, goleador del Bayern y Barcelona",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Lineker",
+      "pista": "Ex delantero inglés, goleador",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Lionel Messi",
+      "pista": "Máximo goleador histórico del Barcelona",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Lisandro Martinez",
+      "pista": "Defensor argentino, campeón del mundo 2022",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Lloris",
+      "pista": "Arquero francés, ex Tottenham",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Locatelli",
+      "pista": "Mediocampista italiano de la Juventus",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Lothar Matthaus",
+      "pista": "Ex mediocampista alemán, Balón de Oro 1990",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Lucas Hernandez",
+      "pista": "Defensor francés del PSG",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Lucas Paqueta",
+      "pista": "Mediocampista brasileño del West Ham",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Luis Diaz",
+      "pista": "Extremo colombiano del Liverpool",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Luis Suarez",
+      "pista": "Delantero uruguayo, ex Barcelona y Liverpool",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Luka Modric",
+      "pista": "Croata, Balón de Oro 2018",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Lukaku",
+      "pista": "Delantero belga, ex Inter y Chelsea",
+      "dificultad": "medio"
+    }
   ],
   "M": [
-    { "nombre": "Modric", "pista": "Croata, Balón de Oro 2018", "dificultad": "medio" },
-    { "nombre": "Maradona", "pista": "Ídolo argentino, campeón del mundo en 1986", "dificultad": "medio" },
-    { "nombre": "Mbappé", "pista": "Francés, campeón del mundo 2018", "dificultad": "medio" },
-    { "nombre": "Mané", "pista": "Extremo senegalés, ex Liverpool y Bayern", "dificultad": "medio" },
-    { "nombre": "Manuel Neuer", "pista": "Arquero alemán del Bayern de Múnich", "dificultad": "medio" },
-    { "nombre": "Marquinhos", "pista": "Defensor brasileño, capitán del PSG", "dificultad": "medio" },
-    { "nombre": "Marcelo", "pista": "Ex lateral izquierdo brasileño del Real Madrid", "dificultad": "medio" },
-    { "nombre": "Mahrez", "pista": "Extremo argelino, ex Manchester City", "dificultad": "medio" },
-    { "nombre": "Marco Verratti", "pista": "Mediocampista italiano del PSG", "dificultad": "medio" },
-    { "nombre": "Mason Mount", "pista": "Mediocampista inglés del Manchester United", "dificultad": "medio" },
-    { "nombre": "Müller, Thomas", "pista": "Delantero alemán del Bayern de Múnich", "dificultad": "medio" },
-    { "nombre": "Milinkovic-Savic", "pista": "Mediocampista serbio, ex Lazio", "dificultad": "dificil" },
-    { "nombre": "Morata", "pista": "Delantero español del Atlético de Madrid", "dificultad": "medio" },
-    { "nombre": "Moukoko", "pista": "Joven delantero alemán del Borussia Dortmund", "dificultad": "dificil" },
-    { "nombre": "Mkhitaryan", "pista": "Mediocampista armenio del Inter de Milán", "dificultad": "medio" },
-    { "nombre": "Mount", "pista": "Mediocampista inglés, ex Chelsea y Manchester United", "dificultad": "medio" },
-    { "nombre": "Maguire", "pista": "Defensor inglés del Manchester United", "dificultad": "medio" },
-    { "nombre": "Marc-André ter Stegen", "pista": "Arquero alemán del Barcelona", "dificultad": "medio" },
-    { "nombre": "Marcus Rashford", "pista": "Delantero inglés del Manchester United", "dificultad": "medio" },
-    { "nombre": "Mikel Arteta", "pista": "Actual entrenador del Arsenal, ex mediocampista español", "dificultad": "medio" },
-    { "nombre": "Mario Balotelli", "pista": "Delantero italiano, conocido por su personalidad", "dificultad": "medio" },
-    { "nombre": "Mesut Özil", "pista": "Ex mediocampista alemán, jugó en Real Madrid y Arsenal", "dificultad": "medio" },
-    { "nombre": "Matthijs de Ligt", "pista": "Defensor neerlandés del Bayern de Múnich", "dificultad": "medio" }
+    {
+      "nombre": "Maguire",
+      "pista": "Defensor inglés del Manchester United",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Mahrez",
+      "pista": "Extremo argelino, ex Manchester City",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Manuel Neuer",
+      "pista": "Arquero alemán del Bayern de Múnich",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Mane",
+      "pista": "Extremo senegalés, ex Liverpool y Bayern",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Maradona",
+      "pista": "Ídolo argentino, campeón del mundo en 1986",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Marc Bartra",
+      "pista": "Defensor español, ex Barcelona y Betis",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Marc-Andre ter Stegen",
+      "pista": "Arquero alemán del Barcelona",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Marcelo",
+      "pista": "Ex lateral izquierdo brasileño del Real Madrid",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Marco Verratti",
+      "pista": "Mediocampista italiano del PSG",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Marcus Rashford",
+      "pista": "Delantero inglés del Manchester United",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Mario Balotelli",
+      "pista": "Delantero italiano, conocido por su personalidad",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Marquinhos",
+      "pista": "Defensor brasileño, capitán del PSG",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Mason Mount",
+      "pista": "Mediocampista inglés del Manchester United",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Matthijs de Ligt",
+      "pista": "Defensor neerlandés del Bayern de Múnich",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Mbappe",
+      "pista": "Francés, campeón del mundo 2018",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Mesut Ozil",
+      "pista": "Ex mediocampista alemán, jugó en Real Madrid y Arsenal",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Michael Owen",
+      "pista": "Ex delantero inglés, Balón de Oro 2001",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Mikel Arteta",
+      "pista": "Actual entrenador del Arsenal, ex mediocampista español",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Milinkovic-Savic",
+      "pista": "Mediocampista serbio, ex Lazio",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Mkhitaryan",
+      "pista": "Mediocampista armenio del Inter de Milán",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Modric",
+      "pista": "Croata, Balón de Oro 2018",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Moises Caicedo",
+      "pista": "Mediocampista ecuatoriano del Chelsea",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Morata",
+      "pista": "Delantero español del Atlético de Madrid",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Moukoko",
+      "pista": "Joven delantero alemán del Borussia Dortmund",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Mount",
+      "pista": "Mediocampista inglés, ex Chelsea y Manchester United",
+      "dificultad": "medio"
+    }
   ],
   "N": [
-    { "nombre": "Neymar", "pista": "Brasileño, ex Barcelona y PSG", "dificultad": "medio" },
-    { "nombre": "Nacho Fernández", "pista": "Defensor del Real Madrid", "dificultad": "medio" },
-    { "nombre": "Navas", "pista": "Arquero costarricense, campeón de Champions con el Madrid", "dificultad": "medio" },
-    { "nombre": "Neuer", "pista": "Arquero alemán del Bayern de Múnich", "dificultad": "medio" },
-    { "nombre": "Nuno Mendes", "pista": "Lateral izquierdo portugués del PSG", "dificultad": "medio" },
-    { "nombre": "Ndombele", "pista": "Mediocampista francés, ex Tottenham", "dificultad": "dificil" },
-    { "nombre": "Nkunku", "pista": "Delantero francés del Chelsea", "dificultad": "medio" },
-    { "nombre": "Nicolás Otamendi", "pista": "Defensor argentino, campeón del mundo 2022", "dificultad": "medio" },
-    { "nombre": "Nicolo Barella", "pista": "Mediocampista italiano del Inter de Milán", "dificultad": "medio" },
-    { "nombre": "Nagelsmann", "pista": "Entrenador alemán, ex Bayern de Múnich", "dificultad": "dificil" },
-    { "nombre": "Nestor Araujo", "pista": "Defensor mexicano, juega en América", "dificultad": "dificil" },
-    { "nombre": "Niclas Füllkrug", "pista": "Delantero alemán del Borussia Dortmund", "dificultad": "dificil" },
-    { "nombre": "Naby Keïta", "pista": "Mediocampista guineano, ex Liverpool", "dificultad": "dificil" },
-    { "nombre": "Nelson Semedo", "pista": "Lateral portugués del Wolves", "dificultad": "dificil" },
-    { "nombre": "Nico Williams", "pista": "Extremo español del Athletic Club", "dificultad": "medio" },
-    { "nombre": "Nemanja Matic", "pista": "Mediocampista serbio, ex Manchester United", "dificultad": "medio" },
-    { "nombre": "Naldo", "pista": "Ex defensor brasileño, jugó en el Schalke", "dificultad": "dificil" },
-    { "nombre": "Noah Okafor", "pista": "Delantero suizo del AC Milan", "dificultad": "dificil" },
-    { "nombre": "Nuno Espirito Santo", "pista": "Entrenador portugués", "dificultad": "dificil" },
-    { "nombre": "Nathan Aké", "pista": "Defensor neerlandés del Manchester City", "dificultad": "medio" },
-    { "nombre": "Nicolo Zaniolo", "pista": "Mediocampista italiano, ex Roma", "dificultad": "dificil" }
+    {
+      "nombre": "Naby Keita",
+      "pista": "Mediocampista guineano, ex Liverpool",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Nacho Fernandez",
+      "pista": "Defensor del Real Madrid",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Nagelsmann",
+      "pista": "Entrenador alemán, ex Bayern de Múnich",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Naldo",
+      "pista": "Ex defensor brasileño, jugó en el Schalke",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Nathan Ake",
+      "pista": "Defensor neerlandés del Manchester City",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Navas",
+      "pista": "Arquero costarricense, campeón de Champions con el Madrid",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Ndombele",
+      "pista": "Mediocampista francés, ex Tottenham",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Nelson Semedo",
+      "pista": "Lateral portugués del Wolves",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Nemanja Matic",
+      "pista": "Mediocampista serbio, ex Manchester United",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Nestor Araujo",
+      "pista": "Defensor mexicano, juega en América",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Neuer",
+      "pista": "Arquero alemán del Bayern de Múnich",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Neymar",
+      "pista": "Brasileño, ex Barcelona y PSG",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Niclas Fullkrug",
+      "pista": "Delantero alemán del Borussia Dortmund",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Nico Williams",
+      "pista": "Extremo español del Athletic Club",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Nicolo Barella",
+      "pista": "Mediocampista italiano del Inter de Milán",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Nicolo Zaniolo",
+      "pista": "Mediocampista italiano, ex Roma",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Nicolas Otamendi",
+      "pista": "Defensor argentino, campeón del mundo 2022",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Nkunku",
+      "pista": "Delantero francés del Chelsea",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Noah Okafor",
+      "pista": "Delantero suizo del AC Milan",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Nuno Espirito Santo",
+      "pista": "Entrenador portugués",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Nuno Mendes",
+      "pista": "Lateral izquierdo portugués del PSG",
+      "dificultad": "medio"
+    }
   ],
   "O": [
-    { "nombre": "Ozil", "pista": "Alemán, campeón del mundo 2014", "dificultad": "medio" },
-    { "nombre": "Otamendi", "pista": "Defensor argentino, campeón del mundo 2022", "dificultad": "medio" },
-    { "nombre": "Ocampos", "pista": "Extremo argentino, juega en Sevilla", "dificultad": "dificil" },
-    { "nombre": "Odegaard", "pista": "Mediocampista noruego, capitán del Arsenal", "dificultad": "medio" },
-    { "nombre": "Onana", "pista": "Arquero camerunés del Manchester United", "dificultad": "medio" },
-    { "nombre": "Olivier Giroud", "pista": "Delantero francés, juega en el AC Milan", "dificultad": "medio" },
-    { "nombre": "Osimhen", "pista": "Delantero nigeriano, figura del Napoli", "dificultad": "medio" },
-    { "nombre": "Origi", "pista": "Delantero belga, ex Liverpool y AC Milan", "dificultad": "dificil" },
-    { "nombre": "Ousmane Dembélé", "pista": "Extremo francés, ex Barcelona y PSG", "dificultad": "medio" },
-    { "nombre": "Oblak", "pista": "Arquero esloveno del Atlético de Madrid", "dificultad": "medio" },
-    { "nombre": "Óscar Cardozo", "pista": "Ex delantero paraguayo, goleador del Benfica", "dificultad": "dificil" },
-    { "nombre": "Oxlade-Chamberlain", "pista": "Mediocampista inglés, ex Liverpool", "dificultad": "dificil" },
-    { "nombre": "Omar Marmoush", "pista": "Delantero egipcio del Eintracht Frankfurt", "dificultad": "dificil" },
-    { "nombre": "Owen, Michael", "pista": "Ex delantero inglés, Balón de Oro 2001", "dificultad": "medio" },
-    { "nombre": "Okazaki", "pista": "Ex delantero japonés, campeón con Leicester", "dificultad": "dificil" },
-    { "nombre": "Ogbonna", "pista": "Defensor italiano del West Ham", "dificultad": "dificil" },
-    { "nombre": "Óliver Torres", "pista": "Mediocampista español del Sevilla", "dificultad": "dificil" },
-    { "nombre": "Ole Gunnar Solskjaer", "pista": "Ex delantero noruego y entrenador", "dificultad": "medio" },
-    { "nombre": "Oleg Blokhin", "pista": "Ex delantero ucraniano, Balón de Oro 1975", "dificultad": "dificil" },
-    { "nombre": "Oguchi Onyewu", "pista": "Ex defensor estadounidense", "dificultad": "dificil" },
-    { "nombre": "Onazi, Ogenyi", "pista": "Mediocampista nigeriano", "dificultad": "dificil" }
+    {
+      "nombre": "Oblak",
+      "pista": "Arquero esloveno del Atlético de Madrid",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Ocampos",
+      "pista": "Extremo argentino, juega en Sevilla",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Odegaard",
+      "pista": "Mediocampista noruego, capitán del Arsenal",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Ogbonna",
+      "pista": "Defensor italiano del West Ham",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Ogenyi Onazi",
+      "pista": "Mediocampista nigeriano",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Oguchi Onyewu",
+      "pista": "Ex defensor estadounidense",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Okazaki",
+      "pista": "Ex delantero japonés, campeón con Leicester",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Ole Gunnar Solskjaer",
+      "pista": "Ex delantero noruego y entrenador",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Oleg Blokhin",
+      "pista": "Ex delantero ucraniano, Balón de Oro 1975",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Olivier Giroud",
+      "pista": "Delantero francés, juega en el AC Milan",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Omar Marmoush",
+      "pista": "Delantero egipcio del Eintracht Frankfurt",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Onana",
+      "pista": "Arquero camerunés del Manchester United",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Origi",
+      "pista": "Delantero belga, ex Liverpool y AC Milan",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Osimhen",
+      "pista": "Delantero nigeriano, figura del Napoli",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Otamendi",
+      "pista": "Defensor argentino, campeón del mundo 2022",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Ousmane Dembele",
+      "pista": "Extremo francés, ex Barcelona y PSG",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Oxlade-Chamberlain",
+      "pista": "Mediocampista inglés, ex Liverpool",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Ozil",
+      "pista": "Alemán, campeón del mundo 2014",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Oliver Torres",
+      "pista": "Mediocampista español del Sevilla",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Oscar Cardozo",
+      "pista": "Ex delantero paraguayo, goleador del Benfica",
+      "dificultad": "dificil"
+    }
   ],
   "P": [
-    { "nombre": "Piqué", "pista": "Defensor español, leyenda del Barcelona", "dificultad": "medio" },
-    { "nombre": "Pavard", "pista": "Francés, autor de un golazo en el Mundial 2018", "dificultad": "medio" },
-    { "nombre": "Paolo Maldini", "pista": "Defensor histórico del Milan", "dificultad": "medio" },
-    { "nombre": "Pedri", "pista": "Mediocampista español del Barcelona", "dificultad": "medio" },
-    { "nombre": "Pulisic", "pista": "Extremo estadounidense del AC Milan", "dificultad": "medio" },
-    { "nombre": "Pogba", "pista": "Mediocampista francés, campeón del mundo 2018", "dificultad": "medio" },
-    { "nombre": "Parejo", "pista": "Mediocampista español del Villarreal", "dificultad": "dificil" },
-    { "nombre": "Perisic", "pista": "Extremo croata, juega en Tottenham", "dificultad": "medio" },
-    { "nombre": "Pelé", "pista": "Legendario futbolista brasileño, 'O Rei'", "dificultad": "medio" },
-    { "nombre": "Pirlo", "pista": "Ex mediocampista italiano, maestro", "dificultad": "medio" },
-    { "nombre": "Petit", "pista": "Ex mediocampista francés, campeón mundial", "dificultad": "dificil" },
-    { "nombre": "Paulo Dybala", "pista": "Delantero argentino, campeón del mundo 2022", "dificultad": "medio" },
-    { "nombre": "Philippe Coutinho", "pista": "Mediocampista brasileño, ex Barcelona", "dificultad": "medio" },
-    { "nombre": "Paredes", "pista": "Mediocampista argentino, campeón del mundo 2022", "dificultad": "medio" },
-    { "nombre": "Pau Torres", "pista": "Defensor español del Aston Villa", "dificultad": "dificil" },
-    { "nombre": "Phil Foden", "pista": "Mediocampista inglés del Manchester City", "dificultad": "medio" },
-    { "nombre": "Pierre-Emerick Aubameyang", "pista": "Delantero gabonés, ex Arsenal y Barcelona", "dificultad": "medio" },
-    { "nombre": "Papu Gómez", "pista": "Mediocampista argentino, campeón del mundo 2022", "dificultad": "dificil" },
-    { "nombre": "Patrick Vieira", "pista": "Ex mediocampista francés, leyenda del Arsenal", "dificultad": "medio" },
-    { "nombre": "Patrice Evra", "pista": "Ex lateral izquierdo francés, jugó en Manchester United", "dificultad": "medio" },
-    { "nombre": "Pablo Sarabia", "pista": "Extremo español, ex PSG y Wolves", "dificultad": "dificil" },
-    { "nombre": "Paco Alcácer", "pista": "Delantero español, ex Valencia y Borussia Dortmund", "dificultad": "dificil" }
+    {
+      "nombre": "Pablo Sarabia",
+      "pista": "Extremo español, ex PSG y Wolves",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Paco Alcacer",
+      "pista": "Delantero español, ex Valencia y Borussia Dortmund",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Paolo Maldini",
+      "pista": "Defensor histórico del Milan",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Papu Gomez",
+      "pista": "Mediocampista argentino, campeón del mundo 2022",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Paredes",
+      "pista": "Mediocampista argentino, campeón del mundo 2022",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Parejo",
+      "pista": "Mediocampista español del Villarreal",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Patrice Evra",
+      "pista": "Ex lateral izquierdo francés, jugó en Manchester United",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Patrick Vieira",
+      "pista": "Ex mediocampista francés, leyenda del Arsenal",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Pau Torres",
+      "pista": "Defensor español del Aston Villa",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Pavard",
+      "pista": "Francés, autor de un golazo en el Mundial 2018",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Pedri",
+      "pista": "Mediocampista español del Barcelona",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Pele",
+      "pista": "Legendario futbolista brasileño, 'O Rei'",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Perisic",
+      "pista": "Extremo croata, juega en Tottenham",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Petit",
+      "pista": "Ex mediocampista francés, campeón mundial",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Phil Foden",
+      "pista": "Mediocampista inglés del Manchester City",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Philippe Coutinho",
+      "pista": "Mediocampista brasileño, ex Barcelona",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Pierre-Emerick Aubameyang",
+      "pista": "Delantero gabonés, ex Arsenal y Barcelona",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Pique",
+      "pista": "Defensor español, leyenda del Barcelona",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Pirlo",
+      "pista": "Ex mediocampista italiano, maestro",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Pogba",
+      "pista": "Mediocampista francés, campeón del mundo 2018",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Pulisic",
+      "pista": "Extremo estadounidense del AC Milan",
+      "dificultad": "medio"
+    }
   ],
   "Q": [
-    { "nombre": "Quagliarella", "pista": "Delantero italiano, goleador veterano", "dificultad": "dificil" },
-    { "nombre": "Quaresma", "pista": "Extremo portugués, conocido por su 'trivela'", "dificultad": "medio" },
-    { "nombre": "Quincy Promes", "pista": "Extremo neerlandés, ex Ajax", "dificultad": "dificil" },
-    { "nombre": "Quilindschy Hartman", "pista": "Lateral neerlandés del Feyenoord", "dificultad": "dificil" },
-    { "nombre": "Quique Setién", "pista": "Exentrenador del Barcelona", "dificultad": "medio" },
-    { "nombre": "Quini", "pista": "Goleador histórico del Sporting de Gijón y Barcelona", "dificultad": "medio" },
-    { "nombre": "Querétaro", "pista": "Equipo mexicano de la Liga MX", "dificultad": "medio" },
-    { "nombre": "QPR", "pista": "Club inglés llamado Queens Park Rangers", "dificultad": "medio" },
-    { "nombre": "Queen of the South", "pista": "Equipo escocés con nombre regio", "dificultad": "dificil" },
-    { "nombre": "Queen's Park", "pista": "Uno de los clubes más antiguos de Escocia", "dificultad": "dificil" }
+    {
+      "nombre": "QPR",
+      "pista": "Club inglés llamado Queens Park Rangers",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Quagliarella",
+      "pista": "Delantero italiano, goleador veterano",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Quaresma",
+      "pista": "Extremo portugués, conocido por su 'trivela'",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Queen of the South",
+      "pista": "Equipo escocés con nombre regio",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Queen's Park",
+      "pista": "Uno de los clubes más antiguos de Escocia",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Queretaro",
+      "pista": "Equipo mexicano de la Liga MX",
+      "dificultad": "difil"
+    },
+    {
+      "nombre": "Quilindschy Hartman",
+      "pista": "Lateral neerlandés del Feyenoord",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Quincy Promes",
+      "pista": "Extremo neerlandés, ex Ajax",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Quini",
+      "pista": "Goleador histórico del Sporting de Gijón y Barcelona",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Quique Setien",
+      "pista": "Exentrenador del Barcelona, Betis y Villareal",
+      "dificultad": "medio"
+    }
   ],
   "R": [
-    { "nombre": "Ramos, Sergio", "pista": "Defensor español, leyenda del Real Madrid", "dificultad": "medio" },
-    { "nombre": "Ronaldinho", "pista": "Brasileño, Balón de Oro 2005", "dificultad": "medio" },
-    { "nombre": "Ronaldo Nazário", "pista": "Delantero brasileño, 'El Fenómeno'", "dificultad": "medio" },
-    { "nombre": "Roberto Carlos", "pista": "Ex lateral izquierdo brasileño, famoso por sus tiros libres", "dificultad": "medio" },
-    { "nombre": "Reus", "pista": "Mediocampista alemán del Borussia Dortmund", "dificultad": "medio" },
-    { "nombre": "Rodrygo", "pista": "Extremo brasileño del Real Madrid", "dificultad": "medio" },
-    { "nombre": "Ruben Dias", "pista": "Defensor portugués del Manchester City", "dificultad": "medio" },
-    { "nombre": "Riyad Mahrez", "pista": "Extremo argelino, ex Manchester City", "dificultad": "medio" },
-    { "nombre": "Richarlison", "pista": "Delantero brasileño del Tottenham", "dificultad": "medio" },
-    { "nombre": "Rafael Leao", "pista": "Extremo portugués del AC Milan", "dificultad": "medio" },
-    { "nombre": "Romelu Lukaku", "pista": "Delantero belga, ex Inter y Chelsea", "dificultad": "medio" },
-    { "nombre": "Raúl González", "pista": "Ex delantero español, leyenda del Real Madrid", "dificultad": "medio" },
-    { "nombre": "Rivaldo", "pista": "Ex mediocampista brasileño, Balón de Oro 1999", "dificultad": "medio" },
-    { "nombre": "Rui Costa", "pista": "Ex mediocampista portugués, jugó en Benfica y AC Milan", "dificultad": "dificil" },
-    { "nombre": "Roberto Baggio", "pista": "Ex delantero italiano, 'La Divina Cola'", "dificultad": "medio" },
-    { "nombre": "Robin van Persie", "pista": "Ex delantero neerlandés, jugó en Arsenal y Man Utd", "dificultad": "medio" },
-    { "nombre": "Ricardo Carvalho", "pista": "Ex defensor portugués, jugó en Chelsea y Real Madrid", "dificultad": "dificil" },
-    { "nombre": "Ronald Koeman", "pista": "Ex defensor neerlandés y entrenador", "dificultad": "medio" },
-    { "nombre": "Raphinha", "pista": "Extremo brasileño del Barcelona", "dificultad": "medio" },
-    { "nombre": "Rodri", "pista": "Mediocampista español del Manchester City", "dificultad": "medio" },
-    { "nombre": "Raphaël Varane", "pista": "Defensor francés del Manchester United", "dificultad": "medio" },
-    { "nombre": "Ramires", "pista": "Ex mediocampista brasileño, ex Chelsea", "dificultad": "dificil" }
+    {
+      "nombre": "Rafael Leao",
+      "pista": "Extremo portugués del AC Milan",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Raheem Sterling",
+      "pista": "Extremo inglés, ex Man City y Chelsea",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Ramires",
+      "pista": "Ex mediocampista brasileño, ex Chelsea",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Raphael Varane",
+      "pista": "Defensor francés del Manchester United",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Raphinha",
+      "pista": "Extremo brasileño del Barcelona",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Raul Gonzalez",
+      "pista": "Ex delantero español, leyenda del Real Madrid",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Reus",
+      "pista": "Mediocampista alemán del Borussia Dortmund",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Ricardo Carvalho",
+      "pista": "Ex defensor portugués, jugó en Chelsea y Real Madrid",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Richarlison",
+      "pista": "Delantero brasileño del Tottenham",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Rio Ferdinand",
+      "pista": "Ex defensor inglés del Manchester United",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Rivaldo",
+      "pista": "Ex mediocampista brasileño, Balón de Oro 1999",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Riyad Mahrez",
+      "pista": "Extremo argelino, ex Manchester City",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Roberto Baggio",
+      "pista": "Ex delantero italiano, 'La Divina Cola'",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Roberto Carlos",
+      "pista": "Ex lateral izquierdo brasileño, famoso por sus tiros libres",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Robin van Persie",
+      "pista": "Ex delantero neerlandés, jugó en Arsenal y Man Utd",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Rodri",
+      "pista": "Mediocampista español del Manchester City",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Rodrygo",
+      "pista": "Extremo brasileño del Real Madrid",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Romelu Lukaku",
+      "pista": "Delantero belga, ex Inter y Chelsea",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Ronald Koeman",
+      "pista": "Ex defensor neerlandés y entrenador",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Ronaldinho",
+      "pista": "Brasileño, Balón de Oro 2005",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Ronaldo Nazario",
+      "pista": "Delantero brasileño, 'El Fenómeno'",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Roy Keane",
+      "pista": "Ex mediocampista irlandés, capitán del Man Utd",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Ruben Dias",
+      "pista": "Defensor portugués del Manchester City",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Rui Costa",
+      "pista": "Ex mediocampista portugués, jugó en Benfica y AC Milan",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Ruud Van Nistelrooy",
+      "pista": "Ex delantero neerlandés, goleador",
+      "dificultad": "medio"
+    }
   ],
   "S": [
-    { "nombre": "Salah", "pista": "Extremo egipcio, estrella del Liverpool", "dificultad": "medio" },
-    { "nombre": "Sergio Ramos", "pista": "Defensor español, leyenda del Real Madrid", "dificultad": "medio" },
-    { "nombre": "Son Heung-Min", "pista": "Delantero surcoreano, estrella del Tottenham", "dificultad": "medio" },
-    { "nombre": "Silva, Bernardo", "pista": "Mediocampista portugués del Manchester City", "dificultad": "medio" },
-    { "nombre": "Sergio Busquets", "pista": "Mediocampista español, leyenda del Barcelona", "dificultad": "medio" },
-    { "nombre": "Sané, Leroy", "pista": "Extremo alemán del Bayern de Múnich", "dificultad": "medio" },
-    { "nombre": "Sadio Mané", "pista": "Extremo senegalés, ex Liverpool y Bayern", "dificultad": "medio" },
-    { "nombre": "Sterling, Raheem", "pista": "Extremo inglés, ex Man City y Chelsea", "dificultad": "medio" },
-    { "nombre": "Suárez, Luis", "pista": "Delantero uruguayo, ex Barcelona y Liverpool", "dificultad": "medio" },
-    { "nombre": "Steven Gerrard", "pista": "Ex mediocampista inglés, leyenda del Liverpool", "dificultad": "medio" },
-    { "nombre": "Stoichkov", "pista": "Ex delantero búlgaro del Barcelona", "dificultad": "medio" },
-    { "nombre": "Sergio Agüero", "pista": "Delantero argentino retirado, ex Manchester City", "dificultad": "medio" },
-    { "nombre": "Samuel Eto'o", "pista": "Delantero camerunés, jugó en Barça e Inter", "dificultad": "medio" },
-    { "nombre": "Sol Campbell", "pista": "Ex defensor inglés, jugó en Arsenal y Tottenham", "dificultad": "dificil" },
-    { "nombre": "Serge Gnabry", "pista": "Extremo alemán del Bayern de Múnich", "dificultad": "medio" },
-    { "nombre": "Suso", "pista": "Extremo español del Sevilla", "dificultad": "dificil" },
-    { "nombre": "Stefan de Vrij", "pista": "Defensor neerlandés del Inter de Milán", "dificultad": "dificil" },
-    { "nombre": "Scott McTominay", "pista": "Mediocampista escocés del Manchester United", "dificultad": "dificil" },
-    { "nombre": "Sven-Göran Eriksson", "pista": "Ex entrenador sueco", "dificultad": "dificil" },
-    { "nombre": "Sonny Anderson", "pista": "Ex delantero brasileño, jugó en Mónaco y Lyon", "dificultad": "dificil" },
-    { "nombre": "Saúl Ñíguez", "pista": "Mediocampista español del Atlético de Madrid", "dificultad": "dificil" },
-    { "nombre": "Santi Cazorla", "pista": "Ex mediocampista español, jugó en Arsenal y Villarreal", "dificultad": "medio" }
+    {
+      "nombre": "Sadio Mane",
+      "pista": "Extremo senegalés, ex Liverpool y Bayern",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Salah",
+      "pista": "Extremo egipcio, estrella del Liverpool",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Samuel Eto'o",
+      "pista": "Delantero camerunés, jugó en Barça e Inter",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Santi Cazorla",
+      "pista": "Ex mediocampista español, jugó en Arsenal y Villarreal",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Saul Niguez",
+      "pista": "Mediocampista español del Atlético de Madrid",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Scott McTominay",
+      "pista": "Mediocampista escocés del Manchester United",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Serge Gnabry",
+      "pista": "Extremo alemán del Bayern de Múnich",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Sergio Busquets",
+      "pista": "Mediocampista español, leyenda del Barcelona",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Sergio Ramos",
+      "pista": "Defensor español, leyenda del Real Madrid",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Sol Campbell",
+      "pista": "Ex defensor inglés, jugó en Arsenal y Tottenham",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Son Heung-Min",
+      "pista": "Delantero surcoreano, estrella del Tottenham",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Sonny Anderson",
+      "pista": "Ex delantero brasileño, jugó en Mónaco y Lyon",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Stefan de Vrij",
+      "pista": "Defensor neerlandés del Inter de Milán",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Steven Gerrard",
+      "pista": "Ex mediocampista inglés, leyenda del Liverpool",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Stoichkov",
+      "pista": "Ex delantero búlgaro del Barcelona",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Suso",
+      "pista": "Extremo español del Sevilla",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Sven-Goran Eriksson",
+      "pista": "Ex entrenador sueco",
+      "dificultad": "dificil"
+    }
   ],
   "T": [
-    { "nombre": "Thiago Silva", "pista": "Defensor brasileño, ex PSG y Chelsea", "dificultad": "medio" },
-    { "nombre": "Ter Stegen", "pista": "Arquero alemán del Barcelona", "dificultad": "medio" },
-    { "nombre": "Trent Alexander-Arnold", "pista": "Lateral inglés del Liverpool", "dificultad": "medio" },
-    { "nombre": "Toni Kroos", "pista": "Mediocampista alemán del Real Madrid", "dificultad": "medio" },
-    { "nombre": "Thomas Müller", "pista": "Delantero alemán del Bayern de Múnich", "dificultad": "medio" },
-    { "nombre": "Thierry Henry", "pista": "Ex delantero francés, leyenda del Arsenal", "dificultad": "medio" },
-    { "nombre": "Totti, Francesco", "pista": "Leyenda italiana, ídolo de la Roma", "dificultad": "medio" },
-    { "nombre": "Thibaut Courtois", "pista": "Arquero belga del Real Madrid", "dificultad": "medio" },
-    { "nombre": "Tammy Abraham", "pista": "Delantero inglés de la Roma", "dificultad": "dificil" },
-    { "nombre": "Theo Hernández", "pista": "Lateral francés del AC Milan", "dificultad": "medio" },
-    { "nombre": "Tanguy Ndombele", "pista": "Mediocampista francés, ex Tottenham", "dificultad": "dificil" },
-    { "nombre": "Troy Deeney", "pista": "Ex delantero inglés del Watford", "dificultad": "dificil" },
-    { "nombre": "Takeshi Honda", "pista": "Ex mediocampista japonés", "dificultad": "dificil" },
-    { "nombre": "Tim Howard", "pista": "Ex arquero estadounidense", "dificultad": "dificil" },
-    { "nombre": "Tyler Adams", "pista": "Mediocampista estadounidense del Bournemouth", "dificultad": "dificil" },
-    { "nombre": "Thiago Alcántara", "pista": "Mediocampista español del Liverpool", "dificultad": "medio" },
-    { "nombre": "Trezeguet, David", "pista": "Ex delantero francés, campeón mundial", "dificultad": "medio" },
-    { "nombre": "Teófilo Cubillas", "pista": "Ex mediocampista peruano, leyenda", "dificultad": "dificil" }
+    {
+      "nombre": "Takeshi Honda",
+      "pista": "Ex mediocampista japonés",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Tammy Abraham",
+      "pista": "Delantero inglés de la Roma",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Tanguy Ndombele",
+      "pista": "Mediocampista francés, ex Tottenham",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Ter Stegen",
+      "pista": "Arquero alemán del Barcelona",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Teofilo Cubillas",
+      "pista": "Ex mediocampista peruano, leyenda",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Theo Hernandez",
+      "pista": "Lateral francés del AC Milan",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Thiago Alcantara",
+      "pista": "Mediocampista español del Liverpool",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Thiago Silva",
+      "pista": "Defensor brasileño, ex PSG y Chelsea",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Thibaut Courtois",
+      "pista": "Arquero belga del Real Madrid",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Thierry Henry",
+      "pista": "Ex delantero francés, leyenda del Arsenal",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Thomas Muller",
+      "pista": "Delantero alemán del Bayern de Múnich",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Tim Howard",
+      "pista": "Ex arquero estadounidense",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Toni Kroos",
+      "pista": "Mediocampista alemán del Real Madrid",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Trent Alexander-Arnold",
+      "pista": "Lateral inglés del Liverpool",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Troy Deeney",
+      "pista": "Ex delantero inglés del Watford",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Tyler Adams",
+      "pista": "Mediocampista estadounidense del Bournemouth",
+      "dificultad": "dificil"
+    }
   ],
   "U": [
-    { "nombre": "Umtiti", "pista": "Francés, campeón del mundo 2018", "dificultad": "dificil" },
-    { "nombre": "Ugarte", "pista": "Volante uruguayo, juega en PSG", "dificultad": "dificil" },
-    { "nombre": "Ulloa", "pista": "Delantero argentino, campeón con Leicester", "dificultad": "dificil" },
-    { "nombre": "Unai Simón", "pista": "Arquero español del Athletic Club", "dificultad": "medio" },
-    { "nombre": "Uche", "pista": "Ex delantero nigeriano, jugó en España", "dificultad": "dificil" }
+    {
+      "nombre": "Uche",
+      "pista": "Ex delantero nigeriano, jugó en España",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Ugarte",
+      "pista": "Volante uruguayo, juega en PSG",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Ulloa",
+      "pista": "Delantero argentino, campeón con Leicester",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Umtiti",
+      "pista": "Francés, campeón del mundo 2018",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Unai Simon",
+      "pista": "Arquero español del Athletic Club",
+      "dificultad": "medio"
+    }
   ],
   "V": [
-    { "nombre": "Van Dijk", "pista": "Defensor neerlandés, figura del Liverpool", "dificultad": "medio" },
-    { "nombre": "Valverde", "pista": "Uruguayo, mediocampista del Real Madrid", "dificultad": "medio" },
-    { "nombre": "Vieri", "pista": "Delantero italiano de los 90 y 2000", "dificultad": "medio" },
-    { "nombre": "Vinicius Jr.", "pista": "Extremo brasileño del Real Madrid", "dificultad": "medio" },
-    { "nombre": "Virgil van Dijk", "pista": "Defensor neerlandés, figura del Liverpool", "dificultad": "medio" },
-    { "nombre": "Victor Osimhen", "pista": "Delantero nigeriano, figura del Napoli", "dificultad": "medio" },
-    { "nombre": "Vidal, Arturo", "pista": "Mediocampista chileno, ex Bayern y Juventus", "dificultad": "medio" },
-    { "nombre": "Vlahović, Dušan", "pista": "Delantero serbio de la Juventus", "dificultad": "medio" },
-    { "nombre": "Verratti, Marco", "pista": "Mediocampista italiano del PSG", "dificultad": "medio" },
-    { "nombre": "Van der Sar, Edwin", "pista": "Ex arquero neerlandés de Manchester United", "dificultad": "medio" },
-    { "nombre": "Vardy, Jamie", "pista": "Delantero inglés del Leicester City", "dificultad": "medio" },
-    { "nombre": "Vela, Carlos", "pista": "Delantero mexicano, ex Arsenal y Real Sociedad", "dificultad": "dificil" },
-    { "nombre": "Varane, Raphaël", "pista": "Defensor francés del Manchester United", "dificultad": "medio" },
-    { "nombre": "Vini Jr.", "pista": "Extremo brasileño del Real Madrid", "dificultad": "medio" },
-    { "nombre": "Van Nistelrooy, Ruud", "pista": "Ex delantero neerlandés, goleador", "dificultad": "medio" },
-    { "nombre": "Vincenzo Montella", "pista": "Ex delantero italiano y entrenador", "dificultad": "dificil" },
-    { "nombre": "Valdés, Víctor", "pista": "Ex arquero español del Barcelona", "dificultad": "medio" },
-    { "nombre": "Vitor Roque", "pista": "Joven delantero brasileño del Barcelona", "dificultad": "dificil" }
+    {
+      "nombre": "Van Dijk",
+      "pista": "Defensor neerlandés, figura del Liverpool",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Victor Osimhen",
+      "pista": "Delantero nigeriano, figura del Napoli",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Vieri",
+      "pista": "Delantero italiano de los 90 y 2000",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Vincenzo Montella",
+      "pista": "Ex delantero italiano y entrenador",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Vinicius Jr.",
+      "pista": "Extremo brasileño del Real Madrid",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Virgil van Dijk",
+      "pista": "Defensor neerlandés, figura del Liverpool",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Vitor Roque",
+      "pista": "Joven delantero brasileño del Barcelona",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Victor Valdes",
+      "pista": "Ex arquero español del Barcelona",
+      "dificultad": "medio"
+    }
   ],
   "W": [
-    { "nombre": "Weah", "pista": "Delantero liberiano, Balón de Oro 1995", "dificultad": "medio" },
-    { "nombre": "Walker", "pista": "Defensor inglés, juega en el Manchester City", "dificultad": "medio" },
-    { "nombre": "Wijnaldum", "pista": "Mediocampista neerlandés", "dificultad": "medio" },
-    { "nombre": "Wesley Sneijder", "pista": "Ex mediocampista neerlandés, jugó en Real Madrid e Inter", "dificultad": "medio" },
-    { "nombre": "Wayne Rooney", "pista": "Ex delantero inglés, leyenda del Manchester United", "dificultad": "medio" },
-    { "nombre": "Wilfried Zaha", "pista": "Extremo marfileño, ex Crystal Palace", "dificultad": "dificil" },
-    { "nombre": "William Saliba", "pista": "Defensor francés del Arsenal", "dificultad": "medio" },
-    { "nombre": "Wojciech Szczesny", "pista": "Arquero polaco de la Juventus", "dificultad": "dificil" },
-    { "nombre": "Willy Caballero", "pista": "Arquero argentino, ex Manchester City y Chelsea", "dificultad": "dificil" }
+    {
+      "nombre": "Walker",
+      "pista": "Defensor inglés, juega en el Manchester City",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Wayne Rooney",
+      "pista": "Ex delantero inglés, leyenda del Manchester United",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Weah",
+      "pista": "Delantero liberiano, Balón de Oro 1995",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Wesley Sneijder",
+      "pista": "Ex mediocampista neerlandés, jugó en Real Madrid e Inter",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Wijnaldum",
+      "pista": "Mediocampista neerlandés",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Wilfried Zaha",
+      "pista": "Extremo marfileño, ex Crystal Palace",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "William Saliba",
+      "pista": "Defensor francés del Arsenal",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Willy Caballero",
+      "pista": "Arquero argentino, ex Manchester City y Chelsea",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Wojciech Szczesny",
+      "pista": "Arquero polaco de la Juventus",
+      "dificultad": "dificil"
+    }
   ],
   "X": [
-    { "nombre": "Xavi Hernández", "pista": "Volante español, símbolo del Barcelona", "dificultad": "medio" },
-    { "nombre": "Xhaka", "pista": "Volante suizo, ex Arsenal", "dificultad": "medio" },
-    { "nombre": "Xisco", "pista": "Futbolista español con paso por el Newcastle", "dificultad": "dificil" },
-    { "nombre": "Xabi Alonso", "pista": "Ex mediocampista español, jugó en Liverpool y Real Madrid", "dificultad": "medio" }
+    {
+      "nombre": "Xabi Alonso",
+      "pista": "Ex mediocampista español, jugó en Liverpool y Real Madrid",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Xavi Hernandez",
+      "pista": "Volante español, símbolo del Barcelona",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Xhaka",
+      "pista": "Volante suizo, ex Arsenal",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Xisco",
+      "pista": "Futbolista español con paso por el Newcastle",
+      "dificultad": "dificil"
+    }
   ],
   "Y": [
-    { "nombre": "Yaya Touré", "pista": "Mediocampista marfileño, leyenda del Manchester City", "dificultad": "medio" },
-    { "nombre": "Yann Sommer", "pista": "Arquero suizo del Inter de Milán", "dificultad": "dificil" },
-    { "nombre": "Youri Tielemans", "pista": "Mediocampista belga del Aston Villa", "dificultad": "dificil" },
-    { "nombre": "Youssouf Msakni", "pista": "Extremo tunecino", "dificultad": "dificil" },
-    { "nombre": "Yan Valery", "pista": "Defensor francés", "dificultad": "dificil" },
-    { "nombre": "Yves Bissouma", "pista": "Mediocampista maliense del Tottenham", "dificultad": "dificil" }
+    {
+      "nombre": "Yan Valery",
+      "pista": "Defensor francés",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Yann Sommer",
+      "pista": "Arquero suizo del Inter de Milán",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Yaya Toure",
+      "pista": "Mediocampista marfileño, leyenda del Manchester City",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Youri Tielemans",
+      "pista": "Mediocampista belga del Aston Villa",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Youssouf Msakni",
+      "pista": "Extremo tunecino",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Yves Bissouma",
+      "pista": "Mediocampista maliense del Tottenham",
+      "dificultad": "dificil"
+    }
   ],
   "Z": [
-    { "nombre": "Zidane", "pista": "Francés, campeón del mundo 1998", "dificultad": "medio" },
-    { "nombre": "Zapata", "pista": "Delantero colombiano, ex Atalanta", "dificultad": "dificil" },
-    { "nombre": "Zárate", "pista": "Delantero argentino, ex Vélez y Boca", "dificultad": "medio" },
-    { "nombre": "Zlatan Ibrahimovic", "pista": "Sueco, jugó en Barça, PSG y Milan", "dificultad": "medio" },
-    { "nombre": "Zico", "pista": "Legendario mediocampista brasileño", "dificultad": "dificil" },
-    { "nombre": "Zambrotta", "pista": "Ex lateral italiano, campeón mundial 2006", "dificultad": "dificil" },
-    { "nombre": "Zola", "pista": "Ex delantero italiano, ídolo del Chelsea", "dificultad": "dificil" },
-    { "nombre": "Zielinski", "pista": "Mediocampista polaco del Napoli", "dificultad": "dificil" },
-    { "nombre": "Ziyech", "pista": "Extremo marroquí, juega en Galatasaray", "dificultad": "dificil" },
-    { "nombre": "Zinchenko", "pista": "Lateral/mediocampista ucraniano del Arsenal", "dificultad": "medio" },
-    { "nombre": "Zanetti, Javier", "pista": "Ex lateral argentino, leyenda del Inter", "dificultad": "medio" },
-    { "nombre": "Zé Roberto", "pista": "Ex mediocampista brasileño, jugó en Bayern y Real Madrid", "dificultad": "dificil" },
-    { "nombre": "Ze Maria", "pista": "Ex lateral brasileño del Inter", "dificultad": "dificil" },
-    { "nombre": "Zouma, Kurt", "pista": "Defensor francés del West Ham", "dificultad": "dificil" }
+    {
+      "nombre": "Zambrotta",
+      "pista": "Ex lateral italiano, campeón mundial 2006",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Zapata",
+      "pista": "Delantero colombiano, ex Atalanta",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Ze Maria",
+      "pista": "Ex lateral brasileño del Inter",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Zico",
+      "pista": "Legendario mediocampista brasileño",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Zidane",
+      "pista": "Francés, campeón del mundo 1998",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Zielinski",
+      "pista": "Mediocampista polaco del Napoli",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Zinchenko",
+      "pista": "Lateral/mediocampista ucraniano del Arsenal",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Ziyech",
+      "pista": "Extremo marroquí, juega en Galatasaray",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Zlatan Ibrahimovic",
+      "pista": "Sueco, jugó en Barça, PSG y Milan",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Zola",
+      "pista": "Ex delantero italiano, ídolo del Chelsea",
+      "dificultad": "dificil"
+    },
+    {
+      "nombre": "Zarate",
+      "pista": "Delantero argentino, ex Vélez y Boca",
+      "dificultad": "medio"
+    },
+    {
+      "nombre": "Ze Roberto",
+      "pista": "Ex mediocampista brasileño, jugó en Bayern y Real Madrid",
+      "dificultad": "dificil"
+    }
   ]
 }

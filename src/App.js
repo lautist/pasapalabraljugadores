@@ -6,7 +6,7 @@ import jugadores from './jugadores.json';
 
 function App() {
   return (
-    <div className="App">
+    <div >
      <Juego jugadores={jugadores}/>
     </div>
   );

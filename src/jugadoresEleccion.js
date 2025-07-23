@@ -7,7 +7,6 @@ function JugadoresEleccion({ jugadores }) {
   }, [jugadores]);
 
   const [jugadoresRandom, setJugadoresRandom] = useState({});
-
   const [letraActual, setLetraActual] = useState(letras[0]);
   const [respuesta, setRespuesta] = useState('');
   const [aciertos, setAciertos] = useState([]);
@@ -21,7 +20,7 @@ function JugadoresEleccion({ jugadores }) {
   const [juegoIniciado, setJuegoIniciado] = useState(false);
   const [tiempoInput, setTiempoInput] = useState('3'); // Tiempo en minutos configurado por el usuario
 
-  // NUEVO ESTADO PARA LA DIFICULTAD
+  // ESTADO PARA LA DIFICULTAD
   const [dificultadSeleccionada, setDificultadSeleccionada] = useState('medio'); // Por defecto: 'medio'
 
   // ESTADOS PARA CONTROLAR EL FLUJO DE FIN DE JUEGO
@@ -113,7 +112,6 @@ function JugadoresEleccion({ jugadores }) {
     }
   }, [sugerencias]);
 
-
   const avanzarLetra = useCallback(() => {
     let indiceActual = letras.indexOf(letraActual);
     let siguienteIndice = (indiceActual + 1) % letras.length;
@@ -144,7 +142,6 @@ function JugadoresEleccion({ jugadores }) {
       inputRef.current.focus(); // Enfoca el input después de avanzar la letra
     }
   }, [letraActual, letras, aciertos, errores]);
-
 
   const verificarRespuesta = useCallback((valorRespuesta) => {
     if (!letraActual || !juegoActivo) return;
@@ -177,11 +174,9 @@ function JugadoresEleccion({ jugadores }) {
     avanzarLetra();
   }, [letraActual, juegoActivo, jugadoresRandom, normalizar, aciertos, errores, pasadas, avanzarLetra]);
 
-
   const verificar = useCallback(() => {
     verificarRespuesta(respuesta);
   }, [respuesta, verificarRespuesta]);
-
 
   const pasar = useCallback(() => {
     if (!letraActual || !juegoActivo) return;
@@ -197,15 +192,16 @@ function JugadoresEleccion({ jugadores }) {
     avanzarLetra();
   }, [letraActual, juegoActivo, pasadas, aciertos, errores, avanzarLetra]);
 
-
   const manejarCambio = useCallback((e) => { // Usar useCallback
     const valor = e.target.value;
     setRespuesta(valor);
 
-    if (valor.length >= 3 && letraActual) { // Generalmente 2 o 3 caracteres para empezar a sugerir
+    if (valor.length >= 0 && letraActual) { // Volvemos a 2 para empezar a sugerir
       const listaCompletaDeLetra = jugadores[letraActual] || [];
       // Asegúrate de filtrar por la dificultad seleccionada al buscar sugerencias
       const sugerenciasFiltradas = listaCompletaDeLetra.filter(j =>
+        // Aquí puedes ajustar la lógica si 'dificultadSeleccionada' puede ser 'todas' o algo similar
+        // Por ahora, asumo que j.dificultad siempre estará presente para los jugadores relevantes.
         j.dificultad === dificultadSeleccionada && normalizar(j.nombre).startsWith(normalizar(valor))
       );
       setSugerencias(sugerenciasFiltradas || []);
@@ -213,8 +209,7 @@ function JugadoresEleccion({ jugadores }) {
       setSugerencias([]);
     }
     setSugerenciaResaltada(-1); // Reinicia el resaltado al escribir
-  }, [jugadores, letraActual, normalizar, dificultadSeleccionada]); 
-
+  }, [jugadores, letraActual, normalizar, dificultadSeleccionada]);
 
   const manejarKeyDown = useCallback((e) => { // Usar useCallback
     if (!juegoActivo) return;
@@ -247,7 +242,6 @@ function JugadoresEleccion({ jugadores }) {
     }
   }, [sugerencias, sugerenciaResaltada, verificar, verificarRespuesta, juegoActivo]);
 
-
   const iniciarJuego = useCallback(() => { // Usar useCallback
     const tiempoEnSegundos = parseInt(tiempoInput) * 60;
     if (isNaN(tiempoEnSegundos) || tiempoEnSegundos <= 0) {
@@ -274,7 +268,6 @@ function JugadoresEleccion({ jugadores }) {
     }
   }, [tiempoInput, letras, asignarJugadoresRandomInterna]);
 
-
   const reiniciar = useCallback(() => { // Usar useCallback
     setJuegoActivo(false);
     setJuegoIniciado(false);
@@ -293,17 +286,13 @@ function JugadoresEleccion({ jugadores }) {
     setMostrarResultadosFinales(false); // Oculta los resultados finales
   }, [letras, asignarJugadoresRandomInterna]);
 
-
   // Función para pasar de la pantalla "FIN DEL ROSCO" a los resultados
   const verResultados = useCallback(() => {
     setMostrarPantallaFinalizada(false); // Oculta la pantalla "Fin del Rosco"
     setMostrarResultadosFinales(true);   // Muestra la pantalla de resultados detallados
   }, []);
 
-
-  const minutos = Math.floor(tiempoRestante / 60);
-  const segundos = tiempoRestante % 60;
-  const tiempoFormateado = `${minutos.toString().padStart(2, '0')}:${segundos.toString().padStart(2, '0')}`;
+  const tiempoFormateado = `${Math.floor(tiempoRestante / 60).toString().padStart(2, '0')}:${(tiempoRestante % 60).toString().padStart(2, '0')}`;
 
   // Lógica de renderizado condicional
   // El orden de los 'if' es crucial para qué pantalla se muestra
@@ -314,29 +303,18 @@ function JugadoresEleccion({ jugadores }) {
     const noRespondidas = letras.filter(
       (l) => !aciertos.includes(l) && !errores.includes(l)
     );
-
     return (
-      <div style={{ textAlign: 'center', padding: '10px' }}>
+      <div className="final-screen-container">
         <h2>¡Resultados del Rosco!</h2>
-        <p>✅ Aciertos: {aciertos.length}</p>
-        <p>❌ Errores: {errores.length}</p>
+        <p className="summary-text">✅ Aciertos: {aciertos.length}</p>
+        <p className="summary-text">❌ Errores: {errores.length}</p>
 
         {errores.length > 0 && (
           <>
             <h3>Respuestas correctas que erraste:</h3>
-            <ul style={{ maxWidth: '90%', margin: '0 auto', listStyle: 'none', padding: 0 }}>
+            <ul className="results-list">
               {errores.map((letra) => (
-                <li
-                  key={letra}
-                  style={{
-                    backgroundColor: '#e76f51',
-                    color: 'white',
-                    margin: '5px 0',
-                    padding: '8px',
-                    borderRadius: '4px',
-                    fontWeight: 'bold',
-                  }}
-                >
+                <li key={letra} className="error-item">
                   {letra.toUpperCase()}: {jugadoresRandom[letra]?.nombre || 'Sin respuesta'}
                 </li>
               ))}
@@ -347,19 +325,9 @@ function JugadoresEleccion({ jugadores }) {
         {noRespondidas.length > 0 && (
           <>
             <h3>Respuestas correctas que no llegaste a responder:</h3>
-            <ul style={{ maxWidth: '90%', margin: '0 auto', listStyle: 'none', padding: 0 }}>
+            <ul className="results-list">
               {noRespondidas.map((letra) => (
-                <li
-                  key={letra}
-                  style={{
-                    backgroundColor: '#f4a261',
-                    color: 'white',
-                    margin: '5px 0',
-                    padding: '8px',
-                    borderRadius: '4px',
-                    fontWeight: 'bold',
-                  }}
-                >
+                <li key={letra} className="unanswered-item">
                   {letra.toUpperCase()}: {jugadoresRandom[letra]?.nombre || 'Sin respuesta'}
                 </li>
               ))}
@@ -367,10 +335,7 @@ function JugadoresEleccion({ jugadores }) {
           </>
         )}
 
-        <button
-          onClick={reiniciar}
-          style={{ marginTop: 20, padding: '10px 20px', cursor: 'pointer' }}
-        >
+        <button onClick={reiniciar}>
           Reiniciar Juego
         </button>
       </div>
@@ -380,20 +345,14 @@ function JugadoresEleccion({ jugadores }) {
   // 2. Mostrar la pantalla INTERMEDIA "FIN DEL ROSCO"
   if (mostrarPantallaFinalizada) {
     return (
-      <div style={{ textAlign: 'center', fontFamily: 'Arial', marginTop: 50, padding: '10px' }}>
+      <div className="final-screen-container">
         <h2>¡Fin del Rosco!</h2>
         <p>El tiempo ha terminado o todas las letras han sido completadas.</p>
-        <div style={{ marginTop: 20 }}>
-          <button
-            onClick={verResultados}
-            style={{ padding: '15px 30px', fontSize: 20, cursor: 'pointer', backgroundColor: '#28a745', color: 'white', border: 'none', borderRadius: 5, marginRight: '10px' }}
-          >
+        <div className="final-screen-buttons">
+          <button onClick={verResultados}>
             Ver Resultados
           </button>
-          <button
-            onClick={reiniciar}
-            style={{ padding: '15px 30px', fontSize: 20, cursor: 'pointer', backgroundColor: '#264653', color: 'white', border: 'none', borderRadius: 5 }}
-          >
+          <button onClick={reiniciar}>
             Reiniciar Juego
           </button>
         </div>
@@ -404,9 +363,9 @@ function JugadoresEleccion({ jugadores }) {
   // 3. Mostrar la pantalla de INICIO/CONFIGURACIÓN (si el juego no ha iniciado)
   if (!juegoIniciado) {
     return (
-      <div style={{ textAlign: 'center', fontFamily: 'Arial', marginTop: 50, padding: '10px' }}>
+      <div className="final-screen-container">
         <h2>Configurar Juego</h2>
-        <div style={{ marginBottom: 20 }}>
+        <div className="game-controls">
           <label htmlFor="tiempoConfig">Tiempo en minutos:</label>
           <input
             id="tiempoConfig"
@@ -414,38 +373,19 @@ function JugadoresEleccion({ jugadores }) {
             value={tiempoInput}
             onChange={(e) => setTiempoInput(e.target.value)}
             min="1"
-            style={{ marginLeft: 10, padding: 8, fontSize: 16, width: 60, textAlign: 'center' }}
           />
         </div>
-        {/* NUEVA SECCIÓN DE DIFICULTAD */}
-        <div style={{ marginBottom: 20, marginTop: 15 }}>
+        
+        <div className="game-controls">
           <label>Dificultad:</label>
-          <label style={{ marginLeft: 15 }}>
-            <input
-              type="radio"
-              name="dificultad"
-              value="medio"
-              checked={dificultadSeleccionada === 'medio'}
-              onChange={(e) => setDificultadSeleccionada(e.target.value)}
-              style={{ marginRight: 5 }}
-            /> Medio
-          </label>
-          <label style={{ marginLeft: 15 }}>
-            <input
-              type="radio"
-              name="dificultad"
-              value="dificil"
-              checked={dificultadSeleccionada === 'dificil'}
-              onChange={(e) => setDificultadSeleccionada(e.target.value)}
-              style={{ marginRight: 5 }}
-            /> Difícil
-          </label>
+          <select value={dificultadSeleccionada} onChange={(e) => setDificultadSeleccionada(e.target.value)}>
+            <option value="facil">Fácil</option>
+            <option value="medio">Medio</option>
+            <option value="dificil">Difícil</option>
+          </select>
         </div>
-        {/* FIN NUEVA SECCIÓN DE DIFICULTAD */}
-        <button
-          onClick={iniciarJuego}
-          style={{ padding: '15px 30px', fontSize: 20, cursor: 'pointer', backgroundColor: '#28a745', color: 'white', border: 'none', borderRadius: 5 }}
-        >
+        
+        <button onClick={iniciarJuego} className="start-button">
           Iniciar Juego
         </button>
       </div>
@@ -454,119 +394,78 @@ function JugadoresEleccion({ jugadores }) {
 
   // 4. Si ninguna de las condiciones anteriores es verdadera, significa que el JUEGO ESTÁ ACTIVO
   const jugadorActual = jugadoresRandom[letraActual];
-
   return (
-    <div style={{ textAlign: 'center', padding: '10px', display: 'flex', flexDirection: 'column', alignItems: 'center', minHeight: 'calc(100vh - 40px)' }}>
+    <div className="App"> {/* Usa la clase .App para el contenedor principal */}
       {/* Información del juego: Tiempo, Aciertos, Errores, Pasadas */}
-      <div style={{ marginBottom: '10px', width: '100%', display: 'flex', justifyContent: 'space-around', alignItems: 'center', flexWrap: 'wrap', gap: '5px' }}>
-        <p style={{ fontSize: '1.2em', margin: 0, color: tiempoRestante <= 10 && juegoActivo ? 'red' : 'inherit' }}>Tiempo: {tiempoFormateado}</p>
-        <p style={{ fontSize: '1.2em', margin: 0 }}>✅ Aciertos: {aciertos.length}</p>
-        <p style={{ fontSize: '1.2em', margin: 0 }}>❌ Errores: {errores.length}</p>
-        <p style={{ fontSize: '1.2em', margin: 0 }}>🟡 Pasadas: {pasadas.length}</p>
+      <div className="game-controls" style={{ justifyContent: 'space-around', marginBottom: '10px' }}>
+        <p className="summary-text" style={{ color: tiempoRestante <= 20 && juegoActivo ? 'red' : '#ffffffff' }}>Tiempo: {tiempoFormateado}</p>
+        <p className="summary-text">✅ Aciertos: {aciertos.length}</p>
+        <p className="summary-text">❌ Errores: {errores.length}</p>
+        <p className="summary-text">🟡 Pasadas: {pasadas.length}</p>
       </div>
 
       {/* Rosco y Controles del Juego */}
-      <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', width: '100%', maxWidth: '900px', gap: '20px' }}>
-        {/* Contenedor del Rosco */}
-        <div style={{ flexShrink: 0, width: '100%', display: 'flex', justifyContent: 'center' }}>
-          <Rosco
-            letras={letras}
-            letraActual={letraActual}
-            aciertos={aciertos}
-            errores={errores}
-            pasadas={pasadas}
-          />
-        </div>
+      <div className="Rosco-container"> {/* Contenedor para el Rosco */}
+        <Rosco
+          letras={letras}
+          letraActual={letraActual}
+          aciertos={aciertos}
+          errores={errores}
+          pasadas={pasadas}
+        />
+      </div>
 
-        {/* Contenedor de la Información y Controles */}
-        <div style={{ flexGrow: 1, textAlign: 'center', maxWidth: '600px', width: '100%', padding: '15px', border: '1px solid #ccc', borderRadius: '8px', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }}>
-          {jugadorActual && (
-            <>
-              <h3 style={{ margin: '0 0 10px 0' }}>La palabra empieza por: <span style={{ fontSize: '1.5em', fontWeight: 'bold' }}>{letraActual.toUpperCase()}</span></h3>
-              <p style={{ fontSize: '1.1em', fontStyle: 'italic', margin: '0 0 15px 0' }}>Pista: "{jugadorActual.pista}"</p>
-            </>
-          )}
-          {/* Si no hay jugador asignado para la letra con la dificultad seleccionada, se mostrará "Sin pista" */}
+      {/* Contenedor de la Información y Controles */}
+      <div className="game-info-controls">
+        {jugadorActual && (
+          <>
+            <h3 style={{ color: '#b9b697ff', margin: '0 0 10px 0' }}>La palabra empieza por: <span style={{ fontSize: '1em', fontWeight: 'bold' }}>{letraActual.toUpperCase()}</span></h3>
+            <p style={{ color: '#b9b697ff', fontStyle: 'italic', margin: '0 0 15px 0', fontSize: '1.5em' }}>Pista: "{jugadorActual.pista}"</p>
+          </>
+        )}
+        {/* Si no hay jugador asignado para la letra con la dificultad seleccionada, se mostrará "Sin pista" */}
 
-          <input
-            ref={inputRef}
-            type="text"
-            value={respuesta}
-            onChange={manejarCambio}
-            onKeyDown={manejarKeyDown}
-            placeholder="Escribe tu respuesta aquí..."
-            style={{
-              width: 'calc(100% - 20px)',
-              padding: '10px',
-              fontSize: '1em',
-              borderRadius: '5px',
-              border: '1px solid #ddd',
-              marginBottom: '10px'
-            }}
-            disabled={!juegoActivo}
-            autoFocus
-          />
+        <input
+          ref={inputRef}
+          type="text"
+          value={respuesta}
+          onChange={manejarCambio}
+          onKeyDown={manejarKeyDown}
+          placeholder="Escribe tu respuesta aquí..."
+          disabled={!juegoActivo}
+          autoFocus
+        />
 
-          {sugerencias.length > 0 && juegoActivo && (
-            <ul
-              style={{
-                listStyle: 'none',
-                padding: 0,
-                margin: '0 auto 10px auto',
-                maxHeight: '150px',
-                overflowY: 'auto',
-                border: '1px solid #eee',
-                borderRadius: '4px',
-                backgroundColor: 'white',
-                maxWidth: '300px', // Limitar el ancho de las sugerencias
-                textAlign: 'left' // Alineado a la izquierda para las sugerencias
-              }}
-            >
-              {sugerencias.map((j, i) => (
-                <li
-                  key={i}
-                  onClick={() => {
-                    setRespuesta(j.nombre);
-                    setSugerencias([]);
-                    setSugerenciaResaltada(-1);
-                    if (inputRef.current) inputRef.current.focus();
-                    verificarRespuesta(j.nombre); // Verificar al seleccionar una sugerencia
-                  }}
-                  style={{
-                    padding: '8px',
-                    borderBottom: '1px solid #eee',
-                    cursor: 'pointer',
-                    backgroundColor: i === sugerenciaResaltada ? '#e0e0e0' : 'white',
-                  }}
-                >
-                  {j.nombre}
-                </li>
-              ))}
-            </ul>
-          )}
+        {sugerencias.length > 0 && juegoActivo && (
+          <ul className="sugerencias-lista">
+            {sugerencias.map((j, i) => (
+              <li
+                key={i}
+                className={i === sugerenciaResaltada ? 'resaltada' : ''}
+                onClick={() => {
+                  setRespuesta(j.nombre);
+                  setSugerencias([]);
+                  setSugerenciaResaltada(-1);
+                  if (inputRef.current) inputRef.current.focus();
+                  verificarRespuesta(j.nombre); // Verificar al seleccionar una sugerencia
+                }}
+              >
+                {j.nombre}
+              </li>
+            ))}
+          </ul>
+        )}
 
-          <div style={{ marginTop: '15px', display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '10px' }}>
-            <button
-              onClick={verificar}
-              style={{ padding: '10px', minWidth: '100px', flexGrow: 1 }}
-              disabled={!juegoActivo}
-            >
-              Responder
-            </button>
-            <button
-              onClick={pasar}
-              style={{ padding: '10px', minWidth: '100px', flexGrow: 1 }}
-              disabled={!juegoActivo}
-            >
-              Pasar
-            </button>
-            <button
-              onClick={reiniciar}
-              style={{ padding: '10px', backgroundColor: '#264653', color: '#fff', minWidth: '100px', flexGrow: 1 }}
-            >
-              Reiniciar
-            </button>
-          </div>
+        <div className="button-container">
+          <button onClick={verificar} disabled={!juegoActivo}>
+            Responder
+          </button>
+          <button onClick={pasar} disabled={!juegoActivo}>
+            Pasar
+          </button>
+          <button onClick={reiniciar}>
+            Reiniciar
+          </button>
         </div>
       </div>
     </div>
