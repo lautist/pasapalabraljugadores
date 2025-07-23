@@ -389,8 +389,15 @@
   ],
   "Q": [
     { "nombre": "Quagliarella", "pista": "Delantero italiano, goleador veterano", "dificultad": "dificil" },
-    { "nombre": "Quaresma", "pista": "Extremo portugués, conocido por su 'trivela'", "dificultad": "dificil" },
-    { "nombre": "Quincy Promes", "pista": "Extremo neerlandés, ex Ajax", "dificultad": "dificil" }
+    { "nombre": "Quaresma", "pista": "Extremo portugués, conocido por su 'trivela'", "dificultad": "medio" },
+    { "nombre": "Quincy Promes", "pista": "Extremo neerlandés, ex Ajax", "dificultad": "dificil" },
+    { "nombre": "Quilindschy Hartman", "pista": "Lateral neerlandés del Feyenoord", "dificultad": "dificil" },
+    { "nombre": "Quique Setién", "pista": "Exentrenador del Barcelona", "dificultad": "medio" },
+    { "nombre": "Quini", "pista": "Goleador histórico del Sporting de Gijón y Barcelona", "dificultad": "medio" },
+    { "nombre": "Querétaro", "pista": "Equipo mexicano de la Liga MX", "dificultad": "medio" },
+    { "nombre": "QPR", "pista": "Club inglés llamado Queens Park Rangers", "dificultad": "medio" },
+    { "nombre": "Queen of the South", "pista": "Equipo escocés con nombre regio", "dificultad": "dificil" },
+    { "nombre": "Queen's Park", "pista": "Uno de los clubes más antiguos de Escocia", "dificultad": "dificil" }
   ],
   "R": [
     { "nombre": "Ramos, Sergio", "pista": "Defensor español, leyenda del Real Madrid", "dificultad": "medio" },
