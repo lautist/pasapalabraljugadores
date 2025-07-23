@@ -289,7 +289,7 @@ function JugadoresEleccion({ jugadores }) {
   // Función para pasar de la pantalla "FIN DEL ROSCO" a los resultados
   const verResultados = useCallback(() => {
     setMostrarPantallaFinalizada(false); // Oculta la pantalla "Fin del Rosco"
-    setMostrarResultadosFinales(true);   // Muestra la pantalla de resultados detallados
+    setMostrarResultadosFinales(true);   // Muestra la pantalla de resultados detallados
   }, []);
 
   const tiempoFormateado = `${Math.floor(tiempoRestante / 60).toString().padStart(2, '0')}:${(tiempoRestante % 60).toString().padStart(2, '0')}`;
@@ -315,7 +315,8 @@ function JugadoresEleccion({ jugadores }) {
             <ul className="results-list">
               {errores.map((letra) => (
                 <li key={letra} className="error-item">
-                  {letra.toUpperCase()}: {jugadoresRandom[letra]?.nombre || 'Sin respuesta'}
+                  <span style={{ fontWeight: 'bold' }}>{letra.toUpperCase()}:</span> {jugadoresRandom[letra]?.nombre || 'Sin respuesta'}<br />
+                  <span style={{ fontSize: '0.9em', fontStyle: 'italic' }}>Pregunta: "{jugadoresRandom[letra]?.pista || 'No disponible'}"</span>
                 </li>
               ))}
             </ul>
@@ -328,7 +329,8 @@ function JugadoresEleccion({ jugadores }) {
             <ul className="results-list">
               {noRespondidas.map((letra) => (
                 <li key={letra} className="unanswered-item">
-                  {letra.toUpperCase()}: {jugadoresRandom[letra]?.nombre || 'Sin respuesta'}
+                  <span style={{ fontWeight: 'bold' }}>{letra.toUpperCase()}:</span> {jugadoresRandom[letra]?.nombre || 'Sin respuesta'}<br />
+                  <span style={{ fontSize: '0.9em', fontStyle: 'italic' }}>Pregunta: "{jugadoresRandom[letra]?.pista || 'No disponible'}"</span>
                 </li>
               ))}
             </ul>
@@ -379,6 +381,7 @@ function JugadoresEleccion({ jugadores }) {
         
         <div className="game-controls">
           <label>Dificultad:</label>
+          {/* Aquí va el código de los radio buttons si ya lo aplicaste */}
           <select value={dificultadSeleccionada} onChange={(e) => setDificultadSeleccionada(e.target.value)}>
             <option value="medio">Medio</option>
             <option value="dificil">Difícil</option>
@@ -419,8 +422,8 @@ function JugadoresEleccion({ jugadores }) {
       <div className="game-info-controls">
         {jugadorActual && (
           <>
-            <h3 style={{ color: '#b9b697ff', margin: '0 0 10px 0' }}>La palabra empieza por: <span style={{ fontSize: '1em', fontWeight: 'bold' }}>{letraActual.toUpperCase()}</span></h3>
-            <p style={{ color: '#b9b697ff', fontStyle: 'italic', margin: '0 0 15px 0', fontSize: '1.5em' }}>Pista: "{jugadorActual.pista}"</p>
+            <h3 style={{ color: '#b9b697ff', margin: '0 0 10px 0' }}>La palabra empieza por: <span style={{ fontSize: '1em', fontWeight: 'bold', color:'rgb(255, 252, 216)'}}>{letraActual.toUpperCase()}</span></h3>
+            <p style={{ color: '#fffcd8ff', fontStyle: 'italic', margin: '0 0 15px 0', fontSize: '1.5em' }}>Pista: "{jugadorActual.pista}"</p>
           </>
         )}
         {/* Si no hay jugador asignado para la letra con la dificultad seleccionada, se mostrará "Sin pista" */}

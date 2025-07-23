@@ -2,2358 +2,2343 @@
   "A": [
     {
       "nombre": "Aaron Ramsey",
-      "pista": "Mediocampista galés, ex Arsenal y Juventus",
+      "pista": "Mediocampista galés, ex Arsenal,Juventus y Cardiff. Actualmente en Pumas UNAM",
       "dificultad": "dificil"
     },
     {
-      "nombre": "Adriano",
-      "pista": "Ex delantero brasileño, conocido como 'El Emperador'",
-      "dificultad": "medio"
+    "nombre": "Adriano",
+    "pista": "Ex delantero brasileño apodado 'El Emperador', destacado por su potente zurda y su paso por el Inter de Milán",
+    "dificultad": "medio"
     },
     {
       "nombre": "Aguero",
-      "pista": "Delantero argentino retirado, ex Manchester City",
+      "pista": "Delantero argentino retirado, ídolo del Manchester City y campeón de la Copa América 2021",
       "dificultad": "medio"
     },
     {
       "nombre": "Aimar",
-      "pista": "Ex volante argentino, ídolo de River",
+      "pista": "Ex volante creativo argentino, ídolo de River Plate y referente del Valencia en España",
       "dificultad": "medio"
     },
     {
       "nombre": "Alaba",
-      "pista": "Defensor austríaco del Real Madrid",
+      "pista": "Versátil defensor austríaco del Real Madrid, también ex figura del Bayern Múnich",
       "dificultad": "medio"
     },
     {
       "nombre": "Alcacer",
-      "pista": "Delantero español, ex Valencia y Borussia Dortmund",
+      "pista": "Delantero español con paso por Valencia, Barcelona y Borussia Dortmund, conocido por su olfato goleador",
       "dificultad": "dificil"
     },
     {
       "nombre": "Alessandro Del Piero",
-      "pista": "Legendario delantero italiano de la Juventus",
+      "pista": "Legendario delantero italiano de la Juventus, campeón del mundo en 2006 y gran especialista en tiros libres",
       "dificultad": "medio"
     },
     {
       "nombre": "Alexis Sanchez",
-      "pista": "Delantero chileno, ex Arsenal y Barcelona",
+      "pista": "Delantero chileno, figura en Arsenal, Barcelona e Inter de Milán, campeón de América con Chile",
       "dificultad": "medio"
     },
     {
       "nombre": "Alisson",
-      "pista": "Arquero brasileño del Liverpool",
+      "pista": "Arquero brasileño del Liverpool, clave en la conquista de la Champions 2019 y la Premier League 2020",
       "dificultad": "medio"
     },
     {
       "nombre": "Alphonso Davies",
-      "pista": "Lateral canadiense del Bayern de Múnich",
+      "pista": "Lateral canadiense del Bayern de Múnich, conocido por su velocidad y despliegue físico",
       "dificultad": "medio"
     },
     {
       "nombre": "Andre Silva",
-      "pista": "Delantero portugués, ex Porto y Sevilla",
+      "pista": "Delantero portugués surgido del Porto, con paso por el Milan, Sevilla y la Bundesliga",
       "dificultad": "dificil"
     },
     {
       "nombre": "Andrea Pirlo",
-      "pista": "Ex mediocampista italiano, maestro del pase",
+      "pista": "Ex mediocampista italiano, campeón del mundo 2006, célebre por su visión y precisión en los pases",
       "dificultad": "medio"
     },
     {
       "nombre": "Anelka",
-      "pista": "Ex delantero francés, jugó en varios grandes de Europa",
+      "pista": "Ex delantero francés de estilo elegante, con una carrera extensa en clubes como Arsenal, Chelsea y Real Madrid",
       "dificultad": "medio"
     },
     {
       "nombre": "Angel Di Maria",
-      "pista": "Extremo argentino, campeón del mundo 2022",
+      "pista": "Extremo argentino, campeón del mundo en 2022, recordado por sus goles en finales con la selección",
       "dificultad": "medio"
     },
     {
       "nombre": "Antonio Conte",
-      "pista": "Ex mediocampista italiano y exitoso entrenador",
+      "pista": "Ex mediocampista italiano y exitoso entrenador en Juventus, Chelsea, Inter y Tottenham",
       "dificultad": "medio"
     },
     {
       "nombre": "Araujo",
-      "pista": "Defensor uruguayo del Barcelona",
+      "pista": "Defensor uruguayo del Barcelona, reconocido por su fuerza, anticipación y solidez aérea",
       "dificultad": "medio"
     },
     {
       "nombre": "Arjen Robben",
-      "pista": "Extremo neerlandés, ex Bayern de Múnich y Real Madrid",
+      "pista": "Extremo neerlandés con regate letal, figura en el Bayern de Múnich y ex jugador del Real Madrid",
       "dificultad": "medio"
     },
     {
       "nombre": "Arnautovic",
-      "pista": "Delantero austríaco, ex West Ham y Stoke City",
+      "pista": "Delantero austríaco, conocido por su carácter fuerte y su paso por el West Ham y el Inter",
       "dificultad": "dificil"
     },
     {
       "nombre": "Arteta",
-      "pista": "Actual entrenador del Arsenal, ex mediocampista español",
+      "pista": "Actual entrenador del Arsenal, ex mediocampista español con carrera en la Premier League",
       "dificultad": "medio"
     },
     {
       "nombre": "Arturo Vidal",
-      "pista": "Mediocampista chileno, ex Bayern y Juventus",
+      "pista": "Mediocampista chileno combativo, campeón en múltiples ligas y pieza clave de la selección chilena",
       "dificultad": "medio"
     },
     {
       "nombre": "Ashley Cole",
-      "pista": "Ex lateral inglés, leyenda del Chelsea y Arsenal",
+      "pista": "Ex lateral izquierdo inglés, leyenda del Chelsea y Arsenal, considerado uno de los mejores en su posición",
       "dificultad": "medio"
     },
     {
       "nombre": "Aspas",
-      "pista": "Delantero español, ídolo del Celta de Vigo",
+      "pista": "Delantero español y referente del Celta de Vigo, conocido por su técnica y capacidad goleadora",
       "dificultad": "dificil"
     },
     {
       "nombre": "Aubameyang",
-      "pista": "Delantero gabonés, ex Arsenal y Barcelona",
+      "pista": "Delantero gabonés con gran velocidad, goleador en Borussia Dortmund, Arsenal y Barcelona",
       "dificultad": "medio"
     },
     {
       "nombre": "Azpilicueta",
-      "pista": "Defensor español, capitán histórico del Chelsea",
+      "pista": "Defensor español polivalente, capitán histórico del Chelsea y campeón de Europa con el club",
       "dificultad": "medio"
     }
   ],
   "B": [
     {
-      "nombre": "Bale",
-      "pista": "Extremo galés, ex Real Madrid y Tottenham",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Ballack",
-      "pista": "Ex mediocampista alemán, jugó en Bayern y Chelsea",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Baresi",
-      "pista": "Legendario defensor italiano del AC Milan",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Bastoni",
-      "pista": "Defensor italiano del Inter de Milán",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Batistuta",
-      "pista": "Legendario delantero argentino, goleador histórico",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Beckham",
-      "pista": "Ex mediocampista inglés, famoso por sus tiros libres",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Ben Chilwell",
-      "pista": "Lateral inglés del Chelsea",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Ben White",
-      "pista": "Defensor inglés del Arsenal",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Ben Yedder",
-      "pista": "Delantero francés del Mónaco",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Benzema",
-      "pista": "Delantero francés, Balón de Oro 2022",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Bernardo Silva",
-      "pista": "Mediocampista portugués del Manchester City",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Blanc",
-      "pista": "Ex defensor francés y entrenador",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Bonucci",
-      "pista": "Defensor italiano de la Juventus",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Borja Mayoral",
-      "pista": "Delantero español, ex Real Madrid",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Borussia Dortmund",
-      "pista": "Equipo alemán conocido por su estadio y afición",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Bruno Fernandes",
-      "pista": "Mediocampista portugués del Manchester United",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Bryan Gil",
-      "pista": "Extremo español del Tottenham",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Buffon",
-      "pista": "Legendario arquero italiano",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Bukayo Saka",
-      "pista": "Extremo inglés del Arsenal",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Busquets",
-      "pista": "Mediocampista español, leyenda del Barcelona",
-      "dificultad": "medio"
-    }
+    "nombre": "Bale",
+    "pista": "Extremo galés con gran velocidad y pegada, destacó en el Real Madrid y el Tottenham, donde ganó múltiples títulos",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Ballack",
+    "pista": "Ex mediocampista alemán con gran presencia física y capacidad goleadora, jugó en el Bayern Múnich y el Chelsea",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Baresi",
+    "pista": "Legendario defensor italiano del AC Milan, ícono del fútbol defensivo y capitán histórico del club",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Bastoni",
+    "pista": "Defensor italiano zurdo del Inter de Milán, clave en la defensa del equipo campeón de la Serie A 2021",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Batistuta",
+    "pista": "Legendario delantero argentino, goleador histórico de la selección y figura en Fiorentina y Roma",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Beckham",
+    "pista": "Ex mediocampista inglés famoso por sus centros y tiros libres, ídolo del Manchester United y figura del Real Madrid",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Ben Chilwell",
+    "pista": "Lateral izquierdo inglés del Chelsea, campeón de la Champions League en 2021",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Ben White",
+    "pista": "Defensor inglés del Arsenal, destacado por su salida limpia desde el fondo y versatilidad",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Ben Yedder",
+    "pista": "Delantero francés del Mónaco, reconocido por su movilidad, técnica y gran capacidad goleadora",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Benzema",
+    "pista": "Delantero francés, figura del Real Madrid, ganador del Balón de Oro en 2022 y múltiple campeón de Champions",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Bernardo Silva",
+    "pista": "Mediocampista portugués del Manchester City, clave por su visión de juego, regate y sacrificio táctico",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Blanc",
+    "pista": "Ex defensor central francés, campeón del mundo en 1998 y entrenador con experiencia en clubes como PSG",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Bonucci",
+    "pista": "Defensor italiano de la Juventus, parte del histórico trío defensivo con Chiellini y Barzagli",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Borja Mayoral",
+    "pista": "Delantero español surgido del Real Madrid, con paso por clubes como Levante y Getafe",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Borussia Dortmund",
+    "pista": "Club alemán famoso por su cantera, su estilo ofensivo y el imponente Signal Iduna Park",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Bruno Fernandes",
+    "pista": "Mediocampista portugués del Manchester United, destacado por su visión, liderazgo y goles desde segunda línea",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Bryan Gil",
+    "pista": "Extremo español habilidoso del Tottenham, con experiencia en la Liga y en selecciones juveniles",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Buffon",
+    "pista": "Legendario arquero italiano, campeón del mundo en 2006 y símbolo de la Juventus",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Bukayo Saka",
+    "pista": "Extremo inglés del Arsenal, joven promesa consolidada como figura del club y de su selección",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Busquets",
+    "pista": "Mediocampista español, leyenda del Barcelona, campeón del mundo 2010 y maestro del juego posicional",
+    "dificultad": "medio"
+  }
   ],
-  "C": [
+"C": [
     {
-      "nombre": "Cafu",
-      "pista": "Ex lateral derecho brasileño, campeón mundial",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Calhanoglu",
-      "pista": "Mediocampista turco del Inter de Milán",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Cancelo",
-      "pista": "Lateral portugués, ex Manchester City y Bayern",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Cannavaro",
-      "pista": "Defensor italiano, Balón de Oro 2006",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Carlos Tevez",
-      "pista": "Delantero argentino, jugó en Boca, Juventus y el City",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Carlos Vela",
-      "pista": "Delantero mexicano, ex Arsenal y Real Sociedad",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Casemiro",
-      "pista": "Mediocampista brasileño del Manchester United",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Cavani",
-      "pista": "Delantero uruguayo, ex PSG y Manchester United",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Cech",
-      "pista": "Ex arquero checo de Chelsea y Arsenal",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Cesar Azpilicueta",
-      "pista": "Defensor español, capitán histórico del Chelsea",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Cesc Fabregas",
-      "pista": "Ex mediocampista español, jugó en Arsenal y Barcelona",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Chicharito",
-      "pista": "Delantero mexicano, ex Manchester United y Real Madrid",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Chiellini",
-      "pista": "Defensor italiano de la Juventus",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Christian Eriksen",
-      "pista": "Mediocampista danés, juega en Manchester United",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Ciro Immobile",
-      "pista": "Delantero italiano, goleador de la Lazio",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Claudio Bravo",
-      "pista": "Arquero chileno, ex Barcelona y Manchester City",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Clement Lenglet",
-      "pista": "Defensor francés, ex Barcelona",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Coman",
-      "pista": "Extremo francés del Bayern de Múnich",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Courtois",
-      "pista": "Arquero belga del Real Madrid",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Coutinho",
-      "pista": "Mediocampista brasileño, ex Barcelona y Liverpool",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Cristiano Ronaldo",
-      "pista": "Máximo goleador histórico del Real Madrid",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Cruyff",
-      "pista": "Legendario futbolista y entrenador neerlandés",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Cuadrado",
-      "pista": "Lateral/extremo colombiano de la Juventus",
-      "dificultad": "medio"
-    }
+    "nombre": "Cafu",
+    "pista": "Ex lateral derecho brasileño, campeón del mundo en 1994 y 2002, reconocido por su velocidad y resistencia",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Calhanoglu",
+    "pista": "Mediocampista turco del Inter de Milán, especialista en tiros libres y con gran visión de juego",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Cancelo",
+    "pista": "Lateral portugués con gran proyección ofensiva, jugó en clubes como Manchester City, Bayern y Barcelona",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Cannavaro",
+    "pista": "Defensor italiano que ganó el Balón de Oro en 2006, tras ser campeón del mundo con Italia",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Carlos Tevez",
+    "pista": "Delantero argentino combativo y talentoso, figura en Boca, Juventus, Manchester City y otros clubes",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Carlos Vela",
+    "pista": "Delantero mexicano con gran técnica, brilló en la Real Sociedad y en la MLS con Los Angeles FC",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Casemiro",
+    "pista": "Mediocampista brasileño del Manchester United, ex Real Madrid, experto en recuperación y equilibrio táctico",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Cavani",
+    "pista": "Delantero uruguayo con olfato goleador, ídolo del PSG y con paso por Napoli, Manchester United y Boca",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Cech",
+    "pista": "Ex arquero checo, leyenda del Chelsea, conocido por su casco protector y sus grandes reflejos",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Cesar Azpilicueta",
+    "pista": "Defensor español polivalente, capitán histórico del Chelsea y campeón de Champions League",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Cesc Fabregas",
+    "pista": "Ex mediocampista español, surgido del Barça, figura en el Arsenal y campeón del mundo en 2010",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Chicharito",
+    "pista": "Delantero mexicano con gran instinto goleador, brilló en Manchester United, Real Madrid y Bayer Leverkusen",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Chiellini",
+    "pista": "Defensor central italiano de la Juventus, símbolo de garra y fortaleza defensiva, campeón de la Euro 2020",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Christian Eriksen",
+    "pista": "Mediocampista danés con gran toque y visión, sobreviviente de un paro cardíaco en la Euro 2020, juega en el Manchester United",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Ciro Immobile",
+    "pista": "Delantero italiano, máximo goleador histórico de la Lazio y destacado artillero en la Serie A",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Claudio Bravo",
+    "pista": "Arquero chileno, bicampeón de América con su selección, jugó en Barcelona y Manchester City",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Clement Lenglet",
+    "pista": "Defensor francés con paso por el Sevilla, Barcelona y Tottenham, conocido por su juego aéreo",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Coman",
+    "pista": "Extremo francés del Bayern de Múnich, autor del gol en la final de Champions 2020, veloz y desequilibrante",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Courtois",
+    "pista": "Arquero belga del Real Madrid, clave en la Champions 2022 con paradas decisivas, ex Chelsea y Atlético",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Coutinho",
+    "pista": "Mediocampista brasileño talentoso, brilló en Liverpool y jugó en Barcelona y Bayern de Múnich",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Cristiano Ronaldo",
+    "pista": "Máximo goleador histórico del Real Madrid, cinco veces Balón de Oro y leyenda viva del fútbol",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Cruyff",
+    "pista": "Legendario futbolista y entrenador neerlandés, impulsor del 'fútbol total' y figura del Ajax y Barcelona",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Cuadrado",
+    "pista": "Lateral y extremo colombiano de gran velocidad y regate, destacado en la Juventus y en la selección colombiana",
+    "dificultad": "medio"
+  }
   ],
   "D": [
     {
-      "nombre": "Daley Blind",
-      "pista": "Defensor/mediocampista neerlandés",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Dani Alves",
-      "pista": "Brasileño con más títulos en la historia del fútbol",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Daniele De Rossi",
-      "pista": "Ex mediocampista italiano, ídolo de la Roma",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Darwin Nunez",
-      "pista": "Delantero uruguayo del Liverpool",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "David Silva",
-      "pista": "Ex mediocampista español, leyenda del Manchester City",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "David Trezeguet",
-      "pista": "Ex delantero francés, campeón mundial",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "David de Gea",
-      "pista": "Arquero español, ex Manchester United",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "De Rossi",
-      "pista": "Ex mediocampista italiano, ídolo de la Roma",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Declan Rice",
-      "pista": "Mediocampista inglés del Arsenal",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Del Piero",
-      "pista": "Legendario delantero italiano de la Juventus",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Depay",
-      "pista": "Delantero neerlandés, ex Barcelona y Lyon",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Deschamps",
-      "pista": "Ex mediocampista francés y actual seleccionador",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Di Maria",
-      "pista": "Extremo argentino, campeón del mundo 2022",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Di Natale",
-      "pista": "Ex delantero italiano, ídolo del Udinese",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Dida",
-      "pista": "Ex arquero brasileño del AC Milan",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Diego Costa",
-      "pista": "Delantero hispano-brasileño, ex Atlético y Chelsea",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Donnarumma",
-      "pista": "Arquero italiano del PSG",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Drogba",
-      "pista": "Delantero marfileño, ídolo del Chelsea",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Dusan Vlahovic",
-      "pista": "Delantero serbio de la Juventus",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Dybala",
-      "pista": "Delantero argentino, campeón del mundo en 2022",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Dzeko",
-      "pista": "Delantero bosnio del Inter de Milán",
-      "dificultad": "medio"
-    }
+    "nombre": "Daley Blind",
+    "pista": "Versátil defensor y mediocampista neerlandés, hijo de Danny Blind, ha jugado en Ajax, Manchester United y Bayern Múnich",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Dani Alves",
+    "pista": "Lateral brasileño con más títulos oficiales en la historia del fútbol, pasó por Barcelona, Juventus, PSG y la selección brasileña",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Daniele De Rossi",
+    "pista": "Ex mediocampista italiano, ídolo eterno de la Roma y campeón del mundo en 2006 con Italia, conocido por su entrega y liderazgo",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Darwin Nunez",
+    "pista": "Delantero uruguayo del Liverpool, reconocido por su potencia física y velocidad; ex Benfica y Almería",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "David Silva",
+    "pista": "Ex mediocampista español de gran técnica y visión, figura del Manchester City y campeón del mundo en 2010 con España",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "David Trezeguet",
+    "pista": "Ex delantero francés, campeón del mundo en 1998 y campeón de Europa en 2000, destacó en la Juventus con sus goles",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "David de Gea",
+    "pista": "Arquero español con reflejos felinos, ícono del Manchester United durante más de una década; ex Atlético de Madrid",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Declan Rice",
+    "pista": "Mediocampista defensivo inglés del Arsenal, ex West Ham; pieza clave en la selección de Inglaterra por su solidez y control",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Del Piero",
+    "pista": "Legendario delantero italiano de la Juventus, campeón del mundo en 2006, famoso por su clase y goles desde fuera del área",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Depay",
+    "pista": "Delantero neerlandés de gran técnica y potencia, jugó en Lyon, Manchester United y Barcelona; frecuente en la selección holandesa",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Deschamps",
+    "pista": "Ex mediocampista francés, campeón mundial como jugador en 1998 y como DT en 2018, actual seleccionador de Francia",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Di Maria",
+    "pista": "Extremo argentino de velocidad y técnica, figura en finales clave; jugó en Real Madrid, PSG, Juventus y campeón del mundo en 2022",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Di Natale",
+    "pista": "Ex delantero italiano, ídolo del Udinese por su fidelidad y goles; rechazó clubes grandes por quedarse en el norte de Italia",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Dida",
+    "pista": "Ex arquero brasileño, figura del AC Milan en Champions League, recordado por sus penales y títulos con Brasil",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Diego Costa",
+    "pista": "Delantero hispano-brasileño, polémico y aguerrido, ex figura del Atlético de Madrid y Chelsea, jugó con la selección española",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Donnarumma",
+    "pista": "Arquero italiano que debutó muy joven en el Milan, actual portero del PSG y héroe en la Eurocopa 2020 ganada por Italia",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Drogba",
+    "pista": "Delantero marfileño, leyenda del Chelsea por sus goles decisivos, incluido el que dio la Champions en 2012",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Dusan Vlahovic",
+    "pista": "Delantero serbio de gran presencia física y olfato goleador, surgido en la Fiorentina y figura en la Juventus",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Dybala",
+    "pista": "Delantero argentino de gran técnica y disparo, brilló en la Juventus y Roma; campeón del mundo en 2022 con Argentina",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Dzeko",
+    "pista": "Delantero bosnio, ex Manchester City, Roma e Inter, goleador histórico de su país y campeón de múltiples ligas",
+    "dificultad": "medio"
+  }
   ],
   "E": [
     {
-      "nombre": "Eden Dzeko",
-      "pista": "Delantero bosnio del Fenerbahçe",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Ederson",
-      "pista": "Arquero brasileño del Manchester City",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Edgar Davids",
-      "pista": "Ex mediocampista neerlandés, famoso por sus gafas",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Edwin Van der Sar",
-      "pista": "Ex arquero neerlandés de Manchester United",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "El Shaarawy",
-      "pista": "Delantero italiano de la Roma",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Embolo",
-      "pista": "Delantero suizo, juega en el Mónaco",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Emiliano Martinez",
-      "pista": "Arquero argentino, campeón del mundo 2022",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Emmanuel Adebayor",
-      "pista": "Ex delantero togolés, jugó en Arsenal y Man City",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Emre Can",
-      "pista": "Mediocampista alemán del Borussia Dortmund",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Endrick",
-      "pista": "Joven promesa brasileña del Real Madrid",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Enner Valencia",
-      "pista": "Delantero ecuatoriano, goleador en Sudamérica",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Enzo Perez",
-      "pista": "Mediocampista argentino, figura en River",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Eric Dier",
-      "pista": "Defensor/mediocampista inglés, ex Tottenham",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Eriksen",
-      "pista": "Mediocampista danés que volvió tras paro cardíaco",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Esteban Cambiasso",
-      "pista": "Ex mediocampista argentino del Inter de Milán",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Eto'o",
-      "pista": "Delantero camerunés, jugó en Barça e Inter",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Evra",
-      "pista": "Ex lateral izquierdo francés, jugó en Manchester United",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Ezequiel Lavezzi",
-      "pista": "Ex delantero argentino, jugó en PSG y Napoli",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Eder",
-      "pista": "Delantero portugués, autor del gol en la Euro 2016",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Eder Militao",
-      "pista": "Defensor brasileño del Real Madrid",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Ever Banega",
-      "pista": "Mediocampista argentino, ex Sevilla y Valencia",
-      "dificultad": "dificil"
-    }
+    "nombre": "Eden Dzeko",
+    "pista": "Delantero bosnio con gran trayectoria en Roma, Manchester City e Inter. Actualmente en Fenerbahçe",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Ederson",
+    "pista": "Arquero brasileño titular del Manchester City, famoso por su juego con los pies",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Edgar Davids",
+    "pista": "Ex mediocampista neerlandés reconocido por sus gafas deportivas y su paso por Juventus",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Edwin Van der Sar",
+    "pista": "Ex arquero neerlandés, figura en Ajax, Juventus y Manchester United",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "El Shaarawy",
+    "pista": "Delantero italiano apodado 'El Faraón', juega en Roma y brilló por su velocidad y regate",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Embolo",
+    "pista": "Delantero suizo de origen camerunés, juega en el Mónaco y ha sido clave con su selección",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Emiliano Martinez",
+    "pista": "Arquero argentino campeón del mundo en Qatar 2022, figura en penales y actual jugador del Aston Villa",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Emmanuel Adebayor",
+    "pista": "Ex delantero togolés con paso por Arsenal, Manchester City y Real Madrid",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Emre Can",
+    "pista": "Mediocampista alemán versátil, ex Liverpool y Juventus, actualmente en Borussia Dortmund",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Endrick",
+    "pista": "Joven delantero brasileño fichado por el Real Madrid, considerado una promesa del fútbol mundial",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Enner Valencia",
+    "pista": "Delantero ecuatoriano, goleador histórico de su selección, jugó en Inglaterra, México y Brasil",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Enzo Perez",
+    "pista": "Mediocampista argentino, figura en River Plate y ex jugador del Benfica y la selección argentina",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Eric Dier",
+    "pista": "Defensor y mediocampista inglés, jugó varias temporadas en el Tottenham Hotspur",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Eriksen",
+    "pista": "Mediocampista danés que regresó al fútbol tras sufrir un paro cardíaco en la Euro 2020",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Esteban Cambiasso",
+    "pista": "Ex mediocampista argentino, referente del Inter multicampeón con Mourinho",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Eto'o",
+    "pista": "Delantero camerunés multicampeón con el Barcelona e Inter, goleador implacable",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Evra",
+    "pista": "Ex lateral izquierdo francés, ídolo en Manchester United y con gran personalidad mediática",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Ezequiel Lavezzi",
+    "pista": "Ex delantero argentino, apodado 'Pocho', brilló en Napoli, PSG y la selección argentina",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Eder",
+    "pista": "Delantero portugués recordado por marcar el gol que dio a Portugal la Euro 2016",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Eder Militao",
+    "pista": "Defensor brasileño del Real Madrid, destacado por su velocidad y anticipación",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Ever Banega",
+    "pista": "Mediocampista argentino de gran técnica, ex Sevilla, Valencia y Boca Juniors",
+    "dificultad": "dificil"
+  }
   ],
   "F": [
     {
-      "nombre": "Fabinho",
-      "pista": "Mediocampista brasileño, ex Liverpool",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Fabio Cannavaro",
-      "pista": "Defensor italiano, Balón de Oro 2006",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Fagioli",
-      "pista": "Mediocampista italiano de la Juventus",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Falcao",
-      "pista": "Delantero colombiano, pasó por River y Mónaco",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Federico Chiesa",
-      "pista": "Extremo italiano de la Juventus",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Federico Valverde",
-      "pista": "Mediocampista uruguayo del Real Madrid",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Fekir",
-      "pista": "Mediocampista francés del Real Betis",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Felipe Anderson",
-      "pista": "Extremo brasileño de la Lazio",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Ferland Mendy",
-      "pista": "Lateral francés del Real Madrid",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Fernando Torres",
-      "pista": "Delantero español, ídolo del Atlético de Madrid",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Figo",
-      "pista": "Portugués que pasó del Barcelona al Real Madrid",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Firmino",
-      "pista": "Delantero brasileño, ex Liverpool",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Florian Wirtz",
-      "pista": "Joven mediocampista alemán del Bayer Leverkusen",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Foden",
-      "pista": "Mediocampista inglés del Manchester City",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Forlan",
-      "pista": "Ex delantero uruguayo, jugó en Atlético y Villarreal",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Francesco Totti",
-      "pista": "Leyenda italiana, ídolo de la Roma",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Franck Ribery",
-      "pista": "Ex extremo francés del Bayern de Múnich",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Frank Lampard",
-      "pista": "Ex mediocampista inglés, ídolo del Chelsea",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Frank Rijkaard",
-      "pista": "Ex mediocampista neerlandés y entrenador",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Frenkie De Jong",
-      "pista": "Mediocampista neerlandés del Barcelona",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Fabregas",
-      "pista": "Ex mediocampista español, jugó en Arsenal y Barcelona",
-      "dificultad": "medio"
-    }
+    "nombre": "Fabinho",
+    "pista": "Mediocampista brasileño, ex Liverpool, conocido por su solidez defensiva en el mediocampo",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Fabio Cannavaro",
+    "pista": "Defensor central italiano, Balón de Oro en 2006 y campeón del mundo ese año con Italia",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Fagioli",
+    "pista": "Joven mediocampista italiano de la Juventus, considerado promesa del fútbol italiano",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Falcao",
+    "pista": "Delantero colombiano, pasó por River Plate y Mónaco, apodado 'El Tigre'",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Federico Chiesa",
+    "pista": "Extremo italiano veloz y habilidoso, juega en la Juventus y fue figura en la Euro 2020",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Federico Valverde",
+    "pista": "Mediocampista uruguayo del Real Madrid, destaca por su despliegue físico y versatilidad",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Fekir",
+    "pista": "Mediocampista ofensivo francés, juega en el Real Betis y es conocido por su talento técnico",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Felipe Anderson",
+    "pista": "Extremo brasileño de la Lazio, reconocido por su velocidad y regate",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Ferland Mendy",
+    "pista": "Lateral izquierdo francés del Real Madrid, conocido por su solidez defensiva y potencia",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Fernando Torres",
+    "pista": "Delantero español, ídolo del Atlético de Madrid, campeón del mundo y de Europa con España",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Figo",
+    "pista": "Extremo portugués que causó polémica al pasar del Barcelona al Real Madrid; Balón de Oro 2000",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Firmino",
+    "pista": "Delantero brasileño, ex Liverpool, parte clave del equipo que ganó la Champions en 2019",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Florian Wirtz",
+    "pista": "Joven mediocampista alemán del Bayer Leverkusen, considerado una joya del fútbol europeo",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Foden",
+    "pista": "Mediocampista inglés del Manchester City, formado por Guardiola, con gran visión de juego",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Forlan",
+    "pista": "Ex delantero uruguayo, jugó en Villarreal y Atlético de Madrid, Balón de Oro del Mundial 2010",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Francesco Totti",
+    "pista": "Leyenda italiana y eterno capitán de la Roma, símbolo de fidelidad a un solo club",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Franck Ribery",
+    "pista": "Ex extremo francés, brilló en el Bayern Múnich, donde ganó múltiples títulos",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Frank Lampard",
+    "pista": "Histórico mediocampista inglés, goleador y emblema del Chelsea",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Frank Rijkaard",
+    "pista": "Ex mediocampista neerlandés, campeón con el Milan, luego entrenador del Barcelona",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Frenkie De Jong",
+    "pista": "Mediocampista neerlandés del Barcelona, surgido del Ajax, con gran capacidad de conducción",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Fabregas",
+    "pista": "Ex mediocampista español, pasó por Arsenal, Barcelona y Chelsea, campeón del mundo en 2010",
+    "dificultad": "medio"
+  }
   ],
   "G": [
     {
-      "nombre": "Gabriel Barbosa",
-      "pista": "Delantero brasileño, conocido como Gabigol",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Gabriel Jesus",
-      "pista": "Delantero brasileño del Arsenal",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Gabriel Martinelli",
-      "pista": "Extremo brasileño del Arsenal",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Gakpo",
-      "pista": "Delantero neerlandés del Liverpool",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Gareth Bale",
-      "pista": "Extremo galés, ex Real Madrid",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Gareth Southgate",
-      "pista": "Ex defensor inglés y actual seleccionador",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Garrincha",
-      "pista": "Extremo brasileño, leyenda del Mundial '58 y '62",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Gattuso",
-      "pista": "Ex mediocampista italiano, aguerrido",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Gavi",
-      "pista": "Joven promesa del Barcelona y la selección española",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Georginio Wijnaldum",
-      "pista": "Mediocampista neerlandés, ex Liverpool",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Gerard Moreno",
-      "pista": "Delantero español del Villarreal",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Gerd Muller",
-      "pista": "Legendario delantero alemán, 'Torpedo'",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Gianfranco Zola",
-      "pista": "Ex delantero italiano, ídolo del Chelsea",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Gianluigi Donnarumma",
-      "pista": "Arquero italiano del PSG",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Giovanni Simeone",
-      "pista": "Delantero argentino, juega en Napoli",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Godin",
-      "pista": "Defensor uruguayo, leyenda del Atlético de Madrid",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Gonzalo Higuain",
-      "pista": "Delantero argentino que jugó en Napoli y Juventus",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Grealish",
-      "pista": "Extremo inglés del Manchester City",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Griezmann",
-      "pista": "Delantero francés del Atlético de Madrid",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Guardiola",
-      "pista": "Ex mediocampista español y exitoso entrenador",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Gundogan",
-      "pista": "Mediocampista alemán, ex Manchester City y Barcelona",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Gylfi Sigurdsson",
-      "pista": "Mediocampista islandés, ex Everton",
-      "dificultad": "dificil"
-    }
+    "nombre": "Gabriel Barbosa",
+    "pista": "Delantero brasileño, conocido como Gabigol, figura del Flamengo y goleador en la Copa Libertadores",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Gabriel Jesus",
+    "pista": "Delantero brasileño del Arsenal, ex Manchester City y campeón de la Copa América 2019",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Gabriel Martinelli",
+    "pista": "Extremo brasileño del Arsenal, joven promesa destacada por su velocidad y desequilibrio",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Gakpo",
+    "pista": "Delantero neerlandés del Liverpool, revelación con Países Bajos en el Mundial de Catar 2022",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Gareth Bale",
+    "pista": "Extremo galés, ex Real Madrid, recordado por su gol de chilena en la final de Champions 2018",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Gareth Southgate",
+    "pista": "Ex defensor inglés y actual seleccionador de Inglaterra, llevó al equipo a la final de la Euro 2020",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Garrincha",
+    "pista": "Extremo brasileño, campeón del mundo en 1958 y 1962, leyenda por su regate imparable",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Gattuso",
+    "pista": "Ex mediocampista italiano, campeón del mundo en 2006, símbolo de lucha y entrega",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Gavi",
+    "pista": "Joven mediocampista del Barcelona y la selección española, ganador del Golden Boy en 2022",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Georginio Wijnaldum",
+    "pista": "Mediocampista neerlandés, ex Liverpool y PSG, clave en la semifinal de Champions 2019 ante el Barça",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Gerard Moreno",
+    "pista": "Delantero español del Villarreal, máximo goleador del equipo en la Europa League 2021",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Gerd Muller",
+    "pista": "Legendario delantero alemán apodado 'Torpedo', campeón del mundo en 1974 y goleador histórico",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Gianfranco Zola",
+    "pista": "Ex delantero italiano, ídolo del Chelsea en los 90, reconocido por su clase y visión de juego",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Gianluigi Donnarumma",
+    "pista": "Arquero italiano del PSG, elegido mejor jugador de la Euro 2020 tras atajar penales en la final",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Giovanni Simeone",
+    "pista": "Delantero argentino del Napoli, hijo del 'Cholo', goleador en varias ligas europeas",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Godin",
+    "pista": "Defensor uruguayo, símbolo del Atlético de Madrid del Cholo Simeone, campeón de la Europa League",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Gonzalo Higuain",
+    "pista": "Delantero argentino con paso por Real Madrid, Napoli y Juventus, goleador en Europa y la selección",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Grealish",
+    "pista": "Extremo inglés del Manchester City, conocido por su estilo de juego y su rol en el equipo campeón de Champions 2023",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Griezmann",
+    "pista": "Delantero francés del Atlético de Madrid, campeón del mundo en 2018 y figura en la Euro 2016",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Guardiola",
+    "pista": "Ex mediocampista del Barcelona y exitoso entrenador, ganó múltiples Champions con Barça y City",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Gundogan",
+    "pista": "Mediocampista alemán, líder del Manchester City campeón de la Premier y actual jugador del Barcelona",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Gylfi Sigurdsson",
+    "pista": "Mediocampista islandés, ex Everton y Swansea, clave en la histórica Euro 2016 de Islandia",
+    "dificultad": "dificil"
+  }
   ],
   "H": [
     {
-      "nombre": "Haaland",
-      "pista": "Delantero noruego, estrella del Manchester City",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Hakan Calhanoglu",
-      "pista": "Mediocampista turco del Inter de Milán",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Hamed Traore",
-      "pista": "Mediocampista marfileño, juega en el Bournemouth",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Handanovic",
-      "pista": "Arquero esloveno, leyenda del Inter de Milán",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Harry Kane",
-      "pista": "Delantero inglés, goleador del Tottenham",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Harry Maguire",
-      "pista": "Defensor inglés del Manchester United",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Harry Redknapp",
-      "pista": "Ex entrenador inglés",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Harvey Elliott",
-      "pista": "Joven mediocampista inglés del Liverpool",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Hazard",
-      "pista": "Belga, ex Chelsea y Real Madrid",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Henderson",
-      "pista": "Mediocampista inglés, ex capitán del Liverpool",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Henrikh Mkhitaryan",
-      "pista": "Mediocampista armenio, juega en el Inter",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Hernan Crespo",
-      "pista": "Ex delantero argentino, goleador",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Herve Renard",
-      "pista": "Entrenador francés",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Heung-Min Son",
-      "pista": "Delantero surcoreano, estrella del Tottenham",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Hiroki Sakai",
-      "pista": "Lateral japonés, ex Marsella",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Hojlund",
-      "pista": "Delantero danés del Manchester United",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Hristo Stoichkov",
-      "pista": "Ex delantero búlgaro del Barcelona",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Hudson-Odoi",
-      "pista": "Extremo inglés, ex Chelsea",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Hugo Lloris",
-      "pista": "Arquero francés, ex capitán del Tottenham",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Hugo Sanchez",
-      "pista": "Ex delantero mexicano, leyenda del Real Madrid",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Hummels",
-      "pista": "Defensor alemán del Borussia Dortmund",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Hector Herrera",
-      "pista": "Mediocampista mexicano con paso por el Atlético",
-      "dificultad": "dificil"
-    }
+    "nombre": "Haaland",
+    "pista": "Delantero noruego, estrella del Manchester City, goleador implacable y figura clave en la Champions 2023",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Hakan Calhanoglu",
+    "pista": "Mediocampista turco del Inter de Milán, especialista en tiros libres y organizador del juego",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Hamed Traore",
+    "pista": "Mediocampista marfileño, juega en el Bournemouth, destacado por su proyección en la Serie A",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Handanovic",
+    "pista": "Arquero esloveno, histórico capitán del Inter de Milán, reconocido por sus reflejos y liderazgo",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Harry Kane",
+    "pista": "Delantero inglés, máximo goleador histórico del Tottenham y referente de la selección inglesa",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Harry Maguire",
+    "pista": "Defensor inglés del Manchester United, conocido por su juego aéreo y presencia física",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Harry Redknapp",
+    "pista": "Ex entrenador inglés, dirigió a varios clubes de la Premier League como el Tottenham y el West Ham",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Harvey Elliott",
+    "pista": "Joven mediocampista inglés del Liverpool, talentoso y prometedor en el esquema de Klopp",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Hazard",
+    "pista": "Delantero belga, ex figura del Chelsea y Real Madrid, brillante en la Premier League",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Henderson",
+    "pista": "Mediocampista inglés, ex capitán del Liverpool, líder del equipo campeón de Champions en 2019",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Henrikh Mkhitaryan",
+    "pista": "Mediocampista armenio del Inter, con pasado en el Arsenal, United y Borussia Dortmund",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Hernan Crespo",
+    "pista": "Ex delantero argentino, goleador en River, Parma y Chelsea, destacado por su capacidad en el área",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Herve Renard",
+    "pista": "Entrenador francés, conocido por clasificar a varias selecciones africanas a Mundiales",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Heung-Min Son",
+    "pista": "Delantero surcoreano, figura del Tottenham, reconocido por su velocidad y pegada con ambas piernas",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Hiroki Sakai",
+    "pista": "Lateral japonés, ex Marsella y Hannover, con experiencia mundialista con la selección nipona",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Hojlund",
+    "pista": "Delantero danés del Manchester United, joven promesa con gran proyección física y técnica",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Hristo Stoichkov",
+    "pista": "Ex delantero búlgaro, Balón de Oro 1994 y figura del 'Dream Team' del Barcelona de Cruyff",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Hudson-Odoi",
+    "pista": "Extremo inglés, surgido en Chelsea, campeón de Champions en 2021 y ahora en Nottingham Forest",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Hugo Lloris",
+    "pista": "Arquero francés, campeón del mundo en 2018, fue capitán del Tottenham durante más de una década",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Hugo Sanchez",
+    "pista": "Ex delantero mexicano, leyenda del Real Madrid en los 80, famoso por sus goles de chilena",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Hummels",
+    "pista": "Defensor alemán del Borussia Dortmund, campeón del mundo en 2014, sólido y con buena salida",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Hector Herrera",
+    "pista": "Mediocampista mexicano, ex Porto y Atlético de Madrid, pieza clave en su selección por años",
+    "dificultad": "dificil"
+  }
   ],
   "I": [
     {
-      "nombre": "Iago Aspas",
-      "pista": "Delantero español, ídolo del Celta de Vigo",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Iago Falque",
-      "pista": "Extremo español, ex Roma y Torino",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Ibrahim Sangare",
-      "pista": "Mediocampista marfileño del Nottingham Forest",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Ibrahimovic",
-      "pista": "Sueco, jugó en Barça, PSG y Milan",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Icardi",
-      "pista": "Delantero argentino, ex Inter de Milán",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Ignacio Fernandez",
-      "pista": "Mediocampista argentino, figura en River",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Ignazio Abate",
-      "pista": "Ex lateral italiano del AC Milan",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Ilias Akhomach",
-      "pista": "Joven extremo español del Villarreal",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Illarramendi",
-      "pista": "Mediocampista español, ex Real Madrid y Real Sociedad",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Immobile",
-      "pista": "Delantero italiano, goleador de la Lazio",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Independiente",
-      "pista": "Club argentino con 7 Libertadores",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Iniesta",
-      "pista": "Español, autor del gol del Mundial 2010",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Insigne",
-      "pista": "Italiano, ídolo del Napoli",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Isak",
-      "pista": "Delantero sueco del Newcastle",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Isco",
-      "pista": "Mediocampista español, ex Real Madrid",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Islam Slimani",
-      "pista": "Delantero argelino",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Ismaila Sarr",
-      "pista": "Extremo senegalés del Olympique de Marsella",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Ivan Cordoba",
-      "pista": "Ex defensor colombiano, leyenda del Inter",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Ivan Perisic",
-      "pista": "Extremo croata, juega en Tottenham",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Ivan Rakitic",
-      "pista": "Mediocampista croata del Sevilla",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Inaki Williams",
-      "pista": "Delantero español del Athletic Club",
-      "dificultad": "medio"
-    }
+    "nombre": "Iago Aspas",
+    "pista": "Delantero español, ídolo del Celta de Vigo, goleador histórico del club gallego",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Iago Falque",
+    "pista": "Extremo español, ex jugador de Roma y Torino, conocido por su habilidad técnica",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Ibrahim Sangare",
+    "pista": "Mediocampista marfileño del Nottingham Forest, fuerte en la recuperación y distribución",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Ibrahimovic",
+    "pista": "Delantero sueco, legendario, jugó en Barcelona, PSG y Milan, conocido por su personalidad y goles espectaculares",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Icardi",
+    "pista": "Delantero argentino, ex capitán y goleador del Inter de Milán, experto en el área",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Ignacio Fernandez",
+    "pista": "Mediocampista argentino, figura clave en River Plate con gran visión de juego",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Ignazio Abate",
+    "pista": "Ex lateral derecho italiano, histórico del AC Milan, rápido y sólido en defensa",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Ilias Akhomach",
+    "pista": "Joven extremo español del Villarreal, talento emergente con gran velocidad y regate",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Illarramendi",
+    "pista": "Mediocampista español, ex Real Madrid y Real Sociedad, especializado en recuperación y pase corto",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Immobile",
+    "pista": "Delantero italiano, goleador prolífico de la Lazio, conocido por su olfato goleador",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Independiente",
+    "pista": "Club argentino histórico con 7 Copas Libertadores, apodado 'El Rey de Copas'",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Iniesta",
+    "pista": "Mediocampista español, autor del gol decisivo en la final del Mundial 2010, leyenda del Barcelona",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Insigne",
+    "pista": "Delantero italiano, ídolo del Napoli, reconocido por su habilidad y tiros curvos",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Isak",
+    "pista": "Delantero sueco del Newcastle, joven promesa con buena técnica y presencia física",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Isco",
+    "pista": "Mediocampista español, ex Real Madrid, conocido por su creatividad y dribling",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Islam Slimani",
+    "pista": "Delantero argelino, destacado por su juego aéreo y capacidad goleadora",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Ismaila Sarr",
+    "pista": "Extremo senegalés del Olympique de Marsella, rápido y habilidoso en el uno contra uno",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Ivan Cordoba",
+    "pista": "Ex defensor colombiano, leyenda del Inter de Milán, sólido y con gran liderazgo defensivo",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Ivan Perisic",
+    "pista": "Extremo croata, juega en Tottenham, conocido por su potencia y precisión en centros",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Ivan Rakitic",
+    "pista": "Mediocampista croata del Sevilla, veterano con gran visión y técnica en el medio campo",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Inaki Williams",
+    "pista": "Delantero español del Athletic Club, famoso por su velocidad y constancia en el club vasco",
+    "dificultad": "medio"
+  }
   ],
   "J": [
     {
-      "nombre": "Jack Grealish",
-      "pista": "Extremo inglés del Manchester City",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Jadon Sancho",
-      "pista": "Extremo inglés del Manchester United",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "James Rodriguez",
-      "pista": "Colombiano, goleador del Mundial 2014",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Jamie Vardy",
-      "pista": "Delantero inglés del Leicester City",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Jamie Vardy",
-      "pista": "Delantero inglés del Leicester City",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Javier Mascherano",
-      "pista": "Ex mediocampista argentino, jugó en Barcelona y Liverpool",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Javier Zanetti",
-      "pista": "Ex lateral argentino, leyenda del Inter",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Jean-Pierre Papin",
-      "pista": "Ex delantero francés, Balón de Oro 1991",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Jerome Boateng",
-      "pista": "Ex defensor alemán del Bayern de Múnich",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Jesus Navas",
-      "pista": "Lateral español, capitán del Sevilla",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Joaquin Sanchez",
-      "pista": "Extremo español, leyenda del Real Betis",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Joel Matip",
-      "pista": "Defensor camerunés del Liverpool",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Joelinton",
-      "pista": "Mediocampista brasileño del Newcastle",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Jorginho",
-      "pista": "Mediocampista italiano del Arsenal",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Jota",
-      "pista": "Ex Delantero portugués del Liverpool",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Joao Felix",
-      "pista": "Portugués, ex Benfica y Atlético de Madrid",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Juan Cuadrado",
-      "pista": "Lateral/extremo colombiano de la Juventus",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Juan Mata",
-      "pista": "Mediocampista español, ex Manchester United",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Juan Roman Riquelme",
-      "pista": "Ex enganche argentino, ídolo de Boca",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Jude Bellingham",
-      "pista": "Mediocampista inglés del Real Madrid",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Julian Brandt",
-      "pista": "Mediocampista alemán del Borussia Dortmund",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Julian Alvarez",
-      "pista": "Campeón del mundo con Argentina en 2022",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Julio Cesar",
-      "pista": "Ex arquero brasileño del Inter de Milán",
-      "dificultad": "medio"
-    }
+    "nombre": "Jack Grealish",
+    "pista": "Extremo inglés del Manchester City",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Jadon Sancho",
+    "pista": "Extremo inglés del Manchester United",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "James Rodriguez",
+    "pista": "Colombiano, goleador del Mundial 2014",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Jamie Vardy",
+    "pista": "Delantero inglés del Leicester City",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Javier Mascherano",
+    "pista": "Ex mediocampista argentino, jugó en Barcelona y Liverpool",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Javier Zanetti",
+    "pista": "Ex lateral argentino, leyenda del Inter",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Jean-Pierre Papin",
+    "pista": "Ex delantero francés, Balón de Oro 1991",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Jerome Boateng",
+    "pista": "Ex defensor alemán del Bayern de Múnich",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Jesus Navas",
+    "pista": "Lateral español, capitán del Sevilla",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Joaquin Sanchez",
+    "pista": "Extremo español, leyenda del Real Betis",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Joel Matip",
+    "pista": "Defensor camerunés del Liverpool",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Joelinton",
+    "pista": "Mediocampista brasileño del Newcastle",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Jorginho",
+    "pista": "Mediocampista italiano del Arsenal",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Jota",
+    "pista": "Ex delantero portugués del Liverpool",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Joao Felix",
+    "pista": "Portugués, ex Benfica y Atlético de Madrid",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Juan Cuadrado",
+    "pista": "Lateral/extremo colombiano de la Juventus",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Juan Mata",
+    "pista": "Mediocampista español, ex Manchester United",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Juan Roman Riquelme",
+    "pista": "Ex enganche argentino, ídolo de Boca",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Jude Bellingham",
+    "pista": "Mediocampista inglés del Real Madrid",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Julian Brandt",
+    "pista": "Mediocampista alemán del Borussia Dortmund",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Julian Alvarez",
+    "pista": "Campeón del mundo con Argentina en 2022",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Julio Cesar",
+    "pista": "Ex arquero brasileño del Inter de Milán",
+    "dificultad": "medio"
+  }
   ],
   "K": [
-    {
-      "nombre": "Kai Havertz",
-      "pista": "Mediocampista alemán del Arsenal",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Kaka",
-      "pista": "Brasileño, Balón de Oro 2007",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Kalidou Koulibaly",
-      "pista": "Defensor senegalés, ex Napoli y Chelsea",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Kalvin Phillips",
-      "pista": "Mediocampista inglés del Manchester City",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Kante",
-      "pista": "Francés, campeón del mundo en 2018",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Karim Adeyemi",
-      "pista": "Delantero alemán del Borussia Dortmund",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Kepa Arrizabalaga",
-      "pista": "Arquero español, ex Chelsea",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Kevin De Bruyne",
-      "pista": "Mediocampista belga del Manchester City",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Kevin-Prince Boateng",
-      "pista": "Ex mediocampista ghanés, jugó en Barcelona",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Kewell",
-      "pista": "Ex delantero australiano, jugó en Liverpool",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Keylor Navas",
-      "pista": "Arquero costarricense, ex Real Madrid",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Kieran Trippier",
-      "pista": "Lateral inglés del Newcastle",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Kim Min-jae",
-      "pista": "Defensor surcoreano del Bayern de Múnich",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Kingsley Coman",
-      "pista": "Extremo francés del Bayern de Múnich",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Klose",
-      "pista": "Alemán, máximo goleador histórico de los Mundiales",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Koke",
-      "pista": "Mediocampista español, capitán del Atlético de Madrid",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Kolo Muani",
-      "pista": "Delantero francés del PSG",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Konate",
-      "pista": "Defensor francés del Liverpool",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Kostas Manolas",
-      "pista": "Defensor griego, ex Roma y Napoli",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Kroos",
-      "pista": "Mediocampista alemán del Real Madrid",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Kurt Zouma",
-      "pista": "Defensor francés del West Ham",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Kylian Mbappe",
-      "pista": "Delantero francés, campeón del mundo 2018",
-      "dificultad": "medio"
-    }
+     {
+    "nombre": "Kai Havertz",
+    "pista": "Mediocampista ofensivo alemán del Arsenal, conocido por su versatilidad, buen toque de balón y capacidad para jugar en varias posiciones de ataque. Ganador de la Champions League con Chelsea en 2021.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Kaka",
+    "pista": "Brasileño, Balón de Oro 2007, ex estrella del AC Milan y Real Madrid. Destacado por su elegancia, visión de juego, técnica fina y goles decisivos en grandes partidos.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Kalidou Koulibaly",
+    "pista": "Defensor central senegalés, ex Napoli y Chelsea, reconocido por su fortaleza física, velocidad y liderazgo defensivo. Figura clave en las defensas de sus equipos y de la selección de Senegal.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Kalvin Phillips",
+    "pista": "Mediocampista inglés del Manchester City, conocido por su entrega defensiva, resistencia física y precisión en los pases largos. Fundamental en el esquema táctico tanto del club como de la selección inglesa.",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Kante",
+    "pista": "Mediocampista francés, campeón del mundo 2018 con Francia. Destaca por su incansable trabajo defensivo, capacidad para recuperar balones y buen desplazamiento en el campo, pieza clave en Chelsea y selección.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Karim Adeyemi",
+    "pista": "Delantero alemán del Borussia Dortmund, joven promesa con velocidad explosiva, técnica depurada y gran olfato goleador. Destaca por su capacidad para desbordar defensas rivales.",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Kepa Arrizabalaga",
+    "pista": "Arquero español, ex Chelsea, reconocido por sus reflejos y juego con los pies, aunque ha tenido altibajos en su carrera profesional.",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Kevin De Bruyne",
+    "pista": "Mediocampista belga del Manchester City, considerado uno de los mejores pasadores del mundo. Destaca por su visión, precisión en los tiros libres y capacidad para crear ocasiones de gol.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Kevin-Prince Boateng",
+    "pista": "Ex mediocampista ghanés, conocido por su potencia física y técnica, jugó en equipos importantes como Barcelona y AC Milan.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Kewell",
+    "pista": "Ex delantero australiano, legendario por su paso en Liverpool, destacando por su velocidad, regate y capacidad goleadora.",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Keylor Navas",
+    "pista": "Arquero costarricense, ex Real Madrid, ganador de múltiples Champions League, reconocido por sus reflejos y valentía bajo los tres palos.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Kieran Trippier",
+    "pista": "Lateral derecho inglés del Newcastle, especialista en centros precisos y tiros libres, pieza clave en la selección de Inglaterra.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Kim Min-jae",
+    "pista": "Defensor surcoreano del Bayern de Múnich, fuerte en el juego aéreo y en la marcación, con gran futuro en Europa.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Kingsley Coman",
+    "pista": "Extremo francés del Bayern de Múnich, conocido por su velocidad, regates y por marcar goles importantes en finales de Champions League.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Klose",
+    "pista": "Delantero alemán, máximo goleador histórico de los Mundiales con 16 goles. Destacado por su posicionamiento y capacidad para definir dentro del área.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Koke",
+    "pista": "Mediocampista español, capitán del Atlético de Madrid, conocido por su inteligencia táctica, pases cortos precisos y liderazgo en el campo.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Kolo Muani",
+    "pista": "Delantero francés del PSG, rápido y hábil, con buena capacidad de definición y proyección ofensiva.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Konate",
+    "pista": "Defensor francés del Liverpool, joven promesa con gran fuerza física, velocidad y buen posicionamiento defensivo.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Kostas Manolas",
+    "pista": "Defensor griego, ex Roma y Napoli, reconocido por su agresividad en defensa y liderazgo en la zaga.",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Kroos",
+    "pista": "Mediocampista alemán del Real Madrid, maestro en la distribución del balón, especialista en pases largos y tiros libres precisos.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Kurt Zouma",
+    "pista": "Defensor francés del West Ham, fuerte en el juego aéreo y contundente en defensa, con experiencia en la Premier League.",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Kylian Mbappe",
+    "pista": "Delantero francés, campeón del mundo 2018, conocido por su velocidad supersónica, habilidades técnicas y capacidad goleadora desde joven estrella mundial.",
+    "dificultad": "medio"
+  }
   ],
   "L": [
-    {
-      "nombre": "Lahm",
-      "pista": "Ex lateral alemán, capitán del Bayern y Alemania",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Lamine Yamal",
-      "pista": "Joven promesa española del Barcelona",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Lampard",
-      "pista": "Ex mediocampista inglés, leyenda del Chelsea",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Lassana Diarra",
-      "pista": "Ex mediocampista francés, jugó en Real Madrid y Chelsea",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Laurent Blanc",
-      "pista": "Ex defensor francés y entrenador",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Lautaro Martinez",
-      "pista": "Delantero argentino, campeón del mundo 2022",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Leao",
-      "pista": "Extremo portugués del AC Milan",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Leonardo Bonucci",
-      "pista": "Defensor italiano de la Juventus",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Leroy Sane",
-      "pista": "Extremo alemán del Bayern de Múnich",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Lewandowski",
-      "pista": "Polaco, goleador del Bayern y Barcelona",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Lineker",
-      "pista": "Ex delantero inglés, goleador",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Lionel Messi",
-      "pista": "Máximo goleador histórico del Barcelona",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Lisandro Martinez",
-      "pista": "Defensor argentino, campeón del mundo 2022",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Lloris",
-      "pista": "Arquero francés, ex Tottenham",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Locatelli",
-      "pista": "Mediocampista italiano de la Juventus",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Lothar Matthaus",
-      "pista": "Ex mediocampista alemán, Balón de Oro 1990",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Lucas Hernandez",
-      "pista": "Defensor francés del PSG",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Lucas Paqueta",
-      "pista": "Mediocampista brasileño del West Ham",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Luis Diaz",
-      "pista": "Extremo colombiano del Liverpool",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Luis Suarez",
-      "pista": "Delantero uruguayo, ex Barcelona y Liverpool",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Luka Modric",
-      "pista": "Croata, Balón de Oro 2018",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Lukaku",
-      "pista": "Delantero belga, ex Inter y Chelsea",
-      "dificultad": "medio"
-    }
+      {
+    "nombre": "Lahm",
+    "pista": "Ex lateral derecho alemán, capitán del Bayern Múnich y de la selección alemana campeona mundial en 2014. Destacado por su inteligencia táctica, versatilidad y liderazgo en defensa y mediocampo.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Lamine Yamal",
+    "pista": "Joven promesa española del Barcelona, delantero con gran velocidad, técnica y gran proyección en el fútbol europeo.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Lampard",
+    "pista": "Ex mediocampista inglés, máximo goleador histórico del Chelsea. Conocido por su potente disparo desde fuera del área y su visión de juego.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Lassana Diarra",
+    "pista": "Ex mediocampista francés, muy físico y con gran capacidad defensiva, pasó por clubes como Real Madrid y Chelsea en la élite europea.",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Laurent Blanc",
+    "pista": "Ex defensor francés y entrenador, campeón del mundo 1998 y de la Eurocopa 2000, conocido por su juego elegante y liderazgo en defensa.",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Lautaro Martinez",
+    "pista": "Delantero argentino, campeón del mundo 2022, reconocido por su fuerza, movilidad y capacidad goleadora en el Inter de Milán.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Leao",
+    "pista": "Extremo portugués del AC Milan, joven talento con velocidad, regates y goles decisivos en la Serie A italiana.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Leonardo Bonucci",
+    "pista": "Defensor italiano de la Juventus, conocido por su habilidad para sacar el balón desde atrás y su liderazgo en la defensa.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Leroy Sane",
+    "pista": "Extremo alemán del Bayern de Múnich, con gran velocidad y técnica, capaz de generar desequilibrios y asistir a sus compañeros.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Lewandowski",
+    "pista": "Delantero polaco, goleador histórico del Bayern Múnich y ahora en Barcelona, conocido por su eficacia, posicionamiento y definición quirúrgica.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Lineker",
+    "pista": "Ex delantero inglés, goleador destacado en la Copa Mundial de 1986, famoso por su fair play y capacidad goleadora en clubes y selección.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Lionel Messi",
+    "pista": "Máximo goleador histórico del Barcelona, ganador de múltiples Balones de Oro, ícono mundial del fútbol por su habilidad, visión y goles memorables.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Lisandro Martinez",
+    "pista": "Defensor argentino, campeón del mundo 2022, conocido por su agresividad, salida limpia y polivalencia en defensa y mediocampo.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Lloris",
+    "pista": "Arquero francés, ex capitán del Tottenham y de Francia, reconocido por sus reflejos, liderazgo y capacidad para atajar penales decisivos.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Locatelli",
+    "pista": "Mediocampista italiano de la Juventus, joven talento con buen manejo del balón, visión de juego y potente disparo desde fuera del área.",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Lothar Matthaus",
+    "pista": "Ex mediocampista alemán, Balón de Oro 1990, campeón mundial y europeo, conocido por su versatilidad y liderazgo en el campo.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Lucas Hernandez",
+    "pista": "Defensor francés del PSG, campeón del mundo 2018, fuerte en defensa, con buena técnica y capacidad para jugar como lateral o central.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Lucas Paqueta",
+    "pista": "Mediocampista brasileño del West Ham, talentoso con buen manejo del balón, creatividad y capacidad para llegar al área rival.",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Luis Diaz",
+    "pista": "Extremo colombiano del Liverpool, conocido por su velocidad, regates y goles importantes en competiciones europeas.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Luis Suarez",
+    "pista": "Delantero uruguayo, ex Barcelona y Liverpool, famoso por su capacidad goleadora, fuerza y controversias dentro y fuera del campo.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Luka Modric",
+    "pista": "Mediocampista croata, Balón de Oro 2018, motor del Real Madrid, reconocido por su técnica, visión y liderazgo en el mediocampo.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Lukaku",
+    "pista": "Delantero belga, ex Inter y Chelsea, conocido por su potencia física, habilidad para definir y ser un referente en el área rival.",
+    "dificultad": "medio"
+  }
   ],
   "M": [
     {
-      "nombre": "Maguire",
-      "pista": "Defensor inglés del Manchester United",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Mahrez",
-      "pista": "Extremo argelino, ex Manchester City",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Manuel Neuer",
-      "pista": "Arquero alemán del Bayern de Múnich",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Mane",
-      "pista": "Extremo senegalés, ex Liverpool y Bayern",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Maradona",
-      "pista": "Ídolo argentino, campeón del mundo en 1986",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Marc Bartra",
-      "pista": "Defensor español, ex Barcelona y Betis",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Marc-Andre ter Stegen",
-      "pista": "Arquero alemán del Barcelona",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Marcelo",
-      "pista": "Ex lateral izquierdo brasileño del Real Madrid",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Marco Verratti",
-      "pista": "Mediocampista italiano del PSG",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Marcus Rashford",
-      "pista": "Delantero inglés del Manchester United",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Mario Balotelli",
-      "pista": "Delantero italiano, conocido por su personalidad",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Marquinhos",
-      "pista": "Defensor brasileño, capitán del PSG",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Mason Mount",
-      "pista": "Mediocampista inglés del Manchester United",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Matthijs de Ligt",
-      "pista": "Defensor neerlandés del Bayern de Múnich",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Mbappe",
-      "pista": "Francés, campeón del mundo 2018",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Mesut Ozil",
-      "pista": "Ex mediocampista alemán, jugó en Real Madrid y Arsenal",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Michael Owen",
-      "pista": "Ex delantero inglés, Balón de Oro 2001",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Mikel Arteta",
-      "pista": "Actual entrenador del Arsenal, ex mediocampista español",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Milinkovic-Savic",
-      "pista": "Mediocampista serbio, ex Lazio",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Mkhitaryan",
-      "pista": "Mediocampista armenio del Inter de Milán",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Modric",
-      "pista": "Croata, Balón de Oro 2018",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Moises Caicedo",
-      "pista": "Mediocampista ecuatoriano del Chelsea",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Morata",
-      "pista": "Delantero español del Atlético de Madrid",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Moukoko",
-      "pista": "Joven delantero alemán del Borussia Dortmund",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Mount",
-      "pista": "Mediocampista inglés, ex Chelsea y Manchester United",
-      "dificultad": "medio"
-    }
+    "nombre": "Maguire",
+    "pista": "Defensor inglés del Manchester United y de la selección nacional, conocido por su físico imponente y liderazgo en la defensa.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Mahrez",
+    "pista": "Extremo argelino, ex campeón de la Premier League con Manchester City, famoso por su habilidad técnica y tiros precisos.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Manuel Neuer",
+    "pista": "Arquero alemán del Bayern de Múnich, considerado uno de los mejores porteros del mundo por su estilo moderno y habilidades como líbero.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Mane",
+    "pista": "Extremo senegalés, ex Liverpool y Bayern Múnich, destacado por su velocidad, regates y capacidad goleadora en grandes partidos.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Maradona",
+    "pista": "Ídolo argentino, campeón del mundo en 1986, considerado uno de los mejores futbolistas de la historia por su talento, técnica y carisma.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Marc Bartra",
+    "pista": "Defensor español, ex jugador de Barcelona y Betis, reconocido por su salida limpia desde la defensa y experiencia en competiciones europeas.",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Marc-Andre ter Stegen",
+    "pista": "Arquero alemán del Barcelona, conocido por sus reflejos, juego con los pies y actuaciones clave en la Liga y Champions League.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Marcelo",
+    "pista": "Ex lateral izquierdo brasileño del Real Madrid, famoso por su velocidad, técnica ofensiva y múltiples títulos ganados en Europa.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Marco Verratti",
+    "pista": "Mediocampista italiano del PSG, destacado por su control del balón, visión de juego y capacidad para manejar el ritmo del partido.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Marcus Rashford",
+    "pista": "Delantero inglés del Manchester United, conocido por su velocidad, goles decisivos y compromiso social fuera del campo.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Mario Balotelli",
+    "pista": "Delantero italiano, conocido tanto por su talento goleador como por su personalidad controversial y momentos mediáticos.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Marquinhos",
+    "pista": "Defensor brasileño, capitán del PSG, reconocido por su versatilidad para jugar en defensa central y mediocampo defensivo.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Mason Mount",
+    "pista": "Mediocampista inglés del Manchester United, habilidoso en el pase y con gran capacidad para marcar goles importantes.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Matthijs de Ligt",
+    "pista": "Defensor neerlandés del Bayern de Múnich, joven talento con gran fortaleza física, anticipación y experiencia en clubes top europeos.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Mbappe",
+    "pista": "Delantero francés, campeón del mundo 2018, reconocido mundialmente por su velocidad explosiva, técnica y capacidad goleadora.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Mesut Ozil",
+    "pista": "Ex mediocampista alemán, famoso por su creatividad, asistencias precisas y paso por Real Madrid y Arsenal en la élite europea.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Michael Owen",
+    "pista": "Ex delantero inglés, Balón de Oro 2001, goleador nato que brilló en Liverpool y en la selección inglesa durante la década del 2000.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Mikel Arteta",
+    "pista": "Actual entrenador del Arsenal y ex mediocampista español, reconocido por su inteligencia táctica y liderazgo dentro y fuera del campo.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Milinkovic-Savic",
+    "pista": "Mediocampista serbio, ex Lazio, con gran potencia física, buen manejo del balón y destacado por su capacidad goleadora desde media distancia.",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Mkhitaryan",
+    "pista": "Mediocampista armenio del Inter de Milán, hábil y creativo, conocido por su visión de juego y aporte ofensivo en clubes importantes.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Modric",
+    "pista": "Croata, Balón de Oro 2018, motor del mediocampo del Real Madrid, reconocido por su técnica, resistencia y visión para distribuir juego.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Moises Caicedo",
+    "pista": "Mediocampista ecuatoriano del Chelsea, joven talento con buena visión, capacidad defensiva y proyección en el fútbol inglés.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Morata",
+    "pista": "Delantero español del Atlético de Madrid, conocido por su oportunismo en el área y experiencia en grandes clubes europeos.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Moukoko",
+    "pista": "Joven delantero alemán del Borussia Dortmund, considerado una gran promesa por su capacidad goleadora y precoz debut profesional.",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Mount",
+    "pista": "Mediocampista inglés, ex Chelsea y Manchester United, reconocido por su técnica, versatilidad y capacidad para crear juego ofensivo.",
+    "dificultad": "medio"
+  }
   ],
   "N": [
     {
-      "nombre": "Naby Keita",
-      "pista": "Mediocampista guineano, ex Liverpool",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Nacho Fernandez",
-      "pista": "Defensor del Real Madrid",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Nagelsmann",
-      "pista": "Entrenador alemán, ex Bayern de Múnich",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Naldo",
-      "pista": "Ex defensor brasileño, jugó en el Schalke",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Nathan Ake",
-      "pista": "Defensor neerlandés del Manchester City",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Navas",
-      "pista": "Arquero costarricense, campeón de Champions con el Madrid",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Ndombele",
-      "pista": "Mediocampista francés, ex Tottenham",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Nelson Semedo",
-      "pista": "Lateral portugués del Wolves",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Nemanja Matic",
-      "pista": "Mediocampista serbio, ex Manchester United",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Nestor Araujo",
-      "pista": "Defensor mexicano, juega en América",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Neuer",
-      "pista": "Arquero alemán del Bayern de Múnich",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Neymar",
-      "pista": "Brasileño, ex Barcelona y PSG",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Niclas Fullkrug",
-      "pista": "Delantero alemán del Borussia Dortmund",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Nico Williams",
-      "pista": "Extremo español del Athletic Club",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Nicolo Barella",
-      "pista": "Mediocampista italiano del Inter de Milán",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Nicolo Zaniolo",
-      "pista": "Mediocampista italiano, ex Roma",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Nicolas Otamendi",
-      "pista": "Defensor argentino, campeón del mundo 2022",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Nkunku",
-      "pista": "Delantero francés del Chelsea",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Noah Okafor",
-      "pista": "Delantero suizo del AC Milan",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Nuno Espirito Santo",
-      "pista": "Entrenador portugués",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Nuno Mendes",
-      "pista": "Lateral izquierdo portugués del PSG",
-      "dificultad": "medio"
-    }
+    "nombre": "Naby Keita",
+    "pista": "Mediocampista guineano, ex Liverpool, conocido por su potencia física, capacidad de recuperación y conducción del balón.",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Nacho Fernandez",
+    "pista": "Defensor español del Real Madrid, versátil para jugar en varias posiciones defensivas, con experiencia en títulos nacionales e internacionales.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Nagelsmann",
+    "pista": "Entrenador alemán, ex Bayern de Múnich, reconocido por su táctica innovadora y trabajo con jóvenes talentos.",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Naldo",
+    "pista": "Ex defensor brasileño, destacado por su altura, fuerza y capacidad goleadora en jugadas a balón parado, jugó en Schalke 04.",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Nathan Ake",
+    "pista": "Defensor neerlandés del Manchester City, fuerte en defensa y con buena salida desde atrás, pieza clave en el esquema de Guardiola.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Navas",
+    "pista": "Arquero costarricense, campeón de Champions League con el Real Madrid, famoso por sus reflejos y grandes atajadas en partidos clave.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Ndombele",
+    "pista": "Mediocampista francés, ex Tottenham, reconocido por su fuerza, técnica y capacidad para romper líneas en el mediocampo.",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Nelson Semedo",
+    "pista": "Lateral portugués del Wolves, conocido por su velocidad, buen centro y capacidad para apoyar el ataque desde la banda derecha.",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Nemanja Matic",
+    "pista": "Mediocampista serbio, ex Manchester United, destacado por su control del mediocampo, juego físico y experiencia en clubes grandes.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Nestor Araujo",
+    "pista": "Defensor mexicano que juega en América, reconocido por su solidez defensiva y juego aéreo efectivo.",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Neuer",
+    "pista": "Arquero alemán del Bayern de Múnich, considerado uno de los mejores porteros del mundo por su estilo moderno y habilidades como líbero.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Neymar",
+    "pista": "Brasileño, ex Barcelona y PSG, estrella mundial conocida por su técnica, regates y capacidad goleadora.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Niclas Fullkrug",
+    "pista": "Delantero alemán del Borussia Dortmund, goleador con buen remate y presencia en el área rival.",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Nico Williams",
+    "pista": "Extremo español del Athletic Club, joven promesa con gran velocidad y habilidad para desbordar por las bandas.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Nicolo Barella",
+    "pista": "Mediocampista italiano del Inter de Milán, conocido por su energía, técnica y capacidad para llegar al área rival.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Nicolo Zaniolo",
+    "pista": "Mediocampista italiano, ex Roma, talentoso y con buen remate desde fuera del área, sufrió varias lesiones importantes.",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Nicolas Otamendi",
+    "pista": "Defensor argentino, campeón del mundo 2022, fuerte en defensa y con gran experiencia en Europa y la selección nacional.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Nkunku",
+    "pista": "Delantero francés del Chelsea, versátil, con buen regate y capacidad goleadora en la Premier League.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Noah Okafor",
+    "pista": "Delantero suizo del AC Milan, joven talento con velocidad y habilidad para definir en el área rival.",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Nuno Espirito Santo",
+    "pista": "Entrenador portugués, conocido por su estilo defensivo y paso por clubes como Tottenham y Wolves.",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Nuno Mendes",
+    "pista": "Lateral izquierdo portugués del PSG, rápido y ofensivo, con gran proyección en el fútbol europeo actual.",
+    "dificultad": "medio"
+  }
   ],
   "O": [
     {
-      "nombre": "Oblak",
-      "pista": "Arquero esloveno del Atlético de Madrid",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Ocampos",
-      "pista": "Extremo argentino, juega en Sevilla",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Odegaard",
-      "pista": "Mediocampista noruego, capitán del Arsenal",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Ogbonna",
-      "pista": "Defensor italiano del West Ham",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Ogenyi Onazi",
-      "pista": "Mediocampista nigeriano",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Oguchi Onyewu",
-      "pista": "Ex defensor estadounidense",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Okazaki",
-      "pista": "Ex delantero japonés, campeón con Leicester",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Ole Gunnar Solskjaer",
-      "pista": "Ex delantero noruego y entrenador",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Oleg Blokhin",
-      "pista": "Ex delantero ucraniano, Balón de Oro 1975",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Olivier Giroud",
-      "pista": "Delantero francés, juega en el AC Milan",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Omar Marmoush",
-      "pista": "Delantero egipcio del Eintracht Frankfurt",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Onana",
-      "pista": "Arquero camerunés del Manchester United",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Origi",
-      "pista": "Delantero belga, ex Liverpool y AC Milan",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Osimhen",
-      "pista": "Delantero nigeriano, figura del Napoli",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Otamendi",
-      "pista": "Defensor argentino, campeón del mundo 2022",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Ousmane Dembele",
-      "pista": "Extremo francés, ex Barcelona y PSG",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Oxlade-Chamberlain",
-      "pista": "Mediocampista inglés, ex Liverpool",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Ozil",
-      "pista": "Alemán, campeón del mundo 2014",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Oliver Torres",
-      "pista": "Mediocampista español del Sevilla",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Oscar Cardozo",
-      "pista": "Ex delantero paraguayo, goleador del Benfica",
-      "dificultad": "dificil"
-    }
+    "nombre": "Oblak",
+    "pista": "Arquero esloveno del Atlético de Madrid, conocido por sus reflejos excepcionales y gran seguridad bajo los tres palos, pieza clave en la defensa rojiblanca.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Ocampos",
+    "pista": "Extremo argentino que juega en el Sevilla, destacado por su velocidad, regate y capacidad goleadora en la liga española y competencias europeas.",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Odegaard",
+    "pista": "Mediocampista noruego, capitán del Arsenal, con buena visión de juego, manejo del balón y capacidad para crear oportunidades de gol.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Ogbonna",
+    "pista": "Defensor italiano del West Ham, conocido por su fuerza física, experiencia en Serie A y Premier League, y buen juego aéreo.",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Ogenyi Onazi",
+    "pista": "Mediocampista nigeriano con experiencia internacional y recorrido en ligas europeas, destacado por su capacidad física y recuperación de balón.",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Oguchi Onyewu",
+    "pista": "Ex defensor estadounidense, reconocido por su físico imponente y su rol en la selección nacional y clubes europeos.",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Okazaki",
+    "pista": "Ex delantero japonés, campeón con Leicester City en la Premier League 2015-16, famoso por su trabajo incansable y goles clave.",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Ole Gunnar Solskjaer",
+    "pista": "Ex delantero noruego y entrenador, recordado por su gol decisivo en la final de Champions 1999 con el Manchester United y su carrera como técnico.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Oleg Blokhin",
+    "pista": "Ex delantero ucraniano, Balón de Oro 1975, ícono del fútbol soviético y entrenador reconocido por su técnica y liderazgo en el campo.",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Olivier Giroud",
+    "pista": "Delantero francés que juega en el AC Milan, conocido por su juego aéreo, capacidad goleadora y su rol fundamental en la selección francesa campeona mundial.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Omar Marmoush",
+    "pista": "Delantero egipcio del Eintracht Frankfurt, joven talento con velocidad y olfato goleador en la Bundesliga alemana.",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Onana",
+    "pista": "Arquero camerunés del Manchester United, destacado por su agilidad, reflejos y liderazgo en la portería.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Origi",
+    "pista": "Delantero belga, ex Liverpool y AC Milan, famoso por sus goles decisivos en Champions League y su trabajo en el ataque.",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Osimhen",
+    "pista": "Delantero nigeriano, figura del Napoli, conocido por su potencia física, velocidad y capacidad goleadora en Serie A.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Otamendi",
+    "pista": "Defensor argentino, campeón del mundo 2022, con gran experiencia en Europa y solidez defensiva en la selección nacional.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Ousmane Dembele",
+    "pista": "Extremo francés, ex Barcelona y PSG, reconocido por su velocidad, regate y habilidad para desequilibrar en ataque.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Oxlade-Chamberlain",
+    "pista": "Mediocampista inglés, ex Liverpool, conocido por su velocidad, potencia y capacidad para jugar en varias posiciones ofensivas.",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Ozil",
+    "pista": "Mediocampista alemán, campeón del mundo 2014, destacado por su visión, creatividad y pases precisos en Arsenal y Real Madrid.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Oliver Torres",
+    "pista": "Mediocampista español del Sevilla, habilidoso en la creación y manejo del balón, con experiencia en La Liga y competiciones europeas.",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Oscar Cardozo",
+    "pista": "Ex delantero paraguayo, goleador histórico del Benfica, reconocido por su potencia de tiro y capacidad para definir en el área.",
+    "dificultad": "dificil"
+  }
   ],
   "P": [
-    {
-      "nombre": "Pablo Sarabia",
-      "pista": "Extremo español, ex PSG y Wolves",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Paco Alcacer",
-      "pista": "Delantero español, ex Valencia y Borussia Dortmund",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Paolo Maldini",
-      "pista": "Defensor histórico del Milan",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Papu Gomez",
-      "pista": "Mediocampista argentino, campeón del mundo 2022",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Paredes",
-      "pista": "Mediocampista argentino, campeón del mundo 2022",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Parejo",
-      "pista": "Mediocampista español del Villarreal",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Patrice Evra",
-      "pista": "Ex lateral izquierdo francés, jugó en Manchester United",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Patrick Vieira",
-      "pista": "Ex mediocampista francés, leyenda del Arsenal",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Pau Torres",
-      "pista": "Defensor español del Aston Villa",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Pavard",
-      "pista": "Francés, autor de un golazo en el Mundial 2018",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Pedri",
-      "pista": "Mediocampista español del Barcelona",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Pele",
-      "pista": "Legendario futbolista brasileño, 'O Rei'",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Perisic",
-      "pista": "Extremo croata, juega en Tottenham",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Petit",
-      "pista": "Ex mediocampista francés, campeón mundial",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Phil Foden",
-      "pista": "Mediocampista inglés del Manchester City",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Philippe Coutinho",
-      "pista": "Mediocampista brasileño, ex Barcelona",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Pierre-Emerick Aubameyang",
-      "pista": "Delantero gabonés, ex Arsenal y Barcelona",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Pique",
-      "pista": "Defensor español, leyenda del Barcelona",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Pirlo",
-      "pista": "Ex mediocampista italiano, maestro",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Pogba",
-      "pista": "Mediocampista francés, campeón del mundo 2018",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Pulisic",
-      "pista": "Extremo estadounidense del AC Milan",
-      "dificultad": "medio"
-    }
+     {
+    "nombre": "Pablo Sarabia",
+    "pista": "Extremo español, ex PSG y Wolves, destacado por su visión de juego, precisión en los pases y capacidad para anotar goles decisivos en partidos importantes.",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Paco Alcacer",
+    "pista": "Delantero español, ex Valencia y Borussia Dortmund, reconocido por su instinto goleador y eficacia dentro del área rival, con buenos movimientos para desmarcarse.",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Paolo Maldini",
+    "pista": "Defensor histórico del Milan, símbolo de elegancia y liderazgo en defensa, considerado uno de los mejores defensores en la historia del fútbol mundial.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Papu Gomez",
+    "pista": "Mediocampista argentino, campeón del mundo 2022, conocido por su creatividad, habilidad técnica y capacidad para generar juego ofensivo y asistir a sus compañeros.",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Paredes",
+    "pista": "Mediocampista argentino, campeón del mundo 2022, destacado por su precisión en el pase, visión táctica y rol clave en la distribución del balón en clubes europeos y selección.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Parejo",
+    "pista": "Mediocampista español del Villarreal, especialista en tiros libres y pases largos, con amplia experiencia en La Liga y capacidad para controlar el ritmo del partido.",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Patrice Evra",
+    "pista": "Ex lateral izquierdo francés, jugó en Manchester United, reconocido por su velocidad, resistencia y liderazgo en defensa, además de su carácter en el vestuario.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Patrick Vieira",
+    "pista": "Ex mediocampista francés y leyenda del Arsenal, famoso por su fuerza física, habilidad para recuperar balones y capacidad para imponer su autoridad en el medio campo.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Pau Torres",
+    "pista": "Defensor español del Aston Villa, destacado por su juego aéreo, anticipación y salida limpia desde la defensa, con proyección para sumarse al ataque.",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Pavard",
+    "pista": "Defensor francés, autor de un golazo en el Mundial 2018, versátil para jugar como lateral o central, con buen despliegue físico y técnica depurada.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Pedri",
+    "pista": "Mediocampista español del Barcelona, joven talento reconocido por su visión de juego, toque fino, y madurez táctica, esencial en el estilo ofensivo del equipo.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Pele",
+    "pista": "Legendario futbolista brasileño, apodado 'O Rei', tricampeón del mundo, símbolo universal del fútbol y pionero en la popularización del deporte a nivel global.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Perisic",
+    "pista": "Extremo croata que juega en Tottenham, conocido por su potencia, versatilidad para jugar en varias posiciones ofensivas y capacidad para asistir y anotar goles.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Petit",
+    "pista": "Ex mediocampista francés y campeón mundial, reconocido por su entrega en el campo, control del ritmo de juego y capacidad para distribuir el balón eficazmente.",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Phil Foden",
+    "pista": "Mediocampista inglés del Manchester City, joven promesa con gran técnica, visión creativa y versatilidad para jugar en diferentes posiciones ofensivas.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Philippe Coutinho",
+    "pista": "Mediocampista brasileño, ex Barcelona, habilidoso en el regate, con buen disparo de media distancia y creatividad para generar oportunidades de gol.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Pierre-Emerick Aubameyang",
+    "pista": "Delantero gabonés, ex Arsenal y Barcelona, famoso por su velocidad explosiva, capacidad goleadora y definición precisa dentro del área rival.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Pique",
+    "pista": "Defensor español, leyenda del Barcelona, con amplia trayectoria ganadora a nivel nacional e internacional y capacidad para liderar la defensa desde el fondo.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Pirlo",
+    "pista": "Ex mediocampista italiano, maestro en el pase y control del balón, campeón mundial, reconocido por su inteligencia táctica y visión para crear juego.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Pogba",
+    "pista": "Mediocampista francés, campeón del mundo 2018, conocido por su potencia física, técnica depurada y capacidad para generar desequilibrio en el mediocampo.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Pulisic",
+    "pista": "Extremo estadounidense del AC Milan, uno de los talentos más destacados de su país, reconocido por su velocidad, desborde y precisión en el disparo.",
+    "dificultad": "medio"
+  }
   ],
   "Q": [
     {
-      "nombre": "QPR",
-      "pista": "Club inglés llamado Queens Park Rangers",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Quagliarella",
-      "pista": "Delantero italiano, goleador veterano",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Quaresma",
-      "pista": "Extremo portugués, conocido por su 'trivela'",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Queen of the South",
-      "pista": "Equipo escocés con nombre regio",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Queen's Park",
-      "pista": "Uno de los clubes más antiguos de Escocia",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Queretaro",
-      "pista": "Equipo mexicano de la Liga MX",
-      "dificultad": "difil"
-    },
-    {
-      "nombre": "Quilindschy Hartman",
-      "pista": "Lateral neerlandés del Feyenoord",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Quincy Promes",
-      "pista": "Extremo neerlandés, ex Ajax",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Quini",
-      "pista": "Goleador histórico del Sporting de Gijón y Barcelona",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Quique Setien",
-      "pista": "Exentrenador del Barcelona, Betis y Villareal",
-      "dificultad": "medio"
-    }
+    "nombre": "QPR",
+    "pista": "Club inglés conocido como Queens Park Rangers, con historia en la Football League y conocido por su base en Londres.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Quagliarella",
+    "pista": "Delantero italiano veterano, reconocido por su técnica, capacidad goleadora y por ser uno de los goleadores más longevos en la Serie A.",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Quaresma",
+    "pista": "Extremo portugués famoso por su habilidad con la 'trivela' (disparo con efecto exterior), con trayectoria en clubes como Porto y Besiktas.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Queen of the South",
+    "pista": "Equipo de fútbol escocés con nombre regio, participa en las divisiones profesionales de Escocia y tiene una historia centenaria.",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Queen's Park",
+    "pista": "Uno de los clubes más antiguos de Escocia y del mundo, conocido por su tradición amateur y por ser cuna de futbolistas históricos.",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Queretaro",
+    "pista": "Equipo mexicano que compite en la Liga MX, conocido por su base en la ciudad de Querétaro y por su participación en torneos nacionales.",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Quilindschy Hartman",
+    "pista": "Lateral neerlandés del Feyenoord, joven promesa con buen despliegue físico y capacidad para sumar en ataque y defensa.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Quincy Promes",
+    "pista": "Extremo neerlandés, ex Ajax y Spartak Moscú, destacado por su velocidad, regate y olfato goleador en Europa.",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Quini",
+    "pista": "Goleador histórico del Sporting de Gijón y Barcelona, ídolo del fútbol español de los años 70 y 80, reconocido por su olfato para el gol.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Quique Setien",
+    "pista": "Exentrenador del Barcelona, Betis y Villarreal, conocido por su estilo ofensivo, posesión de balón y formación de jóvenes talentos.",
+    "dificultad": "medio"
+  }
   ],
   "R": [
     {
-      "nombre": "Rafael Leao",
-      "pista": "Extremo portugués del AC Milan",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Raheem Sterling",
-      "pista": "Extremo inglés, ex Man City y Chelsea",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Ramires",
-      "pista": "Ex mediocampista brasileño, ex Chelsea",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Raphael Varane",
-      "pista": "Defensor francés del Manchester United",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Raphinha",
-      "pista": "Extremo brasileño del Barcelona",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Raul Gonzalez",
-      "pista": "Ex delantero español, leyenda del Real Madrid",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Reus",
-      "pista": "Mediocampista alemán del Borussia Dortmund",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Ricardo Carvalho",
-      "pista": "Ex defensor portugués, jugó en Chelsea y Real Madrid",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Richarlison",
-      "pista": "Delantero brasileño del Tottenham",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Rio Ferdinand",
-      "pista": "Ex defensor inglés del Manchester United",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Rivaldo",
-      "pista": "Ex mediocampista brasileño, Balón de Oro 1999",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Riyad Mahrez",
-      "pista": "Extremo argelino, ex Manchester City",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Roberto Baggio",
-      "pista": "Ex delantero italiano, 'La Divina Cola'",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Roberto Carlos",
-      "pista": "Ex lateral izquierdo brasileño, famoso por sus tiros libres",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Robin van Persie",
-      "pista": "Ex delantero neerlandés, jugó en Arsenal y Man Utd",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Rodri",
-      "pista": "Mediocampista español del Manchester City",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Rodrygo",
-      "pista": "Extremo brasileño del Real Madrid",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Romelu Lukaku",
-      "pista": "Delantero belga, ex Inter y Chelsea",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Ronald Koeman",
-      "pista": "Ex defensor neerlandés y entrenador",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Ronaldinho",
-      "pista": "Brasileño, Balón de Oro 2005",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Ronaldo Nazario",
-      "pista": "Delantero brasileño, 'El Fenómeno'",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Roy Keane",
-      "pista": "Ex mediocampista irlandés, capitán del Man Utd",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Ruben Dias",
-      "pista": "Defensor portugués del Manchester City",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Rui Costa",
-      "pista": "Ex mediocampista portugués, jugó en Benfica y AC Milan",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Ruud Van Nistelrooy",
-      "pista": "Ex delantero neerlandés, goleador",
-      "dificultad": "medio"
-    }
+    "nombre": "Rafael Leao",
+    "pista": "Extremo portugués del AC Milan, conocido por su velocidad, técnica y capacidad para desequilibrar defensas rivales.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Raheem Sterling",
+    "pista": "Extremo inglés, ex Man City y Chelsea, reconocido por su velocidad, regates y goles decisivos en el ataque.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Ramires",
+    "pista": "Ex mediocampista brasileño, ex Chelsea, destacado por su incansable trabajo físico, recuperación y llegada al área rival.",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Raphael Varane",
+    "pista": "Defensor francés del Manchester United, múltiple campeón con Real Madrid y Francia, conocido por su velocidad y solidez defensiva.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Raphinha",
+    "pista": "Extremo brasileño del Barcelona, habilidoso y creativo, con gran capacidad para asistir y marcar goles importantes.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Raul Gonzalez",
+    "pista": "Ex delantero español y leyenda del Real Madrid, máximo goleador histórico del club durante muchos años y referente del fútbol español.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Reus",
+    "pista": "Mediocampista alemán del Borussia Dortmund, talentoso y con gran visión de juego, aunque afectado por lesiones durante su carrera.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Ricardo Carvalho",
+    "pista": "Ex defensor portugués, parte clave del Chelsea y Real Madrid, conocido por su inteligencia táctica y experiencia internacional.",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Richarlison",
+    "pista": "Delantero brasileño del Tottenham, reconocido por su agresividad, habilidad aérea y capacidad goleadora en Premier League.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Rio Ferdinand",
+    "pista": "Ex defensor inglés del Manchester United, figura en la Premier League, reconocido por su liderazgo y técnica defensiva.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Rivaldo",
+    "pista": "Ex mediocampista brasileño, Balón de Oro 1999, destacado por su técnica, tiros libres y visión para crear juego ofensivo.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Riyad Mahrez",
+    "pista": "Extremo argelino, ex Manchester City, famoso por su regate, precisión en pases y capacidad goleadora en Premier League.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Roberto Baggio",
+    "pista": "Ex delantero italiano, apodado 'La Divina Cola', famoso por su creatividad, técnica y goles decisivos en torneos internacionales.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Roberto Carlos",
+    "pista": "Ex lateral izquierdo brasileño, recordado por sus tiros libres potentes y su gran recorrido por la banda izquierda en el Real Madrid.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Robin van Persie",
+    "pista": "Ex delantero neerlandés, goleador en Arsenal y Manchester United, conocido por su técnica y capacidad goleadora dentro del área.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Rodri",
+    "pista": "Mediocampista español del Manchester City, clave en la recuperación y distribución del balón con visión táctica y control del ritmo del juego.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Rodrygo",
+    "pista": "Extremo brasileño del Real Madrid, joven talento con velocidad, técnica y capacidad para anotar goles importantes en partidos decisivos.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Romelu Lukaku",
+    "pista": "Delantero belga, ex Inter y Chelsea, reconocido por su potencia física, definición y presencia ofensiva en Europa y selección nacional.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Ronald Koeman",
+    "pista": "Ex defensor neerlandés y entrenador, conocido por su potente disparo y su rol en la exitosa época del Barcelona como jugador y entrenador.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Ronaldinho",
+    "pista": "Brasileño, Balón de Oro 2005, famoso por su magia, regates y carisma, uno de los mejores creativos en la historia del fútbol.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Ronaldo Nazario",
+    "pista": "Delantero brasileño, apodado 'El Fenómeno', goleador histórico, con velocidad, técnica y capacidad para definir en cualquier situación.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Roy Keane",
+    "pista": "Ex mediocampista irlandés y capitán del Manchester United, conocido por su liderazgo, intensidad y competitividad en el mediocampo.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Ruben Dias",
+    "pista": "Defensor portugués del Manchester City, clave en la defensa, con solidez, liderazgo y gran capacidad de anticipación.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Rui Costa",
+    "pista": "Ex mediocampista portugués, jugó en Benfica y AC Milan, famoso por su técnica depurada y visión para asistir a sus compañeros.",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Ruud Van Nistelrooy",
+    "pista": "Ex delantero neerlandés, goleador prolífico en Manchester United y Real Madrid, conocido por su olfato goleador y definición quirúrgica.",
+    "dificultad": "medio"
+  }
   ],
   "S": [
     {
-      "nombre": "Sadio Mane",
-      "pista": "Extremo senegalés, ex Liverpool y Bayern",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Salah",
-      "pista": "Extremo egipcio, estrella del Liverpool",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Samuel Eto'o",
-      "pista": "Delantero camerunés, jugó en Barça e Inter",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Santi Cazorla",
-      "pista": "Ex mediocampista español, jugó en Arsenal y Villarreal",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Saul Niguez",
-      "pista": "Mediocampista español del Atlético de Madrid",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Scott McTominay",
-      "pista": "Mediocampista escocés del Manchester United",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Serge Gnabry",
-      "pista": "Extremo alemán del Bayern de Múnich",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Sergio Busquets",
-      "pista": "Mediocampista español, leyenda del Barcelona",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Sergio Ramos",
-      "pista": "Defensor español, leyenda del Real Madrid",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Sol Campbell",
-      "pista": "Ex defensor inglés, jugó en Arsenal y Tottenham",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Son Heung-Min",
-      "pista": "Delantero surcoreano, estrella del Tottenham",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Sonny Anderson",
-      "pista": "Ex delantero brasileño, jugó en Mónaco y Lyon",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Stefan de Vrij",
-      "pista": "Defensor neerlandés del Inter de Milán",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Steven Gerrard",
-      "pista": "Ex mediocampista inglés, leyenda del Liverpool",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Stoichkov",
-      "pista": "Ex delantero búlgaro del Barcelona",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Suso",
-      "pista": "Extremo español del Sevilla",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Sven-Goran Eriksson",
-      "pista": "Ex entrenador sueco",
-      "dificultad": "dificil"
-    }
+    "nombre": "Sadio Mane",
+    "pista": "Extremo senegalés, ex Liverpool y Bayern, conocido por su velocidad, potencia y capacidad goleadora en clubes y selección.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Salah",
+    "pista": "Extremo egipcio, estrella del Liverpool, destacado por su rapidez, regate y gran capacidad para marcar goles decisivos.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Samuel Eto'o",
+    "pista": "Delantero camerunés, jugó en Barcelona e Inter, reconocido por su eficacia goleadora y su gran trayectoria internacional.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Santi Cazorla",
+    "pista": "Ex mediocampista español, jugó en Arsenal y Villarreal, famoso por su técnica, precisión en pases y tiros libres.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Saul Niguez",
+    "pista": "Mediocampista español del Atlético de Madrid, versátil y con buen despliegue físico y táctico en el mediocampo.",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Scott McTominay",
+    "pista": "Mediocampista escocés del Manchester United, conocido por su entrega física, recuperación de balón y juego aéreo.",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Serge Gnabry",
+    "pista": "Extremo alemán del Bayern de Múnich, con velocidad, buen regate y capacidad para asistir y marcar goles importantes.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Sergio Busquets",
+    "pista": "Mediocampista español, leyenda del Barcelona, maestro en el control del juego, recuperación y distribución precisa del balón.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Sergio Ramos",
+    "pista": "Defensor español, leyenda del Real Madrid, reconocido por su liderazgo, capacidad goleadora y juego aéreo en defensa y ataque.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Sol Campbell",
+    "pista": "Ex defensor inglés, jugó en Arsenal y Tottenham, famoso por su fuerza, contundencia y liderazgo defensivo.",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Son Heung-Min",
+    "pista": "Delantero surcoreano y estrella del Tottenham, conocido por su velocidad, habilidad técnica y capacidad goleadora.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Sonny Anderson",
+    "pista": "Ex delantero brasileño, jugó en Mónaco y Lyon, recordado por su olfato goleador y definiciones precisas en el área.",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Stefan de Vrij",
+    "pista": "Defensor neerlandés del Inter de Milán, destacado por su anticipación, solidez defensiva y juego aéreo.",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Steven Gerrard",
+    "pista": "Ex mediocampista inglés y leyenda del Liverpool, conocido por su liderazgo, tiros potentes y presencia en partidos importantes.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Stoichkov",
+    "pista": "Ex delantero búlgaro del Barcelona, reconocido por su agresividad, técnica y capacidad goleadora en la década de los 90.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Suso",
+    "pista": "Extremo español del Sevilla, habilidoso con buen manejo de balón y capacidad para asistir y anotar goles.",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Sven-Goran Eriksson",
+    "pista": "Ex entrenador sueco, conocido por dirigir varias selecciones nacionales y clubes en Europa con éxito moderado.",
+    "dificultad": "dificil"
+  }
   ],
   "T": [
-    {
-      "nombre": "Takeshi Honda",
-      "pista": "Ex mediocampista japonés",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Tammy Abraham",
-      "pista": "Delantero inglés de la Roma",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Tanguy Ndombele",
-      "pista": "Mediocampista francés, ex Tottenham",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Ter Stegen",
-      "pista": "Arquero alemán del Barcelona",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Teofilo Cubillas",
-      "pista": "Ex mediocampista peruano, leyenda",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Theo Hernandez",
-      "pista": "Lateral francés del AC Milan",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Thiago Alcantara",
-      "pista": "Mediocampista español del Liverpool",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Thiago Silva",
-      "pista": "Defensor brasileño, ex PSG y Chelsea",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Thibaut Courtois",
-      "pista": "Arquero belga del Real Madrid",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Thierry Henry",
-      "pista": "Ex delantero francés, leyenda del Arsenal",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Thomas Muller",
-      "pista": "Delantero alemán del Bayern de Múnich",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Tim Howard",
-      "pista": "Ex arquero estadounidense",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Toni Kroos",
-      "pista": "Mediocampista alemán del Real Madrid",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Trent Alexander-Arnold",
-      "pista": "Lateral inglés del Liverpool",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Troy Deeney",
-      "pista": "Ex delantero inglés del Watford",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Tyler Adams",
-      "pista": "Mediocampista estadounidense del Bournemouth",
-      "dificultad": "dificil"
-    }
+     {
+    "nombre": "Takeshi Honda",
+    "pista": "Ex mediocampista japonés, reconocido por su visión de juego y técnica en el mediocampo durante su carrera.",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Tammy Abraham",
+    "pista": "Delantero inglés que juega en la Roma, destacado por su olfato goleador y capacidad para definir en el área rival.",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Tanguy Ndombele",
+    "pista": "Mediocampista francés, ex Tottenham, conocido por su potencia física, buen control del balón y juego dinámico en el mediocampo.",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Ter Stegen",
+    "pista": "Arquero alemán del Barcelona, reconocido por sus reflejos, seguridad en el arco y gran juego con los pies.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Teofilo Cubillas",
+    "pista": "Ex mediocampista peruano, leyenda histórica de su país y figura clave en Mundiales durante los años 70.",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Theo Hernandez",
+    "pista": "Lateral francés del AC Milan, destacado por su velocidad, capacidad ofensiva y buen desempeño defensivo.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Thiago Alcantara",
+    "pista": "Mediocampista español del Liverpool, reconocido por su técnica depurada, visión de juego y control del ritmo del partido.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Thiago Silva",
+    "pista": "Defensor brasileño, ex PSG y Chelsea, famoso por su liderazgo, solidez defensiva y experiencia internacional.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Thibaut Courtois",
+    "pista": "Arquero belga del Real Madrid, conocido por su estatura, reflejos y rendimiento en partidos decisivos.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Thierry Henry",
+    "pista": "Ex delantero francés y leyenda del Arsenal, famoso por su velocidad, técnica y capacidad goleadora sobresaliente.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Thomas Muller",
+    "pista": "Delantero alemán del Bayern de Múnich, conocido por su inteligencia táctica, visión de juego y versatilidad ofensiva.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Tim Howard",
+    "pista": "Ex arquero estadounidense, reconocido por su agilidad, valentía y actuación destacada en Mundiales.",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Toni Kroos",
+    "pista": "Mediocampista alemán del Real Madrid, destacado por su precisión en los pases, control del balón y visión estratégica.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Trent Alexander-Arnold",
+    "pista": "Lateral inglés del Liverpool, famoso por su capacidad de asistir, gran técnica y precisión en tiros libres y centros.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Troy Deeney",
+    "pista": "Ex delantero inglés del Watford, conocido por su entrega, físico imponente y carácter en el campo de juego.",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Tyler Adams",
+    "pista": "Mediocampista estadounidense del Bournemouth, reconocido por su sacrificio defensivo, recuperación de balón y apoyo en ataque.",
+    "dificultad": "dificil"
+  }
   ],
   "U": [
     {
-      "nombre": "Uche",
-      "pista": "Ex delantero nigeriano, jugó en España",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Ugarte",
-      "pista": "Volante uruguayo, juega en PSG",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Ulloa",
-      "pista": "Delantero argentino, campeón con Leicester",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Umtiti",
-      "pista": "Francés, campeón del mundo 2018",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Unai Simon",
-      "pista": "Arquero español del Athletic Club",
-      "dificultad": "medio"
-    }
+    "nombre": "Uche",
+    "pista": "Ex delantero nigeriano, con experiencia en la liga española, reconocido por su potencia y capacidad goleadora.",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Ugarte",
+    "pista": "Volante uruguayo que juega en PSG, destacado por su inteligencia táctica, buen manejo del balón y despliegue físico en el mediocampo.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Ulloa",
+    "pista": "Delantero argentino, campeón con Leicester City, conocido por su fuerza física y su presencia en el área rival.",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Umtiti",
+    "pista": "Defensor francés, campeón del mundo 2018 con Francia, reconocido por su solidez defensiva y liderazgo en la zaga.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Unai Simon",
+    "pista": "Arquero español del Athletic Club, valorado por sus reflejos, seguridad bajo los tres palos y buen juego con los pies.",
+    "dificultad": "medio"
+  }
   ],
   "V": [
     {
-      "nombre": "Van Dijk",
-      "pista": "Defensor neerlandés, figura del Liverpool",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Victor Osimhen",
-      "pista": "Delantero nigeriano, figura del Napoli",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Vieri",
-      "pista": "Delantero italiano de los 90 y 2000",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Vincenzo Montella",
-      "pista": "Ex delantero italiano y entrenador",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Vinicius Jr.",
-      "pista": "Extremo brasileño del Real Madrid",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Virgil van Dijk",
-      "pista": "Defensor neerlandés, figura del Liverpool",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Vitor Roque",
-      "pista": "Joven delantero brasileño del Barcelona",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Victor Valdes",
-      "pista": "Ex arquero español del Barcelona",
-      "dificultad": "medio"
-    }
+    "nombre": "Van Dijk",
+    "pista": "Defensor neerlandés, pieza clave y líder en la defensa del Liverpool, reconocido por su capacidad aérea y precisión en los pases.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Victor Osimhen",
+    "pista": "Delantero nigeriano, figura destacada del Napoli, conocido por su velocidad, potencia física y olfato goleador.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Vieri",
+    "pista": "Delantero italiano de los años 90 y 2000, famoso por su fuerza, técnica y capacidad goleadora en clubes grandes de Europa.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Vincenzo Montella",
+    "pista": "Ex delantero italiano con una destacada carrera y posterior paso como entrenador en varios clubes italianos.",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Vinicius Jr.",
+    "pista": "Extremo brasileño del Real Madrid, conocido por su habilidad para el regate, velocidad y contribuciones clave en ataque.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Vitor Roque",
+    "pista": "Joven delantero brasileño del Barcelona, considerado una promesa por su técnica y capacidad goleadora en categorías juveniles y profesionales.",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Victor Valdes",
+    "pista": "Ex arquero español del Barcelona, reconocido por su gran habilidad con los pies y papel fundamental en la era dorada del club catalán.",
+    "dificultad": "medio"
+  }
   ],
   "W": [
     {
-      "nombre": "Walker",
-      "pista": "Defensor inglés, juega en el Manchester City",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Wayne Rooney",
-      "pista": "Ex delantero inglés, leyenda del Manchester United",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Weah",
-      "pista": "Delantero liberiano, Balón de Oro 1995",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Wesley Sneijder",
-      "pista": "Ex mediocampista neerlandés, jugó en Real Madrid e Inter",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Wijnaldum",
-      "pista": "Mediocampista neerlandés",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Wilfried Zaha",
-      "pista": "Extremo marfileño, ex Crystal Palace",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "William Saliba",
-      "pista": "Defensor francés del Arsenal",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Willy Caballero",
-      "pista": "Arquero argentino, ex Manchester City y Chelsea",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Wojciech Szczesny",
-      "pista": "Arquero polaco de la Juventus",
-      "dificultad": "dificil"
-    }
+    "nombre": "Walker",
+    "pista": "Defensor inglés, lateral derecho del Manchester City, conocido por su velocidad, resistencia y solidez defensiva.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Wayne Rooney",
+    "pista": "Ex delantero inglés y leyenda del Manchester United, máximo goleador histórico del club y reconocido por su versatilidad y liderazgo.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Weah",
+    "pista": "Delantero liberiano, Balón de Oro 1995, primer africano en ganar este premio, destacado por su potencia y velocidad.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Wesley Sneijder",
+    "pista": "Ex mediocampista neerlandés, conocido por su visión de juego, precisión en los pases y goles decisivos en Real Madrid e Inter de Milán.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Wijnaldum",
+    "pista": "Mediocampista neerlandés con gran capacidad para llegar al área rival, ex Liverpool y PSG.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Wilfried Zaha",
+    "pista": "Extremo marfileño, ex Crystal Palace, conocido por su regate y velocidad para desequilibrar defensas.",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "William Saliba",
+    "pista": "Defensor francés del Arsenal, joven talento con gran físico y buen manejo del balón desde el fondo.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Willy Caballero",
+    "pista": "Arquero argentino, con experiencia en Premier League y Champions League, ex Manchester City y Chelsea.",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Wojciech Szczesny",
+    "pista": "Arquero polaco titular de la Juventus, reconocido por su agilidad y reflejos bajo los tres palos.",
+    "dificultad": "dificil"
+  }
   ],
   "X": [
     {
-      "nombre": "Xabi Alonso",
-      "pista": "Ex mediocampista español, jugó en Liverpool y Real Madrid",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Xavi Hernandez",
-      "pista": "Volante español, símbolo del Barcelona",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Xhaka",
-      "pista": "Volante suizo, ex Arsenal",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Xisco",
-      "pista": "Futbolista español con paso por el Newcastle",
-      "dificultad": "dificil"
-    }
+    "nombre": "Xabi Alonso",
+    "pista": "Ex mediocampista español, reconocido por su visión de juego y precisión en los pases, jugó en Liverpool, Real Madrid y Bayern Munich.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Xavi Hernandez",
+    "pista": "Volante español, símbolo del Barcelona y del tiki-taka, maestro en el control del balón y la distribución del juego.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Xhaka",
+    "pista": "Volante suizo, conocido por su fuerza física y capacidad para distribuir el juego, ex jugador del Arsenal y actualmente en Roma.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Xisco",
+    "pista": "Futbolista español con paso por Newcastle, delantero con buena definición y juego aéreo.",
+    "dificultad": "dificil"
+  }
   ],
   "Y": [
     {
-      "nombre": "Yan Valery",
-      "pista": "Defensor francés",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Yann Sommer",
-      "pista": "Arquero suizo del Inter de Milán",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Yaya Toure",
-      "pista": "Mediocampista marfileño, leyenda del Manchester City",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Youri Tielemans",
-      "pista": "Mediocampista belga del Aston Villa",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Youssouf Msakni",
-      "pista": "Extremo tunecino",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Yves Bissouma",
-      "pista": "Mediocampista maliense del Tottenham",
-      "dificultad": "dificil"
-    }
+    "nombre": "Yan Valery",
+    "pista": "Defensor francés, versátil y joven, con buen despliegue físico y proyección ofensiva.",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Yann Sommer",
+    "pista": "Arquero suizo del Inter de Milán, destacado por sus reflejos y capacidad para organizar la defensa.",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Yaya Toure",
+    "pista": "Mediocampista marfileño, leyenda del Manchester City, conocido por su potencia física, técnica y capacidad goleadora desde el mediocampo.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Youri Tielemans",
+    "pista": "Mediocampista belga del Aston Villa, con buen manejo del balón, visión de juego y capacidad para tiros desde media distancia.",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Youssouf Msakni",
+    "pista": "Extremo tunecino rápido y habilidoso, con experiencia en ligas africanas y asiáticas.",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Yves Bissouma",
+    "pista": "Mediocampista maliense del Tottenham, reconocido por su capacidad de recuperación, dinámica y pase preciso.",
+    "dificultad": "dificil"
+  }
   ],
   "Z": [
     {
-      "nombre": "Zambrotta",
-      "pista": "Ex lateral italiano, campeón mundial 2006",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Zapata",
-      "pista": "Delantero colombiano, ex Atalanta",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Ze Maria",
-      "pista": "Ex lateral brasileño del Inter",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Zico",
-      "pista": "Legendario mediocampista brasileño",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Zidane",
-      "pista": "Francés, campeón del mundo 1998",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Zielinski",
-      "pista": "Mediocampista polaco del Napoli",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Zinchenko",
-      "pista": "Lateral/mediocampista ucraniano del Arsenal",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Ziyech",
-      "pista": "Extremo marroquí, juega en Galatasaray",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Zlatan Ibrahimovic",
-      "pista": "Sueco, jugó en Barça, PSG y Milan",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Zola",
-      "pista": "Ex delantero italiano, ídolo del Chelsea",
-      "dificultad": "dificil"
-    },
-    {
-      "nombre": "Zarate",
-      "pista": "Delantero argentino, ex Vélez y Boca",
-      "dificultad": "medio"
-    },
-    {
-      "nombre": "Ze Roberto",
-      "pista": "Ex mediocampista brasileño, jugó en Bayern y Real Madrid",
-      "dificultad": "dificil"
-    }
+    "nombre": "Zambrotta",
+    "pista": "Ex lateral italiano, campeón mundial 2006, conocido por su versatilidad y capacidad defensiva y ofensiva.",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Zapata",
+    "pista": "Delantero colombiano, ex Atalanta, reconocido por su potencia física y capacidad goleadora.",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Ze Maria",
+    "pista": "Ex lateral brasileño del Inter de Milán, destacado por su velocidad y técnica defensiva.",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Zico",
+    "pista": "Legendario mediocampista brasileño, conocido como el 'Pelé blanco', ícono del fútbol ofensivo y creativo.",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Zidane",
+    "pista": "Francés, campeón del mundo 1998, maestro en el control del balón y creador de juego, legendario mediocampista ofensivo.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Zielinski",
+    "pista": "Mediocampista polaco del Napoli, destacado por su visión, técnica y tiros desde media distancia.",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Zinchenko",
+    "pista": "Lateral y mediocampista ucraniano del Arsenal, versátil, con buena salida y capacidad técnica.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Ziyech",
+    "pista": "Extremo marroquí que juega en Galatasaray, reconocido por su regate, creatividad y precisión en los pases.",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Zlatan Ibrahimovic",
+    "pista": "Delantero sueco, figura en clubes como Barcelona, PSG y Milan, conocido por su potencia, técnica y personalidad arrolladora.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Zola",
+    "pista": "Ex delantero italiano, ídolo del Chelsea, destacado por su habilidad técnica y goles decisivos.",
+    "dificultad": "dificil"
+  },
+  {
+    "nombre": "Zarate",
+    "pista": "Delantero argentino, ex Vélez y Boca Juniors, reconocido por su velocidad y capacidad para anotar en momentos clave.",
+    "dificultad": "medio"
+  },
+  {
+    "nombre": "Ze Roberto",
+    "pista": "Ex mediocampista brasileño, jugó en Bayern Munich y Real Madrid, conocido por su resistencia física y técnica precisa.",
+    "dificultad": "dificil"
+  }
   ]
 }
