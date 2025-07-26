@@ -184,7 +184,7 @@ function JugadoresEleccion({ jugadores }) {
     const valor = e.target.value;
     setRespuesta(valor);
 
-    if (valor.length >= 1 && letraActual) {
+    if (valor.length >= 3 && letraActual) {
       const listaCompletaDeLetra = jugadores[letraActual] || [];
       const sugerenciasFiltradas = listaCompletaDeLetra.filter(j =>
         j.dificultad === dificultadSeleccionada && normalizar(j.nombre).includes(normalizar(valor))
@@ -199,7 +199,7 @@ function JugadoresEleccion({ jugadores }) {
   const manejarKeyDown = useCallback((e) => {
     if (!juegoActivo) return;
 
-    if (sugerencias.length > 3) {
+    if (sugerencias.length > 0) {
       if (e.key === 'ArrowDown') {
         e.preventDefault();
         setSugerenciaResaltada((prev) =>
