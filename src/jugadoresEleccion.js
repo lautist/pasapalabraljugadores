@@ -199,7 +199,7 @@ function JugadoresEleccion({ jugadores }) {
   const manejarKeyDown = useCallback((e) => {
     if (!juegoActivo) return;
 
-    if (sugerencias.length > 0) {
+    if (sugerencias.length > 3) {
       if (e.key === 'ArrowDown') {
         e.preventDefault();
         setSugerenciaResaltada((prev) =>
