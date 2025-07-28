@@ -4,780 +4,1372 @@
       "nombre": "Aaron Ramsey",
       "pista": "Mediocampista galés, ex Arsenal,Juventus y Cardiff. Actualmente en Pumas UNAM",
       "dificultad": "dificil",
-      "nombreSecundario": ["Aaron", "Ramsey"]
+      "nombreSecundario": ["Aaron", "Ramsey"],
+      "equipos": ["Arsenal", "Juventus", "Cardiff", "Pumas UNAM"],
+      "posicion": ["Mediocentro", "Mediocentro ofensivo"],
+      "nacionalidad": "Gales"
     },
     {
-    "nombre": "Adriano",
-    "pista": "Ex delantero brasileño apodado 'El Emperador', destacado por su potente zurda y su paso por el Inter de Milán",
-    "dificultad": "medio"
+      "nombre": "Adriano",
+      "pista": "Ex delantero brasileño apodado 'El Emperador', destacado por su potente zurda y su paso por el Inter de Milán",
+      "dificultad": "medio",
+      "equipos": ["Miami United", "Flamengo", "Corinthians", "AS Roma", "Inter"],
+      "posicion": ["Delantero Centro"],
+      "nacionalidad": "Brasil"
     },
     {
       "nombre": "Aguero",
       "pista": "Delantero argentino retirado, ídolo del Manchester City y campeón de la Copa América 2021",
-      "dificultad": "medio"
+      "dificultad": "medio",
+      "nombreSecundario": ["Sergio", "Aguero"],
+      "equipos": ["Independiente", "Atlético de Madrid", "Manchester City", "Barcelona"],
+      "posicion": ["Delantero Centro"],
+      "nacionalidad": "Argentina"
     },
     {
       "nombre": "Aimar",
       "pista": "Ex volante creativo argentino, ídolo de River Plate y referente del Valencia en España",
-      "dificultad": "medio"
+      "dificultad": "medio",
+      "nombreSecundario": ["Pablo", "Aimar"],
+      "equipos": ["River Plate", "Valencia", "Real Zaragoza", "Benfica", "Johor Darul Ta'zim", "Estudiantes de Río Cuarto"],
+      "posicion": ["Mediocentro Ofensivo"],
+      "nacionalidad": "Argentina"
     },
     {
       "nombre": "Alaba",
       "pista": "Versátil defensor austríaco del Real Madrid, también ex figura del Bayern Múnich",
-      "dificultad": "medio"
+      "dificultad": "medio",
+      "nombreSecundario": ["David", "Alaba"],
+      "equipos": ["Bayern Múnich", "Real Madrid"],
+      "posicion": ["Defensa Central", "Lateral Izquierdo", "Mediocentro"],
+      "nacionalidad": "Austria"
     },
     {
       "nombre": "Alcacer",
       "pista": "Delantero español con paso por Valencia, Barcelona y Borussia Dortmund, conocido por su olfato goleador",
-      "dificultad": "dificil"
+      "dificultad": "dificil",
+      "nombreSecundario": ["Paco", "Alcacer"],
+      "equipos": ["Valencia", "Getafe", "Barcelona", "Borussia Dortmund", "Villarreal", "Sharjah FC"],
+      "posicion": ["Delantero Centro"],
+      "nacionalidad": "España"
     },
     {
       "nombre": "Alessandro Del Piero",
       "pista": "Legendario delantero italiano de la Juventus, campeón del mundo en 2006 y gran especialista en tiros libres",
       "dificultad": "medio",
-      "nombreSecundario": ["Alessandro", "Del Piero"]
+      "nombreSecundario": ["Alessandro", "Del Piero"],
+      "equipos": ["Padova", "Juventus", "Sydney FC", "Delhi Dynamos"],
+      "posicion": ["Segundo Delantero", "Delantero Centro", "Mediocentro Ofensivo"],
+      "nacionalidad": "Italia"
     },
     {
       "nombre": "Alexis Sanchez",
       "pista": "Delantero chileno, figura en Arsenal, Barcelona e Inter de Milán, campeón de América con Chile",
       "dificultad": "medio",
-      "nombreSecundario": ["Alexis", "Sanchez"]
+      "nombreSecundario": ["Alexis", "Sanchez"],
+      "equipos": ["Cobreloa", "Colo-Colo", "River Plate", "Udinese", "Barcelona", "Arsenal", "Manchester United", "Inter de Milán", "Olympique de Marsella"],
+      "posicion": ["Extremo Izquierdo", "Delantero Centro", "Segundo Delantero"],
+      "nacionalidad": "Chile"
     },
     {
       "nombre": "Alisson",
       "pista": "Arquero brasileño del Liverpool, clave en la conquista de la Champions 2019 y la Premier League 2020",
-      "dificultad": "medio"
+      "dificultad": "medio",
+      "nombreSecundario": ["Alisson", "Becker"],
+      "equipos": ["Internacional", "Roma", "Liverpool"],
+      "posicion": ["Portero"],
+      "nacionalidad": "Brasil"
     },
     {
       "nombre": "Alphonso Davies",
       "pista": "Lateral canadiense del Bayern de Múnich, conocido por su velocidad y despliegue físico",
       "dificultad": "medio",
-      "nombreSecundario": ["Alphonso", "Davies"]
+      "nombreSecundario": ["Alphonso", "Davies"],
+      "equipos": ["Vancouver Whitecaps", "Bayern Múnich"],
+      "posicion": ["Lateral Izquierdo", "Extremo Izquierdo"],
+      "nacionalidad": "Canadá"
     },
     {
       "nombre": "Andre Silva",
       "pista": "Delantero portugués surgido del Porto, con paso por el Milan, Sevilla y la Bundesliga",
       "dificultad": "dificil",
-      "nombreSecundario": ["Andre", "Silva"]
+      "nombreSecundario": ["Andre", "Silva"],
+      "equipos": ["Porto", "AC Milan", "Sevilla", "Eintracht Frankfurt", "RB Leipzig", "Real Sociedad"],
+      "posicion": ["Delantero Centro"],
+      "nacionalidad": "Portugal"
     },
     {
       "nombre": "Andrea Pirlo",
       "pista": "Ex mediocampista italiano, campeón del mundo 2006, célebre por su visión y precisión en los pases",
       "dificultad": "medio",
-      "nombreSecundario": ["Andrea", "Pirlo"]
+      "nombreSecundario": ["Andrea", "Pirlo"],
+      "equipos": ["Brescia", "Inter de Milán", "Reggina", "AC Milan", "Juventus", "New York City FC"],
+      "posicion": ["Mediocentro", "Mediocentro Ofensivo"],
+      "nacionalidad": "Italia"
     },
     {
       "nombre": "Anelka",
       "pista": "Ex delantero francés de estilo elegante, con una carrera extensa en clubes como Arsenal, Chelsea y Real Madrid",
-      "dificultad": "medio"
+      "dificultad": "medio",
+      "nombreSecundario": ["Nicolas", "Anelka"],
+      "equipos": ["Paris Saint-Germain", "Arsenal", "Real Madrid", "Liverpool", "Manchester City", "Fenerbahçe", "Bolton Wanderers", "Chelsea", "Shanghai Shenhua", "Juventus", "West Bromwich Albion", "Mumbai City"],
+      "posicion": ["Delantero Centro", "Segundo Delantero"],
+      "nacionalidad": "Francia"
     },
     {
       "nombre": "Angel Di Maria",
       "pista": "Extremo argentino, campeón del mundo en 2022, recordado por sus goles en finales con la selección",
       "dificultad": "medio",
-      "nombreSecundario": ["Angel", "Di Maria"]
+      "nombreSecundario": ["Angel", "Di Maria"],
+      "equipos": ["Rosario Central", "Benfica", "Real Madrid", "Manchester United", "Paris Saint-Germain", "Juventus", "Benfica"],
+      "posicion": ["Extremo Derecho", "Extremo Izquierdo", "Mediocentro Ofensivo"],
+      "nacionalidad": "Argentina"
     },
     {
       "nombre": "Antonio Conte",
       "pista": "Ex mediocampista italiano y exitoso entrenador en Juventus, Chelsea, Inter y Tottenham",
       "dificultad": "medio",
-      "nombreSecundario": ["Antonio", "Conte"]
+      "nombreSecundario": ["Antonio", "Conte"],
+      "equipos": ["Lecce", "Juventus"],
+      "posicion": ["Mediocentro"],
+      "nacionalidad": "Italia"
     },
     {
       "nombre": "Araujo",
       "pista": "Defensor uruguayo del Barcelona, reconocido por su fuerza, anticipación y solidez aérea",
-      "dificultad": "medio"
+      "dificultad": "medio",
+      "nombreSecundario": ["Ronald", "Araujo"],
+      "equipos": ["Rentistas", "Boston River", "Barcelona B", "Barcelona"],
+      "posicion": ["Defensa Central", "Lateral Derecho"],
+      "nacionalidad": "Uruguay"
     },
     {
       "nombre": "Arjen Robben",
       "pista": "Extremo neerlandés con regate letal, figura en el Bayern de Múnich y ex jugador del Real Madrid",
       "dificultad": "medio",
-      "nombreSecundario": ["Arjen", "Robben"]
+      "nombreSecundario": ["Arjen", "Robben"],
+      "equipos": ["Groningen", "PSV Eindhoven", "Chelsea", "Real Madrid", "Bayern Múnich"],
+      "posicion": ["Extremo Derecho", "Extremo Izquierdo"],
+      "nacionalidad": "Países Bajos"
     },
     {
       "nombre": "Arnautovic",
       "pista": "Delantero austríaco, conocido por su carácter fuerte y su paso por el West Ham y el Inter",
-      "dificultad": "dificil"
+      "dificultad": "dificil",
+      "nombreSecundario": ["Marko", "Arnautovic"],
+      "equipos": ["FC Twente", "Inter de Milán", "Werder Bremen", "Stoke City", "West Ham United", "Shanghai Port", "Bologna", "Inter de Milán"],
+      "posicion": ["Delantero Centro", "Extremo Izquierdo"],
+      "nacionalidad": "Austria"
     },
     {
       "nombre": "Arteta",
       "pista": "Actual entrenador del Arsenal, ex mediocampista español con carrera en la Premier League",
-      "dificultad": "medio"
+      "dificultad": "medio",
+      "nombreSecundario": ["Mikel", "Arteta"],
+      "equipos": ["FC Barcelona B", "Paris Saint-Germain", "Rangers", "Real Sociedad", "Everton", "Arsenal"],
+      "posicion": ["Mediocentro", "Mediocentro Ofensivo"],
+      "nacionalidad": "España"
     },
     {
       "nombre": "Arturo Vidal",
       "pista": "Mediocampista chileno combativo, campeón en múltiples ligas y pieza clave de la selección chilena",
       "dificultad": "medio",
-      "nombreSecundario": ["Arturo", "Vidal"]
+      "nombreSecundario": ["Arturo", "Vidal"],
+      "equipos": ["Colo-Colo", "Bayer Leverkusen", "Juventus", "Bayern Múnich", "Barcelona", "Inter de Milán", "Flamengo", "Athletico Paranaense", "Colo-Colo"],
+      "posicion": ["Mediocentro", "Mediocentro Ofensivo"],
+      "nacionalidad": "Chile"
     },
     {
       "nombre": "Ashley Cole",
       "pista": "Ex lateral izquierdo inglés, leyenda del Chelsea y Arsenal, considerado uno de los mejores en su posición",
       "dificultad": "medio",
-      "nombreSecundario": ["Ashley", "Cole"]
+      "nombreSecundario": ["Ashley", "Cole"],
+      "equipos": ["Arsenal", "Crystal Palace", "Chelsea", "AS Roma", "LA Galaxy", "Derby County"],
+      "posicion": ["Lateral Izquierdo"],
+      "nacionalidad": "Inglaterra"
     },
     {
       "nombre": "Aspas",
       "pista": "Delantero español y referente del Celta de Vigo, conocido por su técnica y capacidad goleadora",
-      "dificultad": "dificil"
+      "dificultad": "dificil",
+      "nombreSecundario": ["Iago", "Aspas"],
+      "equipos": ["Celta de Vigo", "Liverpool", "Sevilla"],
+      "posicion": ["Delantero Centro", "Segundo Delantero", "Extremo Derecho"],
+      "nacionalidad": "España"
     },
     {
       "nombre": "Aubameyang",
       "pista": "Delantero gabonés con gran velocidad, goleador en Borussia Dortmund, Arsenal y Barcelona",
-      "dificultad": "medio"
+      "dificultad": "medio",
+      "nombreSecundario": ["Pierre-Emerick", "Aubameyang"],
+      "equipos": ["AC Milan", "Dijon", "Lille", "Monaco", "Saint-Étienne", "Borussia Dortmund", "Arsenal", "Barcelona", "Chelsea", "Olympique de Marsella"],
+      "posicion": ["Delantero Centro", "Extremo"],
+      "nacionalidad": "Gabón"
     },
     {
       "nombre": "Azpilicueta",
       "pista": "Defensor español polivalente, capitán histórico del Chelsea y campeón de Europa con el club",
-      "dificultad": "medio"
+      "dificultad": "medio",
+      "nombreSecundario": ["Cesar", "Azpilicueta"],
+      "equipos": ["Osasuna", "Olympique de Marsella", "Chelsea", "Atlético de Madrid"],
+      "posicion": ["Lateral Derecho", "Defensa Central", "Lateral Izquierdo"],
+      "nacionalidad": "España"
     }
   ],
   "B": [
     {
-    "nombre": "Bale",
-    "pista": "Extremo galés con gran velocidad y pegada, destacó en el Real Madrid y el Tottenham, donde ganó múltiples títulos",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "Ballack",
-    "pista": "Ex mediocampista alemán con gran presencia física y capacidad goleadora, jugó en el Bayern Múnich y el Chelsea",
-    "dificultad": "dificil"
-  },
-  {
-    "nombre": "Baresi",
-    "pista": "Legendario defensor italiano del AC Milan, ícono del fútbol defensivo y capitán histórico del club",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "Bastoni",
-    "pista": "Defensor italiano zurdo del Inter de Milán, clave en la defensa del equipo campeón de la Serie A 2021",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "Batistuta",
-    "pista": "Legendario delantero argentino, goleador histórico de la selección y figura en Fiorentina y Roma",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "Beckham",
-    "pista": "Ex mediocampista inglés famoso por sus centros y tiros libres, ídolo del Manchester United y figura del Real Madrid",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "Ben Chilwell",
-    "pista": "Lateral izquierdo inglés del Chelsea, campeón de la Champions League en 2021",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "Ben White",
-    "pista": "Defensor inglés del Arsenal, destacado por su salida limpia desde el fondo y versatilidad",
-    "dificultad": "dificil"
-  },
-  {
-    "nombre": "Ben Yedder",
-    "pista": "Delantero francés del Mónaco, reconocido por su movilidad, técnica y gran capacidad goleadora",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "Benzema",
-    "pista": "Delantero francés, figura del Real Madrid, ganador del Balón de Oro en 2022 y múltiple campeón de Champions",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "Bernardo Silva",
-    "pista": "Mediocampista portugués del Manchester City, clave por su visión de juego, regate y sacrificio táctico",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "Blanc",
-    "pista": "Ex defensor central francés, campeón del mundo en 1998 y entrenador con experiencia en clubes como PSG",
-    "dificultad": "dificil"
-  },
-  {
-    "nombre": "Bonucci",
-    "pista": "Defensor italiano de la Juventus, parte del histórico trío defensivo con Chiellini y Barzagli",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "Borja Mayoral",
-    "pista": "Delantero español surgido del Real Madrid, con paso por clubes como Levante y Getafe",
-    "dificultad": "dificil"
-  },
-  {
-    "nombre": "Borussia Dortmund",
-    "pista": "Club alemán famoso por su cantera, su estilo ofensivo y el imponente Signal Iduna Park",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "Bruno Fernandes",
-    "pista": "Mediocampista portugués del Manchester United, destacado por su visión, liderazgo y goles desde segunda línea",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "Bryan Gil",
-    "pista": "Extremo español habilidoso del Tottenham, con experiencia en la Liga y en selecciones juveniles",
-    "dificultad": "dificil"
-  },
-  {
-    "nombre": "Buffon",
-    "pista": "Legendario arquero italiano, campeón del mundo en 2006 y símbolo de la Juventus",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "Bukayo Saka",
-    "pista": "Extremo inglés del Arsenal, joven promesa consolidada como figura del club y de su selección",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "Busquets",
-    "pista": "Mediocampista español, leyenda del Barcelona, campeón del mundo 2010 y maestro del juego posicional",
-    "dificultad": "medio"
-  }
+      "nombre": "Bale",
+      "pista": "Extremo galés con gran velocidad y pegada, destacó en el Real Madrid y el Tottenham, donde ganó múltiples títulos",
+      "dificultad": "medio",
+      "nombreSecundario": ["Gareth", "Bale"],
+      "equipos": ["Southampton", "Tottenham Hotspur", "Real Madrid", "Los Angeles FC"],
+      "posicion": ["Extremo Derecho", "Extremo Izquierdo", "Delantero"],
+      "nacionalidad": "Gales"
+    },
+    {
+      "nombre": "Ballack",
+      "pista": "Ex mediocampista alemán con gran presencia física y capacidad goleadora, jugó en el Bayern Múnich y el Chelsea",
+      "dificultad": "dificil",
+      "nombreSecundario": ["Michael", "Ballack"],
+      "equipos": ["Chemnitzer FC", "Kaiserslautern", "Bayer Leverkusen", "Bayern Múnich", "Chelsea"],
+      "posicion": ["Mediocentro Ofensivo", "Mediocentro"],
+      "nacionalidad": "Alemania"
+    },
+    {
+      "nombre": "Baresi",
+      "pista": "Legendario defensor italiano del AC Milan, ícono del fútbol defensivo y capitán histórico del club",
+      "dificultad": "medio",
+      "nombreSecundario": ["Franco", "Baresi"],
+      "equipos": ["AC Milan"],
+      "posicion": ["Defensa Central", "Libero"],
+      "nacionalidad": "Italia"
+    },
+    {
+      "nombre": "Bastoni",
+      "pista": "Defensor italiano zurdo del Inter de Milán, clave en la defensa del equipo campeón de la Serie A 2021",
+      "dificultad": "medio",
+      "nombreSecundario": ["Alessandro", "Bastoni"],
+      "equipos": ["Atalanta", "Parma", "Inter de Milán"],
+      "posicion": ["Defensa Central"],
+      "nacionalidad": "Italia"
+    },
+    {
+      "nombre": "Batistuta",
+      "pista": "Legendario delantero argentino, goleador histórico de la selección y figura en Fiorentina y Roma",
+      "dificultad": "medio",
+      "nombreSecundario": ["Gabriel", "Batistuta"],
+      "equipos": ["Newell's Old Boys", "River Plate", "Boca Juniors", "Fiorentina", "AS Roma", "Inter de Milán", "Al-Arabi"],
+      "posicion": ["Delantero Centro"],
+      "nacionalidad": "Argentina"
+    },
+    {
+      "nombre": "Beckham",
+      "pista": "Ex mediocampista inglés famoso por sus centros y tiros libres, ídolo del Manchester United y figura del Real Madrid",
+      "dificultad": "medio",
+      "nombreSecundario": ["David", "Beckham"],
+      "equipos": ["Manchester United", "Preston North End", "Real Madrid", "LA Galaxy", "AC Milan", "Paris Saint-Germain"],
+      "posicion": ["Mediocentro Derecho", "Mediocentro"],
+      "nacionalidad": "Inglaterra"
+    },
+    {
+      "nombre": "Ben Chilwell",
+      "pista": "Lateral izquierdo inglés del Chelsea, campeón de la Champions League en 2021",
+      "dificultad": "medio",
+      "nombreSecundario": ["Ben", "Chilwell"],
+      "equipos": ["Leicester City", "Huddersfield Town", "Chelsea"],
+      "posicion": ["Lateral Izquierdo"],
+      "nacionalidad": "Inglaterra"
+    },
+    {
+      "nombre": "Ben White",
+      "pista": "Defensor inglés del Arsenal, destacado por su salida limpia desde el fondo y versatilidad",
+      "dificultad": "dificil",
+      "nombreSecundario": ["Ben", "White"],
+      "equipos": ["Brighton & Hove Albion", "Newport County", "Peterborough United", "Leeds United", "Arsenal"],
+      "posicion": ["Defensa Central", "Lateral Derecho"],
+      "nacionalidad": "Inglaterra"
+    },
+    {
+      "nombre": "Ben Yedder",
+      "pista": "Delantero francés del Mónaco, reconocido por su movilidad, técnica y gran capacidad goleadora",
+      "dificultad": "medio",
+      "nombreSecundario": ["Wissam", "Ben Yedder"],
+      "equipos": ["Toulouse", "Sevilla", "AS Mónaco"],
+      "posicion": ["Delantero Centro", "Segundo Delantero"],
+      "nacionalidad": "Francia"
+    },
+    {
+      "nombre": "Benzema",
+      "pista": "Delantero francés, figura del Real Madrid, ganador del Balón de Oro en 2022 y múltiple campeón de Champions",
+      "dificultad": "medio",
+      "nombreSecundario": ["Karim", "Benzema"],
+      "equipos": ["Lyon", "Real Madrid", "Al-Ittihad"],
+      "posicion": ["Delantero Centro"],
+      "nacionalidad": "Francia"
+    },
+    {
+      "nombre": "Bernardo Silva",
+      "pista": "Mediocampista portugués del Manchester City, clave por su visión de juego, regate y sacrificio táctico",
+      "dificultad": "medio",
+      "nombreSecundario": ["Bernardo", "Silva"],
+      "equipos": ["Benfica", "AS Mónaco", "Manchester City"],
+      "posicion": ["Mediocentro Ofensivo", "Extremo Derecho"],
+      "nacionalidad": "Portugal"
+    },
+    {
+      "nombre": "Blanc",
+      "pista": "Ex defensor central francés, campeón del mundo en 1998 y entrenador con experiencia en clubes como PSG",
+      "dificultad": "dificil",
+      "nombreSecundario": ["Laurent", "Blanc"],
+      "equipos": ["Montpellier", "Napoli", "Nimes", "Saint-Étienne", "Auxerre", "Barcelona", "Olympique de Marsella", "Inter de Milán", "Manchester United"],
+      "posicion": ["Defensa Central", "Libero"],
+      "nacionalidad": "Francia"
+    },
+    {
+      "nombre": "Bonucci",
+      "pista": "Defensor italiano de la Juventus, parte del histórico trío defensivo con Chiellini y Barzagli",
+      "dificultad": "medio",
+      "nombreSecundario": ["Leonardo", "Bonucci"],
+      "equipos": ["Viterbese", "Inter de Milán", "Treviso", "Pisa", "Bari", "Juventus", "AC Milan", "Fenerbahçe"],
+      "posicion": ["Defensa Central"],
+      "nacionalidad": "Italia"
+    },
+    {
+      "nombre": "Borja Mayoral",
+      "pista": "Delantero español surgido del Real Madrid, con paso por clubes como Levante y Getafe",
+      "dificultad": "dificil",
+      "nombreSecundario": ["Borja", "Mayoral"],
+      "equipos": ["Real Madrid Castilla", "Real Madrid", "VfL Wolfsburg", "Levante", "AS Roma", "Getafe"],
+      "posicion": ["Delantero Centro"],
+      "nacionalidad": "España"
+    },
+    {
+      "nombre": "Borussia Dortmund",
+      "pista": "Club alemán famoso por su cantera, su estilo ofensivo y el imponente Signal Iduna Park",
+      "dificultad": "medio",
+      "nombreSecundario": ["Borussia", "Dortmund"],
+      "equipos": ["Borussia Dortmund"],
+      "posicion": ["Club"],
+      "nacionalidad": "Alemania"
+    },
+    {
+      "nombre": "Bruno Fernandes",
+      "pista": "Mediocampista portugués del Manchester United, destacado por su visión, liderazgo y goles desde segunda línea",
+      "dificultad": "medio",
+      "nombreSecundario": ["Bruno", "Fernandes"],
+      "equipos": ["Novara", "Udinese", "Sampdoria", "Sporting CP", "Manchester United"],
+      "posicion": ["Mediocentro Ofensivo", "Mediocentro"],
+      "nacionalidad": "Portugal"
+    },
+    {
+      "nombre": "Bryan Gil",
+      "pista": "Extremo español habilidoso del Tottenham, con experiencia en la Liga y en selecciones juveniles",
+      "dificultad": "dificil",
+      "nombreSecundario": ["Bryan", "Gil"],
+      "equipos": ["Sevilla", "Leganés", "Eibar", "Tottenham Hotspur", "Valencia"],
+      "posicion": ["Extremo Izquierdo", "Extremo Derecho"],
+      "nacionalidad": "España"
+    },
+    {
+      "nombre": "Buffon",
+      "pista": "Legendario arquero italiano, campeón del mundo en 2006 y símbolo de la Juventus",
+      "dificultad": "medio",
+      "nombreSecundario": ["Gianluigi", "Buffon"],
+      "equipos": ["Parma", "Juventus", "Paris Saint-Germain"],
+      "posicion": ["Portero"],
+      "nacionalidad": "Italia"
+    },
+    {
+      "nombre": "Bukayo Saka",
+      "pista": "Extremo inglés del Arsenal, joven promesa consolidada como figura del club y de su selección",
+      "dificultad": "medio",
+      "nombreSecundario": ["Bukayo", "Saka"],
+      "equipos": ["Arsenal"],
+      "posicion": ["Extremo Derecho", "Lateral Izquierdo"],
+      "nacionalidad": "Inglaterra"
+    },
+    {
+      "nombre": "Busquets",
+      "pista": "Mediocampista español, leyenda del Barcelona, campeón del mundo 2010 y maestro del juego posicional",
+      "dificultad": "medio",
+      "nombreSecundario": ["Sergio", "Busquets"],
+      "equipos": ["Barcelona", "Inter Miami CF"],
+      "posicion": ["Mediocentro Defensivo"],
+      "nacionalidad": "España"
+    }
   ],
 "C": [
     {
-    "nombre": "Cafu",
-    "pista": "Ex lateral derecho brasileño, campeón del mundo en 1994 y 2002, reconocido por su velocidad y resistencia",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "Calhanoglu",
-    "pista": "Mediocampista turco del Inter de Milán, especialista en tiros libres y con gran visión de juego",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "Cancelo",
-    "pista": "Lateral portugués con gran proyección ofensiva, jugó en clubes como Manchester City, Bayern y Barcelona",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "Cannavaro",
-    "pista": "Defensor italiano que ganó el Balón de Oro en 2006, tras ser campeón del mundo con Italia",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "Carlos Tevez",
-    "pista": "Delantero argentino combativo y talentoso, figura en Boca, Juventus, Manchester City y otros clubes",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "Carlos Vela",
-    "pista": "Delantero mexicano con gran técnica, brilló en la Real Sociedad y en la MLS con Los Angeles FC",
-    "dificultad": "dificil"
-  },
-  {
-    "nombre": "Casemiro",
-    "pista": "Mediocampista brasileño del Manchester United, ex Real Madrid, experto en recuperación y equilibrio táctico",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "Cavani",
-    "pista": "Delantero uruguayo con olfato goleador, ídolo del PSG y con paso por Napoli, Manchester United y Boca",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "Cech",
-    "pista": "Ex arquero checo, leyenda del Chelsea, conocido por su casco protector y sus grandes reflejos",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "Cesar Azpilicueta",
-    "pista": "Defensor español polivalente, capitán histórico del Chelsea y campeón de Champions League",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "Cesc Fabregas",
-    "pista": "Ex mediocampista español, surgido del Barça, figura en el Arsenal y campeón del mundo en 2010",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "Chicharito",
-    "pista": "Delantero mexicano con gran instinto goleador, brilló en Manchester United, Real Madrid y Bayer Leverkusen",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "Chiellini",
-    "pista": "Defensor central italiano de la Juventus, símbolo de garra y fortaleza defensiva, campeón de la Euro 2020",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "Christian Eriksen",
-    "pista": "Mediocampista danés con gran toque y visión, sobreviviente de un paro cardíaco en la Euro 2020, juega en el Manchester United",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "Ciro Immobile",
-    "pista": "Delantero italiano, máximo goleador histórico de la Lazio y destacado artillero en la Serie A",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "Claudio Bravo",
-    "pista": "Arquero chileno, bicampeón de América con su selección, jugó en Barcelona y Manchester City",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "Clement Lenglet",
-    "pista": "Defensor francés con paso por el Sevilla, Barcelona y Tottenham, conocido por su juego aéreo",
-    "dificultad": "dificil"
-  },
-  {
-    "nombre": "Coman",
-    "pista": "Extremo francés del Bayern de Múnich, autor del gol en la final de Champions 2020, veloz y desequilibrante",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "Courtois",
-    "pista": "Arquero belga del Real Madrid, clave en la Champions 2022 con paradas decisivas, ex Chelsea y Atlético",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "Coutinho",
-    "pista": "Mediocampista brasileño talentoso, brilló en Liverpool y jugó en Barcelona y Bayern de Múnich",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "Cristiano Ronaldo",
-    "pista": "Máximo goleador histórico del Real Madrid, cinco veces Balón de Oro y leyenda viva del fútbol",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "Cruyff",
-    "pista": "Legendario futbolista y entrenador neerlandés, impulsor del 'fútbol total' y figura del Ajax y Barcelona",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "Cuadrado",
-    "pista": "Lateral y extremo colombiano de gran velocidad y regate, destacado en la Juventus y en la selección colombiana",
-    "dificultad": "medio"
-  }
+      "nombre": "Cafu",
+      "pista": "Ex lateral derecho brasileño, campeón del mundo en 1994 y 2002, reconocido por su velocidad y resistencia",
+      "dificultad": "medio",
+      "nombreSecundario": ["Marcos", "Cafu"],
+      "equipos": ["São Paulo", "Real Zaragoza", "Palmeiras", "AS Roma", "AC Milan"],
+      "posicion": ["Lateral Derecho"],
+      "nacionalidad": "Brasil"
+    },
+    {
+      "nombre": "Calhanoglu",
+      "pista": "Mediocampista turco del Inter de Milán, especialista en tiros libres y con gran visión de juego",
+      "dificultad": "medio",
+      "nombreSecundario": ["Hakan", "Calhanoglu"],
+      "equipos": ["Karlsruher SC", "Hamburgo", "Bayer Leverkusen", "AC Milan", "Inter de Milán"],
+      "posicion": ["Mediocentro Ofensivo", "Mediocentro"],
+      "nacionalidad": "Turquía"
+    },
+    {
+      "nombre": "Cancelo",
+      "pista": "Lateral portugués con gran proyección ofensiva, jugó en clubes como Manchester City, Bayern y Barcelona",
+      "dificultad": "medio",
+      "nombreSecundario": ["João", "Cancelo"],
+      "equipos": ["Benfica", "Valencia", "Inter de Milán", "Juventus", "Manchester City", "Bayern Múnich", "Barcelona"],
+      "posicion": ["Lateral Derecho", "Lateral Izquierdo"],
+      "nacionalidad": "Portugal"
+    },
+    {
+      "nombre": "Cannavaro",
+      "pista": "Defensor italiano que ganó el Balón de Oro en 2006, tras ser campeón del mundo con Italia",
+      "dificultad": "medio",
+      "nombreSecundario": ["Fabio", "Cannavaro"],
+      "equipos": ["Napoli", "Parma", "Inter de Milán", "Juventus", "Real Madrid", "Al-Ahli"],
+      "posicion": ["Defensa Central"],
+      "nacionalidad": "Italia"
+    },
+    {
+      "nombre": "Carlos Tevez",
+      "pista": "Delantero argentino combativo y talentoso, figura en Boca, Juventus, Manchester City y otros clubes",
+      "dificultad": "medio",
+      "nombreSecundario": ["Carlos", "Tevez"],
+      "equipos": ["Boca Juniors", "Corinthians", "West Ham United", "Manchester United", "Manchester City", "Juventus", "Shanghai Shenhua"],
+      "posicion": ["Delantero Centro", "Segundo Delantero", "Extremo"],
+      "nacionalidad": "Argentina"
+    },
+    {
+      "nombre": "Carlos Vela",
+      "pista": "Delantero mexicano con gran técnica, brilló en la Real Sociedad y en la MLS con Los Angeles FC",
+      "dificultad": "dificil",
+      "nombreSecundario": ["Carlos", "Vela"],
+      "equipos": ["Chivas Guadalajara", "Arsenal", "Salamanca", "Osasuna", "West Bromwich Albion", "Real Sociedad", "Los Angeles FC"],
+      "posicion": ["Extremo Derecho", "Segundo Delantero"],
+      "nacionalidad": "México"
+    },
+    {
+      "nombre": "Casemiro",
+      "pista": "Mediocampista brasileño del Manchester United, ex Real Madrid, experto en recuperación y equilibrio táctico",
+      "dificultad": "medio",
+      "nombreSecundario": ["Carlos", "Casemiro"],
+      "equipos": ["São Paulo", "Real Madrid", "Porto", "Manchester United"],
+      "posicion": ["Mediocentro Defensivo"],
+      "nacionalidad": "Brasil"
+    },
+    {
+      "nombre": "Cavani",
+      "pista": "Delantero uruguayo con olfato goleador, ídolo del PSG y con paso por Napoli, Manchester United y Boca",
+      "dificultad": "medio",
+      "nombreSecundario": ["Edinson", "Cavani"],
+      "equipos": ["Danubio", "Palermo", "Napoli", "Paris Saint-Germain", "Manchester United", "Valencia", "Boca Juniors"],
+      "posicion": ["Delantero Centro"],
+      "nacionalidad": "Uruguay"
+    },
+    {
+      "nombre": "Cech",
+      "pista": "Ex arquero checo, leyenda del Chelsea, conocido por su casco protector y sus grandes reflejos",
+      "dificultad": "medio",
+      "nombreSecundario": ["Petr", "Cech"],
+      "equipos": ["Chmel Blšany", "Sparta Praga", "Stade Rennais", "Chelsea", "Arsenal"],
+      "posicion": ["Portero"],
+      "nacionalidad": "República Checa"
+    },
+    {
+      "nombre": "Cesar Azpilicueta",
+      "pista": "Defensor español polivalente, capitán histórico del Chelsea y campeón de Champions League",
+      "dificultad": "medio",
+      "nombreSecundario": ["Cesar", "Azpilicueta"],
+      "equipos": ["Osasuna", "Olympique de Marsella", "Chelsea", "Atlético de Madrid"],
+      "posicion": ["Lateral Derecho", "Defensa Central", "Lateral Izquierdo"],
+      "nacionalidad": "España"
+    },
+    {
+      "nombre": "Cesc Fabregas",
+      "pista": "Ex mediocampista español, surgido del Barça, figura en el Arsenal y campeón del mundo en 2010",
+      "dificultad": "medio",
+      "nombreSecundario": ["Cesc", "Fabregas"],
+      "equipos": ["Arsenal", "Barcelona", "Chelsea", "AS Mónaco", "Como"],
+      "posicion": ["Mediocentro", "Mediocentro Ofensivo"],
+      "nacionalidad": "España"
+    },
+    {
+      "nombre": "Chicharito",
+      "pista": "Delantero mexicano con gran instinto goleador, brilló en Manchester United, Real Madrid y Bayer Leverkusen",
+      "dificultad": "medio",
+      "nombreSecundario": ["Javier", "Hernández"],
+      "equipos": ["Guadalajara", "Manchester United", "Real Madrid", "Bayer Leverkusen", "West Ham United", "Sevilla", "LA Galaxy"],
+      "posicion": ["Delantero Centro"],
+      "nacionalidad": "México"
+    },
+    {
+      "nombre": "Chiellini",
+      "pista": "Defensor central italiano de la Juventus, símbolo de garra y fortaleza defensiva, campeón de la Euro 2020",
+      "dificultad": "medio",
+      "nombreSecundario": ["Giorgio", "Chiellini"],
+      "equipos": ["Livorno", "Fiorentina", "Juventus", "Los Angeles FC"],
+      "posicion": ["Defensa Central", "Lateral Izquierdo"],
+      "nacionalidad": "Italia"
+    },
+    {
+      "nombre": "Christian Eriksen",
+      "pista": "Mediocampista danés con gran toque y visión, sobreviviente de un paro cardíaco en la Euro 2020, juega en el Manchester United",
+      "dificultad": "medio",
+      "nombreSecundario": ["Christian", "Eriksen"],
+      "equipos": ["Odense Boldklub", "Ajax", "Tottenham Hotspur", "Inter de Milán", "Brentford", "Manchester United"],
+      "posicion": ["Mediocentro Ofensivo", "Mediocentro"],
+      "nacionalidad": "Dinamarca"
+    },
+    {
+      "nombre": "Ciro Immobile",
+      "pista": "Delantero italiano, máximo goleador histórico de la Lazio y destacado artillero en la Serie A",
+      "dificultad": "medio",
+      "nombreSecundario": ["Ciro", "Immobile"],
+      "equipos": ["Juventus", "Siena", "Grosseto", "Pescara", "Genoa", "Torino", "Borussia Dortmund", "Sevilla", "Lazio"],
+      "posicion": ["Delantero Centro"],
+      "nacionalidad": "Italia"
+    },
+    {
+      "nombre": "Claudio Bravo",
+      "pista": "Arquero chileno, bicampeón de América con su selección, jugó en Barcelona y Manchester City",
+      "dificultad": "medio",
+      "nombreSecundario": ["Claudio", "Bravo"],
+      "equipos": ["Colo-Colo", "Real Sociedad", "Barcelona", "Manchester City", "Real Betis"],
+      "posicion": ["Portero"],
+      "nacionalidad": "Chile"
+    },
+    {
+      "nombre": "Clement Lenglet",
+      "pista": "Defensor francés con paso por el Sevilla, Barcelona y Tottenham, conocido por su juego aéreo",
+      "dificultad": "dificil",
+      "nombreSecundario": ["Clement", "Lenglet"],
+      "equipos": ["Nancy", "Sevilla", "Barcelona", "Tottenham Hotspur", "Aston Villa"],
+      "posicion": ["Defensa Central"],
+      "nacionalidad": "Francia"
+    },
+    {
+      "nombre": "Coman",
+      "pista": "Extremo francés del Bayern de Múnich, autor del gol en la final de Champions 2020, veloz y desequilibrante",
+      "dificultad": "medio",
+      "nombreSecundario": ["Kingsley", "Coman"],
+      "equipos": ["Paris Saint-Germain", "Juventus", "Bayern Múnich"],
+      "posicion": ["Extremo Izquierdo", "Extremo Derecho"],
+      "nacionalidad": "Francia"
+    },
+    {
+      "nombre": "Courtois",
+      "pista": "Arquero belga del Real Madrid, clave en la Champions 2022 con paradas decisivas, ex Chelsea y Atlético",
+      "dificultad": "medio",
+      "nombreSecundario": ["Thibaut", "Courtois"],
+      "equipos": ["Genk", "Atlético de Madrid", "Chelsea", "Real Madrid"],
+      "posicion": ["Portero"],
+      "nacionalidad": "Bélgica"
+    },
+    {
+      "nombre": "Coutinho",
+      "pista": "Mediocampista brasileño talentoso, brilló en Liverpool y jugó en Barcelona y Bayern de Múnich",
+      "dificultad": "medio",
+      "nombreSecundario": ["Philippe", "Coutinho"],
+      "equipos": ["Vasco da Gama", "Inter de Milán", "Espanyol", "Liverpool", "Barcelona", "Bayern Múnich", "Aston Villa", "Al-Duhail"],
+      "posicion": ["Mediocentro Ofensivo", "Extremo Izquierdo"],
+      "nacionalidad": "Brasil"
+    },
+    {
+      "nombre": "Cristiano Ronaldo",
+      "pista": "Máximo goleador histórico del Real Madrid, cinco veces Balón de Oro y leyenda viva del fútbol",
+      "dificultad": "medio",
+      "nombreSecundario": ["Cristiano", "Ronaldo"],
+      "equipos": ["Sporting CP", "Manchester United", "Real Madrid", "Juventus", "Al Nassr"],
+      "posicion": ["Extremo Izquierdo", "Delantero Centro"],
+      "nacionalidad": "Portugal"
+    },
+    {
+      "nombre": "Cruyff",
+      "pista": "Legendario futbolista y entrenador neerlandés, impulsor del 'fútbol total' y figura del Ajax y Barcelona",
+      "dificultad": "medio",
+      "nombreSecundario": ["Johan", "Cruyff"],
+      "equipos": ["Ajax", "Barcelona", "Los Angeles Aztecs", "Washington Diplomats", "Levante", "Feyenoord"],
+      "posicion": ["Mediocentro Ofensivo", "Segundo Delantero"],
+      "nacionalidad": "Países Bajos"
+    },
+    {
+      "nombre": "Cuadrado",
+      "pista": "Lateral y extremo colombiano de gran velocidad y regate, destacado en la Juventus y en la selección colombiana",
+      "dificultad": "medio",
+      "nombreSecundario": ["Juan", "Cuadrado"],
+      "equipos": ["Independiente Medellín", "Udinese", "Lecce", "Fiorentina", "Chelsea", "Juventus", "Inter de Milán"],
+      "posicion": ["Lateral Derecho", "Extremo Derecho"],
+      "nacionalidad": "Colombia"
+    }
   ],
   "D": [
     {
-    "nombre": "Daley Blind",
-    "pista": "Versátil defensor y mediocampista neerlandés, hijo de Danny Blind, ha jugado en Ajax, Manchester United y Bayern Múnich",
-    "dificultad": "dificil"
-  },
-  {
-    "nombre": "Dani Alves",
-    "pista": "Lateral brasileño con más títulos oficiales en la historia del fútbol, pasó por Barcelona, Juventus, PSG y la selección brasileña",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "Daniele De Rossi",
-    "pista": "Ex mediocampista italiano, ídolo eterno de la Roma y campeón del mundo en 2006 con Italia, conocido por su entrega y liderazgo",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "Darwin Nunez",
-    "pista": "Delantero uruguayo del Liverpool, reconocido por su potencia física y velocidad; ex Benfica y Almería",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "David Silva",
-    "pista": "Ex mediocampista español de gran técnica y visión, figura del Manchester City y campeón del mundo en 2010 con España",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "David Trezeguet",
-    "pista": "Ex delantero francés, campeón del mundo en 1998 y campeón de Europa en 2000, destacó en la Juventus con sus goles",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "David de Gea",
-    "pista": "Arquero español con reflejos felinos, ícono del Manchester United durante más de una década; ex Atlético de Madrid",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "Declan Rice",
-    "pista": "Mediocampista defensivo inglés del Arsenal, ex West Ham; pieza clave en la selección de Inglaterra por su solidez y control",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "Del Piero",
-    "pista": "Legendario delantero italiano de la Juventus, campeón del mundo en 2006, famoso por su clase y goles desde fuera del área",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "Depay",
-    "pista": "Delantero neerlandés de gran técnica y potencia, jugó en Lyon, Manchester United y Barcelona; frecuente en la selección holandesa",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "Deschamps",
-    "pista": "Ex mediocampista francés, campeón mundial como jugador en 1998 y como DT en 2018, actual seleccionador de Francia",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "Di Maria",
-    "pista": "Extremo argentino de velocidad y técnica, figura en finales clave; jugó en Real Madrid, PSG, Juventus y campeón del mundo en 2022",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "Di Natale",
-    "pista": "Ex delantero italiano, ídolo del Udinese por su fidelidad y goles; rechazó clubes grandes por quedarse en el norte de Italia",
-    "dificultad": "dificil"
-  },
-  {
-    "nombre": "Dida",
-    "pista": "Ex arquero brasileño, figura del AC Milan en Champions League, recordado por sus penales y títulos con Brasil",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "Diego Costa",
-    "pista": "Delantero hispano-brasileño, polémico y aguerrido, ex figura del Atlético de Madrid y Chelsea, jugó con la selección española",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "Donnarumma",
-    "pista": "Arquero italiano que debutó muy joven en el Milan, actual portero del PSG y héroe en la Eurocopa 2020 ganada por Italia",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "Drogba",
-    "pista": "Delantero marfileño, leyenda del Chelsea por sus goles decisivos, incluido el que dio la Champions en 2012",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "Dusan Vlahovic",
-    "pista": "Delantero serbio de gran presencia física y olfato goleador, surgido en la Fiorentina y figura en la Juventus",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "Dybala",
-    "pista": "Delantero argentino de gran técnica y disparo, brilló en la Juventus y Roma; campeón del mundo en 2022 con Argentina",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "Dzeko",
-    "pista": "Delantero bosnio, ex Manchester City, Roma e Inter, goleador histórico de su país y campeón de múltiples ligas",
-    "dificultad": "medio"
-  }
+      "nombre": "Daley Blind",
+      "pista": "Versátil defensor y mediocampista neerlandés, hijo de Danny Blind, ha jugado en Ajax, Manchester United y Bayern Múnich",
+      "dificultad": "dificil",
+      "nombreSecundario": ["Daley", "Blind"],
+      "equipos": ["Ajax", "FC Groningen", "Manchester United", "Ajax", "Bayern Múnich", "Girona"],
+      "posicion": ["Defensa Central", "Lateral Izquierdo", "Mediocentro Defensivo"],
+      "nacionalidad": "Países Bajos"
+    },
+    {
+      "nombre": "Dani Alves",
+      "pista": "Lateral brasileño con más títulos oficiales en la historia del fútbol, pasó por Barcelona, Juventus, PSG y la selección brasileña",
+      "dificultad": "medio",
+      "nombreSecundario": ["Dani", "Alves"],
+      "equipos": ["Bahia", "Sevilla", "Barcelona", "Juventus", "Paris Saint-Germain", "São Paulo", "Barcelona", "UNAM"],
+      "posicion": ["Lateral Derecho"],
+      "nacionalidad": "Brasil"
+    },
+    {
+      "nombre": "Daniele De Rossi",
+      "pista": "Ex mediocampista italiano, ídolo eterno de la Roma y campeón del mundo en 2006 con Italia, conocido por su entrega y liderazgo",
+      "dificultad": "medio",
+      "nombreSecundario": ["Daniele", "De Rossi"],
+      "equipos": ["AS Roma", "Boca Juniors"],
+      "posicion": ["Mediocentro Defensivo", "Mediocentro"],
+      "nacionalidad": "Italia"
+    },
+    {
+      "nombre": "Darwin Nunez",
+      "pista": "Delantero uruguayo del Liverpool, reconocido por su potencia física y velocidad; ex Benfica y Almería",
+      "dificultad": "medio",
+      "nombreSecundario": ["Darwin", "Nunez"],
+      "equipos": ["Peñarol", "Almería", "Benfica", "Liverpool"],
+      "posicion": ["Delantero Centro"],
+      "nacionalidad": "Uruguay"
+    },
+    {
+      "nombre": "David Silva",
+      "pista": "Ex mediocampista español de gran técnica y visión, figura del Manchester City y campeón del mundo en 2010 con España",
+      "dificultad": "medio",
+      "nombreSecundario": ["David", "Silva"],
+      "equipos": ["Valencia", "Eibar", "Celta de Vigo", "Manchester City", "Real Sociedad"],
+      "posicion": ["Mediocentro Ofensivo", "Extremo"],
+      "nacionalidad": "España"
+    },
+    {
+      "nombre": "David Trezeguet",
+      "pista": "Ex delantero francés, campeón del mundo en 1998 y campeón de Europa en 2000, destacó en la Juventus con sus goles",
+      "dificultad": "medio",
+      "nombreSecundario": ["David", "Trezeguet"],
+      "equipos": ["Platense", "Mónaco", "Juventus", "Hércules", "Banfield", "River Plate", "Newell's Old Boys", "Pune City"],
+      "posicion": ["Delantero Centro"],
+      "nacionalidad": "Francia"
+    },
+    {
+      "nombre": "David de Gea",
+      "pista": "Arquero español con reflejos felinos, ícono del Manchester United durante más de una década; ex Atlético de Madrid",
+      "dificultad": "medio",
+      "nombreSecundario": ["David", "de Gea"],
+      "equipos": ["Atlético de Madrid", "Manchester United"],
+      "posicion": ["Portero"],
+      "nacionalidad": "España"
+    },
+    {
+      "nombre": "Declan Rice",
+      "pista": "Mediocampista defensivo inglés del Arsenal, ex West Ham; pieza clave en la selección de Inglaterra por su solidez y control",
+      "dificultad": "medio",
+      "nombreSecundario": ["Declan", "Rice"],
+      "equipos": ["West Ham United", "Arsenal"],
+      "posicion": ["Mediocentro Defensivo"],
+      "nacionalidad": "Inglaterra"
+    },
+    {
+      "nombre": "Del Piero",
+      "pista": "Legendario delantero italiano de la Juventus, campeón del mundo en 2006, famoso por su clase y goles desde fuera del área",
+      "dificultad": "medio",
+      "nombreSecundario": ["Alessandro", "Del Piero"],
+      "equipos": ["Padova", "Juventus", "Sydney FC", "Delhi Dynamos"],
+      "posicion": ["Segundo Delantero", "Delantero Centro", "Mediocentro Ofensivo"],
+      "nacionalidad": "Italia"
+    },
+    {
+      "nombre": "Depay",
+      "pista": "Delantero neerlandés de gran técnica y potencia, jugó en Lyon, Manchester United y Barcelona; frecuente en la selección holandesa",
+      "dificultad": "medio",
+      "nombreSecundario": ["Memphis", "Depay"],
+      "equipos": ["PSV Eindhoven", "Manchester United", "Lyon", "Barcelona", "Atlético de Madrid"],
+      "posicion": ["Extremo Izquierdo", "Delantero Centro"],
+      "nacionalidad": "Países Bajos"
+    },
+    {
+      "nombre": "Deschamps",
+      "pista": "Ex mediocampista francés, campeón mundial como jugador en 1998 y como DT en 2018, actual seleccionador de Francia",
+      "dificultad": "medio",
+      "nombreSecundario": ["Didier", "Deschamps"],
+      "equipos": ["Nantes", "Marseille", "Bordeaux", "Juventus", "Chelsea", "Valencia"],
+      "posicion": ["Mediocentro Defensivo"],
+      "nacionalidad": "Francia"
+    },
+    {
+      "nombre": "Di Maria",
+      "pista": "Extremo argentino de velocidad y técnica, figura en finales clave; jugó en Real Madrid, PSG, Juventus y campeón del mundo en 2022",
+      "dificultad": "medio",
+      "nombreSecundario": ["Ángel", "Di María"],
+      "equipos": ["Rosario Central", "Benfica", "Real Madrid", "Manchester United", "Paris Saint-Germain", "Juventus", "Benfica"],
+      "posicion": ["Extremo Derecho", "Extremo Izquierdo", "Mediocentro Ofensivo"],
+      "nacionalidad": "Argentina"
+    },
+    {
+      "nombre": "Di Natale",
+      "pista": "Ex delantero italiano, ídolo del Udinese por su fidelidad y goles; rechazó clubes grandes por quedarse en el norte de Italia",
+      "dificultad": "dificil",
+      "nombreSecundario": ["Antonio", "Di Natale"],
+      "equipos": ["Empoli", "Udinese"],
+      "posicion": ["Delantero Centro", "Segundo Delantero"],
+      "nacionalidad": "Italia"
+    },
+    {
+      "nombre": "Dida",
+      "pista": "Ex arquero brasileño, figura del AC Milan en Champions League, recordado por sus penales y títulos con Brasil",
+      "dificultad": "medio",
+      "nombreSecundario": ["Nelson", "Dida"],
+      "equipos": ["Vitória", "Cruzeiro", "Corinthians", "Lugano", "AC Milan", "Portuguesa", "Grêmio", "Internacional"],
+      "posicion": ["Portero"],
+      "nacionalidad": "Brasil"
+    },
+    {
+      "nombre": "Diego Costa",
+      "pista": "Delantero hispano-brasileño, polémico y aguerrido, ex figura del Atlético de Madrid y Chelsea, jugó con la selección española",
+      "dificultad": "medio",
+      "nombreSecundario": ["Diego", "Costa"],
+      "equipos": ["Braga", "Penafiel", "Atlético Mineiro", "Celta de Vigo", "Albacete", "Real Valladolid", "Rayo Vallecano", "Atlético de Madrid", "Chelsea", "Wolverhampton Wanderers", "Botafogo"],
+      "posicion": ["Delantero Centro"],
+      "nacionalidad": "España"
+    },
+    {
+      "nombre": "Donnarumma",
+      "pista": "Arquero italiano que debutó muy joven en el Milan, actual portero del PSG y héroe en la Eurocopa 2020 ganada por Italia",
+      "dificultad": "medio",
+      "nombreSecundario": ["Gianluigi", "Donnarumma"],
+      "equipos": ["AC Milan", "Paris Saint-Germain"],
+      "posicion": ["Portero"],
+      "nacionalidad": "Italia"
+    },
+    {
+      "nombre": "Drogba",
+      "pista": "Delantero marfileño, leyenda del Chelsea por sus goles decisivos, incluido el que dio la Champions en 2012",
+      "dificultad": "medio",
+      "nombreSecundario": ["Didier", "Drogba"],
+      "equipos": ["Le Mans", "Guingamp", "Marseille", "Chelsea", "Shanghai Shenhua", "Galatasaray", "Montreal Impact", "Phoenix Rising"],
+      "posicion": ["Delantero Centro"],
+      "nacionalidad": "Costa de Marfil"
+    },
+    {
+      "nombre": "Dusan Vlahovic",
+      "pista": "Delantero serbio de gran presencia física y olfato goleador, surgido en la Fiorentina y figura en la Juventus",
+      "dificultad": "medio",
+      "nombreSecundario": ["Dusan", "Vlahovic"],
+      "equipos": ["Partizan Belgrado", "Fiorentina", "Juventus"],
+      "posicion": ["Delantero Centro"],
+      "nacionalidad": "Serbia"
+    },
+    {
+      "nombre": "Dybala",
+      "pista": "Delantero argentino de gran técnica y disparo, brilló en la Juventus y Roma; campeón del mundo en 2022 con Argentina",
+      "dificultad": "medio",
+      "nombreSecundario": ["Paulo", "Dybala"],
+      "equipos": ["Instituto", "Palermo", "Juventus", "AS Roma"],
+      "posicion": ["Mediocentro Ofensivo", "Segundo Delantero", "Extremo Derecho"],
+      "nacionalidad": "Argentina"
+    },
+    {
+      "nombre": "Dzeko",
+      "pista": "Delantero bosnio, ex Manchester City, Roma e Inter, goleador histórico de su país y campeón de múltiples ligas",
+      "dificultad": "medio",
+      "nombreSecundario": ["Edin", "Dzeko"],
+      "equipos": ["Zeljeznicar", "Teplice", "Ústí nad Labem", "Wolfsburg", "Manchester City", "AS Roma", "Inter de Milán", "Fenerbahçe"],
+      "posicion": ["Delantero Centro"],
+      "nacionalidad": "Bosnia y Herzegovina"
+    }
   ],
   "E": [
     {
-    "nombre": "Eden Dzeko",
-    "pista": "Delantero bosnio con gran trayectoria en Roma, Manchester City e Inter. Actualmente en Fenerbahçe",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "Ederson",
-    "pista": "Arquero brasileño titular del Manchester City, famoso por su juego con los pies",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "Edgar Davids",
-    "pista": "Ex mediocampista neerlandés reconocido por sus gafas deportivas y su paso por Juventus",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "Edwin Van der Sar",
-    "pista": "Ex arquero neerlandés, figura en Ajax, Juventus y Manchester United",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "El Shaarawy",
-    "pista": "Delantero italiano apodado 'El Faraón', juega en Roma y brilló por su velocidad y regate",
-    "dificultad": "dificil"
-  },
-  {
-    "nombre": "Embolo",
-    "pista": "Delantero suizo de origen camerunés, juega en el Mónaco y ha sido clave con su selección",
-    "dificultad": "dificil"
-  },
-  {
-    "nombre": "Emiliano Martinez",
-    "pista": "Arquero argentino campeón del mundo en Qatar 2022, figura en penales y actual jugador del Aston Villa",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "Emmanuel Adebayor",
-    "pista": "Ex delantero togolés con paso por Arsenal, Manchester City y Real Madrid",
-    "dificultad": "dificil"
-  },
-  {
-    "nombre": "Emre Can",
-    "pista": "Mediocampista alemán versátil, ex Liverpool y Juventus, actualmente en Borussia Dortmund",
-    "dificultad": "dificil"
-  },
-  {
-    "nombre": "Endrick",
-    "pista": "Joven delantero brasileño fichado por el Real Madrid, considerado una promesa del fútbol mundial",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "Enner Valencia",
-    "pista": "Delantero ecuatoriano, goleador histórico de su selección, jugó en Inglaterra, México y Brasil",
-    "dificultad": "dificil"
-  },
-  {
-    "nombre": "Enzo Perez",
-    "pista": "Mediocampista argentino, figura en River Plate y ex jugador del Benfica y la selección argentina",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "Eric Dier",
-    "pista": "Defensor y mediocampista inglés, jugó varias temporadas en el Tottenham Hotspur",
-    "dificultad": "dificil"
-  },
-  {
-    "nombre": "Eriksen",
-    "pista": "Mediocampista danés que regresó al fútbol tras sufrir un paro cardíaco en la Euro 2020",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "Esteban Cambiasso",
-    "pista": "Ex mediocampista argentino, referente del Inter multicampeón con Mourinho",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "Eto'o",
-    "pista": "Delantero camerunés multicampeón con el Barcelona e Inter, goleador implacable",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "Evra",
-    "pista": "Ex lateral izquierdo francés, ídolo en Manchester United y con gran personalidad mediática",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "Ezequiel Lavezzi",
-    "pista": "Ex delantero argentino, apodado 'Pocho', brilló en Napoli, PSG y la selección argentina",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "Eder",
-    "pista": "Delantero portugués recordado por marcar el gol que dio a Portugal la Euro 2016",
-    "dificultad": "dificil"
-  },
-  {
-    "nombre": "Eder Militao",
-    "pista": "Defensor brasileño del Real Madrid, destacado por su velocidad y anticipación",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "Ever Banega",
-    "pista": "Mediocampista argentino de gran técnica, ex Sevilla, Valencia y Boca Juniors",
-    "dificultad": "dificil"
-  }
+      "nombre": "Eden Dzeko",
+      "pista": "Delantero bosnio con gran trayectoria en Roma, Manchester City e Inter. Actualmente en Fenerbahçe",
+      "dificultad": "medio",
+      "nombreSecundario": ["Eden", "Dzeko"],
+      "equipos": ["Željezničar", "Teplice", "Ústí nad Labem", "Wolfsburg", "Manchester City", "AS Roma", "Inter de Milán", "Fenerbahçe"],
+      "posicion": ["Delantero Centro"],
+      "nacionalidad": "Bosnia y Herzegovina"
+    },
+    {
+      "nombre": "Ederson",
+      "pista": "Arquero brasileño titular del Manchester City, famoso por su juego con los pies",
+      "dificultad": "medio",
+      "nombreSecundario": ["Ederson", "Moraes"],
+      "equipos": ["Ribeirão", "Rio Ave", "Benfica", "Manchester City"],
+      "posicion": ["Portero"],
+      "nacionalidad": "Brasil"
+    },
+    {
+      "nombre": "Edgar Davids",
+      "pista": "Ex mediocampista neerlandés reconocido por sus gafas deportivas y su paso por Juventus",
+      "dificultad": "medio",
+      "nombreSecundario": ["Edgar", "Davids"],
+      "equipos": ["Ajax", "AC Milan", "Juventus", "Barcelona", "Inter de Milán", "Tottenham Hotspur", "Crystal Palace", "Barnet"],
+      "posicion": ["Mediocentro Defensivo", "Mediocentro"],
+      "nacionalidad": "Países Bajos"
+    },
+    {
+      "nombre": "Edwin Van der Sar",
+      "pista": "Ex arquero neerlandés, figura en Ajax, Juventus y Manchester United",
+      "dificultad": "medio",
+      "nombreSecundario": ["Edwin", "Van der Sar"],
+      "equipos": ["Ajax", "Juventus", "Fulham", "Manchester United"],
+      "posicion": ["Portero"],
+      "nacionalidad": "Países Bajos"
+    },
+    {
+      "nombre": "El Shaarawy",
+      "pista": "Delantero italiano apodado 'El Faraón', juega en Roma y brilló por su velocidad y regate",
+      "dificultad": "dificil",
+      "nombreSecundario": ["Stephan", "El Shaarawy"],
+      "equipos": ["Genoa", "Padova", "AC Milan", "Mónaco", "AS Roma", "Shanghai Shenhua"],
+      "posicion": ["Extremo Izquierdo", "Segundo Delantero"],
+      "nacionalidad": "Italia"
+    },
+    {
+      "nombre": "Embolo",
+      "pista": "Delantero suizo de origen camerunés, juega en el Mónaco y ha sido clave con su selección",
+      "dificultad": "dificil",
+      "nombreSecundario": ["Breel", "Embolo"],
+      "equipos": ["FC Basel", "Schalke 04", "Borussia Mönchengladbach", "Mónaco"],
+      "posicion": ["Delantero Centro"],
+      "nacionalidad": "Suiza"
+    },
+    {
+      "nombre": "Emiliano Martinez",
+      "pista": "Arquero argentino campeón del mundo en Qatar 2022, figura en penales y actual jugador del Aston Villa",
+      "dificultad": "medio",
+      "nombreSecundario": ["Emiliano", "Martínez"],
+      "equipos": ["Arsenal", "Oxford United", "Sheffield Wednesday", "Rotherham United", "Wolverhampton Wanderers", "Getafe", "Reading", "Aston Villa"],
+      "posicion": ["Portero"],
+      "nacionalidad": "Argentina"
+    },
+    {
+      "nombre": "Emmanuel Adebayor",
+      "pista": "Ex delantero togolés con paso por Arsenal, Manchester City y Real Madrid",
+      "dificultad": "dificil",
+      "nombreSecundario": ["Emmanuel", "Adebayor"],
+      "equipos": ["Metz", "Mónaco", "Arsenal", "Manchester City", "Real Madrid", "Tottenham Hotspur", "Crystal Palace", "İstanbul Başakşehir", "Kayserispor", "Olimpia Asunción"],
+      "posicion": ["Delantero Centro"],
+      "nacionalidad": "Togo"
+    },
+    {
+      "nombre": "Emre Can",
+      "pista": "Mediocampista alemán versátil, ex Liverpool y Juventus, actualmente en Borussia Dortmund",
+      "dificultad": "dificil",
+      "nombreSecundario": ["Emre", "Can"],
+      "equipos": ["Bayern Múnich", "Bayer Leverkusen", "Liverpool", "Juventus", "Borussia Dortmund"],
+      "posicion": ["Mediocentro Defensivo", "Mediocentro", "Defensa Central"],
+      "nacionalidad": "Alemania"
+    },
+    {
+      "nombre": "Endrick",
+      "pista": "Joven delantero brasileño fichado por el Real Madrid, considerado una promesa del fútbol mundial",
+      "dificultad": "medio",
+      "nombreSecundario": ["Endrick", "Felipe"],
+      "equipos": ["Palmeiras", "Real Madrid"],
+      "posicion": ["Delantero Centro"],
+      "nacionalidad": "Brasil"
+    },
+    {
+      "nombre": "Enner Valencia",
+      "pista": "Delantero ecuatoriano, goleador histórico de su selección, jugó en Inglaterra, México y Brasil",
+      "dificultad": "dificil",
+      "nombreSecundario": ["Enner", "Valencia"],
+      "equipos": ["Emelec", "Pachuca", "West Ham United", "Everton", "Tigres UANL", "Fenerbahçe", "Internacional"],
+      "posicion": ["Delantero Centro", "Extremo"],
+      "nacionalidad": "Ecuador"
+    },
+    {
+      "nombre": "Enzo Perez",
+      "pista": "Mediocampista argentino, figura en River Plate y ex jugador del Benfica y la selección argentina",
+      "dificultad": "medio",
+      "nombreSecundario": ["Enzo", "Pérez"],
+      "equipos": ["Godoy Cruz", "Estudiantes de La Plata", "Benfica", "Valencia", "River Plate", "Estudiantes de La Plata"],
+      "posicion": ["Mediocentro", "Mediocentro Derecho"],
+      "nacionalidad": "Argentina"
+    },
+    {
+      "nombre": "Eric Dier",
+      "pista": "Defensor y mediocampista inglés, jugó varias temporadas en el Tottenham Hotspur",
+      "dificultad": "dificil",
+      "nombreSecundario": ["Eric", "Dier"],
+      "equipos": ["Sporting CP", "Everton", "Tottenham Hotspur", "Bayern Múnich"],
+      "posicion": ["Defensa Central", "Mediocentro Defensivo"],
+      "nacionalidad": "Inglaterra"
+    },
+    {
+      "nombre": "Eriksen",
+      "pista": "Mediocampista danés que regresó al fútbol tras sufrir un paro cardíaco en la Euro 2020",
+      "dificultad": "medio",
+      "nombreSecundario": ["Christian", "Eriksen"],
+      "equipos": ["Odense Boldklub", "Ajax", "Tottenham Hotspur", "Inter de Milán", "Brentford", "Manchester United"],
+      "posicion": ["Mediocentro Ofensivo", "Mediocentro"],
+      "nacionalidad": "Dinamarca"
+    },
+    {
+      "nombre": "Esteban Cambiasso",
+      "pista": "Ex mediocampista argentino, referente del Inter multicampeón con Mourinho",
+      "dificultad": "medio",
+      "nombreSecundario": ["Esteban", "Cambiasso"],
+      "equipos": ["Argentinos Juniors", "Real Madrid B", "Real Madrid", "River Plate", "Inter de Milán", "Leicester City", "Olympiacos"],
+      "posicion": ["Mediocentro Defensivo", "Mediocentro"],
+      "nacionalidad": "Argentina"
+    },
+    {
+      "nombre": "Eto'o",
+      "pista": "Delantero camerunés multicampeón con el Barcelona e Inter, goleador implacable",
+      "dificultad": "medio",
+      "nombreSecundario": ["Samuel", "Eto'o"],
+      "equipos": ["Real Madrid B", "Leganés", "Espanyol", "Mallorca", "Barcelona", "Inter de Milán", "Anzhi Makhachkala", "Chelsea", "Everton", "Sampdoria", "Antalyaspor", "Konyaspor", "Qatar SC"],
+      "posicion": ["Delantero Centro"],
+      "nacionalidad": "Camerún"
+    },
+    {
+      "nombre": "Evra",
+      "pista": "Ex lateral izquierdo francés, ídolo en Manchester United y con gran personalidad mediática",
+      "dificultad": "medio",
+      "nombreSecundario": ["Patrice", "Evra"],
+      "equipos": ["Marsala", "Monza", "Nice", "Mónaco", "Manchester United", "Juventus", "Marseille", "West Ham United"],
+      "posicion": ["Lateral Izquierdo"],
+      "nacionalidad": "Francia"
+    },
+    {
+      "nombre": "Ezequiel Lavezzi",
+      "pista": "Ex delantero argentino, apodado 'Pocho', brilló en Napoli, PSG y la selección argentina",
+      "dificultad": "medio",
+      "nombreSecundario": ["Ezequiel", "Lavezzi"],
+      "equipos": ["Estudiantes (BA)", "San Lorenzo", "Napoli", "Paris Saint-Germain", "Hebei China Fortune"],
+      "posicion": ["Extremo Izquierdo", "Segundo Delantero"],
+      "nacionalidad": "Argentina"
+    },
+    {
+      "nombre": "Eder",
+      "pista": "Delantero portugués recordado por marcar el gol que dio a Portugal la Euro 2016",
+      "dificultad": "dificil",
+      "nombreSecundario": ["Ederzito", "António Lopes"],
+      "equipos": ["Oliveira Hospital", "Tourizense", "Académica", "Braga", "Swansea City", "Lille", "Lokomotiv Moscú", "Al-Raed"],
+      "posicion": ["Delantero Centro"],
+      "nacionalidad": "Portugal"
+    },
+    {
+      "nombre": "Eder Militao",
+      "pista": "Defensor brasileño del Real Madrid, destacado por su velocidad y anticipación",
+      "dificultad": "medio",
+      "nombreSecundario": ["Éder", "Militão"],
+      "equipos": ["São Paulo", "Porto", "Real Madrid"],
+      "posicion": ["Defensa Central", "Lateral Derecho"],
+      "nacionalidad": "Brasil"
+    },
+    {
+      "nombre": "Ever Banega",
+      "pista": "Mediocampista argentino de gran técnica, ex Sevilla, Valencia y Boca Juniors",
+      "dificultad": ["medio", "dificil"],
+      "nombreSecundario": ["Éver", "Banega"],
+      "equipos": ["Boca Juniors", "Valencia", "Atlético de Madrid", "Newell's Old Boys", "Sevilla", "Al-Shabab", "Newell's Old Boys"],
+      "posicion": ["Mediocentro", "Mediocentro Defensivo"],
+      "nacionalidad": "Argentina"
+    }
   ],
   "F": [
     {
-    "nombre": "Fabinho",
-    "pista": "Mediocampista brasileño, ex Liverpool, conocido por su solidez defensiva en el mediocampo",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "Fabio Cannavaro",
-    "pista": "Defensor central italiano, Balón de Oro en 2006 y campeón del mundo ese año con Italia",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "Fagioli",
-    "pista": "Joven mediocampista italiano de la Juventus, considerado promesa del fútbol italiano",
-    "dificultad": "dificil"
-  },
-  {
-    "nombre": "Falcao",
-    "pista": "Delantero colombiano, pasó por River Plate y Mónaco, apodado 'El Tigre'",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "Federico Chiesa",
-    "pista": "Extremo italiano veloz y habilidoso, juega en la Juventus y fue figura en la Euro 2020",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "Federico Valverde",
-    "pista": "Mediocampista uruguayo del Real Madrid, destaca por su despliegue físico y versatilidad",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "Fekir",
-    "pista": "Mediocampista ofensivo francés, juega en el Real Betis y es conocido por su talento técnico",
-    "dificultad": "dificil"
-  },
-  {
-    "nombre": "Felipe Anderson",
-    "pista": "Extremo brasileño de la Lazio, reconocido por su velocidad y regate",
-    "dificultad": "dificil"
-  },
-  {
-    "nombre": "Ferland Mendy",
-    "pista": "Lateral izquierdo francés del Real Madrid, conocido por su solidez defensiva y potencia",
-    "dificultad": "dificil"
-  },
-  {
-    "nombre": "Fernando Torres",
-    "pista": "Delantero español, ídolo del Atlético de Madrid, campeón del mundo y de Europa con España",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "Figo",
-    "pista": "Extremo portugués que causó polémica al pasar del Barcelona al Real Madrid; Balón de Oro 2000",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "Firmino",
-    "pista": "Delantero brasileño, ex Liverpool, parte clave del equipo que ganó la Champions en 2019",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "Florian Wirtz",
-    "pista": "Joven mediocampista alemán del Bayer Leverkusen, considerado una joya del fútbol europeo",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "Foden",
-    "pista": "Mediocampista inglés del Manchester City, formado por Guardiola, con gran visión de juego",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "Forlan",
-    "pista": "Ex delantero uruguayo, jugó en Villarreal y Atlético de Madrid, Balón de Oro del Mundial 2010",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "Francesco Totti",
-    "pista": "Leyenda italiana y eterno capitán de la Roma, símbolo de fidelidad a un solo club",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "Franck Ribery",
-    "pista": "Ex extremo francés, brilló en el Bayern Múnich, donde ganó múltiples títulos",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "Frank Lampard",
-    "pista": "Histórico mediocampista inglés, goleador y emblema del Chelsea",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "Frank Rijkaard",
-    "pista": "Ex mediocampista neerlandés, campeón con el Milan, luego entrenador del Barcelona",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "Frenkie De Jong",
-    "pista": "Mediocampista neerlandés del Barcelona, surgido del Ajax, con gran capacidad de conducción",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "Fabregas",
-    "pista": "Ex mediocampista español, pasó por Arsenal, Barcelona y Chelsea, campeón del mundo en 2010",
-    "dificultad": "medio"
-  }
+      "nombre": "Fabinho",
+      "pista": "Mediocampista brasileño, ex Liverpool, conocido por su solidez defensiva en el mediocampo",
+      "dificultad": "medio",
+      "nombreSecundario": ["Fabinho"],
+      "equipos": ["Fluminense", "Rio Ave", "Real Madrid Castilla", "Mónaco", "Liverpool", "Al-Ittihad"],
+      "posicion": ["Mediocentro Defensivo", "Lateral Derecho"],
+      "nacionalidad": "Brasil"
+    },
+    {
+      "nombre": "Fabio Cannavaro",
+      "pista": "Defensor central italiano, Balón de Oro en 2006 y campeón del mundo ese año con Italia",
+      "dificultad": "medio",
+      "nombreSecundario": ["Fabio", "Cannavaro"],
+      "equipos": ["Napoli", "Parma", "Inter de Milán", "Juventus", "Real Madrid", "Al-Ahli"],
+      "posicion": ["Defensa Central"],
+      "nacionalidad": "Italia"
+    },
+    {
+      "nombre": "Fagioli",
+      "pista": "Joven mediocampista italiano de la Juventus, considerado promesa del fútbol italiano",
+      "dificultad": "dificil",
+      "nombreSecundario": ["Nicolò", "Fagioli"],
+      "equipos": ["Juventus", "Cremonese"],
+      "posicion": ["Mediocentro"],
+      "nacionalidad": "Italia"
+    },
+    {
+      "nombre": "Falcao",
+      "pista": "Delantero colombiano, pasó por River Plate y Mónaco, apodado 'El Tigre'",
+      "dificultad": "medio",
+      "nombreSecundario": ["Radamel", "Falcao"],
+      "equipos": ["Lanceros Boyacá", "River Plate", "Porto", "Atlético de Madrid", "Mónaco", "Manchester United", "Chelsea", "Galatasaray", "Rayo Vallecano"],
+      "posicion": ["Delantero Centro"],
+      "nacionalidad": "Colombia"
+    },
+    {
+      "nombre": "Federico Chiesa",
+      "pista": "Extremo italiano veloz y habilidoso, juega en la Juventus y fue figura en la Euro 2020",
+      "dificultad": "medio",
+      "nombreSecundario": ["Federico", "Chiesa"],
+      "equipos": ["Fiorentina", "Juventus"],
+      "posicion": ["Extremo Derecho", "Extremo Izquierdo"],
+      "nacionalidad": "Italia"
+    },
+    {
+      "nombre": "Federico Valverde",
+      "pista": "Mediocampista uruguayo del Real Madrid, destaca por su despliegue físico y versatilidad",
+      "dificultad": "medio",
+      "nombreSecundario": ["Federico", "Valverde"],
+      "equipos": ["Peñarol", "Real Madrid Castilla", "Deportivo La Coruña", "Real Madrid"],
+      "posicion": ["Mediocentro", "Mediocentro Derecho"],
+      "nacionalidad": "Uruguay"
+    },
+    {
+      "nombre": "Fekir",
+      "pista": "Mediocampista ofensivo francés, juega en el Real Betis y es conocido por su talento técnico",
+      "dificultad": "dificil",
+      "nombreSecundario": ["Nabil", "Fekir"],
+      "equipos": ["Lyon", "Real Betis"],
+      "posicion": ["Mediocentro Ofensivo", "Segundo Delantero"],
+      "nacionalidad": "Francia"
+    },
+    {
+      "nombre": "Felipe Anderson",
+      "pista": "Extremo brasileño de la Lazio, reconocido por su velocidad y regate",
+      "dificultad": "dificil",
+      "nombreSecundario": ["Felipe", "Anderson"],
+      "equipos": ["Santos", "Lazio", "West Ham United", "Porto"],
+      "posicion": ["Extremo Derecho", "Mediocentro Ofensivo"],
+      "nacionalidad": "Brasil"
+    },
+    {
+      "nombre": "Ferland Mendy",
+      "pista": "Lateral izquierdo francés del Real Madrid, conocido por su solidez defensiva y potencia",
+      "dificultad": "dificil",
+      "nombreSecundario": ["Ferland", "Mendy"],
+      "equipos": ["Le Havre", "Lyon", "Real Madrid"],
+      "posicion": ["Lateral Izquierdo"],
+      "nacionalidad": "Francia"
+    },
+    {
+      "nombre": "Fernando Torres",
+      "pista": "Delantero español, ídolo del Atlético de Madrid, campeón del mundo y de Europa con España",
+      "dificultad": "medio",
+      "nombreSecundario": ["Fernando", "Torres"],
+      "equipos": ["Atlético de Madrid", "Liverpool", "Chelsea", "AC Milan", "Sagan Tosu"],
+      "posicion": ["Delantero Centro"],
+      "nacionalidad": "España"
+    },
+    {
+      "nombre": "Figo",
+      "pista": "Extremo portugués que causó polémica al pasar del Barcelona al Real Madrid; Balón de Oro 2000",
+      "dificultad": "medio",
+      "nombreSecundario": ["Luís", "Figo"],
+      "equipos": ["Sporting CP", "Barcelona", "Real Madrid", "Inter de Milán"],
+      "posicion": ["Extremo Derecho", "Mediocentro Ofensivo"],
+      "nacionalidad": "Portugal"
+    },
+    {
+      "nombre": "Firmino",
+      "pista": "Delantero brasileño, ex Liverpool, parte clave del equipo que ganó la Champions en 2019",
+      "dificultad": "medio",
+      "nombreSecundario": ["Roberto", "Firmino"],
+      "equipos": ["Figueirense", "Hoffenheim", "Liverpool", "Al-Ahli"],
+      "posicion": ["Segundo Delantero", "Mediocentro Ofensivo", "Delantero Centro"],
+      "nacionalidad": "Brasil"
+    },
+    {
+      "nombre": "Florian Wirtz",
+      "pista": "Joven mediocampista alemán del Bayer Leverkusen, considerado una joya del fútbol europeo",
+      "dificultad": "medio",
+      "nombreSecundario": ["Florian", "Wirtz"],
+      "equipos": ["Bayer Leverkusen"],
+      "posicion": ["Mediocentro Ofensivo", "Extremo"],
+      "nacionalidad": "Alemania"
+    },
+    {
+      "nombre": "Foden",
+      "pista": "Mediocampista inglés del Manchester City, formado por Guardiola, con gran visión de juego",
+      "dificultad": "medio",
+      "nombreSecundario": ["Phil", "Foden"],
+      "equipos": ["Manchester City"],
+      "posicion": ["Mediocentro Ofensivo", "Extremo Izquierdo"],
+      "nacionalidad": "Inglaterra"
+    },
+    {
+      "nombre": "Forlan",
+      "pista": "Ex delantero uruguayo, jugó en Villarreal y Atlético de Madrid, Balón de Oro del Mundial 2010",
+      "dificultad": "medio",
+      "nombreSecundario": ["Diego", "Forlán"],
+      "equipos": ["Independiente", "Manchester United", "Villarreal", "Atlético de Madrid", "Inter de Milán", "Internacional", "Cerezo Osaka", "Peñarol", "Mumbai City", "Kitchee"],
+      "posicion": ["Delantero Centro", "Segundo Delantero"],
+      "nacionalidad": "Uruguay"
+    },
+    {
+      "nombre": "Francesco Totti",
+      "pista": "Leyenda italiana y eterno capitán de la Roma, símbolo de fidelidad a un solo club",
+      "dificultad": "medio",
+      "nombreSecundario": ["Francesco", "Totti"],
+      "equipos": ["AS Roma"],
+      "posicion": ["Mediocentro Ofensivo", "Segundo Delantero", "Delantero Centro"],
+      "nacionalidad": "Italia"
+    },
+    {
+      "nombre": "Franck Ribery",
+      "pista": "Ex extremo francés, brilló en el Bayern Múnich, donde ganó múltiples títulos",
+      "dificultad": "medio",
+      "nombreSecundario": ["Franck", "Ribéry"],
+      "equipos": ["US Boulogne", "Alès", "Stade Brestois", "Metz", "Galatasaray", "Marseille", "Bayern Múnich", "Fiorentina", "Salernitana"],
+      "posicion": ["Extremo Izquierdo"],
+      "nacionalidad": "Francia"
+    },
+    {
+      "nombre": "Frank Lampard",
+      "pista": "Histórico mediocampista inglés, goleador y emblema del Chelsea",
+      "dificultad": "medio",
+      "nombreSecundario": ["Frank", "Lampard"],
+      "equipos": ["West Ham United", "Swansea City", "Chelsea", "Manchester City", "New York City FC"],
+      "posicion": ["Mediocentro", "Mediocentro Ofensivo"],
+      "nacionalidad": "Inglaterra"
+    },
+    {
+      "nombre": "Frank Rijkaard",
+      "pista": "Ex mediocampista neerlandés, campeón con el Milan, luego entrenador del Barcelona",
+      "dificultad": "medio",
+      "nombreSecundario": ["Frank", "Rijkaard"],
+      "equipos": ["Ajax", "Sporting CP", "Real Zaragoza", "AC Milan"],
+      "posicion": ["Mediocentro Defensivo", "Defensa Central"],
+      "nacionalidad": "Países Bajos"
+    },
+    {
+      "nombre": "Frenkie De Jong",
+      "pista": "Mediocampista neerlandés del Barcelona, surgido del Ajax, con gran capacidad de conducción",
+      "dificultad": "medio",
+      "nombreSecundario": ["Frenkie", "De Jong"],
+      "equipos": ["Willem II", "Ajax", "Barcelona"],
+      "posicion": ["Mediocentro", "Mediocentro Defensivo"],
+      "nacionalidad": "Países Bajos"
+    },
+    {
+      "nombre": "Fabregas",
+      "pista": "Ex mediocampista español, pasó por Arsenal, Barcelona y Chelsea, campeón del mundo en 2010",
+      "dificultad": "medio",
+      "nombreSecundario": ["Cesc", "Fabregas"],
+      "equipos": ["Arsenal", "Barcelona", "Chelsea", "Mónaco", "Como"],
+      "posicion": ["Mediocentro", "Mediocentro Ofensivo"],
+      "nacionalidad": "España"
+    }
   ],
   "G": [
     {
-    "nombre": "Gabriel Barbosa",
-    "pista": "Delantero brasileño, conocido como Gabigol, figura del Flamengo y goleador en la Copa Libertadores",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "Gabriel Jesus",
-    "pista": "Delantero brasileño del Arsenal, ex Manchester City y campeón de la Copa América 2019",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "Gabriel Martinelli",
-    "pista": "Extremo brasileño del Arsenal, joven promesa destacada por su velocidad y desequilibrio",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "Gakpo",
-    "pista": "Delantero neerlandés del Liverpool, revelación con Países Bajos en el Mundial de Catar 2022",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "Gareth Bale",
-    "pista": "Extremo galés, ex Real Madrid, recordado por su gol de chilena en la final de Champions 2018",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "Gareth Southgate",
-    "pista": "Ex defensor inglés y actual seleccionador de Inglaterra, llevó al equipo a la final de la Euro 2020",
-    "dificultad": "dificil"
-  },
-  {
-    "nombre": "Garrincha",
-    "pista": "Extremo brasileño, campeón del mundo en 1958 y 1962, leyenda por su regate imparable",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "Gattuso",
-    "pista": "Ex mediocampista italiano, campeón del mundo en 2006, símbolo de lucha y entrega",
-    "dificultad": "dificil"
-  },
-  {
-    "nombre": "Gavi",
-    "pista": "Joven mediocampista del Barcelona y la selección española, ganador del Golden Boy en 2022",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "Georginio Wijnaldum",
-    "pista": "Mediocampista neerlandés, ex Liverpool y PSG, clave en la semifinal de Champions 2019 ante el Barça",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "Gerard Moreno",
-    "pista": "Delantero español del Villarreal, máximo goleador del equipo en la Europa League 2021",
-    "dificultad": "dificil"
-  },
-  {
-    "nombre": "Gerd Muller",
-    "pista": "Legendario delantero alemán apodado 'Torpedo', campeón del mundo en 1974 y goleador histórico",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "Gianfranco Zola",
-    "pista": "Ex delantero italiano, ídolo del Chelsea en los 90, reconocido por su clase y visión de juego",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "Gianluigi Donnarumma",
-    "pista": "Arquero italiano del PSG, elegido mejor jugador de la Euro 2020 tras atajar penales en la final",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "Giovanni Simeone",
-    "pista": "Delantero argentino del Napoli, hijo del 'Cholo', goleador en varias ligas europeas",
-    "dificultad": "dificil"
-  },
-  {
-    "nombre": "Godin",
-    "pista": "Defensor uruguayo, símbolo del Atlético de Madrid del Cholo Simeone, campeón de la Europa League",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "Gonzalo Higuain",
-    "pista": "Delantero argentino con paso por Real Madrid, Napoli y Juventus, goleador en Europa y la selección",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "Grealish",
-    "pista": "Extremo inglés del Manchester City, conocido por su estilo de juego y su rol en el equipo campeón de Champions 2023",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "Griezmann",
-    "pista": "Delantero francés del Atlético de Madrid, campeón del mundo en 2018 y figura en la Euro 2016",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "Guardiola",
-    "pista": "Ex mediocampista del Barcelona y exitoso entrenador, ganó múltiples Champions con Barça y City",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "Gundogan",
-    "pista": "Mediocampista alemán, líder del Manchester City campeón de la Premier y actual jugador del Barcelona",
-    "dificultad": "medio"
-  },
-  {
-    "nombre": "Gylfi Sigurdsson",
-    "pista": "Mediocampista islandés, ex Everton y Swansea, clave en la histórica Euro 2016 de Islandia",
-    "dificultad": "dificil"
-  }
+      "nombre": "Gabriel Barbosa",
+      "pista": "Delantero brasileño, conocido como Gabigol, figura del Flamengo y goleador en la Copa Libertadores",
+      "dificultad": "medio",
+      "nombreSecundario": ["Gabriel", "Barbosa"],
+      "equipos": ["Santos", "Inter de Milán", "Benfica", "Flamengo"],
+      "posicion": ["Delantero Centro"],
+      "nacionalidad": "Brasil"
+    },
+    {
+      "nombre": "Gabriel Jesus",
+      "pista": "Delantero brasileño del Arsenal, ex Manchester City y campeón de la Copa América 2019",
+      "dificultad": "medio",
+      "nombreSecundario": ["Gabriel", "Jesus"],
+      "equipos": ["Palmeiras", "Manchester City", "Arsenal"],
+      "posicion": ["Delantero Centro", "Extremo Derecho"],
+      "nacionalidad": "Brasil"
+    },
+    {
+      "nombre": "Gabriel Martinelli",
+      "pista": "Extremo brasileño del Arsenal, joven promesa destacada por su velocidad y desequilibrio",
+      "dificultad": "medio",
+      "nombreSecundario": ["Gabriel", "Martinelli"],
+      "equipos": ["Ituano", "Arsenal"],
+      "posicion": ["Extremo Izquierdo"],
+      "nacionalidad": "Brasil"
+    },
+    {
+      "nombre": "Gakpo",
+      "pista": "Delantero neerlandés del Liverpool, revelación con Países Bajos en el Mundial de Catar 2022",
+      "dificultad": "medio",
+      "nombreSecundario": ["Cody", "Gakpo"],
+      "equipos": ["PSV Eindhoven", "Liverpool"],
+      "posicion": ["Extremo Izquierdo", "Delantero Centro"],
+      "nacionalidad": "Países Bajos"
+    },
+    {
+      "nombre": "Gareth Bale",
+      "pista": "Extremo galés, ex Real Madrid, recordado por su gol de chilena en la final de Champions 2018",
+      "dificultad": "medio",
+      "nombreSecundario": ["Gareth", "Bale"],
+      "equipos": ["Southampton", "Tottenham Hotspur", "Real Madrid", "Los Angeles FC"],
+      "posicion": ["Extremo Derecho", "Extremo Izquierdo", "Delantero"],
+      "nacionalidad": "Gales"
+    },
+    {
+      "nombre": "Gareth Southgate",
+      "pista": "Ex defensor inglés y actual seleccionador de Inglaterra, llevó al equipo a la final de la Euro 2020",
+      "dificultad": "dificil",
+      "nombreSecundario": ["Gareth", "Southgate"],
+      "equipos": ["Crystal Palace", "Aston Villa", "Middlesbrough"],
+      "posicion": ["Defensa Central", "Mediocentro Defensivo"],
+      "nacionalidad": "Inglaterra"
+    },
+    {
+      "nombre": "Garrincha",
+      "pista": "Extremo brasileño, campeón del mundo en 1958 y 1962, leyenda por su regate imparable",
+      "dificultad": "medio",
+      "nombreSecundario": ["Manuel", "Francisco dos Santos"],
+      "equipos": ["Botafogo", "Corinthians", "Portuguesa Carioca", "Atlético Junior", "Flamengo", "Olaria"],
+      "posicion": ["Extremo Derecho"],
+      "nacionalidad": "Brasil"
+    },
+    {
+      "nombre": "Gattuso",
+      "pista": "Ex mediocampista italiano, campeón del mundo en 2006, símbolo de lucha y entrega",
+      "dificultad": "dificil",
+      "nombreSecundario": ["Gennaro", "Gattuso"],
+      "equipos": ["Perugia", "Rangers", "Salernitana", "AC Milan", "Sion"],
+      "posicion": ["Mediocentro Defensivo"],
+      "nacionalidad": "Italia"
+    },
+    {
+      "nombre": "Gavi",
+      "pista": "Joven mediocampista del Barcelona y la selección española, ganador del Golden Boy en 2022",
+      "dificultad": "medio",
+      "nombreSecundario": ["Pablo", "Martín Páez Gavira"],
+      "equipos": ["Barcelona"],
+      "posicion": ["Mediocentro", "Mediocentro Ofensivo"],
+      "nacionalidad": "España"
+    },
+    {
+      "nombre": "Georginio Wijnaldum",
+      "pista": "Mediocampista neerlandés, ex Liverpool y PSG, clave en la semifinal de Champions 2019 ante el Barça",
+      "dificultad": "medio",
+      "nombreSecundario": ["Georginio", "Wijnaldum"],
+      "equipos": ["Feyenoord", "PSV Eindhoven", "Newcastle United", "Liverpool", "Paris Saint-Germain", "AS Roma", "Al-Ettifaq"],
+      "posicion": ["Mediocentro", "Mediocentro Ofensivo"],
+      "nacionalidad": "Países Bajos"
+    },
+    {
+      "nombre": "Gerard Moreno",
+      "pista": "Delantero español del Villarreal, máximo goleador del equipo en la Europa League 2021",
+      "dificultad": "dificil",
+      "nombreSecundario": ["Gerard", "Moreno"],
+      "equipos": ["Villarreal", "Mallorca", "Espanyol"],
+      "posicion": ["Delantero Centro", "Extremo Derecho"],
+      "nacionalidad": "España"
+    },
+    {
+      "nombre": "Gerd Muller",
+      "pista": "Legendario delantero alemán apodado 'Torpedo', campeón del mundo en 1974 y goleador histórico",
+      "dificultad": "medio",
+      "nombreSecundario": ["Gerd", "Müller"],
+      "equipos": ["TSV 1861 Nördlingen", "Bayern Múnich", "Fort Lauderdale Strikers"],
+      "posicion": ["Delantero Centro"],
+      "nacionalidad": "Alemania"
+    },
+    {
+      "nombre": "Gianfranco Zola",
+      "pista": "Ex delantero italiano, ídolo del Chelsea en los 90, reconocido por su clase y visión de juego",
+      "dificultad": "medio",
+      "nombreSecundario": ["Gianfranco", "Zola"],
+      "equipos": ["Nuorese", "Torres", "Napoli", "Parma", "Chelsea", "Cagliari"],
+      "posicion": ["Segundo Delantero", "Mediocentro Ofensivo"],
+      "nacionalidad": "Italia"
+    },
+    {
+      "nombre": "Gianluigi Donnarumma",
+      "pista": "Arquero italiano del PSG, elegido mejor jugador de la Euro 2020 tras atajar penales en la final",
+      "dificultad": "medio",
+      "nombreSecundario": ["Gianluigi", "Donnarumma"],
+      "equipos": ["AC Milan", "Paris Saint-Germain"],
+      "posicion": ["Portero"],
+      "nacionalidad": "Italia"
+    },
+    {
+      "nombre": "Giovanni Simeone",
+      "pista": "Delantero argentino del Napoli, hijo del 'Cholo', goleador en varias ligas europeas",
+      "dificultad": "dificil",
+      "nombreSecundario": ["Giovanni", "Simeone"],
+      "equipos": ["River Plate", "Banfield", "Genoa", "Fiorentina", "Cagliari", "Hellas Verona", "Napoli"],
+      "posicion": ["Delantero Centro"],
+      "nacionalidad": "Argentina"
+    },
+    {
+      "nombre": "Godin",
+      "pista": "Defensor uruguayo, símbolo del Atlético de Madrid del Cholo Simeone, campeón de la Europa League",
+      "dificultad": "medio",
+      "nombreSecundario": ["Diego", "Godín"],
+      "equipos": ["Cerro", "Nacional", "Villarreal", "Atlético de Madrid", "Inter de Milán", "Cagliari", "Atlético Mineiro", "Vélez Sarsfield"],
+      "posicion": ["Defensa Central"],
+      "nacionalidad": "Uruguay"
+    },
+    {
+      "nombre": "Gonzalo Higuain",
+      "pista": "Delantero argentino con paso por Real Madrid, Napoli y Juventus, goleador en Europa y la selección",
+      "dificultad": "medio",
+      "nombreSecundario": ["Gonzalo", "Higuaín"],
+      "equipos": ["River Plate", "Real Madrid", "Napoli", "Juventus", "AC Milan", "Chelsea", "Inter Miami CF"],
+      "posicion": ["Delantero Centro"],
+      "nacionalidad": "Argentina"
+    },
+    {
+      "nombre": "Grealish",
+      "pista": "Extremo inglés del Manchester City, conocido por su estilo de juego y su rol en el equipo campeón de Champions 2023",
+      "dificultad": "medio",
+      "nombreSecundario": ["Jack", "Grealish"],
+      "equipos": ["Aston Villa", "Notts County", "Manchester City"],
+      "posicion": ["Extremo Izquierdo", "Mediocentro Ofensivo"],
+      "nacionalidad": "Inglaterra"
+    },
+    {
+      "nombre": "Griezmann",
+      "pista": "Delantero francés del Atlético de Madrid, campeón del mundo en 2018 y figura en la Euro 2016",
+      "dificultad": "medio",
+      "nombreSecundario": ["Antoine", "Griezmann"],
+      "equipos": ["Real Sociedad", "Atlético de Madrid", "Barcelona"],
+      "posicion": ["Segundo Delantero", "Extremo Izquierdo", "Mediocentro Ofensivo"],
+      "nacionalidad": "Francia"
+    },
+    {
+      "nombre": "Guardiola",
+      "pista": "Ex mediocampista del Barcelona y exitoso entrenador, ganó múltiples Champions con Barça y City",
+      "dificultad": "medio",
+      "nombreSecundario": ["Pep", "Guardiola"],
+      "equipos": ["Barcelona", "Brescia", "Roma", "Al-Ahli", "Dorados de Sinaloa"],
+      "posicion": ["Mediocentro Defensivo"],
+      "nacionalidad": "España"
+    },
+    {
+      "nombre": "Gundogan",
+      "pista": "Mediocampista alemán, líder del Manchester City campeón de la Premier y actual jugador del Barcelona",
+      "dificultad": "medio",
+      "nombreSecundario": ["İlkay", "Gündoğan"],
+      "equipos": ["VfL Bochum", "1. FC Nürnberg", "Borussia Dortmund", "Manchester City", "Barcelona"],
+      "posicion": ["Mediocentro", "Mediocentro Ofensivo"],
+      "nacionalidad": "Alemania"
+    },
+    {
+      "nombre": "Gylfi Sigurdsson",
+      "pista": "Mediocampista islandés, ex Everton y Swansea, clave en la histórica Euro 2016 de Islandia",
+      "dificultad": "dificil",
+      "nombreSecundario": ["Gylfi", "Sigurðsson"],
+      "equipos": ["Reading", "Crewe Alexandra", "Shrewsbury Town", "AFC Bournemouth", "1899 Hoffenheim", "Swansea City", "Tottenham Hotspur", "Everton"],
+      "posicion": ["Mediocentro Ofensivo"],
+      "nacionalidad": "Islandia"
+    }
   ],
   "H": [
     {
