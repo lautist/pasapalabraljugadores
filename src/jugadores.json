@@ -214,7 +214,96 @@
       "equipos": ["Osasuna", "Olympique de Marsella", "Chelsea", "Atlético de Madrid"],
       "posicion": ["Lateral Derecho", "Defensa Central", "Lateral Izquierdo"],
       "nacionalidad": "España"
-    }
+    },{
+    "nombre": "Abbondanzieri",
+    "pista": "Arquero argentino apodado 'Pato', multicampeón con Boca Juniors y titular en el Mundial 2006",
+    "dificultad": "medio",
+    "nombreSecundario": ["Roberto", "Abbondanzieri"],
+    "equipos": ["Rosario Central", "Boca Juniors", "Getafe", "Internacional"],
+    "posicion": ["Portero"],
+    "nacionalidad": "Argentina"
+  },
+  {
+    "nombre": "Ancelotti",
+    "pista": "Entrenador italiano, único en ganar las cinco grandes ligas y el máximo ganador de la Champions League",
+    "dificultad": "facil",
+    "nombreSecundario": ["Carlo", "Ancelotti"],
+    "equipos": ["Reggiana", "Parma", "Juventus", "Milan", "Chelsea", "PSG", "Real Madrid", "Bayern Múnich", "Napoli", "Everton"],
+    "posicion": ["Entrenador"],
+    "nacionalidad": "Italia"
+  },
+  {
+    "nombre": "Alvarez",
+    "pista": "Delantero argentino apodado 'La Araña', campeón del mundo en 2022 y ex figura de River Plate",
+    "dificultad": "facil",
+    "nombreSecundario": ["Julian", "Alvarez"],
+    "equipos": ["River Plate", "Manchester City", "Atlético de Madrid"],
+    "posicion": ["Delantero Centro", "Extremo"],
+    "nacionalidad": "Argentina"
+  },
+  {
+    "nombre": "Arsenal de Sarandi",
+    "pista": "Equipo argentino fundado por la familia Grondona, campeón de la Copa Sudamericana 2007",
+    "dificultad": "medio",
+    "nombreSecundario": ["Arsenal"],
+    "equipos": ["AFA"],
+    "posicion": ["Club"],
+    "nacionalidad": "Argentina"
+  },
+  {
+    "nombre": "Ayala",
+    "pista": "Defensor central argentino apodado 'Ratón', referente histórico de la Selección y del Valencia español",
+    "dificultad": "medio",
+    "nombreSecundario": ["Roberto", "Ayala"],
+    "equipos": ["Ferro", "River Plate", "Napoli", "Milan", "Valencia", "Villarreal", "Zaragoza", "Racing"],
+    "posicion": ["Defensa Central"],
+    "nacionalidad": "Argentina"
+  },
+  {
+    "nombre": "Acuna",
+    "pista": "Lateral o volante argentino apodado 'Huevo', campeón del mundo 2022 surgido de Ferro",
+    "dificultad": "medio",
+    "nombreSecundario": ["Marcos", "Acuna"],
+    "equipos": ["Ferro", "Racing", "Sporting de Lisboa", "Sevilla", "River Plate"],
+    "posicion": ["Lateral Izquierdo", "Interior Izquierdo"],
+    "nacionalidad": "Argentina"
+  },
+  {
+    "nombre": "Scaloni",
+    "pista": "CONTIENE A - Entrenador campeón del mundo con Argentina en 2022 y ex jugador del Deportivo La Coruña",
+    "dificultad": "facil",
+    "nombreSecundario": ["Lionel", "Scaloni"],
+    "equipos": ["Newell's", "Estudiantes", "Deportivo La Coruña", "West Ham", "Racing de Santander", "Lazio", "Mallorca", "Atalanta"],
+    "posicion": ["Entrenador"],
+    "nacionalidad": "Argentina"
+  },
+  {
+    "nombre": "Batistuta",
+    "pista": "CONTIENE A - Legendario goleador argentino, ídolo absoluto en la Fiorentina y máximo anotador de la Selección hasta la llegada de Messi",
+    "dificultad": "facil",
+    "nombreSecundario": ["Gabriel", "Batistuta", "Batigol"],
+    "equipos": ["Newell's", "River Plate", "Boca Juniors", "Fiorentina", "Roma", "Inter", "Al-Arabi"],
+    "posicion": ["Delantero Centro"],
+    "nacionalidad": "Argentina"
+  },
+  {
+    "nombre": "Palermo",
+    "pista": "CONTIENE A - Máximo goleador histórico de Boca Juniors, autor de goles épicos y actual director técnico",
+    "dificultad": "facil",
+    "nombreSecundario": ["Martin", "Palermo"],
+    "equipos": ["Estudiantes", "Boca Juniors", "Villarreal", "Betis", "Alavés"],
+    "posicion": ["Delantero Centro"],
+    "nacionalidad": "Argentina"
+  },
+  {
+    "nombre": "Ibarra",
+    "pista": "CONTIENE A - Histórico lateral derecho de Boca Juniors, ganador de 4 Copas Libertadores con el club",
+    "dificultad": "medio",
+    "nombreSecundario": ["Hugo", "Ibarra", "Negro Ibarra"],
+    "equipos": ["Colón", "Boca Juniors", "Porto", "Monaco", "Espanyol"],
+    "posicion": ["Lateral Derecho"],
+    "nacionalidad": "Argentina"
+  }
   ],
   "B": [
     {
@@ -396,7 +485,159 @@
       "equipos": ["Barcelona", "Inter Miami CF"],
       "posicion": ["Mediocentro Defensivo"],
       "nacionalidad": "España"
-    }
+    },{
+    "nombre": "Boca Juniors",
+    "pista": "Club argentino apodado 'Xeneize', uno de los más laureados a nivel internacional y máximo rival de River Plate",
+    "dificultad": "facil",
+    "nombreSecundario": ["Boca"],
+    "equipos": ["AFA"],
+    "posicion": ["Club"],
+    "nacionalidad": "Argentina"
+  },
+  {
+    "nombre": "Bilardo",
+    "pista": "Entrenador campeón del mundo con Argentina en 1986, exponente del pragmatismo y el detalle táctico",
+    "dificultad": "facil",
+    "nombreSecundario": ["Carlos", "Bilardo"],
+    "equipos": ["Estudiantes LP", "San Lorenzo", "Sevilla", "Boca Juniors", "Selección Argentina"],
+    "posicion": ["Entrenador"],
+    "nacionalidad": "Argentina"
+  },
+  {
+    "nombre": "Bielsa",
+    "pista": "Entrenador influyente apodado 'El Loco', ídolo en Newell's y con pasos destacados por las selecciones de Argentina, Chile y el Leeds United",
+    "dificultad": "facil",
+    "nombreSecundario": ["Marcelo", "Bielsa"],
+    "equipos": ["Newell's", "Atlas", "América", "Vélez", "Espanyol", "Athletic Club", "Marseille", "Lille", "Leeds United"],
+    "posicion": ["Entrenador"],
+    "nacionalidad": "Argentina"
+  },
+  {
+    "nombre": "Belgrano",
+    "pista": "Club cordobés apodado 'El Pirata', protagonista del histórico ascenso en 2011 tras vencer a River Plate en la promoción",
+    "dificultad": "medio",
+    "nombreSecundario": ["Belgrano de Cordoba"],
+    "equipos": ["AFA"],
+    "posicion": ["Club"],
+    "nacionalidad": "Argentina"
+  },
+  {
+    "nombre": "Bellingham",
+    "pista": "Mediocampista inglés del Real Madrid, estrella joven con gran despliegue físico y llegada al gol",
+    "dificultad": "facil",
+    "nombreSecundario": ["Jude", "Bellingham"],
+    "equipos": ["Birmingham City", "Borussia Dortmund", "Real Madrid"],
+    "posicion": ["Mediocentro", "Mediocentro Ofensivo"],
+    "nacionalidad": "Inglaterra"
+  },
+  {
+    "nombre": "Banega",
+    "pista": "Mediocampista creativo argentino con gran visión de juego, ídolo en el Sevilla y surgido de Boca Juniors",
+    "dificultad": "medio",
+    "nombreSecundario": ["Ever", "Banega"],
+    "equipos": ["Boca Juniors", "Valencia", "Atlético de Madrid", "Newell's", "Sevilla", "Inter de Milán", "Al-Shabab"],
+    "posicion": ["Mediocentro"],
+    "nacionalidad": "Argentina"
+  },
+  {
+    "nombre": "Burruchaga",
+    "pista": "Autor del gol decisivo en la final del Mundial 1986 ante Alemania y gloria de Independiente",
+    "dificultad": "medio",
+    "nombreSecundario": ["Jorge", "Burruchaga"],
+    "equipos": ["Arsenal de Sarandí", "Independiente", "Nantes", "Valenciennes"],
+    "posicion": ["Mediocentro Ofensivo", "Delantero"],
+    "nacionalidad": "Argentina"
+  },
+  {
+    "nombre": "Baggio",
+    "pista": "Legendario '10' italiano famoso por su técnica y por el penal fallado en la final del Mundial 1994",
+    "dificultad": "medio",
+    "nombreSecundario": ["Roberto", "Baggio"],
+    "equipos": ["Vicenza", "Fiorentina", "Juventus", "Milan", "Bologna", "Inter", "Brescia"],
+    "posicion": ["Segundo Delantero", "Mediocentro Ofensivo"],
+    "nacionalidad": "Italia"
+  },
+  {
+    "nombre": "Basile",
+    "pista": "Entrenador argentino apodado 'Coco', multicampeón con Boca Juniors y último técnico en ganar la Copa América antes de la era Scaloni",
+    "dificultad": "medio",
+    "nombreSecundario": ["Alfio", "Basile"],
+    "equipos": ["Racing", "Boca Juniors", "San Lorenzo", "Atlético de Madrid", "Selección Argentina"],
+    "posicion": ["Entrenador"],
+    "nacionalidad": "Argentina"
+  },
+  {
+    "nombre": "Barco",
+    "pista": "Juvenil argentino apodado 'El Colo', zurdo polifacético surgido de Boca Juniors con paso por la Premier League",
+    "dificultad": "facil",
+    "nombreSecundario": ["Valentin", "Barco"],
+    "equipos": ["Boca Juniors", "Brighton & Hove Albion", "Sevilla"],
+    "posicion": ["Lateral Izquierdo", "Extremo Izquierdo"],
+    "nacionalidad": "Argentina"
+  },
+  {
+    "nombre": "Mbappe",
+    "pista": "CONTIENE B - Astro francés, campeón del mundo 2018 y máximo goleador histórico del PSG",
+    "dificultad": "facil",
+    "nombreSecundario": ["Kylian", "Mbappe"],
+    "equipos": ["Mónaco", "PSG", "Real Madrid"],
+    "posicion": ["Delantero Centro", "Extremo Izquierdo"],
+    "nacionalidad": "Francia"
+  },
+  {
+    "nombre": "Ibrahimovic",
+    "pista": "CONTIENE B - Delantero sueco de gran físico y goles acrobáticos, con una trayectoria extensa en los clubes más grandes de Europa",
+    "dificultad": "facil",
+    "nombreSecundario": ["Zlatan", "Ibrahimovic"],
+    "equipos": ["Malmö", "Ajax", "Juventus", "Inter", "Barcelona", "Milan", "PSG", "Manchester United", "LA Galaxy"],
+    "posicion": ["Delantero Centro"],
+    "nacionalidad": "Suecia"
+  },
+  {
+    "nombre": "Xabi Alonso",
+    "pista": "CONTIENE B - Ex mediocampista español de élite y actual entrenador sensación tras su éxito en el Bayer Leverkusen",
+    "dificultad": "medio",
+    "nombreSecundario": ["Xabi", "Alonso Olano"],
+    "equipos": ["Real Sociedad", "Eibar", "Liverpool", "Real Madrid", "Bayern Múnich"],
+    "posicion": ["Mediocentro", "Entrenador"],
+    "nacionalidad": "España"
+  },
+  {
+    "nombre": "Zabaleta",
+    "pista": "CONTIENE B - Defensor argentino, histórico del Manchester City y subcampeón del mundo en 2014",
+    "dificultad": "medio",
+    "nombreSecundario": ["Pablo", "Zabaleta"],
+    "equipos": ["San Lorenzo", "Espanyol", "Manchester City", "West Ham United"],
+    "posicion": ["Lateral Derecho"],
+    "nacionalidad": "Argentina"
+  },
+  {
+    "nombre": "Fabregas",
+    "pista": "CONTIENE B - Mediocampista español campeón del mundo 2010, conocido por su paso por Arsenal, Barcelona y Chelsea",
+    "dificultad": "medio",
+    "nombreSecundario": ["Cesc", "Fabregas"],
+    "equipos": ["Arsenal", "Barcelona", "Chelsea", "Mónaco", "Como"],
+    "posicion": ["Mediocentro", "Mediocentro Ofensivo"],
+    "nacionalidad": "España"
+  },
+  {
+    "nombre": "Gabigol",
+    "pista": "CONTIENE B - Delantero brasileño figura del Flamengo, autor de los dos goles en la final de la Libertadores 2019 contra River Plate",
+    "dificultad": "facil",
+    "nombreSecundario": ["Gabriel", "Barbosa"],
+    "equipos": ["Santos", "Inter de Milán", "Benfica", "Flamengo"],
+    "posicion": ["Delantero Centro"],
+    "nacionalidad": "Brasil"
+  },
+  {
+    "nombre": "Cambiasso",
+    "pista": "CONTIENE B - Mediocampista argentino apodado 'Cuchu', multicampeón con el Inter de Milán y Real Madrid",
+    "dificultad": "medio",
+    "nombreSecundario": ["Esteban", "Cambiasso"],
+    "equipos": ["Real Madrid B", "Independiente", "River Plate", "Real Madrid", "Inter de Milán", "Leicester City", "Olympiacos"],
+    "posicion": ["Mediocentro Defensivo"],
+    "nacionalidad": "Argentina"
+  }
   ],
 "C": [
     {
@@ -605,7 +846,142 @@
       "equipos": ["Independiente Medellín", "Udinese", "Lecce", "Fiorentina", "Chelsea", "Juventus", "Inter de Milán"],
       "posicion": ["Lateral Derecho", "Extremo Derecho"],
       "nacionalidad": "Colombia"
-    }
+    },
+    {
+    "nombre": "Cuti Romero",
+    "pista": "Defensor central argentino, campeón del mundo en 2022, conocido por su agresividad y firmeza en el Tottenham",
+    "dificultad": "facil",
+    "nombreSecundario": ["Cristian", "Romero"],
+    "equipos": ["Belgrano", "Genoa", "Juventus", "Atalanta", "Tottenham Hotspur"],
+    "posicion": ["Defensa Central"],
+    "nacionalidad": "Argentina"
+  },
+  {
+    "nombre": "Carlos Bianchi",
+    "pista": "Entrenador histórico apodado 'El Virrey', máximo ganador de la Copa Libertadores con Vélez y Boca Juniors",
+    "dificultad": "facil",
+    "nombreSecundario": ["Carlos", "Bianchi"],
+    "equipos": ["Vélez Sarsfield", "Boca Juniors", "Roma", "Atlético de Madrid"],
+    "posicion": ["Entrenador"],
+    "nacionalidad": "Argentina"
+  },
+  {
+    "nombre": "Cavenaghi",
+    "pista": "Delantero e ídolo de River Plate apodado 'Torito', goleador nato que regresó al club en el peor momento",
+    "dificultad": "medio",
+    "nombreSecundario": ["Fernando", "Cavenaghi"],
+    "equipos": ["River Plate", "Spartak Moscú", "Bordeaux", "Mallorca", "Internacional", "Villarreal", "Pachuca", "APOEL"],
+    "posicion": ["Delantero Centro"],
+    "nacionalidad": "Argentina"
+  },
+  {
+    "nombre": "Crespo",
+    "pista": "Ex delantero argentino de élite y actual entrenador, brilló en la Serie A y en la Selección Argentina",
+    "dificultad": "medio",
+    "nombreSecundario": ["Hernan", "Crespo", "Valdanito"],
+    "equipos": ["River Plate", "Parma", "Lazio", "Inter", "Chelsea", "Milan", "Genoa"],
+    "posicion": ["Delantero Centro", "Entrenador"],
+    "nacionalidad": "Argentina"
+  },
+  {
+    "nombre": "Caniggia",
+    "pista": "Delantero veloz apodado 'El Hijo del Viento', autor del gol a Brasil en Italia 90 tras pase de Maradona",
+    "dificultad": "medio",
+    "nombreSecundario": ["Claudio", "Caniggia"],
+    "equipos": ["River Plate", "Verona", "Atalanta", "Roma", "Benfica", "Boca Juniors", "Dundee", "Rangers"],
+    "posicion": ["Delantero", "Extremo"],
+    "nacionalidad": "Argentina"
+  },
+  {
+    "nombre": "Coudet",
+    "pista": "Entrenador argentino apodado 'Chacho', conocido por su intensidad y por usar siempre una bufanda característica",
+    "dificultad": "medio",
+    "nombreSecundario": ["Eduardo", "Coudet"],
+    "equipos": ["Rosario Central", "Racing", "Tijuana", "Internacional", "Celta de Vigo", "Atlético Mineiro"],
+    "posicion": ["Entrenador"],
+    "nacionalidad": "Argentina"
+  },
+  {
+    "nombre": "Colón",
+    "pista": "Club santafesino apodado 'El Sabalero', campeón de la Copa de la Liga 2021",
+    "dificultad": "facil",
+    "nombreSecundario": ["Colon de Santa Fe"],
+    "equipos": ["AFA"],
+    "posicion": ["Club"],
+    "nacionalidad": "Argentina"
+  },
+  {
+    "nombre": "Chilavert",
+    "pista": "Arquero paraguayo, leyenda de Vélez Sarsfield, famoso por su temperamento y sus goles de tiro libre",
+    "dificultad": "facil",
+    "nombreSecundario": ["Jose Luis", "Chilavert"],
+    "equipos": ["Guaraní", "San Lorenzo", "Zaragoza", "Vélez Sarsfield", "Strasbourg", "Peñarol"],
+    "posicion": ["Portero"],
+    "nacionalidad": "Paraguay"
+  },
+  {
+    "nombre": "Simeone",
+    "pista": "CONTIENE C - Entrenador apodado 'Cholo', símbolo del Atlético de Madrid y ex mediocampista de la Selección",
+    "dificultad": "facil",
+    "nombreSecundario": ["Diego", "Simeone"],
+    "equipos": ["Vélez", "Pisa", "Sevilla", "Atlético de Madrid", "Inter", "Lazio", "Racing"],
+    "posicion": ["Entrenador", "Mediocentro"],
+    "nacionalidad": "Argentina"
+  },
+  {
+    "nombre": "Mascherano",
+    "pista": "CONTIENE C - Mediocampista apodado 'El Jefecito', histórico capitán de la Selección y figura del Barcelona de Guardiola",
+    "dificultad": "facil",
+    "nombreSecundario": ["Javier", "Mascherano"],
+    "equipos": ["River Plate", "Corinthians", "West Ham", "Liverpool", "Barcelona", "Hebei China Fortune", "Estudiantes LP"],
+    "posicion": ["Mediocentro Defensivo", "Defensa Central"],
+    "nacionalidad": "Argentina"
+  },
+  {
+    "nombre": "Mac Allister",
+    "pista": "CONTIENE C - Mediocampista campeón del mundo 2022, figura en el Liverpool y surgido de Argentinos Juniors",
+    "dificultad": "facil",
+    "nombreSecundario": ["Alexis", "Mac Allister"],
+    "equipos": ["Argentinos Juniors", "Boca Juniors", "Brighton", "Liverpool"],
+    "posicion": ["Mediocentro"],
+    "nacionalidad": "Argentina"
+  },
+  {
+    "nombre": "Pochettino",
+    "pista": "CONTIENE C - Entrenador y ex defensor argentino con trayectoria en Europa, llevó al Tottenham a la final de Champions 2019",
+    "dificultad": "medio",
+    "nombreSecundario": ["Mauricio", "Pochettino"],
+    "equipos": ["Newell's", "Espanyol", "PSG", "Bordeaux", "Southampton", "Tottenham", "Chelsea"],
+    "posicion": ["Entrenador"],
+    "nacionalidad": "Argentina"
+  },
+  {
+    "nombre": "Schiavi",
+    "pista": "CONTIENE C - Defensor rústico e ídolo de Boca Juniors apodado 'Flaco', multicampeón en la era Bianchi",
+    "dificultad": "medio",
+    "nombreSecundario": ["Rolando", "Schiavi"],
+    "equipos": ["Argentino de Rosario", "Argentinos Juniors", "Boca Juniors", "Hércules", "Grêmio", "Newell's", "Estudiantes LP"],
+    "posicion": ["Defensa Central"],
+    "nacionalidad": "Argentina"
+  },
+  {
+    "nombre": "Cata Diaz",
+    "pista": "Defensor central catamarqueño, aguerrido referente de Boca Juniors y con paso por el fútbol español",
+    "dificultad": "medio",
+    "nombreSecundario": ["Daniel", "Diaz"],
+    "equipos": ["Rosario Central", "Cruz Azul", "Colón", "Boca Juniors", "Getafe", "Atlético de Madrid"],
+    "posicion": ["Defensa Central"],
+    "nacionalidad": "Argentina"
+  },
+  {
+    "nombre": "Campuzano",
+    "pista": "Mediocampista central colombiano con paso por Boca Juniors, conocido por su capacidad de marca y entrega",
+    "dificultad": "dificil",
+    "nombreSecundario": ["Jorman", "Campuzano"],
+    "equipos": ["Deportivo Pereira", "Atlético Nacional", "Boca Juniors", "Giresunspor", "Atlético Nacional"],
+    "posicion": ["Mediocentro Defensivo"],
+    "nacionalidad": "Colombia"
+  }
   ],
   "D": [
     {
@@ -787,7 +1163,187 @@
       "equipos": ["Zeljeznicar", "Teplice", "Ústí nad Labem", "Wolfsburg", "Manchester City", "AS Roma", "Inter de Milán", "Fenerbahçe"],
       "posicion": ["Delantero Centro"],
       "nacionalidad": "Bosnia y Herzegovina"
-    }
+    },
+    {
+    "nombre": "Dibu Martinez",
+    "pista": "Arquero argentino campeón del mundo en 2022, famoso por sus atajadas en penales y sus bailes; figura en el Aston Villa",
+    "dificultad": "facil",
+    "nombreSecundario": ["Emiliano", "Martinez"],
+    "equipos": ["Independiente", "Arsenal", "Getafe", "Reading", "Aston Villa"],
+    "posicion": ["Portero"],
+    "nacionalidad": "Argentina"
+  },
+  {
+    "nombre": "De Paul",
+    "pista": "Mediocampista de la selección argentina apodado 'El Motorcito', pieza clave del equipo campeón en Qatar 2022",
+    "dificultad": "facil",
+    "nombreSecundario": ["Rodrigo", "De Paul"],
+    "equipos": ["Racing Club", "Valencia", "Udinese", "Atlético de Madrid"],
+    "posicion": ["Mediocentro"],
+    "nacionalidad": "Argentina"
+  },
+  {
+    "nombre": "Demichelis",
+    "pista": "Ex defensor del Bayern Múnich y ex entrenador de River Plate, apodado 'Micho'",
+    "dificultad": "medio",
+    "nombreSecundario": ["Martin", "Demichelis"],
+    "equipos": ["River Plate", "Bayern Múnich", "Málaga", "Atlético de Madrid", "Manchester City"],
+    "posicion": ["Defensa Central", "Entrenador"],
+    "nacionalidad": "Argentina"
+  },
+  {
+    "nombre": "D'Alessandro",
+    "pista": "Mediocampista creativo apodado 'El Cabezón', ídolo en River Plate y en el Inter de Porto Alegre",
+    "dificultad": "medio",
+    "nombreSecundario": ["Andres", "D'Alessandro"],
+    "equipos": ["River Plate", "Wolfsburg", "Portsmouth", "Real Zaragoza", "San Lorenzo", "Internacional"],
+    "posicion": ["Mediocentro Ofensivo"],
+    "nacionalidad": "Argentina"
+  },
+  {
+    "nombre": "Ramon Diaz",
+    "pista": "Histórico goleador y entrenador multicampeón con River Plate, apodado 'El Pelado'",
+    "dificultad": "medio",
+    "nombreSecundario": ["Ramon", "Diaz"],
+    "equipos": ["River Plate", "Napoli", "Avellino", "Fiorentina", "Inter", "Monaco", "Yokohama Marinos"],
+    "posicion": ["Delantero Centro", "Entrenador"],
+    "nacionalidad": "Argentina"
+  },
+  {
+    "nombre": "Luis Diaz",
+    "pista": "Extremo colombiano con gran regate y velocidad, figura en el Liverpool y en su selección",
+    "dificultad": "facil",
+    "nombreSecundario": ["Lucho", "Diaz"],
+    "equipos": ["Junior", "Porto", "Liverpool"],
+    "posicion": ["Extremo Izquierdo"],
+    "nacionalidad": "Colombia"
+  },
+  {
+    "nombre": "Defensa y Justicia",
+    "pista": "Club argentino apodado 'El Halcón de Varela', campeón de la Copa Sudamericana 2020",
+    "dificultad": "medio",
+    "nombreSecundario": ["Defensa"],
+    "equipos": ["AFA"],
+    "posicion": ["Club"],
+    "nacionalidad": "Argentina"
+  },
+  {
+    "nombre": "Deportivo Riestra",
+    "pista": "Club argentino mediático por sus entrenamientos atípicos y el debut del influencer Spreen en Primera División",
+    "dificultad": "medio",
+    "nombreSecundario": ["Riestra"],
+    "equipos": ["AFA"],
+    "posicion": ["Club"],
+    "nacionalidad": "Argentina"
+  },
+  {
+    "nombre": "Dertycia",
+    "pista": "Ex delantero argentino apodado 'El Pelado', ídolo en Instituto de Córdoba y con paso por la Fiorentina",
+    "dificultad": "dificil",
+    "nombreSecundario": ["Oscar", "Dertycia"],
+    "equipos": ["Instituto", "Fiorentina", "Cádiz", "Tenerife", "Albacete"],
+    "posicion": ["Delantero Centro"],
+    "nacionalidad": "Argentina"
+  },
+  {
+    "nombre": "Davids",
+    "pista": "Ex mediocampista neerlandés conocido como 'Pitbull', famoso por jugar con gafas protectoras y su gran despliegue",
+    "dificultad": "medio",
+    "nombreSecundario": ["Edgar", "Davids"],
+    "equipos": ["Ajax", "Milan", "Juventus", "Barcelona", "Inter", "Tottenham"],
+    "posicion": ["Mediocentro Defensivo"],
+    "nacionalidad": "Países Bajos"
+  },
+  {
+    "nombre": "Deco",
+    "pista": "Ex mediocampista portugués nacido en Brasil, estrella del Porto de Mourinho y del Barcelona de Ronaldinho",
+    "dificultad": "medio",
+    "nombreSecundario": ["Anderson Luis", "de Souza"],
+    "equipos": ["Porto", "Barcelona", "Chelsea", "Fluminense"],
+    "posicion": ["Mediocentro Ofensivo"],
+    "nacionalidad": "Portugal"
+  },
+  {
+    "nombre": "Del Bosque",
+    "pista": "Entrenador español que llevó a España a ganar su primer Mundial en 2010 y dos Champions con el Real Madrid",
+    "dificultad": "medio",
+    "nombreSecundario": ["Vicente", "Del Bosque"],
+    "equipos": ["Real Madrid", "Besiktas"],
+    "posicion": ["Entrenador"],
+    "nacionalidad": "España"
+  },
+  {
+    "nombre": "Maradona",
+    "pista": "CONTIENE D - Astro argentino considerado por muchos el mejor de la historia, autor de la 'Mano de Dios'",
+    "dificultad": "facil",
+    "nombreSecundario": ["Diego", "Armando", "Maradona", "Pelusa", "D10S"],
+    "equipos": ["Argentinos Juniors", "Boca Juniors", "Barcelona", "Napoli", "Sevilla", "Newell's"],
+    "posicion": ["Mediocentro Ofensivo", "Segundo Delantero"],
+    "nacionalidad": "Argentina"
+  },
+  {
+    "nombre": "Redondo",
+    "pista": "CONTIENE D - Elegante mediocampista central argentino, leyenda del Real Madrid recordado por su taconazo en Old Trafford",
+    "dificultad": "medio",
+    "nombreSecundario": ["Fernando", "Redondo"],
+    "equipos": ["Argentinos Juniors", "Tenerife", "Real Madrid", "Milan"],
+    "posicion": ["Mediocentro Defensivo"],
+    "nacionalidad": "Argentina"
+  },
+  {
+    "nombre": "Guardiola",
+    "pista": "CONTIENE D - Entrenador español revolucionario, creador del Barcelona del 'sextete' y actual técnico del Manchester City",
+    "dificultad": "facil",
+    "nombreSecundario": ["Pep", "Guardiola"],
+    "equipos": ["Barcelona", "Brescia", "Roma", "Al-Ahli", "Dorados de Sinaloa"],
+    "posicion": ["Entrenador", "Mediocentro"],
+    "nacionalidad": "España"
+  },
+  {
+    "nombre": "Zidane",
+    "pista": "CONTIENE D - Mago francés del fútbol, autor de una volea histórica en la final de Champions y campeón mundial en 1998",
+    "dificultad": "facil",
+    "nombreSecundario": ["Zinedine", "Zidane", "Zizou"],
+    "equipos": ["Cannes", "Bordeaux", "Juventus", "Real Madrid"],
+    "posicion": ["Mediocentro Ofensivo"],
+    "nacionalidad": "Francia"
+  },
+  {
+    "nombre": "Paredes",
+    "pista": "CONTIENE D - Mediocampista central argentino campeón del mundo en 2022, socio de Messi y surgido de Boca Juniors",
+    "dificultad": "facil",
+    "nombreSecundario": ["Leandro", "Paredes"],
+    "equipos": ["Boca Juniors", "Roma", "Chievo Verona", "Empoli", "Zenit", "PSG", "Juventus"],
+    "posicion": ["Mediocentro Defensivo"],
+    "nacionalidad": "Argentina"
+  },
+  {
+    "nombre": "Modric",
+    "pista": "CONTIENE D - Mediocampista croata del Real Madrid, ganador del Balón de Oro y leyenda de la Champions League",
+    "dificultad": "facil",
+    "nombreSecundario": ["Luka", "Modric"],
+    "equipos": ["Dinamo Zagreb", "Tottenham", "Real Madrid"],
+    "posicion": ["Mediocentro"],
+    "nacionalidad": "Croacia"
+  },
+  {
+    "nombre": "Ronaldinho",
+    "pista": "CONTIENE D - Mago brasileño del regate y la sonrisa, ídolo del Barcelona y campeón del mundo en 2002",
+    "dificultad": "facil",
+    "nombreSecundario": ["Ronaldo", "de Assis Moreira"],
+    "equipos": ["Grêmio", "PSG", "Barcelona", "Milan", "Flamengo", "Atlético Mineiro", "Querétaro"],
+    "posicion": ["Mediocentro Ofensivo", "Extremo"],
+    "nacionalidad": "Brasil"
+  },
+  {
+    "nombre": "Seedorf",
+    "pista": "CONTIENE D - Mediocampista neerlandés único en ganar la Champions League con tres clubes diferentes",
+    "dificultad": "medio",
+    "nombreSecundario": ["Clarence", "Seedorf"],
+    "equipos": ["Ajax", "Sampdoria", "Real Madrid", "Inter", "Milan", "Botafogo"],
+    "posicion": ["Mediocentro"],
+    "nacionalidad": "Países Bajos"
+  }
   ],
   "E": [
     {
@@ -978,7 +1534,187 @@
       "equipos": ["Boca Juniors", "Valencia", "Atlético de Madrid", "Newell's Old Boys", "Sevilla", "Al-Shabab", "Newell's Old Boys"],
       "posicion": ["Mediocentro", "Mediocentro Defensivo"],
       "nacionalidad": "Argentina"
-    }
+    },
+    {
+    "nombre": "Enzo Fernandez",
+    "pista": "Mediocampista argentino campeón del mundo en 2022, premiado como el mejor jugador joven del torneo y figura del Chelsea",
+    "dificultad": "facil",
+    "nombreSecundario": ["Enzo", "Fernandez"],
+    "equipos": ["River Plate", "Defensa y Justicia", "Benfica", "Chelsea"],
+    "posicion": ["Mediocentro"],
+    "nacionalidad": "Argentina"
+  },
+  {
+    "nombre": "Enzo Francescoli",
+    "pista": "Legendario delantero uruguayo apodado 'El Príncipe', máximo ídolo de River Plate y referente histórico de su selección",
+    "dificultad": "medio",
+    "nombreSecundario": ["Enzo", "Francescoli"],
+    "equipos": ["Wanderers", "River Plate", "Racing Club de France", "Olympique de Marsella", "Cagliari", "Torino"],
+    "posicion": ["Segundo Delantero", "Mediocentro Ofensivo"],
+    "nacionalidad": "Uruguay"
+  },
+  {
+    "nombre": "Estudiantes de La Plata",
+    "pista": "Club argentino apodado 'El Pincha', tetracampeón de la Copa Libertadores y campeón del mundo ante el Manchester United",
+    "dificultad": "facil",
+    "nombreSecundario": ["Estudiantes", "Pincha"],
+    "equipos": ["AFA"],
+    "posicion": ["Club"],
+    "nacionalidad": "Argentina"
+  },
+  {
+    "nombre": "Exequiel Palacios",
+    "pista": "Mediocampista argentino campeón del mundo 2022, pieza fundamental en el histórico invicto del Bayer Leverkusen de Xabi Alonso",
+    "dificultad": "medio",
+    "nombreSecundario": ["Exequiel", "Palacios"],
+    "equipos": ["River Plate", "Bayer Leverkusen"],
+    "posicion": ["Mediocentro"],
+    "nacionalidad": "Argentina"
+  },
+  {
+    "nombre": "Erik ten Hag",
+    "pista": "Entrenador neerlandés conocido por su paso por el Ajax semifinalista de Champions y su gestión en el Manchester United",
+    "dificultad": "medio",
+    "nombreSecundario": ["Erik", "ten Hag"],
+    "equipos": ["Go Ahead Eagles", "Bayern Múnich II", "Utrecht", "Ajax", "Manchester United"],
+    "posicion": ["Entrenador"],
+    "nacionalidad": "Países Bajos"
+  },
+  {
+    "nombre": "Eusebio",
+    "pista": "Legendario delantero portugués apodado 'La Pantera Negra', máximo ídolo del Benfica y ganador del Balón de Oro en 1965",
+    "dificultad": "medio",
+    "nombreSecundario": ["Eusebio", "da Silva Ferreira"],
+    "equipos": ["Sporting de Lourenço Marques", "Benfica", "Boston Minutemen", "Monterrey", "Beira-Mar"],
+    "posicion": ["Delantero Centro"],
+    "nacionalidad": "Portugal"
+  },
+  {
+    "nombre": "El Grafico",
+    "pista": "Icónica revista deportiva argentina fundada en 1919, considerada 'La Biblia del deporte' durante décadas",
+    "dificultad": "medio",
+    "nombreSecundario": ["Revista El Grafico"],
+    "equipos": ["Medios"],
+    "posicion": ["Revista"],
+    "nacionalidad": "Argentina"
+  },
+  {
+    "nombre": "Esequiel Barco",
+    "pista": "Mediocampista ofensivo argentino, campeón de la Sudamericana con Independiente y con paso destacado por River Plate",
+    "dificultad": "medio",
+    "nombreSecundario": ["Esequiel", "Barco"],
+    "equipos": ["Independiente", "Atlanta United", "River Plate", "Spartak Moscú"],
+    "posicion": ["Mediocentro Ofensivo", "Extremo"],
+    "nacionalidad": "Argentina"
+  },
+  {
+    "nombre": "Eduardo Salvio",
+    "pista": "Extremo argentino apodado 'Toto', con una carrera exitosa en el Benfica, Atlético de Madrid y Boca Juniors",
+    "dificultad": "medio",
+    "nombreSecundario": ["Eduardo", "Salvio"],
+    "equipos": ["Lanús", "Atlético de Madrid", "Benfica", "Boca Juniors", "Pumas UNAM", "Lanús"],
+    "posicion": ["Extremo Derecho"],
+    "nacionalidad": "Argentina"
+  },
+  {
+    "nombre": "Emery",
+    "pista": "Entrenador español especialista en la Europa League, competición que ganó en cuatro ocasiones con Sevilla y Villarreal",
+    "dificultad": "medio",
+    "nombreSecundario": ["Unai", "Emery"],
+    "equipos": ["Lorca", "Almería", "Valencia", "Spartak Moscú", "Sevilla", "PSG", "Arsenal", "Villarreal", "Aston Villa"],
+    "posicion": ["Entrenador"],
+    "nacionalidad": "España"
+  },
+  {
+    "nombre": "Messi",
+    "pista": "CONTIENE E - Astro argentino, máximo ganador del Balón de Oro y capitán del equipo campeón del mundo en 2022",
+    "dificultad": "facil",
+    "nombreSecundario": ["Lionel", "Messi", "Leo", "Pulga"],
+    "equipos": ["Barcelona", "PSG", "Inter Miami"],
+    "posicion": ["Delantero", "Mediocentro Ofensivo"],
+    "nacionalidad": "Argentina"
+  },
+  {
+    "nombre": "Riquelme",
+    "pista": "CONTIENE E - Último gran '10' argentino, ídolo máximo de Boca Juniors y actual presidente de la institución",
+    "dificultad": "facil",
+    "nombreSecundario": ["Juan Roman", "Riquelme", "Torero"],
+    "equipos": ["Boca Juniors", "Barcelona", "Villarreal", "Argentinos Juniors"],
+    "posicion": ["Mediocentro Ofensivo"],
+    "nacionalidad": "Argentina"
+  },
+  {
+    "nombre": "Zanetti",
+    "pista": "CONTIENE E - Defensor argentino apodado 'Pupi', histórico capitán del Inter de Milán y de la selección argentina",
+    "dificultad": "medio",
+    "nombreSecundario": ["Javier", "Zanetti"],
+    "equipos": ["Talleres (RE)", "Banfield", "Inter de Milán"],
+    "posicion": ["Lateral Derecho", "Mediocentro"],
+    "nacionalidad": "Argentina"
+  },
+  {
+    "nombre": "Xavi",
+    "pista": "CONTIENE E - Maestro del mediocampo español, cerebro del Barcelona de Guardiola y campeón del mundo en 2010",
+    "dificultad": "facil",
+    "nombreSecundario": ["Xavier", "Hernandez"],
+    "equipos": ["Barcelona", "Al-Sadd"],
+    "posicion": ["Mediocentro", "Entrenador"],
+    "nacionalidad": "España"
+  },
+  {
+    "nombre": "James Rodriguez",
+    "pista": "CONTIENE E - Mediocampista colombiano, goleador del Mundial 2014 y ex jugador del Real Madrid y Bayern Múnich",
+    "dificultad": "facil",
+    "nombreSecundario": ["James", "Rodriguez"],
+    "equipos": ["Envigado", "Banfield", "Porto", "Mónaco", "Real Madrid", "Bayern Múnich", "Everton", "Rayon Vallecano"],
+    "posicion": ["Mediocentro Ofensivo"],
+    "nacionalidad": "Colombia"
+  },
+  {
+    "nombre": "Neuer",
+    "pista": "CONTIENE E - Arquero alemán revolucionario por su capacidad de jugar como líbero, campeón mundial en 2014",
+    "dificultad": "facil",
+    "nombreSecundario": ["Manuel", "Neuer"],
+    "equipos": ["Schalke 04", "Bayern Múnich"],
+    "posicion": ["Portero"],
+    "nacionalidad": "Alemania"
+  },
+  {
+    "nombre": "Kempes",
+    "pista": "CONTIENE E - Delantero argentino apodado 'El Matador', goleador y figura absoluta del primer mundial ganado por Argentina en 1978",
+    "dificultad": "medio",
+    "nombreSecundario": ["Mario Alberto", "Kempes"],
+    "equipos": ["Instituto", "Rosario Central", "Valencia", "River Plate", "Hércules"],
+    "posicion": ["Delantero Centro"],
+    "nacionalidad": "Argentina"
+  },
+  {
+    "nombre": "Gareca",
+    "pista": "CONTIENE E - Entrenador argentino apodado 'El Tigre', histórico por clasificar a Perú a un mundial tras 36 años",
+    "dificultad": "medio",
+    "nombreSecundario": ["Ricardo", "Gareca"],
+    "equipos": ["Vélez Sarsfield", "Universitario", "Selección Perú", "Selección Chile"],
+    "posicion": ["Entrenador", "Delantero"],
+    "nacionalidad": "Argentina"
+  },
+  {
+    "nombre": "Pele",
+    "pista": "CONTIENE E - 'O Rei' del fútbol brasileño, único jugador en ganar tres Copas del Mundo en la historia",
+    "dificultad": "facil",
+    "nombreSecundario": ["Edson Arantes", "do Nascimento"],
+    "equipos": ["Santos", "New York Cosmos"],
+    "posicion": ["Delantero Centro"],
+    "nacionalidad": "Brasil"
+  },
+  {
+    "nombre": "George Best",
+    "pista": "CONTIENE E - Talentoso y polémico extremo norirlandés, leyenda del Manchester United y Balón de Oro 1968",
+    "dificultad": "dificil",
+    "nombreSecundario": ["George", "Best"],
+    "equipos": ["Manchester United", "Stockport County", "Cork Celtic", "Los Angeles Aztecs", "Fulham"],
+    "posicion": ["Extremo Derecho"],
+    "nacionalidad": "Irlanda del Norte"
+  }
   ],
   "F": [
     {
@@ -1169,7 +1905,187 @@
       "equipos": ["Arsenal", "Barcelona", "Chelsea", "Mónaco", "Como"],
       "posicion": ["Mediocentro", "Mediocentro Ofensivo"],
       "nacionalidad": "España"
-    }
+    },
+    {
+    "nombre": "Fillol",
+    "pista": "Arquero argentino apodado 'Pato', campeón del mundo en 1978 y considerado uno de los mejores de la historia",
+    "dificultad": "medio",
+    "nombreSecundario": ["Ubaldo", "Matildo", "Fillol"],
+    "equipos": ["Quilmes", "Racing Club", "River Plate", "Argentinos Juniors", "Flamengo", "Atlético de Madrid", "Vélez Sarsfield"],
+    "posicion": ["Portero"],
+    "nacionalidad": "Argentina"
+  },
+  {
+    "nombre": "Foyth",
+    "pista": "Defensor argentino campeón del mundo en 2022, surgido de Estudiantes de La Plata y actual jugador del Villarreal",
+    "dificultad": "medio",
+    "nombreSecundario": ["Juan", "Foyth"],
+    "equipos": ["Estudiantes LP", "Tottenham Hotspur", "Villarreal"],
+    "posicion": ["Defensa Central", "Lateral Derecho"],
+    "nacionalidad": "Argentina"
+  },
+  {
+    "nombre": "Fernando Gago",
+    "pista": "Ex mediocampista apodado 'Pintita', elegante volante central de Boca y Real Madrid, actual director técnico",
+    "dificultad": "facil",
+    "nombreSecundario": ["Fernando", "Gago"],
+    "equipos": ["Boca Juniors", "Real Madrid", "Roma", "Valencia", "Vélez Sarsfield"],
+    "posicion": ["Mediocentro", "Entrenador"],
+    "nacionalidad": "Argentina"
+  },
+  {
+    "nombre": "Ferguson",
+    "pista": "Legendario entrenador escocés que dirigió al Manchester United durante 26 años, ganando 38 títulos",
+    "dificultad": "facil",
+    "nombreSecundario": ["Sir Alex", "Ferguson"],
+    "equipos": ["East Stirlingshire", "St Mirren", "Aberdeen", "Manchester United"],
+    "posicion": ["Entrenador"],
+    "nacionalidad": "Escocia"
+  },
+  {
+    "nombre": "Flick",
+    "pista": "Entrenador alemán que logró el 'sextete' con el Bayern Múnich y dirigió a la selección de Alemania",
+    "dificultad": "medio",
+    "nombreSecundario": ["Hansi", "Flick"],
+    "equipos": ["Hoffenheim", "Bayern Múnich", "Barcelona"],
+    "posicion": ["Entrenador"],
+    "nacionalidad": "Alemania"
+  },
+  {
+    "nombre": "Ferro",
+    "pista": "Club histórico del barrio de Caballito, Buenos Aires, campeón de Primera División en los años 80 bajo la dirección de Carlos Griguol",
+    "dificultad": "medio",
+    "nombreSecundario": ["Ferro Carril Oeste"],
+    "equipos": ["AFA"],
+    "posicion": ["Club"],
+    "nacionalidad": "Argentina"
+  },
+  {
+    "nombre": "Flamengo",
+    "pista": "Club brasileño de Río de Janeiro, conocido como el 'Mengão', con una de las mayores hinchadas del mundo",
+    "dificultad": "facil",
+    "nombreSecundario": ["Fla"],
+    "equipos": ["CBF"],
+    "posicion": ["Club"],
+    "nacionalidad": "Brasil"
+  },
+  {
+    "nombre": "Facundo Farias",
+    "pista": "Joven mediapunta argentino surgido de Colón de Santa Fe, actual compañero de Messi en el Inter Miami",
+    "dificultad": "medio",
+    "nombreSecundario": ["Facundo", "Farias"],
+    "equipos": ["Colón", "Inter Miami"],
+    "posicion": ["Mediocentro Ofensivo", "Segundo Delantero"],
+    "nacionalidad": "Argentina"
+  },
+  {
+    "nombre": "Federico Redondo",
+    "pista": "Mediocampista central argentino, hijo del legendario Fernando Redondo, surgido en Argentinos Juniors",
+    "dificultad": "medio",
+    "nombreSecundario": ["Federico", "Redondo"],
+    "equipos": ["Argentinos Juniors", "Inter Miami"],
+    "posicion": ["Mediocentro Defensivo"],
+    "nacionalidad": "Argentina"
+  },
+  {
+    "nombre": "Fiorentina",
+    "pista": "Club italiano de la ciudad de Florencia donde Gabriel Batistuta se convirtió en leyenda",
+    "dificultad": "medio",
+    "nombreSecundario": ["Viola"],
+    "equipos": ["Lega Serie A"],
+    "posicion": ["Club"],
+    "nacionalidad": "Italia"
+  },
+  {
+    "nombre": "Di Stefano",
+    "pista": "CONTIENE F - 'La Saeta Rubia', leyenda argentina nacionalizada española, máximo ídolo histórico del Real Madrid",
+    "dificultad": "medio",
+    "nombreSecundario": ["Alfredo", "Di Stefano"],
+    "equipos": ["River Plate", "Huracán", "Millonarios", "Real Madrid", "Espanyol"],
+    "posicion": ["Delantero Centro"],
+    "nacionalidad": "Argentina"
+  },
+  {
+    "nombre": "Benfica",
+    "pista": "CONTIENE F - Club portugués de Lisboa, conocido por las 'Águilas' y por ser el club donde brilló Eusebio",
+    "dificultad": "facil",
+    "nombreSecundario": ["S.L. Benfica"],
+    "equipos": ["Liga Portugal"],
+    "posicion": ["Club"],
+    "nacionalidad": "Portugal"
+  },
+  {
+    "nombre": "Platini",
+    "pista": "CONTIENE F - Astro francés ganador de tres Balones de Oro consecutivos y ex presidente de la UEFA",
+    "dificultad": "medio",
+    "nombreSecundario": ["Michel", "Platini"],
+    "equipos": ["Nancy", "Saint-Étienne", "Juventus"],
+    "posicion": ["Mediocentro Ofensivo"],
+    "nacionalidad": "Francia"
+  },
+  {
+    "nombre": "Fabra",
+    "pista": "Lateral izquierdo colombiano con larga trayectoria en Boca Juniors, conocido por su técnica ofensiva",
+    "dificultad": "facil",
+    "nombreSecundario": ["Frank", "Fabra"],
+    "equipos": ["Envigado", "Deportivo Cali", "Independiente Medellín", "Boca Juniors"],
+    "posicion": ["Lateral Izquierdo"],
+    "nacionalidad": "Colombia"
+  },
+  {
+    "nombre": "FIFA",
+    "pista": "Federación Internacional de Fútbol Asociación, ente rector del fútbol mundial y nombre de la famosa saga de videojuegos",
+    "dificultad": "facil",
+    "nombreSecundario": ["Federacion Internacional de Futbol"],
+    "equipos": ["Organismo"],
+    "posicion": ["Organización"],
+    "nacionalidad": "Suiza"
+  },
+  {
+    "nombre": "Feyenoord",
+    "pista": "Club neerlandés de la ciudad de Róterdam, uno de los tres grandes de su país junto al Ajax y PSV",
+    "dificultad": "medio",
+    "nombreSecundario": ["Feyenoord Rotterdam"],
+    "equipos": ["Eredivisie"],
+    "posicion": ["Club"],
+    "nacionalidad": "Países Bajos"
+  },
+  {
+    "nombre": "Fabbri",
+    "pista": "Defensor central argentino apodado 'Toti', mundialista en 1990 y referente en Racing y Boca",
+    "dificultad": "dificil",
+    "nombreSecundario": ["Nestor", "Fabbri"],
+    "equipos": ["All Boys", "Racing Club", "Lanús", "Boca Juniors", "Nantes", "Guingamp"],
+    "posicion": ["Defensa Central"],
+    "nacionalidad": "Argentina"
+  },
+  {
+    "nombre": "Flandria",
+    "pista": "Club argentino apodado 'El Canario', emblemático del ascenso y ubicado en la localidad de Jáuregui",
+    "dificultad": "dificil",
+    "nombreSecundario": ["Club Social y Deportivo Flandria"],
+    "equipos": ["AFA"],
+    "posicion": ["Club"],
+    "nacionalidad": "Argentina"
+  },
+  {
+    "nombre": "Francia",
+    "pista": "CONTIENE F - Selección nacional bicampeona del mundo (1998, 2018), conocida como 'Les Bleus'",
+    "dificultad": "facil",
+    "nombreSecundario": ["Les Bleus"],
+    "equipos": ["UEFA"],
+    "posicion": ["Selección"],
+    "nacionalidad": "Francia"
+  },
+  {
+    "nombre": "Buffon",
+    "pista": "CONTIENE F - Legendario arquero italiano, campeón del mundo en 2006 y símbolo eterno de la Juventus",
+    "dificultad": "facil",
+    "nombreSecundario": ["Gianluigi", "Buffon", "Gigi"],
+    "equipos": ["Parma", "Juventus", "PSG"],
+    "posicion": ["Portero"],
+    "nacionalidad": "Italia"
+  }
   ],
   "G": [
     {
@@ -1369,7 +2285,186 @@
       "equipos": ["Reading", "Crewe Alexandra", "Shrewsbury Town", "AFC Bournemouth", "1899 Hoffenheim", "Swansea City", "Tottenham Hotspur", "Everton"],
       "posicion": ["Mediocentro Ofensivo"],
       "nacionalidad": "Islandia"
-    }
+    },{
+    "nombre": "Gallardo",
+    "pista": "Entrenador más ganador en la historia de River Plate, apodado 'Muñeco', conquistó dos Copas Libertadores como DT",
+    "dificultad": "facil",
+    "nombreSecundario": ["Marcelo", "Gallardo"],
+    "equipos": ["Nacional", "River Plate", "Al-Ittihad"],
+    "posicion": ["Entrenador", "Mediocentro Ofensivo"],
+    "nacionalidad": "Argentina"
+  },
+  {
+    "nombre": "Goycochea",
+    "pista": "Arquero argentino héroe en las definiciones por penales del Mundial de Italia 1990",
+    "dificultad": "medio",
+    "nombreSecundario": ["Sergio", "Goycochea"],
+    "equipos": ["River Plate", "Millonarios", "Racing Club", "Olimpia", "Newell's", "Mandiyú"],
+    "posicion": ["Portero"],
+    "nacionalidad": "Argentina"
+  },
+  {
+    "nombre": "Garnacho",
+    "pista": "Joven extremo argentino del Manchester United, conocido por su velocidad y por su debut temprano en la selección mayor",
+    "dificultad": "facil",
+    "nombreSecundario": ["Alejandro", "Garnacho"],
+    "equipos": ["Atletico de Madrid", "Manchester United"],
+    "posicion": ["Extremo Izquierdo"],
+    "nacionalidad": "Argentina"
+  },
+  {
+    "nombre": "Gero Rulli",
+    "pista": "Arquero argentino campeón del mundo en 2022, héroe en la tanda de penales que le dio la Europa League al Villarreal",
+    "dificultad": "medio",
+    "nombreSecundario": ["Geronimo", "Rulli"],
+    "equipos": ["Estudiantes LP", "Real Sociedad", "Manchester City", "Montpellier", "Villarreal", "Ajax", "Olympique de Marsella"],
+    "posicion": ["Portero"],
+    "nacionalidad": "Argentina"
+  },
+  {
+    "nombre": "Gago",
+    "pista": "Ex mediocampista central de elegancia suprema, surgido en Boca y con paso por Real Madrid; actual director técnico",
+    "dificultad": "facil",
+    "nombreSecundario": ["Fernando", "Gago", "Pintita"],
+    "equipos": ["Boca Juniors", "Real Madrid", "Roma", "Valencia", "Vélez Sarsfield"],
+    "posicion": ["Mediocentro", "Entrenador"],
+    "nacionalidad": "Argentina"
+  },
+  {
+    "nombre": "Godoy Cruz",
+    "pista": "Club mendocino apodado 'El Tomba', protagonista habitual de la Primera División argentina",
+    "dificultad": "facil",
+    "nombreSecundario": ["Godoy Cruz Antonio Tomba"],
+    "equipos": ["AFA"],
+    "posicion": ["Club"],
+    "nacionalidad": "Argentina"
+  },
+  {
+    "nombre": "Gimnasia de La Plata",
+    "pista": "Club apodado 'El Lobo', reconocido por su fuerte arraigo local y por haber tenido a Diego Maradona como entrenador",
+    "dificultad": "facil",
+    "nombreSecundario": ["Gimnasia y Esgrima La Plata", "Lobo"],
+    "equipos": ["AFA"],
+    "posicion": ["Club"],
+    "nacionalidad": "Argentina"
+  },
+  {
+    "nombre": "Giunta",
+    "pista": "Ex mediocampista de Boca Juniors famoso por su garra y temperamento, símbolo de la frase 'Giunta, Giunta, Giunta, huevo, huevo, huevo'",
+    "dificultad": "medio",
+    "nombreSecundario": ["Blas", "Giunta"],
+    "equipos": ["San Lorenzo", "Boca Juniors", "Toluca", "Defensores de Belgrano"],
+    "posicion": ["Mediocentro Defensivo"],
+    "nacionalidad": "Argentina"
+  },
+  {
+    "nombre": "Gatti",
+    "pista": "Arquero argentino apodado 'El Loco', pionero en jugar fuera del área y figura emblemática de Boca Juniors",
+    "dificultad": "medio",
+    "nombreSecundario": ["Hugo", "Gatti"],
+    "equipos": ["Atlanta", "River Plate", "Gimnasia LP", "Unión", "Boca Juniors"],
+    "posicion": ["Portero"],
+    "nacionalidad": "Argentina"
+  },
+  {
+    "nombre": "Gallego",
+    "pista": "Apodado 'Tolo', mediocampista campeón del mundo en 1978 y entrenador exitoso en varios clubes grandes de Argentina",
+    "dificultad": "medio",
+    "nombreSecundario": ["Americo", "Ruben", "Gallego"],
+    "equipos": ["Newell's", "River Plate"],
+    "posicion": ["Mediocentro Defensivo", "Entrenador"],
+    "nacionalidad": "Argentina"
+  },
+  {
+    "nombre": "Gorosito",
+    "pista": "Mediocampista creativo apodado 'Pipo', ídolo en San Lorenzo y Universidad Católica de Chile",
+    "dificultad": "medio",
+    "nombreSecundario": ["Nestor", "Gorosito"],
+    "equipos": ["River Plate", "San Lorenzo", "Swarovski Tirol", "Universidad Católica", "Yokohama Marinos"],
+    "posicion": ["Mediocentro Ofensivo", "Entrenador"],
+    "nacionalidad": "Argentina"
+  },
+  {
+    "nombre": "Gullit",
+    "pista": "Leyenda neerlandesa del Milan de Sacchi, Balón de Oro 1987 reconocido por su polivalencia técnica y sus rastas",
+    "dificultad": "medio",
+    "nombreSecundario": ["Ruud", "Gullit"],
+    "equipos": ["HFC Haarlem", "Feyenoord", "PSV Eindhoven", "Milan", "Sampdoria", "Chelsea"],
+    "posicion": ["Mediocentro Ofensivo", "Delantero", "Defensa"],
+    "nacionalidad": "Países Bajos"
+  },
+  {
+    "nombre": "Grosso",
+    "pista": "Defensor italiano autor del gol decisivo en la semifinal contra Alemania y del penal final en el Mundial 2006",
+    "dificultad": "medio",
+    "nombreSecundario": ["Fabio", "Grosso"],
+    "equipos": ["Perugia", "Palermo", "Inter", "Lyon", "Juventus"],
+    "posicion": ["Lateral Izquierdo"],
+    "nacionalidad": "Italia"
+  },
+  {
+    "nombre": "Garce",
+    "pista": "Defensor argentino apodado 'Chino', integrante sorpresa de la lista de Diego Maradona para el Mundial 2010",
+    "dificultad": "dificil",
+    "nombreSecundario": ["Ariel", "Garce"],
+    "equipos": ["River Plate", "Morelia", "Colón", "Olimpo", "Rosario Central", "Atlético de Rafaela"],
+    "posicion": ["Defensa Central", "Lateral Derecho"],
+    "nacionalidad": "Argentina"
+  },
+  {
+    "nombre": "Ortega",
+    "pista": "CONTIENE G - Apodado 'El Burrito', ídolo absoluto de River Plate famoso por sus gambetas y quiebres de cintura",
+    "dificultad": "facil",
+    "nombreSecundario": ["Ariel", "Ortega"],
+    "equipos": ["River Plate", "Valencia", "Sampdoria", "Parma", "Fenerbahçe", "Newell's", "All Boys"],
+    "posicion": ["Mediocentro Ofensivo", "Segundo Delantero"],
+    "nacionalidad": "Argentina"
+  },
+  {
+    "nombre": "Ruggeri",
+    "pista": "CONTIENE G - Apodado 'El Cabezón', defensor central campeón del mundo en 1986 y referente mediático actual",
+    "dificultad": "facil",
+    "nombreSecundario": ["Oscar", "Ruggeri"],
+    "equipos": ["Boca Juniors", "River Plate", "Logroñés", "Real Madrid", "Vélez Sarsfield", "Ancona", "América", "San Lorenzo", "Lanús"],
+    "posicion": ["Defensa Central"],
+    "nacionalidad": "Argentina"
+  },
+  {
+    "nombre": "Pellegrini",
+    "pista": "CONTIENE G - Entrenador chileno apodado 'El Ingeniero', con una trayectoria destacada en San Lorenzo, River Plate, Real Madrid y Manchester City",
+    "dificultad": "medio",
+    "nombreSecundario": ["Manuel", "Pellegrini"],
+    "equipos": ["Universidad de Chile", "LDU Quito", "San Lorenzo", "River Plate", "Villarreal", "Real Madrid", "Málaga", "Manchester City", "Hebei China Fortune", "West Ham", "Real Betis"],
+    "posicion": ["Entrenador"],
+    "nacionalidad": "Chile"
+  },
+  {
+    "nombre": "Gascoigne",
+    "pista": "CONTIENE G - Talentoso y polémico mediocampista inglés apodado 'Gazza', estrella del Mundial de Italia 1990",
+    "dificultad": "dificil",
+    "nombreSecundario": ["Paul", "Gascoigne"],
+    "equipos": ["Newcastle", "Tottenham", "Lazio", "Rangers", "Middlesbrough", "Everton"],
+    "posicion": ["Mediocentro Ofensivo"],
+    "nacionalidad": "Inglaterra"
+  },
+  {
+    "nombre": "Gimenez",
+    "pista": "Delantero mexicano nacido en Argentina apodado 'Santi', goleador del Feyenoord y figura de su selección",
+    "dificultad": "medio",
+    "nombreSecundario": ["Santiago", "Gimenez", "Bebote"],
+    "equipos": ["Cruz Azul", "Feyenoord"],
+    "posicion": ["Delantero Centro"],
+    "nacionalidad": "México"
+  },
+  {
+    "nombre": "Heinze",
+    "pista": "CONTIENE G - Defensor argentino apodado 'Gringo', con paso por Manchester United y Real Madrid, actual entrenador de perfil riguroso",
+    "dificultad": "medio",
+    "nombreSecundario": ["Gabriel", "Heinze"],
+    "equipos": ["Newell's", "Valladolid", "Sporting CP", "PSG", "Manchester United", "Real Madrid", "Marseille", "Roma"],
+    "posicion": ["Defensa Central", "Lateral Izquierdo", "Entrenador"],
+    "nacionalidad": "Argentina"
+  }
   ],
   "H": [
     {
@@ -1481,7 +2576,52 @@
     "nombre": "Hector Herrera",
     "pista": "Mediocampista mexicano, ex Porto y Atlético de Madrid, pieza clave en su selección por años",
     "dificultad": "dificil"
-  }
+  },
+  {
+      "nombre": "Huracan",
+      "pista": "Club argentino apodado 'El Globo', ubicado en el barrio de Parque Patricios",
+      "dificultad": "facil",
+      "nombreSecundario": ["Club Atletico Huracan"],
+      "equipos": ["AFA"],
+      "posicion": ["Club"],
+      "nacionalidad": "Argentina"
+    },
+    {
+      "nombre": "Heinze",
+      "pista": "Ex defensor apodado 'Gringo', jugó en el Manchester United y Real Madrid; reconocido por su fuerte carácter como DT",
+      "dificultad": "medio",
+      "nombreSecundario": ["Gabriel", "Heinze"],
+      "equipos": ["Newell's", "Valladolid", "Sporting CP", "PSG", "Manchester United", "Real Madrid", "Marseille", "Roma"],
+      "posicion": ["Defensa Central", "Entrenador"],
+      "nacionalidad": "Argentina"
+    },
+    {
+      "nombre": "Higuain",
+      "pista": "Goleador argentino apodado 'Pipita', máximo artillero en una temporada de la Serie A con el Napoli",
+      "dificultad": "facil",
+      "nombreSecundario": ["Gonzalo", "Higuain"],
+      "equipos": ["River Plate", "Real Madrid", "Napoli", "Juventus", "Milan", "Chelsea", "Inter Miami"],
+      "posicion": ["Delantero Centro"],
+      "nacionalidad": "Argentina"
+    },
+    {
+      "nombre": "Hakimi",
+      "pista": "CONTIENE H - Lateral marroquí veloz, pieza clave en el histórico cuarto puesto de Marruecos en el Mundial 2022",
+      "dificultad": "medio",
+      "nombreSecundario": ["Achraf", "Hakimi"],
+      "equipos": ["Real Madrid", "Borussia Dortmund", "Inter", "PSG"],
+      "posicion": ["Lateral Derecho"],
+      "nacionalidad": "Marruecos"
+    },
+    {
+      "nombre": "Hulk",
+      "pista": "Delantero brasileño famoso por su potencia física y su potente disparo de zurda",
+      "dificultad": "medio",
+      "nombreSecundario": ["Givanildo Vieira de Souza"],
+      "equipos": ["Porto", "Zenit", "Shanghai SIPG", "Atletico Mineiro"],
+      "posicion": ["Extremo Derecho", "Delantero Centro"],
+      "nacionalidad": "Brasil"
+    }
   ],
   "I": [
     {
@@ -1588,7 +2728,52 @@
     "nombre": "Inaki Williams",
     "pista": "Delantero español del Athletic Club, famoso por su velocidad y constancia en el club vasco",
     "dificultad": "medio"
-  }
+  },
+  {
+      "nombre": "Ibarra",
+      "pista": "Histórico lateral derecho de Boca Juniors, ganador de múltiples Copas Libertadores y ex DT del club",
+      "dificultad": "medio",
+      "nombreSecundario": ["Hugo", "Ibarra", "Negro"],
+      "equipos": ["Colón", "Boca Juniors", "Porto", "Monaco", "Espanyol"],
+      "posicion": ["Lateral Derecho"],
+      "nacionalidad": "Argentina"
+    },
+    {
+      "nombre": "Insua",
+      "pista": "Entrenador argentino apodado 'Gallego', ídolo y ex jugador de San Lorenzo de Almagro",
+      "dificultad": "medio",
+      "nombreSecundario": ["Ruben Dario", "Insua"],
+      "equipos": ["San Lorenzo", "Independiente", "Las Palmas", "Barcelona SC"],
+      "posicion": ["Entrenador", "Mediocentro"],
+      "nacionalidad": "Argentina"
+    },
+    {
+      "nombre": "Instituto",
+      "pista": "Club cordobés apodado 'La Gloria', conocido por su gran cantera de la cual salió Paulo Dybala",
+      "dificultad": "facil",
+      "nombreSecundario": ["Instituto de Cordoba"],
+      "equipos": ["AFA"],
+      "posicion": ["Club"],
+      "nacionalidad": "Argentina"
+    },
+    {
+      "nombre": "Iraola",
+      "pista": "Entrenador español que destaca en la Premier League, ex lateral histórico del Athletic Club",
+      "dificultad": "dificil",
+      "nombreSecundario": ["Andoni", "Iraola"],
+      "equipos": ["Athletic Club", "AEK Larnaca", "Mirandés", "Rayo Vallecano", "Bournemouth"],
+      "posicion": ["Entrenador"],
+      "nacionalidad": "España"
+    },
+    {
+      "nombre": "Di Maria",
+      "pista": "CONTIENE I - 'Fideo', autor de goles en las finales más importantes de la Selección Argentina moderna",
+      "dificultad": "facil",
+      "nombreSecundario": ["Angel", "Di Maria"],
+      "equipos": ["Rosario Central", "Benfica", "Real Madrid", "Manchester United", "PSG", "Juventus"],
+      "posicion": ["Extremo"],
+      "nacionalidad": "Argentina"
+    }
   ],
   "J": [
     {
@@ -1700,7 +2885,52 @@
     "nombre": "Julio Cesar",
     "pista": "Ex arquero brasileño del Inter de Milán",
     "dificultad": "medio"
-  }
+  },
+  {
+      "nombre": "Julian Alvarez",
+      "pista": "Delantero argentino apodado 'La Araña', campeón de todo con River, Manchester City y la Selección",
+      "dificultad": "facil",
+      "nombreSecundario": ["Julian", "Alvarez"],
+      "equipos": ["River Plate", "Manchester City", "Atletico de Madrid"],
+      "posicion": ["Delantero Centro"],
+      "nacionalidad": "Argentina"
+    },
+    {
+      "nombre": "Juan Roman Riquelme",
+      "pista": "Considerado el máximo ídolo de Boca Juniors, famoso por su protección del balón y visión de juego",
+      "dificultad": "facil",
+      "nombreSecundario": ["Roman", "Riquelme"],
+      "equipos": ["Boca Juniors", "Barcelona", "Villarreal", "Argentinos Juniors"],
+      "posicion": ["Mediocentro Ofensivo"],
+      "nacionalidad": "Argentina"
+    },
+    {
+      "nombre": "Jurgen Klopp",
+      "pista": "Entrenador alemán que devolvió la gloria al Liverpool, ganando la Champions League y la Premier",
+      "dificultad": "medio",
+      "nombreSecundario": ["Klopp"],
+      "equipos": ["Mainz 05", "Borussia Dortmund", "Liverpool"],
+      "posicion": ["Entrenador"],
+      "nacionalidad": "Alemania"
+    },
+    {
+      "nombre": "Juventus",
+      "pista": "Club italiano apodado 'La Vecchia Signora', el más ganador de títulos de liga en su país",
+      "dificultad": "facil",
+      "nombreSecundario": ["Juve"],
+      "equipos": ["Serie A"],
+      "posicion": ["Club"],
+      "nacionalidad": "Italia"
+    },
+    {
+      "nombre": "Jotace",
+      "pista": "Periodista deportivo argentino con fuerte presencia en redes sociales, conocido por sus vlogs y entrevistas",
+      "dificultad": "dificil",
+      "nombreSecundario": ["Juan Cruz Sanz"],
+      "equipos": ["Medios"],
+      "posicion": ["Periodista"],
+      "nacionalidad": "Argentina"
+    }
   ],
   "K": [
      {
@@ -1812,7 +3042,52 @@
     "nombre": "Kylian Mbappe",
     "pista": "Delantero francés, campeón del mundo 2018, conocido por su velocidad supersónica, habilidades técnicas y capacidad goleadora desde joven estrella mundial.",
     "dificultad": "medio"
-  }
+  },
+  {
+      "nombre": "Kily Gonzalez",
+      "pista": "Ex carrilero izquierdo de la Selección y actual entrenador, ídolo total en Rosario Central",
+      "dificultad": "medio",
+      "nombreSecundario": ["Cristian", "Gonzalez"],
+      "equipos": ["Rosario Central", "Boca Juniors", "Zaragoza", "Valencia", "Inter", "San Lorenzo"],
+      "posicion": ["Mediocampista", "Entrenador"],
+      "nacionalidad": "Argentina"
+    },
+    {
+      "nombre": "Kempes",
+      "pista": "Goleador del Mundial 1978 apodado 'El Matador', figura histórica del Valencia español",
+      "dificultad": "medio",
+      "nombreSecundario": ["Mario", "Kempes"],
+      "equipos": ["Instituto", "Rosario Central", "Valencia", "River Plate", "Hercules"],
+      "posicion": ["Delantero Centro"],
+      "nacionalidad": "Argentina"
+    },
+    {
+      "nombre": "Kroos",
+      "pista": "Mediocampista alemán apodado 'El Francotirador', leyenda del Real Madrid con una precisión de pase quirúrgica",
+      "dificultad": "facil",
+      "nombreSecundario": ["Toni", "Kroos"],
+      "equipos": ["Bayern Munich", "Bayer Leverkusen", "Real Madrid"],
+      "posicion": ["Mediocentro"],
+      "nacionalidad": "Alemania"
+    },
+    {
+      "nombre": "Kante",
+      "pista": "Mediocampista francés incansable, campeón del mundo en 2018 y de la Champions con el Chelsea",
+      "dificultad": "facil",
+      "nombreSecundario": ["N'Golo", "Kante"],
+      "equipos": ["Boulogne", "Caen", "Leicester City", "Chelsea", "Al-Ittihad"],
+      "posicion": ["Mediocentro Defensivo"],
+      "nacionalidad": "Francia"
+    },
+    {
+      "nombre": "Kompany",
+      "pista": "Ex defensor belga y actual entrenador del Bayern Múnich, histórico capitán del Manchester City",
+      "dificultad": "medio",
+      "nombreSecundario": ["Vincent", "Kompany"],
+      "equipos": ["Anderlecht", "Hamburgo", "Manchester City"],
+      "posicion": ["Defensa Central", "Entrenador"],
+      "nacionalidad": "Bélgica"
+    }
   ],
   "L": [
       {
@@ -1924,7 +3199,52 @@
     "nombre": "Lukaku",
     "pista": "Delantero belga, ex Inter y Chelsea, conocido por su potencia física, habilidad para definir y ser un referente en el área rival.",
     "dificultad": "medio"
-  }
+  },
+  {
+      "nombre": "Lautaro Martinez",
+      "pista": "Delantero argentino apodado 'El Toro', capitán del Inter de Milán y goleador de la Selección",
+      "dificultad": "facil",
+      "nombreSecundario": ["Lautaro", "Martinez"],
+      "equipos": ["Racing Club", "Inter"],
+      "posicion": ["Delantero Centro"],
+      "nacionalidad": "Argentina"
+    },
+    {
+      "nombre": "Lanus",
+      "pista": "Club argentino apodado 'El Granate', reconocido por su excelente gestión institucional y títulos recientes",
+      "dificultad": "facil",
+      "nombreSecundario": ["Granate"],
+      "equipos": ["AFA"],
+      "posicion": ["Club"],
+      "nacionalidad": "Argentina"
+    },
+    {
+      "nombre": "Latorre",
+      "pista": "Ex jugador de Boca y Racing, actual comentarista apodado 'Gambetita', famoso por sus análisis tácticos",
+      "dificultad": "medio",
+      "nombreSecundario": ["Diego", "Latorre"],
+      "equipos": ["Boca Juniors", "Fiorentina", "Tenerife", "Salamanca", "Racing", "Cruz Azul", "Chacarita"],
+      "posicion": ["Delantero", "Comentarista"],
+      "nacionalidad": "Argentina"
+    },
+    {
+      "nombre": "Lewandowski",
+      "pista": "Delantero polaco, ganador del premio The Best y goleador histórico de la Bundesliga con el Bayern",
+      "dificultad": "facil",
+      "nombreSecundario": ["Robert", "Lewandowski"],
+      "equipos": ["Lech Poznan", "Borussia Dortmund", "Bayern Munich", "Barcelona"],
+      "posicion": ["Delantero Centro"],
+      "nacionalidad": "Polonia"
+    },
+    {
+      "nombre": "Scaloni",
+      "pista": "CONTIENE L - Entrenador artífice de la 'Scaloneta', campeón de América y del Mundo con Argentina",
+      "dificultad": "facil",
+      "nombreSecundario": ["Lionel", "Scaloni"],
+      "equipos": ["Newell's", "Estudiantes", "Deportivo La Coruña", "Mallorca", "Lazio", "Atalanta"],
+      "posicion": ["Entrenador"],
+      "nacionalidad": "Argentina"
+    }
   ],
   "M": [
     {

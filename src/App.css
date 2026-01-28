@@ -1,267 +1,386 @@
-/* App.css */
+:root {
+  --bg-dark: #06060c;
+  --bg-card: #0c0c16;
+  --accent: #00e5ff;
+  --accent-dim: rgba(0, 229, 255, 0.1);
+  --text-p: #e0e0e0;
+  --text-s: #808090;
+  --danger: #ff3d3d;
+  --success: #00e676;
+  --font-main: 'Rubik', sans-serif;
+}
 
 body {
-  background-color: #1C2025; /* Un tono casi negro, muy oscuro, como base */
+  background-color: var(--bg-dark);
+  color: var(--text-p);
+  font-family: var(--font-main);
   margin: 0;
-  padding: 0;
-  font-family: 'Georgia', serif; /* Manteniendo la fuente serif para el toque vintage */
-  color: #E0E6E9; /* Un gris muy claro y suave para el texto principal, de alto contraste */
+  overflow-x: hidden;
 }
 
 .App {
-  text-align: center;
-  padding: 15px;
-  max-width: 800px;
-  margin: 40px auto;
-  background-color: #2F3D4A; /* Un azul grisáceo oscuro y profundo para el contenedor principal, añade dimensión */
-  border-radius: 8px;
-  box-shadow: 0 2px 10px rgba(104, 103, 103, 0.4); /* Sombra más pronunciada para el efecto "dark" */
-}
-
-/* Mantener el App-logo si es necesario, o eliminar si no se usa */
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #1C2025; /* Fondo oscuro para el encabezado */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: #E0E6E9; /* Texto claro para el encabezado oscuro */
+  padding: 1rem;
 }
 
-/* --- Estilos para Rosco (No se modifican sus colores base) --- */
-/* Los colores de las letras del Rosco se definen en Rosco.js y se mantienen */
-.Rosco-container {
+/* --- Header & Titles --- */
+.game-header {
+  border-bottom: 1px solid var(--accent-dim);
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+}
+
+.cyber-title {
+  font-size: 1.5rem;
+  letter-spacing: 4px;
+  margin: 0;
+}
+
+.accent-text {
+  color: var(--accent);
+  text-shadow: 0 0 10px var(--accent-dim);
+}
+
+.status-bar {
+  font-size: 0.7rem;
+  color: var(--text-s);
+  margin-top: 0.5rem;
+}
+
+/* --- Terminal UI --- */
+.setup-screen, .results-screen {
+  background: var(--bg-card);
+  border: 1px solid var(--accent-dim);
+  padding: 2rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  border-radius: 4px;
+}
+
+.terminal-header {
+  background: var(--accent-dim);
+  color: var(--accent);
+  padding: 0.5rem;
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
+/* --- Estilos del Rosco (Mantenimiento de Círculo) --- */
+/* Esta sección asume las clases que vienen de Rosco.js */
+.rosco-main-container {
+  position: relative;
+  width: min(90vw, 550px);
+  height: min(90vw, 550px);
+  margin: 0 auto;
   display: flex;
-  justify-content: center;
   align-items: center;
-  margin-bottom: 20px;
+  justify-content: center;
 }
 
-/* Estilos de botones generales */
-button {
-  background-color: #A37E56; /* Un marrón/dorado apagado y cálido para los botones, con toque vintage */
-  color: #1C2025; /* Texto oscuro para contraste sobre el botón */
-  border: none;
-  padding: 12px 20px;
-  border-radius: 5px;
+/* Estilo para cada letra en el círculo */
+.item-rosco {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1rem;
+  border: 1px solid var(--accent-dim);
+  background: var(--bg-card);
+  color: var(--accent);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.item-rosco.active {
+  background: var(--accent);
+  color: var(--bg-dark);
+  box-shadow: 0 0 15px var(--accent);
+  transform: scale(1.2);
+}
+
+.item-rosco.success {
+  background: var(--success);
+  border-color: var(--success);
+  color: var(--bg-dark);
+}
+
+.item-rosco.error {
+  background: var(--danger);
+  border-color: var(--danger);
+  color: var(--text-p);
+}
+
+.item-rosco.skipped {
+  background: #ffcc00; /* Amarillo vibrante para Pasapalabra  */
+  border-color: #ffcc00;
+  color: #1a1a1a;
+  box-shadow: 0 0 10px rgba(255, 204, 0, 0.3);
+}
+
+/* --- Inputs y Botones --- */
+.btn-game {
+  background: transparent;
+  border: 1px solid var(--accent);
+  color: var(--accent);
+  padding: 0.8rem 2rem;
   cursor: pointer;
-  font-size: 16px;
-  transition: background-color 0.3s ease, transform 0.2s ease;
-  font-family: 'Georgia', serif;
-  font-weight: bold; /* Hacer el texto del botón más fuerte */
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-top: 1rem;
 }
 
-button:hover {
-  background-color: #B5916A; /* Un poco más claro y brillante al pasar el ratón */
-  box-shadow: #B5916A  1px 3px 10px -1px; 
+.btn-game:hover {
+  background: var(--accent);
+  color: var(--bg-dark);
 }
 
-button:disabled {
-  background-color: #4A5763; /* Un gris azulado oscuro para botones deshabilitados */
-  color: #A37E56; /* Texto con el color del botón principal */
-  cursor: not-allowed;
-  transform: none;
+.game-footer {
+  margin-top: auto;
+  font-size: 0.6rem;
+  color: var(--text-dim);
+  border-top: 1px solid var(--accent-dim);
+  padding-top: 1rem;
 }
 
-/* Estilos de input generales */
-input[type="text"],
-input[type="number"],
-select {
-  padding: 10px 15px;
-  border: 2px solid #cecece; /* Borde con el color del acento */
-  border-radius: 5px;
-  font-size: 18px;
+/* --- Efectos de Profundidad para el Rosco --- */
+.rosco-center-glow {
+  position: absolute;
+  width: 60%;
+  height: 60%;
+  background: radial-gradient(circle, var(--accent-dim) 0%, transparent 70%);
+  filter: blur(20px);
+  z-index: 0;
+  pointer-events: none;
+}
+
+.item-rosco {
+  z-index: 1;
+}
+
+/* --- Layout del Juego --- */
+.rosco-layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.game-status-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
   width: 100%;
-  max-width: 300px;
-  box-sizing: border-box;
-  margin-bottom: 15px;
-  font-family: 'Georgia', serif;
-  color: #E0E6E9; /* Texto claro en el input */
-  background-color: #2F3D4A; /* Fondo oscuro para el input */
+  max-width: 600px;
 }
 
-input[type="text"]::placeholder {
-  color: #E0E6E9;
-  opacity: 0.6; /* Un poco más transparente el placeholder */
+.stat-box {
+  background: var(--bg-card);
+  padding: 1rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  border: 1px solid var(--accent-dim);
 }
 
-input[type="text"]:focus,
-input[type="number"]:focus,
-select:focus {
-  outline: none;
-  border-color: #B5916A; /* Borde más brillante al enfocar */
-  box-shadow: 0 0 8px rgba(181, 145, 106, 0.6); /* Sombra luminosa al enfocar */
+.stat-box.success { color: var(--success); border-color: var(--success); }
+.stat-box.danger { color: var(--danger); border-color: var(--danger); }
+
+.pista-container {
+  background: var(--bg-card);
+  padding: 2rem;
+  border-radius: 8px;
+  border-left: 4px solid var(--accent);
+  max-width: 600px;
+  width: 100%;
 }
 
-/* Estilos para las sugerencias */
+.pista-text {
+  font-size: 1.2rem;
+  margin: 1.5rem 0;
+  color: var(--text-p);
+  min-height: 4rem;
+}
+
+/* --- Panel de Configuración Profesional --- */
+.setup-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  text-align: left;
+}
+
+.setup-controls label {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--accent);
+  margin-bottom: -0.5rem;
+}
+
+/* --- Lista de Sugerencias --- */
 .sugerencias-lista {
-  background-color: #2F3D4A; /* Fondo de las sugerencias */
-  border: 1px solid #A37E56;
-  border-radius: 5px;
   list-style: none;
+  background: var(--bg-card);
+  border: 1px solid var(--accent-dim);
+  border-radius: 8px;
+  position: absolute;
+  width: 100%;
+  max-width: 400px;
+  z-index: 10;
+  margin-top: -10px;
   padding: 0;
-  margin: 0 auto 15px auto;
-  max-width: 300px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-  max-height: 150px;
-  overflow-y: auto;
+  overflow: hidden;
 }
 
-.sugerencias-lista li {
-  padding: 8px 15px;
+.sugerencia-item {
+  padding: 10px 15px;
   cursor: pointer;
   text-align: left;
-  color: #E0E6E9; /* Texto claro */
-  transition: background-color 0.2s ease;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
 }
 
-.sugerencias-lista li:hover,
-.sugerencias-lista li.resaltada {
-  background-color: #4A5763; /* Un gris azulado oscuro para resaltar */
-  color: #E0E6E9; /* Texto claro para contraste */
+.sugerencia-item:hover {
+  background: var(--accent-dim);
+  color: var(--accent);
 }
 
-/* Estilos para los textos de Aciertos, Errores, Pasadas */
-.summary-text {
-  font-size: 1.1em;
-  margin-bottom: 8px;
-  color: #E0E6E9; /* Texto claro */
-}
-
-/* Contenedor de botones flexible */
-.button-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 10px;
-  margin-top: 15px;
-}
-
-/* Estilos para el contenedor de tiempo y dificultad */
-.game-controls {
-  display: flex;
-  flex-direction: row; /* Cambiar a columna para que los elementos se apilen */
-  justify-content: center;
-  align-items: center; /* Centrar horizontalmente los elementos apilados */
-  gap: 10px; /* Ajustar el espacio entre los elementos */
-  margin-bottom: 10px;
-  /* flex-wrap: wrap;  Ya no es tan necesario si son columna, pero lo dejo por si acaso */
-}
-
-.game-controls label {
-  color: #E0E6E9; /* Texto claro */
-  font-size: 1em;
-}
-
-/* Estilos para el botón de iniciar juego */
-.start-button {
-  background-color: #B5916A; /* Color de acento más brillante para el botón de inicio */
-  color: #1C2025;
-  padding: 15px 30px;
-  font-size: 1.2em;
-  font-weight: bold;
-}
-
-.start-button:hover {
-  background-color: #A37E56;
-}
-
-/* Estilos para las pantallas de finalización */
-.final-screen-container {
-  text-align: center;
-  padding: 20px;
-  margin-top: 20px;
-  background-color: #2F3D4A; /* El mismo fondo que .App para coherencia */
-  border-radius: 8px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
-}
-
-.final-screen-container h2 {
-  color: #E0E6E9; /* Texto claro */
-  margin-bottom: 15px;
-}
-
-.final-screen-container p {
-  color: #E0E6E9; /* Texto claro */
-  margin-bottom: 10px;
-}
-
-.final-screen-buttons {
-  margin-top: 20px;
-  display: flex;
-  justify-content: center;
-  gap: 15px;
-}
-
-.results-list {
+/* --- Lista de Errores Final --- */
+.error-list {
   list-style: none;
   padding: 0;
-  margin: 15px auto;
-  max-width: 400px;
+  margin-top: 1rem;
+  max-height: 250px;
+  overflow-y: auto;
+  text-align: left;
 }
 
-.results-list li {
-  padding: 10px;
-  margin-bottom: 8px;
-  border-radius: 5px;
-  color: #1C2025; /* Texto oscuro para contraste sobre los resultados */
-  font-weight: bold;
+.error-list li {
+  background: rgba(255, 61, 61, 0.1);
+  margin-bottom: 5px;
+  padding: 8px 12px;
+  border-radius: 4px;
+  font-size: 0.9rem;
 }
 
-.results-list li.error-item {
-  background-color: #C25B5B; /* Un rojo oscuro para errores */
-  color: #E0E6E9;
+.pista-container {
+  background: linear-gradient(
+    135deg,
+    rgba(0, 229, 255, 0.08),
+    rgba(12, 12, 22, 0.95)
+  );
+  border: 1px solid var(--accent-dim);
+  box-shadow: 0 0 30px rgba(0, 229, 255, 0.08);
 }
 
-.results-list li.unanswered-item {
-  background-color: #D4A35C; /* Un dorado/naranja tostado para no respondidas */
-  color: #1C2025;
+.pista-text {
+  font-size: 1.4rem;
+  line-height: 1.6;
+  font-weight: 500;
+  animation: fadeSlideIn 0.35s ease;
+}
+
+@keyframes fadeSlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.input-game {
+  background: #05050b;
+  border: 1px solid var(--accent-dim);
+  color: var(--text-p);
+  padding: 0.9rem 1rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.input-game:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 2px rgba(0, 229, 255, 0.15);
+}
+
+.btn-game {
+  border-radius: 999px;
+}
+
+.btn-game.outline {
+  border-color: var(--text-s);
+  color: var(--text-s);
+}
+
+.btn-game.outline:hover {
+  background: rgba(255,255,255,0.05);
+  color: var(--text-p);
+}
+
+.stat-box {
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.stat-box.time-critical {
+  animation: pulseRed 1s infinite;
+  color: var(--danger);
+  border-color: var(--danger);
+}
+
+@keyframes pulseRed {
+  0% { box-shadow: 0 0 0 rgba(255,61,61,0.0); }
+  50% { box-shadow: 0 0 15px rgba(255,61,61,0.4); }
+  100% { box-shadow: 0 0 0 rgba(255,61,61,0.0); }
+}
+
+.big-score {
+  font-size: 2.5rem;
+  color: var(--success);
+  text-align: center;
+  margin: 1.5rem 0;
 }
 
 
-/* Media queries para responsividad */
-@media (max-width: 768px) {
-  .App {
-    padding: 10px;
-    margin: 20px auto;
-  }
+.animated {
+  animation: screenFade 0.4s ease;
+}
 
-  h1 {
-    font-size: 1.8em;
-    margin-bottom: 15px;
+@keyframes screenFade {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
   }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 
-  .game-controls {
-    flex-direction: column;
-    gap: 10px;
-  }
+/* === Botón Pasapalabra === */
+.btn-game.pass {
+  border-color: #ffcc00;
+  color: #ffcc00;
+}
 
-  button, input[type="text"], input[type="number"], select {
-    font-size: 1em;
-    padding: 10px 15px;
-  }
+.btn-game.pass:hover {
+  background: rgba(255, 204, 0, 0.15);
+  color: #ffcc00;
+}
 
-  .start-button {
-    font-size: 1.1em;
-    padding: 12px 25px;
-  }
-
-  .final-screen-buttons {
-    flex-direction: column;
-    gap: 10px;
-  }
+/* Estado activo cuando se pasa la palabra */
+.btn-game.pass.active {
+  background: #ffcc00;
+  color: #1a1a1a;
+  box-shadow: 0 0 15px rgba(255, 204, 0, 0.6);
+  transform: scale(1.05);
 }
